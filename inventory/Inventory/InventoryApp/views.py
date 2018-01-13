@@ -193,23 +193,14 @@ def add_employee(request):
 		else:
 			department = adduserdata['department']
 			
-		'''if((adduserdata.get('reportinghead') is None) or ((adduserdata.get('reportinghead') is not None) and (len(adduserdata['reportinghead']) <=0))):
-			output_str += ",reportinghead is mandatory"
+		if((adduserdata.get('address') is None) or ((adduserdata.get('address') is not None) and (len(adduserdata['address']) <=0))):
+			output_str += ",address is mandatory"
 			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
-			logging.debug("reportinghead:"+ output)
+			logging.debug("address:"+ output)
 			return HttpResponse(output)
 			
 		else:
-			reportinghead = adduserdata['reportinghead']'''
-			
-		if((adduserdata.get('reportinghr') is None) or ((adduserdata.get('reportinghr') is not None) and (len(adduserdata['reportinghr']) <=0))):
-			output_str += ",reportinghr is mandatory"
-			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
-			logging.debug("reportinghr:"+ output)
-			return HttpResponse(output)
-			
-		else:
-			reportinghr = adduserdata['reportinghr']
+			address = adduserdata['address']
 			
 		if((adduserdata.get('jobrole') is None) or ((adduserdata.get('jobrole') is not None) and (len(adduserdata['jobrole']) <=0))):
 			output_str += ",jobrole is mandatory"
@@ -220,14 +211,23 @@ def add_employee(request):
 		else:
 			jobrole = adduserdata['jobrole']
 			
-		if((adduserdata.get('address') is None) or ((adduserdata.get('address') is not None) and (len(adduserdata['address']) <=0))):
-			output_str += ",address is mandatory"
+		if((adduserdata.get('reportinghead') is None) or ((adduserdata.get('reportinghead') is not None) and (len(adduserdata['reportinghead']) <=0))):
+			output_str += ",reportinghead is mandatory"
 			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
-			logging.debug("address:"+ output)
+			logging.debug("reportinghead:"+ output)
 			return HttpResponse(output)
 			
 		else:
-			address = adduserdata['address']
+			reportinghead = adduserdata['reportinghead']
+			
+		if((adduserdata.get('reportinghr') is None) or ((adduserdata.get('reportinghr') is not None) and (len(adduserdata['reportinghr']) <=0))):
+			output_str += ",reportinghr is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("reportinghr:"+ output)
+			return HttpResponse(output)
+			
+		else:
+			reportinghr = adduserdata['reportinghr']
 			
 		if((adduserdata.get('worklocation') is None) or ((adduserdata.get('worklocation') is not None) and (len(adduserdata['worklocation']) <=0))):
 			output_str += ",worklocation is mandatory"
@@ -259,7 +259,7 @@ def add_employee(request):
 			return HttpResponse(output)
 
 		try:
-			user_input = jts_employees(fullName = fullname,userName = username,emailId = emailid,password = password,gender = gender,bloodGroup = bloodgroup,dateOfBirth = dateofbirth,dateOfJoining = dateofjoining,departmentId = department,reportingHr = reportinghr,jobRole = jobrole,Address = address,workLocation = worklocation,statusId_id = statusid)
+			user_input = jts_employees(fullName = fullname,userName = username,emailId = emailid,password = password,gender = gender,bloodGroup = bloodgroup,dateOfBirth = dateofbirth,dateOfJoining = dateofjoining,departmentId = department,Address = address,jobRole_id = jobrole,managerId_id = reportinghead,reportingHr_id = reportinghr,workLocation_id = worklocation,statusId_id = statusid)
 			user_input.save()
 			output = '{"error_code":"1", "error_desc": "record added"}' 
 			logging.debug("add_user:"+ output)
@@ -500,6 +500,57 @@ def get_employee(request):
 	logging.debug("get_user:")
 	return HttpResponse(json_output)
 	
+################################################################################################################################
+def get_departments(request):
+	cursor = connection.cursor()
+	cursor.execute("select d.*,e.fullName from jts_departments d,jts_employees e where d.departmentHead_id = e.id")
+	rows = cursor.fetchall()
+	objects_list = []
+	for row in rows:
+		d = collections.OrderedDict()
+		d['id']=row[0]
+		d['departmentname'] = row[1]
+		d['departmenthead'] = row[3]
+		objects_list.append(d)
+	json_output='{"department_details":'	
+	json_output+= json.dumps(objects_list,indent = 3,sort_keys = True, default = str)
+	json_output+='}'
+	logging.debug("get_departments:")
+	return HttpResponse(json_output)
+	
+################################################################################################################################
+def get_emplocation(request):
+	cursor = connection.cursor()
+	cursor.execute("select * from emp_location")
+	rows = cursor.fetchall()
+	objects_list = []
+	for row in rows:
+		d = collections.OrderedDict()
+		d['id']=row[0]
+		d['location'] = row[1]
+		objects_list.append(d)
+	json_output='{"emp_location_details":'	
+	json_output+= json.dumps(objects_list,indent = 3,sort_keys = True, default = str)
+	json_output+='}'
+	logging.debug("get_emplocation:")
+	return HttpResponse(json_output)
+	
+################################################################################################################################
+def get_empjobrole(request):
+	cursor = connection.cursor()
+	cursor.execute("select * from emp_jobrole")
+	rows = cursor.fetchall()
+	objects_list = []
+	for row in rows:
+		d = collections.OrderedDict()
+		d['id']=row[0]
+		d['jobrole'] = row[1]
+		objects_list.append(d)
+	json_output='{"emp_jobrole_details":'	
+	json_output+= json.dumps(objects_list,indent = 3,sort_keys = True, default = str)
+	json_output+='}'
+	logging.debug("get_empjobrole:")
+	return HttpResponse(json_output)
 #################################################################################################################################
 def add_familydetails(request):
 	if(request.method == "POST"):
