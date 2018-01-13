@@ -1,0 +1,1570 @@
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 07, 2017 - 20:09:19
+Django version 1.11.7, using settings 'Inventory.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 07, 2017 - 20:10:01
+Django version 1.11.7, using settings 'Inventory.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+[07/Dec/2017 20:10:57] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 07, 2017 - 20:10:48
+Django version 1.11.7, using settings 'Inventory.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+[07/Dec/2017 20:12:08] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[07/Dec/2017 20:12:14] "GET /InventoryApp/get_status/ HTTP/1.1" 200 138
+[07/Dec/2017 20:12:21] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 647
+[07/Dec/2017 20:14:56] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[07/Dec/2017 20:15:01] "GET /InventoryApp/get_status/ HTTP/1.1" 200 138
+[07/Dec/2017 20:15:09] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[07/Dec/2017 20:22:30] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[07/Dec/2017 20:22:36] "GET /InventoryApp/get_status/ HTTP/1.1" 200 138
+[07/Dec/2017 20:22:44] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[07/Dec/2017 20:22:47] "GET /InventoryApp/get_status/ HTTP/1.1" 200 138
+[07/Dec/2017 20:22:53] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[07/Dec/2017 20:22:57] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 647
+[07/Dec/2017 20:23:40] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 647
+[07/Dec/2017 20:23:44] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[07/Dec/2017 20:23:46] "GET /InventoryApp/get_status/ HTTP/1.1" 200 138
+[07/Dec/2017 20:23:49] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[07/Dec/2017 20:23:52] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 647
+[07/Dec/2017 20:24:35] "POST /InventoryApp/get_warehouse/ HTTP/1.1" 200 647
+[07/Dec/2017 20:24:46] "POST /InventoryApp/get_location/ HTTP/1.1" 200 521
+[07/Dec/2017 20:27:25] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 647
+[07/Dec/2017 20:27:28] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[07/Dec/2017 20:27:30] "GET /InventoryApp/get_status/ HTTP/1.1" 200 138
+[07/Dec/2017 20:27:34] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[07/Dec/2017 20:28:29] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[07/Dec/2017 20:28:31] "GET /InventoryApp/get_status/ HTTP/1.1" 200 138
+[07/Dec/2017 20:28:34] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[07/Dec/2017 20:28:36] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 647
+[07/Dec/2017 20:28:43] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 647
+[07/Dec/2017 20:29:03] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 647
+[07/Dec/2017 20:29:05] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[07/Dec/2017 20:29:06] "GET /InventoryApp/get_status/ HTTP/1.1" 200 138
+[07/Dec/2017 20:29:09] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[12/Dec/2017 20:25:22] "GET /InventoryApp/get_location/ HTTP/1.1" 200 639
+[12/Dec/2017 20:25:33] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[12/Dec/2017 20:25:35] "GET /InventoryApp/get_location/ HTTP/1.1" 200 639
+[12/Dec/2017 20:25:35] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[12/Dec/2017 20:25:37] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[12/Dec/2017 20:35:12] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[12/Dec/2017 20:35:15] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[12/Dec/2017 20:35:19] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[12/Dec/2017 20:35:21] "GET /InventoryApp/get_location/ HTTP/1.1" 200 639
+[12/Dec/2017 20:49:13] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[12/Dec/2017 20:49:25] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[12/Dec/2017 20:49:40] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[12/Dec/2017 20:49:41] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[12/Dec/2017 20:49:47] "POST /InventoryApp/add_status/ HTTP/1.1" 200 57
+[12/Dec/2017 20:49:55] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[12/Dec/2017 21:32:21] "GET /InventoryApp/get_location/ HTTP/1.1" 200 639
+[12/Dec/2017 21:32:27] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[12/Dec/2017 21:32:34] "GET /InventoryApp/get_location/ HTTP/1.1" 200 639
+[12/Dec/2017 22:48:03] "GET /InventoryApp/get_location/ HTTP/1.1" 200 639
+[12/Dec/2017 22:48:10] "GET /InventoryApp/get_location/ HTTP/1.1" 200 639
+[12/Dec/2017 22:48:28] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[12/Dec/2017 22:48:32] "POST /InventoryApp/update_location/ HTTP/1.1" 200 59
+[12/Dec/2017 22:48:33] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[12/Dec/2017 22:48:36] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[12/Dec/2017 22:48:39] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[12/Dec/2017 22:48:41] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[12/Dec/2017 22:48:43] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[12/Dec/2017 22:48:44] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[12/Dec/2017 22:48:47] "POST /InventoryApp/update_location/ HTTP/1.1" 200 59
+[12/Dec/2017 22:48:47] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[12/Dec/2017 22:48:49] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[12/Dec/2017 22:48:53] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[12/Dec/2017 22:48:55] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[12/Dec/2017 22:48:56] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[12/Dec/2017 22:48:57] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[12/Dec/2017 22:48:59] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[12/Dec/2017 22:49:00] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[12/Dec/2017 22:49:01] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[12/Dec/2017 22:49:02] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[12/Dec/2017 22:49:05] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[12/Dec/2017 22:49:09] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[12/Dec/2017 22:49:10] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[12/Dec/2017 22:49:10] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[12/Dec/2017 22:49:24] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[12/Dec/2017 22:49:29] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[12/Dec/2017 22:49:31] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[12/Dec/2017 22:49:32] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[12/Dec/2017 22:49:35] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[12/Dec/2017 22:49:36] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[12/Dec/2017 22:49:36] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[12/Dec/2017 22:49:39] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[12/Dec/2017 22:49:42] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[12/Dec/2017 22:49:42] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[12/Dec/2017 22:49:53] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[12/Dec/2017 22:49:54] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[12/Dec/2017 22:49:54] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[12/Dec/2017 22:49:55] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[13/Dec/2017 13:00:42] "POST /InventoryApp/active_location/ HTTP/1.1" 200 397
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 13, 2017 - 13:00:16
+Django version 1.11.7, using settings 'Inventory.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 13, 2017 - 13:15:05
+Django version 1.11.7, using settings 'Inventory.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f3f301ce848>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/c00007/Desktop/inventory/Inventory/InventoryApp/models.py", line 59, in <module>
+    class inv_products(models.Model):
+  File "/home/c00007/Desktop/inventory/Inventory/InventoryApp/models.py", line 62, in inv_products
+    (YES,'yes'),
+NameError: name 'YES' is not defined
+Unhandled exception in thread started by <function wrapper at 0x7f668dc4c848>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/c00007/Desktop/inventory/Inventory/InventoryApp/models.py", line 59, in <module>
+    class inv_products(models.Model):
+  File "/home/c00007/Desktop/inventory/Inventory/InventoryApp/models.py", line 67, in inv_products
+    productType = models.ForeignKey(inv_materialType, on_delete=models.CASCADE)
+NameError: name 'inv_materialType' is not defined
+Unhandled exception in thread started by <function wrapper at 0x7ff371452848>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/c00007/Desktop/inventory/Inventory/InventoryApp/models.py", line 59, in <module>
+    class inv_products(models.Model):
+  File "/home/c00007/Desktop/inventory/Inventory/InventoryApp/models.py", line 67, in inv_products
+    productType = models.ForeignKey(inv_materialType, on_delete=models.CASCADE)
+NameError: name 'inv_materialType' is not defined
+Unhandled exception in thread started by <function wrapper at 0x7f99a55a47d0>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/c00007/Desktop/inventory/Inventory/InventoryApp/models.py", line 59, in <module>
+    class inv_products(models.Model):
+  File "/home/c00007/Desktop/inventory/Inventory/InventoryApp/models.py", line 67, in inv_products
+    productUOM = models.ForeignKey(inv_UnitOfMeasure, on_delete=models.CASCADE,default = 1)
+NameError: name 'inv_UnitOfMeasure' is not defined
+Unhandled exception in thread started by <function wrapper at 0x7f32ec8377d0>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/c00007/Desktop/inventory/Inventory/InventoryApp/models.py", line 59, in <module>
+    class inv_products(models.Model):
+  File "/home/c00007/Desktop/inventory/Inventory/InventoryApp/models.py", line 70, in inv_products
+    productPurchasable = models.CharField(max_length = 5,choices = inv_Choices,default = YES)
+NameError: name 'YES' is not defined
+Unhandled exception in thread started by <function wrapper at 0x7fdc3b4ac668>
+Performing system checks...
+
+System check identified no issues (0 silenced).
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 128, in inner_run
+    self.check_migrations()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 422, in check_migrations
+    executor = MigrationExecutor(connections[DEFAULT_DB_ALIAS])
+  File "/usr/local/lib/python2.7/dist-packages/django/db/migrations/executor.py", line 20, in __init__
+    self.loader = MigrationLoader(self.connection)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/migrations/loader.py", line 52, in __init__
+    self.build_graph()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/migrations/loader.py", line 274, in build_graph
+    raise exc
+django.db.migrations.exceptions.NodeNotFoundError: Migration InventoryApp.0005_inv_materialtype_inv_unitofmeasure dependencies reference nonexistent parent node (u'InventoryApp', u'0004_inv_products')
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 13, 2017 - 14:03:06
+Django version 1.11.7, using settings 'Inventory.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 13, 2017 - 14:16:59
+Django version 1.11.7, using settings 'Inventory.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+Not Found: /input
+[13/Dec/2017 15:52:06] "GET /input?%22pravallika%22 HTTP/1.1" 404 2082
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 13, 2017 - 14:18:35
+Django version 1.11.7, using settings 'Inventory.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+[13/Dec/2017 16:32:32] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[13/Dec/2017 16:33:20] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[13/Dec/2017 16:33:21] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[13/Dec/2017 16:34:26] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[13/Dec/2017 16:35:01] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[13/Dec/2017 16:35:17] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[13/Dec/2017 16:35:20] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[13/Dec/2017 16:36:26] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[13/Dec/2017 16:36:28] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[13/Dec/2017 16:36:31] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[13/Dec/2017 16:36:32] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[13/Dec/2017 16:41:53] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[13/Dec/2017 16:41:54] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[13/Dec/2017 16:42:49] "POST /InventoryApp/active_location/ HTTP/1.1" 200 397
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 13, 2017 - 16:08:07
+Django version 1.11.7, using settings 'Inventory.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+[13/Dec/2017 16:46:14] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[13/Dec/2017 16:46:15] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[13/Dec/2017 16:46:22] "POST /InventoryApp/update_location/ HTTP/1.1" 200 59
+[13/Dec/2017 16:46:22] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[13/Dec/2017 16:46:57] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[13/Dec/2017 16:47:00] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[13/Dec/2017 16:47:03] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[13/Dec/2017 16:48:23] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[13/Dec/2017 16:48:26] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[13/Dec/2017 16:48:28] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[13/Dec/2017 16:48:28] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[13/Dec/2017 16:48:32] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[13/Dec/2017 16:48:34] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[13/Dec/2017 16:48:34] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[13/Dec/2017 16:48:39] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[13/Dec/2017 16:50:33] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[13/Dec/2017 16:50:33] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[13/Dec/2017 16:52:25] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[13/Dec/2017 16:52:29] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[13/Dec/2017 16:52:29] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[13/Dec/2017 16:52:53] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[13/Dec/2017 16:52:59] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[13/Dec/2017 16:52:59] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[13/Dec/2017 16:53:03] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[13/Dec/2017 16:53:07] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[13/Dec/2017 16:53:08] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[13/Dec/2017 16:53:08] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[13/Dec/2017 16:53:17] "POST /InventoryApp/add_warehouse/ HTTP/1.1" 200 76
+[13/Dec/2017 16:53:36] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[13/Dec/2017 16:53:48] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[13/Dec/2017 16:53:48] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[13/Dec/2017 16:53:50] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[13/Dec/2017 16:53:52] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[13/Dec/2017 16:53:52] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[13/Dec/2017 16:54:02] "POST /InventoryApp/add_product/ HTTP/1.1" 200 65
+[13/Dec/2017 16:55:05] "POST /InventoryApp/add_product/ HTTP/1.1" 200 65
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 13, 2017 - 16:42:56
+Django version 1.11.7, using settings 'Inventory.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+{"id":"2","locationname":"kakinada","statusid":"1","locationaddress":"kakinada"}
+{"warehousename":"hyd","statusid":"1","locationid":"2"}
+{"productname":"LM35" , "productdescription":"Tempatature sensor","productmodel":"LM35" ,"productcompany":"philips","productpackage":"DIP","productpurchasable":"no","productpurchaselistprice":"7.06","productpricetolerancepercent":"100","productsellable":"no","productserialcontrolled":"no","productbatchtracked":"yes","standardcost":"8","reorderlevel":"10","reorderquantity":"1000","producttype":"1","productuom":"1","statusid":"1"}
+{"productname":"LM35" , "productdescription":"Tempatature sensor","productmodel":"LM35" ,"productcompany":"philips","productpackage":"DIP","productpurchasable":"no","productpurchaselistprice":"7.06","productpricetolerancepercent":"100","productsellable":"no","productserialcontrolled":"no","productbatchtracked":"yes","standardcost":"8","reorderlevel":"10","reorderquantity":"1000","producttype":"1","productuom":"1","statusid":"1"}
+[13/Dec/2017 16:56:42] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[13/Dec/2017 16:56:48] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[13/Dec/2017 16:56:49] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[13/Dec/2017 16:56:49] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[13/Dec/2017 16:56:50] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[13/Dec/2017 16:56:52] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[13/Dec/2017 16:56:52] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[13/Dec/2017 16:56:57] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[13/Dec/2017 16:56:59] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[13/Dec/2017 16:56:59] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[13/Dec/2017 16:57:00] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[13/Dec/2017 16:57:01] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[13/Dec/2017 16:57:01] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[13/Dec/2017 16:57:06] "POST /InventoryApp/add_warehouse/ HTTP/1.1" 200 57
+[13/Dec/2017 16:57:07] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1540
+[13/Dec/2017 16:57:15] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[13/Dec/2017 16:57:15] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[13/Dec/2017 16:57:18] "POST /InventoryApp/add_warehouse/ HTTP/1.1" 200 76
+[13/Dec/2017 16:57:31] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1540
+[13/Dec/2017 16:57:36] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[13/Dec/2017 16:57:36] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[13/Dec/2017 16:57:39] "POST /InventoryApp/del_warehouse/ HTTP/1.1" 200 71
+[13/Dec/2017 16:57:39] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[19/Dec/2017 13:35:12] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 13:35:15] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 13:35:15] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 13:35:15] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 13:35:15] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+Not Found: /input
+[19/Dec/2017 13:37:04] "GET /input?%22pravallika%22 HTTP/1.1" 404 2082
+Not Found: /input
+[19/Dec/2017 13:37:05] "GET /input?%22pravallika%22 HTTP/1.1" 404 2082
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 19, 2017 - 13:34:37
+Django version 1.11.7, using settings 'Inventory.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+[19/Dec/2017 13:38:02] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 13:38:12] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 13:38:12] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 13:38:12] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 13:38:12] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 13:40:37] "POST /InventoryApp/add_user/ HTTP/1.1" 200 115
+[19/Dec/2017 13:41:26] "POST /InventoryApp/add_user/ HTTP/1.1" 200 57
+[19/Dec/2017 13:44:54] "POST /InventoryApp/update_user/ HTTP/1.1" 200 59
+[19/Dec/2017 13:46:08] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 13:46:14] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 13:46:14] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 13:46:14] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 13:46:14] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 19, 2017 - 13:37:13
+Django version 1.11.7, using settings 'Inventory.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+{"username":"kumar","emailid":"emailid@test","password":"kumar","gender":"kumar","jobrole":"R&D","statusid":"1"}
+{"id":"4","username":"kumar","emailid":"emailid@test","password":"kumar","gender":"male","jobrole":"R&D","statusid":"1"}
+Unhandled exception in thread started by <function wrapper at 0x7fe824fde668>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/c00007/Desktop/inventory/Inventory/Inventory/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/c00007/Desktop/inventory/Inventory/InventoryApp/urls.py", line 9, in <module>
+    url(r'^get_user/',csrf_exempt(get_user),name = 'get_user'),
+NameError: name 'get_user' is not defined
+Unhandled exception in thread started by <function wrapper at 0x7f0fdcc86668>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/c00007/Desktop/inventory/Inventory/Inventory/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/c00007/Desktop/inventory/Inventory/InventoryApp/urls.py", line 6, in <module>
+    url(r'^login/',csrf_exempt(login),name = 'login'),
+NameError: name 'login' is not defined
+[19/Dec/2017 13:51:45] "POST /InventoryApp/get_user/ HTTP/1.1" 200 827
+[19/Dec/2017 13:52:01] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 13:52:05] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 13:52:05] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 13:52:05] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 13:52:05] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+Error: That port is already in use.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 19, 2017 - 13:51:08
+Django version 1.11.7, using settings 'Inventory.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+[19/Dec/2017 13:52:32] "POST /InventoryApp/get_user/ HTTP/1.1" 200 822
+[19/Dec/2017 13:57:28] "POST /InventoryApp/get_user/ HTTP/1.1" 200 822
+[19/Dec/2017 13:58:05] "POST /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 13:58:17] "POST /InventoryApp/get_user/ HTTP/1.1" 200 822
+[19/Dec/2017 14:02:13] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 14:02:18] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 14:02:18] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 14:02:18] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 14:02:18] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 14:40:39] "POST /InventoryApp/get_user/ HTTP/1.1" 200 822
+[19/Dec/2017 14:43:15] "POST /InventoryApp/update_user/ HTTP/1.1" 200 59
+[19/Dec/2017 14:43:31] "POST /InventoryApp/get_user/ HTTP/1.1" 200 829
+[19/Dec/2017 14:49:56] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 14:50:02] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 14:50:02] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 14:50:02] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 14:50:31] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 14:50:35] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 14:50:35] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 14:50:35] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 14:50:35] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 14:55:37] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 14:57:56] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 14:58:00] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 14:58:00] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 14:58:00] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 14:58:00] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 15:03:14] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 15:03:32] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 15:03:32] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 15:03:32] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 15:03:32] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 15:08:00] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 15:08:04] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 15:08:04] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 15:08:04] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 15:08:04] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 15:10:10] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 15:10:13] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 15:10:13] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 15:10:13] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 15:10:13] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 15:11:45] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 15:11:50] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 15:11:50] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 15:11:50] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 15:11:50] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 15:17:03] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+Not Found: /get_inventory
+Not Found: /login
+[19/Dec/2017 15:19:07] "GET /get_inventory HTTP/1.1" 404 2089
+[19/Dec/2017 15:19:07] "GET /login?userid=hari HTTP/1.1" 404 2077
+Not Found: /get_inventory
+[19/Dec/2017 15:19:08] "GET /get_inventory HTTP/1.1" 404 2089
+Not Found: /input
+[19/Dec/2017 16:02:56] "GET /input?%22pravallika%22 HTTP/1.1" 404 2082
+[19/Dec/2017 16:08:16] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 16:08:22] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 16:08:22] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 16:08:22] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 16:08:22] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 16:09:41] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 16:09:47] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 16:09:48] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 16:09:48] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 16:09:48] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 16:17:15] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 16:17:19] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 16:17:19] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 16:17:20] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 16:17:20] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 16:19:45] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 16:19:51] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 16:19:51] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 16:19:51] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 16:19:51] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 16:28:14] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 16:28:19] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 16:28:19] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 16:28:19] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 16:28:19] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 16:30:08] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 16:30:13] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 16:30:13] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 16:30:13] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 16:30:14] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 16:31:30] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 16:31:34] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 16:31:34] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 16:31:34] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 16:31:34] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 16:35:25] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 16:35:32] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 16:35:32] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 16:35:32] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 16:35:32] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 16:42:23] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 16:42:29] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 16:42:29] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 16:42:29] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 16:42:29] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 16:43:29] "POST /InventoryApp/update_product/ HTTP/1.1" 200 114
+[19/Dec/2017 16:44:48] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 16:44:48] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 16:44:48] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 16:44:48] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 16:45:39] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 16:45:41] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 16:45:41] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 16:45:41] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 16:45:41] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 16:45:57] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 16:45:57] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 16:45:58] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 16:45:58] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 16:54:47] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 16:55:01] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 16:55:01] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 16:55:01] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 16:55:01] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 17:06:04] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 17:06:08] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 17:06:25] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 17:06:25] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 17:06:25] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 17:06:25] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 17:14:32] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 17:14:35] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 17:14:43] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 17:14:43] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 17:14:43] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 17:14:43] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 17:16:15] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 17:16:15] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 17:16:24] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 17:16:24] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 17:16:24] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 17:16:24] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 17:16:54] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 17:16:54] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 17:16:54] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 17:16:54] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 17:18:42] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 17:18:49] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 17:18:49] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 17:18:49] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 17:18:49] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 17:22:39] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 17:22:43] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 17:22:51] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 17:22:51] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 17:22:51] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 17:22:51] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 17:38:49] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 17:38:55] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 17:38:55] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 17:38:55] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 17:38:55] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 17:44:50] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 17:45:01] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 17:45:01] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 17:45:01] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 17:45:01] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 17:47:01] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 17:51:56] "GET /Invento[19/Dec/2017 20:10:59] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 20:11:06] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 20:11:06] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 20:11:06] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 20:11:06] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 20:12:05] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 20:12:07] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+[19/Dec/2017 20:12:07] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[19/Dec/2017 20:12:07] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[19/Dec/2017 20:12:07] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[19/Dec/2017 20:12:18] "GET /InventoryApp/get_product/ HTTP/1.1" 200 3712
+Not Found: /robots.txt
+[21/Dec/2017 19:35:35] "GET /robots.txt HTTP/1.1" 404 2080
+[21/Dec/2017 19:35:37] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335660
+Not Found: /favicon.ico
+[21/Dec/2017 19:35:37] "GET /favicon.ico HTTP/1.1" 404 2083
+Not Found: /favicon.ico
+[21/Dec/2017 19:35:38] "GET /favicon.ico HTTP/1.1" 404 2083
+[21/Dec/2017 19:36:22] "GET /InventoryApp/active_location/ HTTP/1.1" 200 397
+[21/Dec/2017 19:36:35] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1539
+[21/Dec/2017 19:36:43] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[21/Dec/2017 19:36:43] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[21/Dec/2017 19:37:32] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[21/Dec/2017 19:37:32] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[21/Dec/2017 19:37:35] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1539
+[21/Dec/2017 19:38:00] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[21/Dec/2017 19:38:00] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[21/Dec/2017 19:38:01] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1539
+[21/Dec/2017 19:38:10] "GET /InventoryApp/active_location/ HTTP/1.1" 200 397
+[21/Dec/2017 19:38:32] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335660
+[21/Dec/2017 19:39:00] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[21/Dec/2017 19:39:00] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[21/Dec/2017 19:39:00] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[21/Dec/2017 19:39:01] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335660
+[21/Dec/2017 19:39:24] "GET /InventoryApp/active_position/ HTTP/1.1" 200 377
+[21/Dec/2017 19:39:32] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[21/Dec/2017 19:40:04] "GET /InventoryApp/active_position/ HTTP/1.1" 200 377
+[21/Dec/2017 19:40:16] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[21/Dec/2017 19:40:20] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[21/Dec/2017 19:40:46] "GET /InventoryApp/active_location/ HTTP/1.1" 200 397
+[21/Dec/2017 19:41:08] "GET /InventoryApp/active_location/ HTTP/1.1" 200 397
+[21/Dec/2017 19:41:24] "GET /InventoryApp/active_position/ HTTP/1.1" 200 377
+[21/Dec/2017 19:42:08] "GET /InventoryApp/active_location/ HTTP/1.1" 200 397
+[21/Dec/2017 19:42:20] "GET /InventoryApp/active_position/ HTTP/1.1" 200 377
+[21/Dec/2017 19:42:27] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[21/Dec/2017 19:43:35] "POST /InventoryApp/get_product/ HTTP/1.1" 200 335660
+[21/Dec/2017 19:43:44] "POST /InventoryApp/get_status/ HTTP/1.1" 200 309
+[21/Dec/2017 19:43:54] "POST /InventoryApp/get_location/ HTTP/1.1" 200 641
+[21/Dec/2017 19:44:13] "GET /InventoryApp/active_location/ HTTP/1.1" 200 397
+[21/Dec/2017 19:46:46] "GET /InventoryApp/active_location/ HTTP/1.1" 200 397
+[21/Dec/2017 19:47:42] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1539
+[21/Dec/2017 19:47:47] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335660
+[21/Dec/2017 19:47:55] "GET /InventoryApp/active_position/ HTTP/1.1" 200 377
+[21/Dec/2017 19:47:58] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[21/Dec/2017 19:49:56] "GET /InventoryApp/active_position/ HTTP/1.1" 200 377
+[21/Dec/2017 19:50:21] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[21/Dec/2017 19:53:45] "GET /InventoryApp/active_location/ HTTP/1.1" 200 397
+Not Found: /get_inventory
+[21/Dec/2017 19:54:32] "GET /get_inventory HTTP/1.1" 404 2089
+[21/Dec/2017 20:01:45] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1539
+[21/Dec/2017 20:02:06] "GET /InventoryApp/active_location/ HTTP/1.1" 200 397
+[21/Dec/2017 20:07:13] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1539
+[21/Dec/2017 20:07:30] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[21/Dec/2017 20:08:12] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1539
+[21/Dec/2017 20:08:17] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[21/Dec/2017 20:09:01] "GET /InventoryApp/active_position/ HTTP/1.1" 200 377
+[21/Dec/2017 20:09:08] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+Not Found: /input
+[21/Dec/2017 20:09:25] "GET /input?%22pravallika%22 HTTP/1.1" 404 2082
+Not Found: /input
+[21/Dec/2017 20:09:26] "GET /input?%22pravallika%22 HTTP/1.1" 404 2082
+[21/Dec/2017 20:13:40] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[21/Dec/2017 20:16:25] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[21/Dec/2017 20:22:45] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[21/Dec/2017 20:25:58] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[21/Dec/2017 20:31:08] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 11:56:30] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1539
+[22/Dec/2017 11:56:38] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 11:56:55] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 12:28:48] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 12:29:20] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 12:29:51] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1539
+[22/Dec/2017 12:29:54] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 12:29:54] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 12:29:55] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1539
+[22/Dec/2017 12:29:59] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335660
+[22/Dec/2017 12:30:01] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[22/Dec/2017 12:30:03] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 12:35:09] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 12:35:14] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 12:35:27] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 12:39:15] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 12:56:02] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 13:03:09] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335660
+[22/Dec/2017 13:03:19] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[22/Dec/2017 13:03:35] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 13:03:37] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[22/Dec/2017 13:03:41] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 13:03:57] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[22/Dec/2017 13:08:34] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 13:09:24] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[22/Dec/2017 13:29:35] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 13:30:04] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[22/Dec/2017 13:30:12] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 13:31:13] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 13:34:17] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 13:35:26] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 13:41:05] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 13:41:17] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[22/Dec/2017 13:54:32] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 13:54:46] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[22/Dec/2017 13:56:03] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 14:04:03] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 14:04:08] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 14:04:21] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 14:04:30] "POST /InventoryApp/update_status/ HTTP/1.1" 200 59
+[22/Dec/2017 14:04:46] "GET /InventoryApp/get_status/ HTTP/1.1" 200 310
+[22/Dec/2017 14:04:56] "POST /InventoryApp/update_status/ HTTP/1.1" 200 59
+[22/Dec/2017 14:05:06] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 14:05:12] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[22/Dec/2017 14:05:17] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 14:05:22] "POST /InventoryApp/update_position/ HTTP/1.1" 200 89
+[22/Dec/2017 14:06:42] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 14:06:51] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1539
+[22/Dec/2017 14:07:22] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 14:07:22] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 14:07:28] "POST /InventoryApp/del_warehouse/ HTTP/1.1" 200 71
+[22/Dec/2017 14:07:30] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[22/Dec/2017 14:07:42] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 14:07:42] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 14:07:57] "POST /InventoryApp/add_warehouse/ HTTP/1.1" 200 57
+[22/Dec/2017 14:08:05] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1532
+[22/Dec/2017 14:08:11] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 14:08:11] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 14:08:17] "POST /InventoryApp/update_warehouse/ HTTP/1.1" 200 90
+[22/Dec/2017 14:12:25] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1532
+[22/Dec/2017 14:12:30] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 14:12:30] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 14:17:01] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1532
+[22/Dec/2017 14:17:10] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 14:17:10] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 14:17:41] "POST /InventoryApp/update_warehouse/ HTTP/1.1" 200 90
+[22/Dec/2017 14:22:48] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1532
+[22/Dec/2017 14:22:51] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 14:22:51] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 14:26:45] "POST /InventoryApp/update_warehouse/ HTTP/1.1" 200 90
+[22/Dec/2017 14:31:29] "POST /InventoryApp/update_warehouse/ HTTP/1.1" 200 90
+[22/Dec/2017 14:31:34] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1532
+[22/Dec/2017 14:31:37] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 14:31:37] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 14:38:20] "POST /InventoryApp/update_warehouse/ HTTP/1.1" 200 90
+Not Found: /input
+[22/Dec/2017 14:47:18] "GET /input?%22pravallika%22 HTTP/1.1" 404 2082
+[22/Dec/2017 14:48:56] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1532
+[22/Dec/2017 14:48:59] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 14:48:59] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 14:52:43] "POST /InventoryApp/update_warehouse/ HTTP/1.1" 200 90
+[22/Dec/2017 14:55:49] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1532
+[22/Dec/2017 14:56:13] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 14:56:13] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 14:58:10] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1532
+[22/Dec/2017 14:58:21] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 14:58:21] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 14:58:43] "POST /InventoryApp/update_warehouse/ HTTP/1.1" 200 59
+[22/Dec/2017 14:58:58] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1542
+[22/Dec/2017 15:10:19] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1542
+[22/Dec/2017 15:10:25] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 15:10:25] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 15:16:03] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1542
+[22/Dec/2017 15:16:08] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 15:16:08] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 15:17:55] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1542
+[22/Dec/2017 15:18:05] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 15:18:05] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 15:19:47] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1542
+[22/Dec/2017 15:19:57] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 15:19:57] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 15:21:17] "POST /InventoryApp/update_warehouse/ HTTP/1.1" 200 59
+[22/Dec/2017 15:23:01] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1532
+[22/Dec/2017 15:23:09] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 15:23:09] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 15:23:17] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1532
+[22/Dec/2017 15:23:20] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 15:23:20] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 15:49:27] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1532
+[22/Dec/2017 15:50:17] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1532
+[22/Dec/2017 15:50:23] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1532
+[22/Dec/2017 16:03:57] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1532
+Not Found: /InventoryApp/get_loca
+[22/Dec/2017 16:07:21] "GET /InventoryApp/get_loca HTTP/1.1" 404 7691
+[22/Dec/2017 16:07:37] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 16:07:53] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 16:08:10] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335660
+[22/Dec/2017 16:08:22] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[22/Dec/2017 16:15:49] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1532
+[22/Dec/2017 16:17:48] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+Not Found: /input
+[22/Dec/2017 16:18:05] "GET /input?%22pravallika%22 HTTP/1.1" 404 2082
+[22/Dec/2017 16:23:03] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1532
+[22/Dec/2017 16:23:07] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 16:23:07] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 16:25:00] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1532
+[22/Dec/2017 16:25:07] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335660
+[22/Dec/2017 16:25:25] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1532
+[22/Dec/2017 16:25:30] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 16:25:30] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 16:28:43] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1532
+[22/Dec/2017 16:28:55] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 16:28:55] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 16:37:44] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1532
+[22/Dec/2017 16:38:00] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 16:38:00] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 16:40:54] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1532
+[22/Dec/2017 16:41:02] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 16:41:02] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 16:52:57] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1532
+[22/Dec/2017 16:52:57] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 16:52:57] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 16:52:57] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 16:52:57] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 16:53:04] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 16:53:04] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 16:53:07] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1532
+[22/Dec/2017 16:53:09] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 16:53:09] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 16:53:17] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1532
+[22/Dec/2017 16:53:19] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 16:53:19] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 16:53:22] "POST /InventoryApp/update_warehouse/ HTTP/1.1" 200 59
+[22/Dec/2017 16:53:25] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1532
+[22/Dec/2017 16:53:36] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 16:53:40] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 16:53:46] "POST /InventoryApp/update_location/ HTTP/1.1" 200 59
+[22/Dec/2017 16:53:48] "GET /InventoryApp/get_location/ HTTP/1.1" 200 641
+[22/Dec/2017 16:53:56] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 16:53:59] "POST /InventoryApp/del_location/ HTTP/1.1" 200 70
+[22/Dec/2017 16:54:01] "GET /InventoryApp/get_location/ HTTP/1.1" 200 522
+[22/Dec/2017 16:54:08] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 16:54:16] "POST /InventoryApp/update_status/ HTTP/1.1" 200 59
+[22/Dec/2017 16:54:19] "GET /InventoryApp/get_status/ HTTP/1.1" 200 311
+Not Found: /InventoryApp/del_status/
+[22/Dec/2017 16:54:24] "POST /InventoryApp/del_status/ HTTP/1.1" 404 7701
+[22/Dec/2017 16:54:31] "POST /InventoryApp/update_status/ HTTP/1.1" 200 59
+[22/Dec/2017 16:54:33] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 16:57:29] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 16:57:55] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 16:58:42] "POST /InventoryApp/update_status/ HTTP/1.1" 200 59
+[22/Dec/2017 16:58:48] "GET /InventoryApp/get_status/ HTTP/1.1" 200 312
+[22/Dec/2017 16:58:57] "POST /InventoryApp/update_status/ HTTP/1.1" 200 59
+[22/Dec/2017 16:58:58] "POST /InventoryApp/update_status/ HTTP/1.1" 200 59
+[22/Dec/2017 16:59:01] "POST /InventoryApp/update_status/ HTTP/1.1" 200 59
+[22/Dec/2017 16:59:04] "POST /InventoryApp/update_status/ HTTP/1.1" 200 59
+[22/Dec/2017 16:59:20] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 17:29:44] "GET /InventoryApp/get_location/ HTTP/1.1" 200 522
+[22/Dec/2017 17:29:45] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[22/Dec/2017 17:29:47] "GET /InventoryApp/get_location/ HTTP/1.1" 200 522
+[22/Dec/2017 17:29:58] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335660
+[22/Dec/2017 17:30:05] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[22/Dec/2017 17:30:08] "GET /InventoryApp/get_location/ HTTP/1.1" 200 522
+[22/Dec/2017 17:30:32] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[22/Dec/2017 17:30:37] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[22/Dec/2017 17:30:40] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335660
+[22/Dec/2017 17:39:11] "GET /InventoryApp/get_location/ HTTP/1.1" 200 522
+[22/Dec/2017 17:39:14] "GET /InventoryApp/get_location/ HTTP/1.1" 200 522
+[22/Dec/2017 17:39:16] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 17:39:29] "POST /InventoryApp/update_location/ HTTP/1.1" 200 59
+[22/Dec/2017 17:39:49] "GET /InventoryApp/get_location/ HTTP/1.1" 200 527
+[22/Dec/2017 17:40:14] "GET /InventoryApp/get_location/ HTTP/1.1" 200 527
+[22/Dec/2017 17:40:16] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 17:40:21] "POST /InventoryApp/update_location/ HTTP/1.1" 200 59
+[22/Dec/2017 17:40:29] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[22/Dec/2017 17:40:36] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[22/Dec/2017 17:40:40] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[22/Dec/2017 17:40:46] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[22/Dec/2017 17:40:48] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[22/Dec/2017 17:40:48] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 17:40:57] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335660
+[22/Dec/2017 17:41:07] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[22/Dec/2017 17:41:07] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[22/Dec/2017 17:41:07] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 17:41:09] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335660
+[22/Dec/2017 17:41:21] "POST /InventoryApp/update_product/ HTTP/1.1" 200 59
+[22/Dec/2017 17:41:32] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[22/Dec/2017 17:41:37] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+[22/Dec/2017 17:42:42] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 17:43:05] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[22/Dec/2017 17:43:36] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[22/Dec/2017 17:43:43] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 17:44:05] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+[22/Dec/2017 17:44:08] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[22/Dec/2017 17:44:08] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 17:44:08] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[22/Dec/2017 17:44:17] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[22/Dec/2017 17:44:19] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 17:44:19] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[22/Dec/2017 17:44:24] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 17:44:27] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 17:44:30] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[22/Dec/2017 17:44:32] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[22/Dec/2017 17:44:34] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[22/Dec/2017 17:44:38] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+[22/Dec/2017 17:44:45] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+[22/Dec/2017 17:44:52] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+[22/Dec/2017 17:45:11] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+[22/Dec/2017 17:58:49] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[22/Dec/2017 17:58:54] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 17:59:09] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+[22/Dec/2017 17:59:34] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+[22/Dec/2017 17:59:38] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[22/Dec/2017 17:59:42] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[22/Dec/2017 17:59:47] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+[22/Dec/2017 18:00:00] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+[22/Dec/2017 18:00:52] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+Not Found: /input
+[22/Dec/2017 18:02:48] "GET /input?%22pravallika%22 HTTP/1.1" 404 2082
+[22/Dec/2017 18:22:13] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+[22/Dec/2017 18:22:15] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[22/Dec/2017 18:22:17] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[22/Dec/2017 18:22:31] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+[22/Dec/2017 18:23:15] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[22/Dec/2017 18:23:18] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[22/Dec/2017 18:23:20] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 18:23:25] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[22/Dec/2017 18:23:28] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[22/Dec/2017 18:23:32] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[22/Dec/2017 18:23:37] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[22/Dec/2017 18:23:37] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 18:23:42] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[22/Dec/2017 18:23:45] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[22/Dec/2017 18:23:55] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 18:23:59] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+Not Found: /login
+[22/Dec/2017 18:41:44] "GET /login?userid=hari HTTP/1.1" 404 2077
+[22/Dec/2017 19:14:37] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[22/Dec/2017 19:14:43] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[22/Dec/2017 19:15:00] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[22/Dec/2017 19:15:04] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[22/Dec/2017 19:15:13] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[22/Dec/2017 19:15:16] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 19:15:16] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[22/Dec/2017 19:15:19] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[22/Dec/2017 19:15:47] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[22/Dec/2017 19:15:53] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[22/Dec/2017 19:15:57] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 19:15:57] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 19:15:59] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 19:16:04] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[22/Dec/2017 19:16:21] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+[22/Dec/2017 19:16:23] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+[22/Dec/2017 19:16:37] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 19:16:37] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[22/Dec/2017 19:16:37] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[22/Dec/2017 19:16:56] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+[22/Dec/2017 19:16:57] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+[22/Dec/2017 19:17:33] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+[22/Dec/2017 19:17:59] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Dec/2017 19:17:59] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[22/Dec/2017 19:17:59] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[22/Dec/2017 19:17:59] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+[22/Dec/2017 19:18:15] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+[22/Dec/2017 19:29:38] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 328, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 110] Connection timed out
+[22/Dec/2017 19:29:38] "GET /InventoryApp/get_product/ HTTP/1.1" 500 59
+[2017-12-22 19:29:38,611] - Broken pipe from ('122.175.46.31', 43370)
+
+Error: That port is already in use.
+[22/Dec/2017 19:53:40] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[22/Dec/2017 19:54:18] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[22/Dec/2017 19:54:20] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[22/Dec/2017 19:54:20] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[22/Dec/2017 19:54:28] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+[22/Dec/2017 19:54:54] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[22/Dec/2017 19:55:03] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[22/Dec/2017 19:55:09] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 11:53:27] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 11:53:31] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+[23/Dec/2017 11:53:33] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[23/Dec/2017 11:53:35] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[23/Dec/2017 11:53:42] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 11:53:45] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 11:53:48] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 11:53:49] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 11:53:54] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 11:53:55] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 11:54:01] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+[23/Dec/2017 11:54:02] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[23/Dec/2017 11:54:13] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[23/Dec/2017 11:54:16] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 11:54:17] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 11:54:24] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 11:54:31] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[23/Dec/2017 11:54:33] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 11:54:33] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 11:54:34] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[23/Dec/2017 11:54:36] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 11:54:36] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 11:54:38] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[23/Dec/2017 11:54:39] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 11:54:39] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 11:54:45] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[23/Dec/2017 11:55:06] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 11:55:06] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 11:55:10] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[23/Dec/2017 12:11:04] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 12:11:17] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:11:21] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 12:11:23] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:11:25] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 12:11:26] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:11:27] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 12:11:30] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:11:35] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 12:12:11] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 12:14:03] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:19:28] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:19:29] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 12:19:31] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 12:19:51] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 12:20:00] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1415
+[23/Dec/2017 12:20:04] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:20:04] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 12:20:10] "POST /InventoryApp/add_warehouse/ HTTP/1.1" 200 57
+[23/Dec/2017 12:20:12] "POST /InventoryApp/add_warehouse/ HTTP/1.1" 200 57
+[23/Dec/2017 12:20:13] "POST /InventoryApp/add_warehouse/ HTTP/1.1" 200 57
+[23/Dec/2017 12:20:17] "POST /InventoryApp/add_warehouse/ HTTP/1.1" 200 57
+[23/Dec/2017 12:21:25] "POST /InventoryApp/add_warehouse/ HTTP/1.1" 200 57
+[23/Dec/2017 12:21:34] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 2040
+[23/Dec/2017 12:23:30] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 12:23:30] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:24:46] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 2040
+[23/Dec/2017 12:24:47] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:24:47] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 12:24:49] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 2040
+[23/Dec/2017 12:24:51] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:24:51] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 12:24:53] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 2040
+[23/Dec/2017 12:25:17] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:25:17] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 12:26:17] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 12:26:17] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:26:40] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 2040
+[23/Dec/2017 12:27:01] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 12:27:01] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:27:03] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 2040
+[23/Dec/2017 12:27:04] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:27:04] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 12:27:47] "POST /InventoryApp/add_warehouse/ HTTP/1.1" 200 103
+[23/Dec/2017 12:28:08] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 2040
+[23/Dec/2017 12:29:48] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 12:29:48] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:30:27] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 12:30:32] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+[23/Dec/2017 12:31:09] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[23/Dec/2017 12:31:09] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:31:09] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[23/Dec/2017 12:31:10] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+[23/Dec/2017 12:31:15] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+[23/Dec/2017 12:31:17] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:31:17] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[23/Dec/2017 12:31:17] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[23/Dec/2017 12:31:19] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+[23/Dec/2017 12:31:28] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+[23/Dec/2017 12:31:48] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:31:48] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[23/Dec/2017 12:31:48] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[23/Dec/2017 12:31:49] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+[23/Dec/2017 12:32:36] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:32:36] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[23/Dec/2017 12:32:36] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[23/Dec/2017 12:32:36] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+[23/Dec/2017 12:32:55] "GET /InventoryApp/get_product/ HTTP/1.1" 200 335648
+[23/Dec/2017 12:33:00] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[23/Dec/2017 12:33:00] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:33:00] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+Not Found: /input
+[23/Dec/2017 12:33:05] "GET /input?%22pravallika%22 HTTP/1.1" 404 2082
+[23/Dec/2017 12:33:10] "POST /InventoryApp/add_product/ HTTP/1.1" 200 107
+[23/Dec/2017 12:33:23] "POST /InventoryApp/add_product/ HTTP/1.1" 200 107
+[23/Dec/2017 12:33:30] "POST /InventoryApp/add_product/ HTTP/1.1" 200 101
+[23/Dec/2017 12:34:55] "POST /InventoryApp/add_product/ HTTP/1.1" 200 57
+[23/Dec/2017 12:35:01] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 12:35:04] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 12:35:16] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 12:35:49] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 12:36:26] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 12:36:28] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:37:07] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 12:37:51] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 12:37:53] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:38:23] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:38:39] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 12:38:49] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:39:04] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 12:39:15] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 12:40:11] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 12:40:18] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 2040
+[23/Dec/2017 12:40:21] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 12:40:22] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[23/Dec/2017 12:40:24] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:40:25] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[23/Dec/2017 12:40:28] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:40:34] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[23/Dec/2017 12:40:39] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 12:40:56] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[23/Dec/2017 12:40:56] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[23/Dec/2017 12:40:56] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:40:56] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 12:41:19] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 12:41:29] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 12:42:26] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 2040
+[23/Dec/2017 12:42:28] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 12:42:28] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:42:30] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 2040
+[23/Dec/2017 12:43:10] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:43:10] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 12:43:39] "POST /InventoryApp/update_warehouse/ HTTP/1.1" 200 59
+[23/Dec/2017 12:43:43] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 2040
+[23/Dec/2017 12:44:11] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[23/Dec/2017 12:44:14] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:44:15] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[23/Dec/2017 12:44:19] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 2040
+[23/Dec/2017 12:44:29] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[23/Dec/2017 12:47:32] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:48:07] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 12:48:26] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:48:33] "POST /InventoryApp/add_location/ HTTP/1.1" 200 102
+[23/Dec/2017 12:48:36] "GET /InventoryApp/get_location/ HTTP/1.1" 200 520
+[23/Dec/2017 12:48:43] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:48:52] "POST /InventoryApp/update_location/ HTTP/1.1" 200 59
+[23/Dec/2017 12:49:20] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 12:50:07] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:50:10] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 12:50:30] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:50:36] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 12:50:41] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 12:50:42] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:50:58] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 2040
+[23/Dec/2017 12:51:43] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 12:52:25] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:52:25] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[23/Dec/2017 12:52:26] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[23/Dec/2017 12:52:26] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 12:52:29] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 12:53:36] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 12:53:39] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 2040
+[23/Dec/2017 12:53:42] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 12:53:42] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:54:17] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 12:54:20] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:54:20] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[23/Dec/2017 12:54:20] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[23/Dec/2017 12:54:21] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 12:54:58] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 2040
+[23/Dec/2017 12:55:03] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 12:55:06] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[23/Dec/2017 12:55:10] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 12:55:13] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 2040
+[23/Dec/2017 12:55:17] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 12:55:17] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:55:20] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 2040
+[23/Dec/2017 12:55:22] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:55:22] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 12:55:24] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 2040
+[23/Dec/2017 12:55:25] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:55:25] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 12:55:40] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 2040
+[23/Dec/2017 12:55:43] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 12:55:46] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[23/Dec/2017 12:55:46] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 12:55:46] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[23/Dec/2017 12:55:47] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 13:28:08] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 13:28:14] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 13:28:19] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 13:28:24] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 13:28:27] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[23/Dec/2017 13:28:27] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 13:28:27] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[23/Dec/2017 13:28:28] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 13:28:31] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 13:29:13] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 13:29:25] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 13:29:25] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[23/Dec/2017 13:29:25] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[23/Dec/2017 13:29:25] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 13:29:38] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 13:29:40] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[23/Dec/2017 13:29:40] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[23/Dec/2017 13:29:40] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 13:29:46] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 13:30:01] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 13:30:04] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 13:30:07] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[23/Dec/2017 13:30:07] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[23/Dec/2017 13:30:07] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 13:30:08] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 13:30:16] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 13:30:32] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 13:30:58] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 13:31:01] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[23/Dec/2017 13:31:01] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[23/Dec/2017 13:31:01] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 13:31:02] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 13:31:06] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 13:32:11] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[23/Dec/2017 13:32:15] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 13:32:22] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 13:32:22] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[23/Dec/2017 13:32:22] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[23/Dec/2017 13:32:24] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 13:32:58] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 13:33:57] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[23/Dec/2017 13:33:57] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[23/Dec/2017 13:33:57] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 13:33:58] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 13:34:00] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 13:34:13] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 13:34:15] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 13:34:15] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 77
+[23/Dec/2017 13:34:15] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[23/Dec/2017 13:34:16] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 13:34:44] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 13:34:59] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 13:35:01] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 23, 2017 - 11:53:23
+Django version 1.11.7, using settings 'Inventory.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+{"statusid":"1","locationid":"1","warehousename":"hyd"}
+{"statusid":"1","locationid":"1","warehousename":"hyd"}
+{"statusid":"1","locationid":"1","warehousename":"hyd"}
+{"statusid":"1","locationid":"1","warehousename":"hyd"}
+{"statusid":"1","locationid":"1","warehousename":"hyd"}
+{"statusid":"1","locationid":"1","warehousename":""}
+{"productuom":"1","productpackage":"","productpurchasable":"Yes","statusid":"1","productpricetolerancepercent":"","reorderquantity":"","reorderlevel":"","standardcost":"","productpurchaselistprice":"","productsellable":"Yes","productcompany":"","productbatchtracked":"Yes","productserialcontrolled":"Yes","productdescription":"","producttype":"1","productmodel":"","productname":"motion sensor"}
+{"productuom":"1","productpackage":"","productpurchasable":"Yes","statusid":"1","productpricetolerancepercent":"","reorderquantity":"","reorderlevel":"","standardcost":"","productpurchaselistprice":"","productsellable":"Yes","productcompany":"","productbatchtracked":"Yes","productserialcontrolled":"Yes","productdescription":"","producttype":"1","productmodel":"","productname":"motion sensor"}
+{"productuom":"1","productpackage":"","productpurchasable":"Yes","statusid":"1","productpricetolerancepercent":"","reorderquantity":"","reorderlevel":"","standardcost":"","productpurchaselistprice":"","productsellable":"Yes","productcompany":"","productbatchtracked":"Yes","productserialcontrolled":"Yes","productdescription":"ggg","producttype":"1","productmodel":"","productname":"motion sensor"}
+{"productuom":"1","productpackage":"dd","productpurchasable":"Yes","statusid":"1","productpricetolerancepercent":"556","reorderquantity":"66","reorderlevel":"55","standardcost":"66","productpurchaselistprice":"576","productsellable":"Yes","productcompany":"fff","productbatchtracked":"Yes","productserialcontrolled":"Yes","productdescription":"ggg","producttype":"1","productmodel":"ff","productname":"motion sensor"}
+{"id":"18","statusid":"1","locationid":"1","warehousename":"hyd"}
+{"statusid":"1","locationname":"","locationaddress":""}
+{"id":"36","statusid":"1","locationname":"canadaa","locationaddress":"dadadas"}
+[23/Dec/2017 13:39:21] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 13:39:26] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 2040
+[23/Dec/2017 13:40:03] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 2040
+[23/Dec/2017 13:40:49] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 2040
+[23/Dec/2017 13:40:52] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 13:40:52] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 13:41:02] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 2040
+[23/Dec/2017 13:41:37] "POST /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 13:43:33] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+[23/Dec/2017 13:43:39] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 2040
+[23/Dec/2017 13:43:43] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 13:43:44] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 13:43:52] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 13:43:57] "GET /InventoryApp/get_product/ HTTP/1.1" 200 336257
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 23, 2017 - 13:38:04
+Django version 1.11.7, using settings 'Inventory.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7fd1b2c13668>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/model_checks.py", line 30, in check_all_models
+    errors.extend(model.check(**kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 1284, in check
+    errors.extend(cls._check_fields(**kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 1359, in _check_fields
+    errors.extend(field.check(**kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 913, in check
+    errors = super(AutoField, self).check(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 219, in check
+    errors.extend(self._check_backend_specific_checks(**kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 322, in _check_backend_specific_checks
+    return connections[db].validation.check_field(self, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/validation.py", line 49, in check_field
+    field_type = field.db_type(self.connection)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 644, in db_type
+    return connection.data_types[self.get_internal_type()] % data
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 174, in data_types
+    if self.features.supports_microsecond_precision:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/features.py", line 53, in supports_microsecond_precision
+    return self.connection.mysql_version >= (5, 6, 4) and Database.version_info >= (1, 2, 5)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 385, in mysql_version
+    with self.temporary_connection() as cursor:
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 591, in temporary_connection
+    cursor = self.cursor()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 254, in cursor
+    return self._cursor()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 229, in _cursor
+    self.ensure_connection()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 274, in get_new_connection
+    conn = Database.connect(**conn_params)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 204, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+django.db.utils.OperationalError: (2003, "Can't connect to MySQL server on '0.0.0.0' (111)")
+[23/Dec/2017 14:14:24] "POST /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 14:14:34] "POST /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 14:16:44] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[23/Dec/2017 14:16:54] "POST /InventoryApp/get_location/ HTTP/1.1" 200 521
+Not Found: /login
+[23/Dec/2017 14:19:18] "GET /login?userid=hari HTTP/1.1" 404 2077
+[23/Dec/2017 14:23:41] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 14:23:44] "GET /InventoryApp/get_position/ HTTP/1.1" 200 370
+[23/Dec/2017 14:24:12] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 14:24:14] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 14:49:24] "POST /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 14:49:36] "POST /InventoryApp/add_warehouse/ HTTP/1.1" 200 57
+[23/Dec/2017 14:49:41] "POST /InventoryApp/add_warehouse/ HTTP/1.1" 200 76
+[23/Dec/2017 14:49:50] "POST /InventoryApp/add_warehouse/ HTTP/1.1" 200 76
+[23/Dec/2017 14:50:04] "POST /InventoryApp/add_warehouse/ HTTP/1.1" 200 57
+[23/Dec/2017 14:50:37] "POST /InventoryApp/get_warehouse/ HTTP/1.1" 200 2282
+[23/Dec/2017 15:37:25] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 15:58:59] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 23, 2017 - 14:14:18
+Django version 1.11.7, using settings 'Inventory.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+{"warehousename":"hyd","locationid":"36","statusid":"1"}
+{"warehousename":"hyd","locationid":"36","statusid":"1"}
+{"warehousename":"hyd","locationid":"1","statusid":"1"}
+{"warehousename":"hyd","locationid":"38","statusid":"1"}
+[23/Dec/2017 16:02:31] "POST /InventoryApp/get_warehouse/ HTTP/1.1" 200 2282
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 23, 2017 - 16:02:13
+Django version 1.11.7, using settings 'Inventory.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 23, 2017 - 16:05:00
+Django version 1.11.7, using settings 'Inventory.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+[23/Dec/2017 17:58:17] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 2282
+[23/Dec/2017 17:58:36] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 17:58:36] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 17:58:39] "POST /InventoryApp/del_warehouse/ HTTP/1.1" 200 71
+[23/Dec/2017 17:58:40] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 2157
+[23/Dec/2017 17:58:45] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 17:58:45] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 17:58:47] "POST /InventoryApp/del_warehouse/ HTTP/1.1" 200 71
+[23/Dec/2017 17:58:48] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 2032
+[23/Dec/2017 17:58:50] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 17:58:50] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 17:58:53] "POST /InventoryApp/del_warehouse/ HTTP/1.1" 200 71
+[23/Dec/2017 17:58:53] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1907
+[23/Dec/2017 17:58:55] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 17:58:55] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 17:58:58] "POST /InventoryApp/del_warehouse/ HTTP/1.1" 200 71
+[23/Dec/2017 17:58:59] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1782
+[23/Dec/2017 17:59:09] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 17:59:10] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 17:59:13] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1782
+[23/Dec/2017 17:59:16] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 17:59:16] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 17:59:18] "POST /InventoryApp/del_warehouse/ HTTP/1.1" 200 71
+[23/Dec/2017 17:59:19] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1658
+[23/Dec/2017 17:59:21] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1658
+[23/Dec/2017 18:00:07] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 18:00:07] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 18:00:16] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 18:00:16] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 18:00:22] "POST /InventoryApp/add_warehouse/ HTTP/1.1" 200 76
+[23/Dec/2017 18:00:34] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 18:00:34] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 18:00:46] "POST /InventoryApp/add_warehouse/ HTTP/1.1" 200 76
+[23/Dec/2017 18:00:49] "POST /InventoryApp/add_warehouse/ HTTP/1.1" 200 76
+[23/Dec/2017 18:00:54] "POST /InventoryApp/add_warehouse/ HTTP/1.1" 200 76
+[23/Dec/2017 18:01:03] "POST /InventoryApp/add_warehouse/ HTTP/1.1" 200 76
+[23/Dec/2017 18:01:32] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 18:01:32] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 18:01:55] "POST /InventoryApp/add_warehouse/ HTTP/1.1" 200 76
+[23/Dec/2017 18:02:47] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 18:02:47] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 18:02:50] "POST /InventoryApp/del_warehouse/ HTTP/1.1" 200 71
+[23/Dec/2017 18:02:50] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1531
+[23/Dec/2017 18:02:58] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 18:02:58] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 18:03:07] "POST /InventoryApp/add_warehouse/ HTTP/1.1" 200 76
+[23/Dec/2017 18:03:12] "POST /InventoryApp/add_warehouse/ HTTP/1.1" 200 76
+[23/Dec/2017 18:03:18] "POST /InventoryApp/add_warehouse/ HTTP/1.1" 200 76
+[23/Dec/2017 18:05:18] "POST /InventoryApp/add_warehouse/ HTTP/1.1" 200 76
+[23/Dec/2017 18:14:42] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1531
+[23/Dec/2017 18:14:49] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 18:14:49] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 18:15:04] "POST /InventoryApp/add_warehouse/ HTTP/1.1" 200 76
+[23/Dec/2017 18:16:54] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 18:16:58] "GET /InventoryApp/get_position/ HTTP/1.1" 200 23
+[23/Dec/2017 18:20:20] "GET /InventoryApp/get_position/ HTTP/1.1" 200 23
+[23/Dec/2017 18:20:36] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 18:20:40] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 18:20:50] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1531
+[23/Dec/2017 18:20:53] "GET /InventoryApp/get_position/ HTTP/1.1" 200 23
+[23/Dec/2017 18:21:05] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 18:21:56] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 18:22:03] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 18:22:06] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 18:22:11] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 1531
+[23/Dec/2017 18:22:19] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Dec/2017 18:22:19] "GET /InventoryApp/get_location/ HTTP/1.1" 200 521
+[23/Dec/2017 18:22:49] "POST /InventoryApp/add_warehouse/ HTTP/1.1" 200 76
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 23, 2017 - 18:05:43
+Django version 1.11.7, using settings 'Inventory.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+{"statusid":"1","locationid":"36","warehousename":"hyderabad"}
+{"warehousename":"hyderabad","locationid":"38","statusid":"1"}
+Unhandled exception in thread started by <function wrapper at 0x7f7fbe1b9668>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/c00007/Desktop/inventory/Inventory/Inventory/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/c00007/Desktop/inventory/Inventory/InventoryApp/urls.py", line 3, in <module>
+    from InventoryApp.views import *
+  File "/home/c00007/Desktop/inventory/Inventory/InventoryApp/views.py", line 810
+    logging.debug("update_location
+                                 ^
+SyntaxError: EOL while scanning string literal
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 23, 2017 - 18:23:54
+Django version 1.11.7, using settings 'Inventory.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+[23/Dec/2017 18:26:50] "POST /InventoryApp/add_warehouse/ HTTP/1.1" 200 76
+[23/Dec/2017 18:28:51] "POST /InventoryApp/get_warehouse/ HTTP/1.1" 200 1531
+Not Found: /input
+[23/Dec/2017 18:49:36] "GET /input?%22pravallika%22 HTTP/1.1" 404 2082
