@@ -7,6 +7,7 @@ urlpatterns = [
     url(r'^add_employee/',csrf_exempt(add_employee),name = 'add_employee'),
     url(r'^update_employee/',csrf_exempt(update_employee),name = 'update_employee'),
     url(r'^get_employee/',csrf_exempt(get_employee),name = 'get_employee'),
+    url(r'^search_employee/',csrf_exempt(search_employee),name = 'search_employee'),
     url(r'^get_departments/',csrf_exempt(get_departments),name = 'get_departments'),
     url(r'^get_emplocation/',csrf_exempt(get_emplocation),name = 'get_emplocation'),
     url(r'^get_empjobrole/',csrf_exempt(get_empjobrole),name = 'get_empjobrole'),

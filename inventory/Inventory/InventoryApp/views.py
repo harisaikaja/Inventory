@@ -509,6 +509,81 @@ def get_employee(request):
 	logging.debug("get_user:")
 	return HttpResponse(json_output)
 	
+################################################################################################################################
+def search_employee(request):
+	if(request.method == "POST"):
+		logging.debug("search_employees:request is from ip: %s" %request.META.get('REMOTE_ADDE'))
+		output_str = "searching employees.."
+		try:
+			data1 = json.loads((request.body).decode('utf-8'))
+			print request.body
+			#return data1
+		except ValueError:
+			output_str += ",invalid input, no proper JSON request "
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("search_employees:"+ output)
+			return HttpResponse(output)
+			#return "value error"
+			
+		if(not data1):
+			output_str += "all fields are necessary"
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("search_employees:"+ output)
+			return HttpResponse(output)
+			
+		if((data1.get('employeename') is None) or ((data1.get('employeename') is not None) and (len(data1['employeename']) <=0))):
+			output_str += ",searchvalue is required"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("search_employees:"+ output)
+			return HttpResponse(output)
+		
+		else:
+			employeename = data1['employeename']
+			
+		try:
+			cursor = connection.cursor()
+			cursor.execute("set @employee = '%s'" %(employeename))
+			cursor.execute("set @employee = CONCAT('%',@employee,'%')")
+			cursor.execute("select e.id,e.fullName as fullname,e.userName,e.emailId,e.password,e.gender,e.bloodGroup,e.dateOfBirth,e.dateOfJoining,e.dateOfExit,e.Address,m.fullName as manager,h.fullName as hrname,e.departmentId,d.departmentName,e.jobRole_id,j.jobRole,e.workLocation_id,w.location from jts_employees e LEFT JOIN jts_employees m ON e.managerId_id = m.id LEFT JOIN jts_employees h ON e.reportingHr_id = h.id JOIN jts_departments d ON e.departmentId = d.id JOIN emp_jobrole j ON e.jobRole_id = j.id JOIN emp_location w ON e.worklocation_id = w.id and e.fullName LIKE @employee")
+			rows = cursor.fetchall()
+			objects_list = []
+			for row in rows:
+				d = collections.OrderedDict()
+				d['id']=row[0]
+				d['fullname'] = row[1]
+				d['username'] = row[2]
+				d['emailid'] = row[3]
+				d['password'] = row[4]
+				d['gender'] = row[5]
+				d['bloodgroup'] = row[6]
+				d['dateofbirth'] = row[7]
+				d['dateofjoining'] = row[8]
+				d['dateofexit'] = row[9]
+				d['address'] = row[10]
+				d['reportinghead'] = row[11]
+				d['reportinghr'] = row[12]
+				d['department'] = row[14]
+				d['jobrole'] = row[16]
+				d['worklocation'] = row[18]
+				objects_list.append(d)
+			json_output='{"user_details":'	
+			json_output+= json.dumps(objects_list,indent = 3,sort_keys = True, default = str)
+			json_output+='}'
+			logging.debug("get_user:")
+			return HttpResponse(json_output)
+		except Exception, e:
+			err_desc = 'search_employees:exception details:[%s],[%s]' %((sys.exc_info()[0]), (sys.exc_info()[1]))
+			logging.debug("search_employees:"+ err_desc)
+			output = '{"error_code":"2", "error_desc": "Invalid keyword/product"}' 
+			logging.debug("search_employees:"+ output)
+			return HttpResponse(output)
+	else:
+		logging.debug("search_employees: request is from the IP:%s" %request.META.get('REMOTE_ADDR'))
+		output = '{"error_code":"2", "error_desc": "GET is not supported"}' 
+		logging.debug("search_employees:"+ output)
+		return HttpResponse(output)
+	
+	
 #################################################################################################################################
 def get_hr(request):
 	cursor = connection.cursor()
@@ -1127,16 +1202,7 @@ def add_location(request):
 		return HttpResponse(output)
 
 #########################################################################################################################################
-def get_location(request):
-	'''try:
-		json_data ='{"location_details":'
-		json_data+=json.dumps([dict(item) for item in inv_location.objects.all().values('id', 'locationName','locationAddress','statusId_id')])
-		json_data+='}'
-		return HttpResponse(json_data)
-			
-	except ValueError as e:
-		return HttpResponse(e)'''
-		
+def get_location(request):	
 	cursor = connection.cursor()
 	cursor.execute("select l.id,l.locationName,l.locationAddress,s.statusName from inv_location l,inv_status s where l.statusId_id = s.id")
 	rows = cursor.fetchall()
