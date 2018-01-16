@@ -123,7 +123,7 @@ class jts_employees(models.Model):
 	jobRole = models.ForeignKey(emp_jobrole,on_delete = models.CASCADE)
 	Address = models.CharField(max_length=100)
 	workLocation = models.ForeignKey(emp_location,on_delete = models.CASCADE)
-	statusId = models.ForeignKey(inv_status,on_delete=models.CASCADE)
+	#statusId = models.ForeignKey(inv_status,on_delete=models.CASCADE)
 	
 	class Meta:
 		db_table = "jts_employees"

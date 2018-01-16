@@ -238,14 +238,14 @@ def add_employee(request):
 		else:
 			worklocation = adduserdata['worklocation']
 			
-		if((adduserdata.get('statusid') is None) or ((adduserdata.get('statusid') is not None) and (len(adduserdata['statusid']) <=0))):
+		'''if((adduserdata.get('statusid') is None) or ((adduserdata.get('statusid') is not None) and (len(adduserdata['statusid']) <=0))):
 			output_str += ",statusid is mandatory"
 			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
 			logging.debug("statusid:"+ output)
 			return HttpResponse(output)
 			
 		else:
-			statusid = adduserdata['statusid']
+			statusid = adduserdata['statusid']'''
 			
 			#checks db	
 		user_history = True
@@ -259,7 +259,7 @@ def add_employee(request):
 			return HttpResponse(output)
 
 		try:
-			user_input = jts_employees(fullName = fullname,userName = username,emailId = emailid,password = password,gender = gender,bloodGroup = bloodgroup,dateOfBirth = dateofbirth,dateOfJoining = dateofjoining,departmentId = department,Address = address,jobRole_id = jobrole,managerId_id = reportinghead,reportingHr_id = reportinghr,workLocation_id = worklocation,statusId_id = statusid)
+			user_input = jts_employees(fullName = fullname,userName = username,emailId = emailid,password = password,gender = gender,bloodGroup = bloodgroup,dateOfBirth = dateofbirth,dateOfJoining = dateofjoining,departmentId = department,Address = address,jobRole_id = jobrole,managerId_id = reportinghead,reportingHr_id = reportinghr,workLocation_id = worklocation)
 			user_input.save()
 			output = '{"error_code":"1", "error_desc": "record added"}' 
 			logging.debug("add_user:"+ output)
@@ -452,16 +452,16 @@ def update_employee(request):
 		else:
 			worklocation = updateuserdata['worklocation']
 			
-		if((updateuserdata.get('statusid') is None) or ((updateuserdata.get('statusid') is not None) and (len(updateuserdata['statusid']) <=0))):
+		'''if((updateuserdata.get('statusid') is None) or ((updateuserdata.get('statusid') is not None) and (len(updateuserdata['statusid']) <=0))):
 			output_str += ",statusid is mandatory"
 			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
 			logging.debug("statusid:"+ output)
 			return HttpResponse(output)
 			
 		else:
-			statusid = updateuserdata['statusid']
+			statusid = updateuserdata['statusid']'''
 		try:
-			user_input = jts_employees.objects.filter(id = userid).update(fullName = fullname,userName = username,emailId = emailid,password = password,gender = gender,bloodGroup = bloodgroup,dateOfBirth = dateofbirth,dateOfJoining = dateofjoining,dateOfExit = dateofexit,departmentId = department,reportingHead = reportinghead,reportingHr = reportinghr,jobRole = jobrole,Address = address,workLocation = worklocation,statusId_id = statusid)
+			user_input = jts_employees.objects.filter(id = userid).update(fullName = fullname,userName = username,emailId = emailid,password = password,gender = gender,bloodGroup = bloodgroup,dateOfBirth = dateofbirth,dateOfJoining = dateofjoining,dateOfExit = dateofexit,departmentId = department,reportingHead = reportinghead,reportingHr = reportinghr,jobRole = jobrole,Address = address,workLocation = worklocation)
 			output = '{"error_code":"1", "error_desc": "record updated"}' 
 			logging.debug("update_user:"+ output)
 			return HttpResponse(output)
@@ -481,23 +481,49 @@ def update_employee(request):
 ################################################################################################################################
 def get_employee(request):
 	cursor = connection.cursor()
-	cursor.execute("select u.*,s.statusName from jts_employees as u  join inv_status as s where u.statusId_id = s.id")
+	cursor.execute("select e.id,e.fullName as fullname,e.userName,e.emailId,e.password,e.gender,e.bloodGroup,e.dateOfBirth,e.dateOfJoining,e.dateOfExit,e.Address,m.fullName as manager,h.fullName as hrname,e.departmentId,d.departmentName,e.jobRole_id,j.jobRole,e.workLocation_id,w.location from jts_employees e LEFT JOIN jts_employees m ON e.managerId_id = m.id LEFT JOIN jts_employees h ON e.reportingHr_id = h.id JOIN jts_departments d ON e.departmentId = d.id JOIN emp_jobrole j ON e.jobRole_id = j.id JOIN emp_location w ON e.worklocation_id = w.id")
 	rows = cursor.fetchall()
 	objects_list = []
 	for row in rows:
 		d = collections.OrderedDict()
 		d['id']=row[0]
-		d['username'] = row[1]
-		d['emailid'] = row[2]
-		d['passoword'] = row[3]
-		d['gender'] = row[4]
-		d['jobrole'] = row[5]
-		d['status'] = row[7]
+		d['fullname'] = row[1]
+		d['username'] = row[2]
+		d['emailid'] = row[3]
+		d['password'] = row[4]
+		d['gender'] = row[5]
+		d['bloodgroup'] = row[6]
+		d['dateofbirth'] = row[7]
+		d['dateofjoining'] = row[8]
+		d['dateofexit'] = row[9]
+		d['address'] = row[10]
+		d['reportinghead'] = row[11]
+		d['reportinghr'] = row[12]
+		d['department'] = row[14]
+		d['jobrole'] = row[16]
+		d['worklocation'] = row[18]
 		objects_list.append(d)
 	json_output='{"user_details":'	
 	json_output+= json.dumps(objects_list,indent = 3,sort_keys = True, default = str)
 	json_output+='}'
 	logging.debug("get_user:")
+	return HttpResponse(json_output)
+	
+#################################################################################################################################
+def get_hr(request):
+	cursor = connection.cursor()
+	cursor.execute("select e.fullname,j.jobRole from jts_employees e JOIN emp_jobrole j ON e.jobRole_id = j.id where j.jobRole = 'Hr'")
+	rows = cursor.fetchall()
+	objects_list = []
+	for row in rows:
+		d = collections.OrderedDict()
+		d['hrname']=row[0]
+		d['role'] = row[1]
+		objects_list.append(d)
+	json_output='{"hr_details":'	
+	json_output+= json.dumps(objects_list,indent = 3,sort_keys = True, default = str)
+	json_output+='}'
+	logging.debug("hr_details:")
 	return HttpResponse(json_output)
 	
 ################################################################################################################################
