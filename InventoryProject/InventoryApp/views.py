@@ -9,6 +9,7 @@ from django.http import HttpResponse
 from django.http import JsonResponse
 from django.core import serializers
 from django.db import connection
+from passlib.hash import sha256_crypt
 import collections
 import json
 import logging
@@ -58,15 +59,18 @@ def login(request):
 			passcode = logindata['password']
 			
 		cursor = connection.cursor()
-		cursor.execute ("select userName,password from jts_employees where userName = '%s' and password = '%s'" %(username,passcode))
-		row = cursor.fetchall()
-		if(len(row)>0):
-			output = '{"error_code":"1", "error_desc": "login Successfull"}'
-			return HttpResponse(output)
-			
-		else:
-			output = '{"error_code":"2", "error_desc": "Invalid username or password"}'
-			return HttpResponse(output)
+		cursor.execute ("select password from jts_employees where fullName = '%s'" %(username))
+		rows = cursor.fetchall()
+		if(len(rows)>0):
+			for row in rows:
+				password = row[0]
+				verification = sha256_crypt.verify(passcode,password)
+				if (verification == True):
+					output = '{"error_code":"1", "error_desc": "login Successfull"}'
+					return HttpResponse(output)
+				else:
+					output = '{"error_code":"2", "error_desc": "Invalid username or password"}'
+					return HttpResponse(output)
 				
 		'''login_status = True
 		
@@ -146,7 +150,7 @@ def add_employee(request):
 			return HttpResponse(output)
 			
 		else:
-			password = adduserdata['password']
+			password = sha256_crypt.hash(adduserdata['password'])
 		
 		if((adduserdata.get('gender') is None) or ((adduserdata.get('gender') is not None) and (len(adduserdata['gender']) <=0))):
 			output_str += ",gender is mandatory"
@@ -211,7 +215,7 @@ def add_employee(request):
 		else:
 			jobrole = adduserdata['jobrole']
 			
-		if((adduserdata.get('reportinghead') is None) or ((adduserdata.get('reportinghead') is not None) and (len(adduserdata['reportinghead']) <=0))):
+		if(adduserdata.get('reportinghead') is None):
 			output_str += ",reportinghead is mandatory"
 			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
 			logging.debug("reportinghead:"+ output)
@@ -220,7 +224,7 @@ def add_employee(request):
 		else:
 			reportinghead = adduserdata['reportinghead']
 			
-		if((adduserdata.get('reportinghr') is None) or ((adduserdata.get('reportinghr') is not None) and (len(adduserdata['reportinghr']) <=0))):
+		if(adduserdata.get('reportinghr') is None):
 			output_str += ",reportinghr is mandatory"
 			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
 			logging.debug("reportinghr:"+ output)
@@ -259,7 +263,7 @@ def add_employee(request):
 			return HttpResponse(output)
 
 		try:
-			user_input = jts_employees(fullName = fullname,userName = username,emailId = emailid,password = password,gender = gender,bloodGroup = bloodgroup,dateOfBirth = dateofbirth,dateOfJoining = dateofjoining,departmentId = department,Address = address,jobRole_id = jobrole,managerId_id = reportinghead,reportingHr_id = reportinghr,workLocation_id = worklocation)
+			user_input = jts_employees(fullName = fullname,userName = username,emailId = emailid,Password = password,gender = gender,bloodGroup = bloodgroup,dateOfBirth = dateofbirth,dateOfJoining = dateofjoining,departmentId = department,Address = address,jobRole_id = jobrole,managerId_id = reportinghead,reportingHr_id = reportinghr,workLocation_id = worklocation)
 			user_input.save()
 			output = '{"error_code":"1", "error_desc": "record added"}' 
 			logging.debug("add_user:"+ output)
@@ -316,15 +320,6 @@ def update_employee(request):
 			
 		else:
 			fullname = updateuserdata['fullname']
-			
-		if((updateuserdata.get('lastname') is None) or ((updateuserdata.get('lastname') is not None) and (len(updateuserdata['lastname']) <=0))):
-			output_str += ",lastname is mandatory"
-			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
-			logging.debug("lastname:"+ output)
-			return HttpResponse(output)
-			
-		else:
-			lastname = updateuserdata['lastname']
 				
 		if((updateuserdata.get('username') is None) or ((updateuserdata.get('username') is not None) and (len(updateuserdata['username']) <=0))):
 			output_str += ",username is mandatory"
@@ -343,15 +338,6 @@ def update_employee(request):
 			
 		else:
 			emailid = updateuserdata['emailid']
-			
-		if((updateuserdata.get('password') is None) or ((updateuserdata.get('password') is not None) and (len(updateuserdata['password']) <=0))):
-			output_str += ",password is mandatory"
-			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
-			logging.debug("password:"+ output)
-			return HttpResponse(output)
-			
-		else:
-			password = updateuserdata['password']
 		
 		if((updateuserdata.get('gender') is None) or ((updateuserdata.get('gender') is not None) and (len(updateuserdata['gender']) <=0))):
 			output_str += ",gender is mandatory"
@@ -389,14 +375,14 @@ def update_employee(request):
 		else:
 			dateofjoining = updateuserdata['dateofjoining']
 			
-		if((updateuserdata.get('dateofexit') is None) or ((updateuserdata.get('dateofexit') is not None) and (len(updateuserdata['dateofexit']) <=0))):
+		'''if(updateuserdata.get('dateofexit') is None):
 			output_str += ",dateofexit is mandatory"
 			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
 			logging.debug("dateofexit:"+ output)
 			return HttpResponse(output)
 			
 		else:
-			dateofexit = updateuserdata['dateofexit']
+			dateofexit = updateuserdata['dateofexit']'''
 			
 		if((updateuserdata.get('department') is None) or ((updateuserdata.get('department') is not None) and (len(updateuserdata['department']) <=0))):
 			output_str += ",department is mandatory"
@@ -461,7 +447,7 @@ def update_employee(request):
 		else:
 			statusid = updateuserdata['statusid']'''
 		try:
-			user_input = jts_employees.objects.filter(id = userid).update(fullName = fullname,userName = username,emailId = emailid,password = password,gender = gender,bloodGroup = bloodgroup,dateOfBirth = dateofbirth,dateOfJoining = dateofjoining,dateOfExit = dateofexit,departmentId = department,reportingHead = reportinghead,reportingHr = reportinghr,jobRole = jobrole,Address = address,workLocation = worklocation)
+			user_input = jts_employees.objects.filter(id = userid).update(fullName = fullname,userName = username,emailId = emailid,gender = gender,bloodGroup = bloodgroup,dateOfBirth = dateofbirth,dateOfJoining = dateofjoining,departmentId = department,Address = address,jobRole_id = jobrole,managerId_id = reportinghead,reportingHr_id = reportinghr,workLocation_id = worklocation)
 			output = '{"error_code":"1", "error_desc": "record updated"}' 
 			logging.debug("update_user:"+ output)
 			return HttpResponse(output)
@@ -481,7 +467,7 @@ def update_employee(request):
 ################################################################################################################################
 def get_employee(request):
 	cursor = connection.cursor()
-	cursor.execute("select e.id,e.fullName as fullname,e.userName,e.emailId,e.password,e.gender,e.bloodGroup,e.dateOfBirth,e.dateOfJoining,e.dateOfExit,e.Address,m.fullName as manager,h.fullName as hrname,e.departmentId,d.departmentName,e.jobRole_id,j.jobRole,e.workLocation_id,w.location from jts_employees e LEFT JOIN jts_employees m ON e.managerId_id = m.id LEFT JOIN jts_employees h ON e.reportingHr_id = h.id JOIN jts_departments d ON e.departmentId = d.id JOIN emp_jobrole j ON e.jobRole_id = j.id JOIN emp_location w ON e.worklocation_id = w.id ORDER BY e.id")
+	cursor.execute("select e.id,e.fullName as fullname,e.userName,e.emailId,e.gender,e.bloodGroup,e.dateOfBirth,e.dateOfJoining,e.dateOfExit,e.Address,m.fullName as manager,h.fullName as hrname,e.departmentId,d.departmentName,e.jobRole_id,j.jobRole,e.workLocation_id,w.location from jts_employees e LEFT JOIN jts_employees m ON e.managerId_id = m.id LEFT JOIN jts_employees h ON e.reportingHr_id = h.id JOIN jts_departments d ON e.departmentId = d.id JOIN emp_jobrole j ON e.jobRole_id = j.id JOIN emp_location w ON e.worklocation_id = w.id ORDER BY e.id")
 	rows = cursor.fetchall()
 	objects_list = []
 	for row in rows:
@@ -490,18 +476,17 @@ def get_employee(request):
 		d['fullname'] = row[1]
 		d['username'] = row[2]
 		d['emailid'] = row[3]
-		d['password'] = row[4]
-		d['gender'] = row[5]
-		d['bloodgroup'] = row[6]
-		d['dateofbirth'] = row[7]
-		d['dateofjoining'] = row[8]
-		d['dateofexit'] = row[9]
-		d['address'] = row[10]
-		d['reportinghead'] = row[11]
-		d['reportinghr'] = row[12]
-		d['department'] = row[14]
-		d['jobrole'] = row[16]
-		d['worklocation'] = row[18]
+		d['gender'] = row[4]
+		d['bloodgroup'] = row[5]
+		d['dateofbirth'] = row[6]
+		d['dateofjoining'] = row[7]
+		d['dateofexit'] = row[8]
+		d['address'] = row[9]
+		d['reportinghead'] = row[10]
+		d['reportinghr'] = row[11]
+		d['department'] = row[13]
+		d['jobrole'] = row[15]
+		d['worklocation'] = row[17]
 		objects_list.append(d)
 	json_output='{"user_details":'	
 	json_output+= json.dumps(objects_list,indent = 3,sort_keys = True, default = str)

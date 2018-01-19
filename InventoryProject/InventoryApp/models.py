@@ -111,7 +111,7 @@ class jts_employees(models.Model):
 	fullName = models.CharField(max_length=25)
 	userName = models.CharField(max_length=25)
 	emailId = models.CharField(max_length=30)
-	password = models.CharField(max_length=30)
+	Password = models.CharField(max_length=250)
 	gender = models.CharField(max_length=7,choices = emp_Choices)
 	bloodGroup = models.CharField(max_length=3)
 	dateOfBirth = models.DateField(max_length=8)
