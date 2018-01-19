@@ -1248,3 +1248,6 @@ IndexError: tuple index out of range
 2018-01-19 18:22:03,474 DEBUG update_user:{"error_code":"1", "error_desc": "record updated"}
 2018-01-19 18:22:06,109 DEBUG get_user:
 2018-01-19 18:22:14,186 DEBUG hr_details:
+2018-01-19 18:35:17,133 DEBUG hr_details:
+2018-01-19 18:35:22,158 DEBUG get_user:
+2018-01-19 18:46:16,941 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>

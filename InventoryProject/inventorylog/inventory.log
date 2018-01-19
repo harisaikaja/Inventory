@@ -2049,3 +2049,93 @@ NameError: name 'get_location' is not defined
 [19/Jan/2018 18:22:06] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
 [19/Jan/2018 18:22:13] "GET /InventoryApp/get_hr HTTP/1.1" 301 0
 [19/Jan/2018 18:22:14] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[19/Jan/2018 18:35:17] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[19/Jan/2018 18:35:22] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 19, 2018 - 18:20:55
+Django version 1.11.7, using settings 'InventoryProject.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+{"id":"8","fullname":"test","username":"test","emailid":"test@jochebedtech.com","password":"test","gender":"male","bloodgroup":"o+","dateofbirth":"1980-01-01","dateofjoining":"2015-01-01","department":"1","reportinghead":"4","reportinghr":"5","jobrole":"1","address":"hyderabad","worklocation":"1","statusid":"1"}
+{"id":"8","fullname":"test","username":"test","emailid":"test@jochebedtech.com","password":"test","gender":"male","bloodgroup":"o+","dateofbirth":"1980-01-01","dateofjoining":"2015-01-01","department":"1","reportinghead":"4","reportinghr":"5","jobrole":"1","address":"hyderabad","worklocation":"1","statusid":"1"}
+{"id":"8","fullname":"test","username":"test","emailid":"test@jochebedtech.com","password":"test","gender":"male","bloodgroup":"o+","dateofbirth":"1980-01-01","dateofjoining":"2015-01-01","department":"1","reportinghead":"4","reportinghr":"5","jobrole":"1","address":"hyderabad","worklocation":"1","statusid":"1"}
+{"id":"8","fullname":"test","username":"test","emailid":"test@jochebedtech.com","password":"test","gender":"male","bloodgroup":"o+","dateofbirth":"1980-01-01","dateofjoining":"2015-01-01","department":"1","reportinghead":"4","reportinghr":"5","jobrole":"2","address":"hyderabad","worklocation":"1","statusid":"1"}
+{"id":"8","fullname":"test","username":"test","emailid":"test@jochebedtech.com","password":"test","gender":"male","bloodgroup":"o+","dateofbirth":"1980-01-01","dateofjoining":"2015-01-01","department":"1","reportinghead":"4","reportinghr":"5","jobrole":"3","address":"hyderabad","worklocation":"1","statusid":"1"}
+Unhandled exception in thread started by <function wrapper at 0x7f59125ad7d0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 3, in <module>
+    from InventoryApp.views import *
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 408
+    logging.debug("repor
+                       ^
+SyntaxError: EOL while scanning string literal
+Unhandled exception in thread started by <function wrapper at 0x7fe823a457d0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 3, in <module>
+    from InventoryApp.views import *
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 1957
+    cursor.execute("select p.* ,m.materialType,u.measurementName,s.statusName from inv_produc
+                                                                                            ^
+SyntaxError: EOL while scanning string literal

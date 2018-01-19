@@ -274,7 +274,7 @@ def add_employee(request):
 			logging.debug("adduser:"+ err_desc)
 			output = '{"error_code":"2", "error_desc": "Failed to add user"}' 
 			logging.debug("add_user:"+ output)
-			return HttpResponse(err_desc)
+			return HttpResponse(output)
 	else:
 		logging.debug("adduser: request is from the IP:%s" %request.META.get('REMOTE_ADDR'))
 		output = '{"error_code":"2", "error_desc": "GET is not supported"}' 
