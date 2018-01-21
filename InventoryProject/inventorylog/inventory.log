@@ -2139,3 +2139,832 @@ Traceback (most recent call last):
     cursor.execute("select p.* ,m.materialType,u.measurementName,s.statusName from inv_produc
                                                                                             ^
 SyntaxError: EOL while scanning string literal
+[19/Jan/2018 19:55:16] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[19/Jan/2018 19:55:16] "GET /robots.txt HTTP/1.1" 404 84
+[19/Jan/2018 21:56:45] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[19/Jan/2018 22:02:35] "POST /InventoryApp/update_employee/ HTTP/1.1" 200 50
+[19/Jan/2018 22:03:35] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:19:24] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:19:27] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:19:27] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:19:27] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:19:27] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:19:27] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:20:19] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:20:21] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:20:21] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:20:21] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:20:21] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:20:21] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:20:25] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:20:28] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:20:28] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:20:28] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:20:28] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:20:28] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:23:17] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:23:20] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:23:20] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:23:20] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:23:20] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:23:20] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:28:43] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:28:54] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:28:54] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:28:55] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:28:55] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:28:55] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:30:04] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:30:08] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:30:08] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:30:08] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:30:08] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:30:08] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:30:17] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:30:20] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:30:20] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:30:20] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:30:20] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:30:20] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:30:26] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:30:30] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:30:30] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:30:30] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:30:30] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:30:30] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:30:34] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:30:39] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:30:39] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:30:39] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:30:39] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:30:39] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:30:50] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:30:54] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:30:54] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:30:54] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:30:54] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:30:54] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:30:59] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:31:02] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:31:07] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:31:07] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:31:07] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:31:07] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:31:07] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:31:13] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:31:19] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:31:20] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:31:20] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:31:20] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:31:20] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:32:27] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:32:31] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:32:31] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:32:31] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:32:31] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:32:31] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:35:57] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:36:04] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:36:04] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:36:04] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:36:04] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:36:04] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:36:46] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:36:48] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:36:48] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:36:48] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:36:48] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:36:48] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:41:50] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:44:33] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:44:33] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:44:33] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:44:33] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:44:33] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:44:59] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:45:04] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:45:04] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:45:04] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:45:04] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:45:04] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:47:18] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:50:04] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:50:04] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:50:04] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:50:04] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:50:04] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:51:31] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:51:38] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:51:38] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:51:38] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:51:38] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:51:38] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:51:39] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:51:39] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:51:39] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:51:39] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:51:39] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:51:44] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:51:46] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:51:47] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:51:47] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:51:47] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:51:47] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:54:12] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:56:50] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:57:56] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:57:56] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:57:56] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:57:56] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:57:56] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:58:55] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:59:12] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:59:17] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:59:17] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:59:17] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:59:18] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:59:18] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:59:28] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:59:32] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:59:32] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:59:32] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:59:33] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:59:33] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:59:39] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:59:39] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:59:39] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:59:39] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:59:39] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:59:44] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:59:44] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:59:44] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:59:44] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:59:44] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 12:01:42] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 12:01:55] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 12:01:55] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 12:01:55] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 12:01:55] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 12:01:55] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 12:06:59] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 12:08:07] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 12:08:07] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 12:08:07] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 12:08:07] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 12:08:07] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 12:14:04] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 12:14:08] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 12:14:08] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 12:14:08] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 12:14:08] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 12:14:08] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 12:16:11] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 12:16:14] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 12:16:14] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 12:16:14] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 12:16:14] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 12:16:14] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 12:19:18] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 12:19:27] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 12:19:27] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 12:19:27] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 12:19:27] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 12:19:27] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 12:24:29] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 12:32:23] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 12:35:18] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 12:35:36] "GET /InventoryApp/get_location/ HTTP/1.1" 200 511
+[20/Jan/2018 12:35:40] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 269
+[20/Jan/2018 12:35:51] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[20/Jan/2018 12:35:55] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 269
+[20/Jan/2018 12:36:05] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[2018-01-20 12:36:05,430] - Broken pipe from ('122.175.46.31', 34075)
+
+[20/Jan/2018 12:36:09] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[20/Jan/2018 12:36:15] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[20/Jan/2018 12:36:16] "GET /InventoryApp/get_position/ HTTP/1.1" 200 23
+[20/Jan/2018 12:44:19] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 12:44:21] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 14:22:00] "POST /InventoryApp/forget_password/ HTTP/1.1" 404 103
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 19, 2018 - 18:46:16
+Django version 1.11.7, using settings 'InventoryProject.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+{"id":"8","fullname":"test","username":"test","emailid":"test@jochebedtech.com","password":"test","gender":"male","bloodgroup":"o+","dateofbirth":"1980-01-01","dateofjoining":"2015-01-01","department":"1","reportinghead":"4","reportinghr":"5","jobrole":"3","address":"hyderabad","worklocation":"1","statusid":"1"}
+Unhandled exception in thread started by <function wrapper at 0x7f527efe27d0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 3, in <module>
+    from InventoryApp.views import *
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 409
+    
+                                    ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0x7f72d072d7d0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 3, in <module>
+    from InventoryApp.views import *
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 1181
+    output = '{"error
+                    ^
+SyntaxError: EOL while scanning string literal
+Unhandled exception in thread started by <function wrapper at 0x7fa2f3fa07d0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 3, in <module>
+    from InventoryApp.views import *
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 2372
+    output = '{"error_code":"2", "error_desc": "position doesnot exists ple
+                                                                          ^
+SyntaxError: EOL while scanning string literal
+nohup: ignoring input
+python: can't open file 'inventorystart.py': [Errno 2] No such file or directory
+nohup: ignoring input
+[20/Jan/2018 15:13:53] "GET /robots.txt HTTP/1.1" 404 84
+[20/Jan/2018 15:13:56] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 20, 2018 - 15:13:21
+Django version 1.11.7, using settings 'InventoryProject.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f72fb49e7d0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 6, in <module>
+    url(r'^login/',csrf_exempt(login),name = 'login'),
+NameError: name 'login' is not defined
+Unhandled exception in thread started by <function wrapper at 0x7fbbf34dd7d0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 3, in <module>
+    from InventoryApp.views import *
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 1596
+    output = '{"
+               ^
+SyntaxError: EOL while scanning string literal
+[20/Jan/2018 16:37:22] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:37:34] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 16:37:34] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 16:37:35] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:37:37] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:37:37] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:37:38] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:37:38] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:37:38] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:42:38] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:43:20] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:45:59] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:46:03] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:46:03] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 16:46:04] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:46:04] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:46:04] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 16:46:09] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:46:13] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 16:46:13] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:46:13] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:46:13] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 16:46:14] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:46:15] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:51:17] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:51:20] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:54:02] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:54:05] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:54:13] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 16:54:13] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:54:13] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 16:54:13] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:54:15] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:54:16] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:54:16] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:54:16] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 16:54:16] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 16:54:18] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:54:29] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:54:31] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:54:37] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:54:38] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 16:54:38] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:54:38] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 16:54:40] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:54:40] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:54:40] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:54:40] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 16:54:40] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 16:54:42] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:54:49] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:54:52] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:54:57] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 16:54:57] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:54:57] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:54:57] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 16:55:00] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:55:04] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:55:10] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:55:13] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 16:55:16] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:55:17] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:55:17] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 16:55:19] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:55:19] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:55:20] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 16:55:20] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:55:26] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:55:37] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:55:39] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:55:47] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 16:55:47] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:55:47] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:55:47] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 16:55:49] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:55:55] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:55:57] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:56:04] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 16:56:04] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:56:04] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 16:56:04] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:56:08] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:56:08] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:56:10] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:56:16] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:56:29] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:57:01] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:57:05] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:57:05] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:57:06] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 16:57:06] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 16:57:09] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:57:09] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 16:57:09] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 16:57:09] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:57:12] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:57:23] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:57:28] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:57:50] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:58:08] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:58:11] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:58:19] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:58:19] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:58:19] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 16:58:19] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 16:58:22] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:05:20] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:05:21] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:05:28] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 17:05:28] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 17:05:28] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 17:05:28] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 17:05:30] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:05:31] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 17:05:31] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 17:05:31] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 17:05:31] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:06:40] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:06:50] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 17:06:50] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 17:06:50] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 17:06:50] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 17:06:53] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 17:06:53] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:06:53] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:06:56] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:07:12] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:07:24] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:07:25] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 17:07:25] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 17:07:25] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 17:07:25] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 17:07:28] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:07:28] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 17:07:28] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 17:07:28] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 17:07:31] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:08:14] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:12:34] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:12:38] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 17:12:38] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 17:12:38] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 17:12:38] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 17:12:40] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:15:53] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:15:56] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:16:05] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 17:16:05] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 17:16:07] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 17:16:08] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 17:16:10] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:16:10] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 17:16:12] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:16:12] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 17:20:59] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:21:01] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:22:59] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:22:59] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 17:22:59] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 17:22:59] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 17:22:59] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 17:23:01] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 17:23:01] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 17:23:01] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 18:00:40] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:00:45] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 18:00:45] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 18:00:45] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 18:00:45] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:00:45] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 18:00:59] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 18:00:59] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 18:00:59] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:00:59] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 18:00:59] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 18:01:36] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:13:53] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:14:01] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 18:14:01] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 18:14:01] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 18:14:01] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:14:01] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 18:17:48] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:17:55] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:19:11] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:19:16] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 18:19:16] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 18:19:16] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 18:19:16] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 18:19:21] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:19:29] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:19:31] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 18:19:31] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 18:19:31] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 18:19:31] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 18:19:36] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:20:14] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:20:16] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 18:20:16] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 18:20:16] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 18:20:16] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 18:20:21] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:20:52] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:21:22] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 18:21:22] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 18:21:23] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 18:21:23] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 18:21:27] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:21:33] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:26:27] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:38:20] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:38:34] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 18:38:34] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 18:38:34] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 18:38:35] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 18:38:39] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:40:57] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:40:59] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 18:40:59] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 18:40:59] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 18:40:59] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 18:41:04] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:41:08] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:43:22] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 18:43:22] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 18:43:22] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 18:43:22] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 18:43:27] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:47:28] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:47:31] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 18:47:31] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 18:47:31] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 18:47:31] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 18:47:36] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:49:02] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:49:05] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 18:49:05] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 18:49:05] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 18:49:05] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 18:49:10] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:49:15] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:49:19] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 18:49:19] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 18:49:19] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 18:49:19] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 18:49:24] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:49:32] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:49:35] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 18:49:35] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 18:49:35] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 18:49:35] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 18:49:40] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:49:43] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:57:08] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[20/Jan/2018 18:57:50] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:59:43] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:00:53] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:00:53] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:00:53] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:00:53] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:00:56] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:00:58] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:01:57] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:02:01] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:02:01] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:02:01] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:02:01] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:02:05] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:02:44] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:02:49] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:02:49] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:02:49] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:02:49] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:02:53] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+nohup: ignoring input
+[20/Jan/2018 19:05:23] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:05:24] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:05:26] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:05:29] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[2018-01-20 19:05:29,845] - Broken pipe from ('122.175.46.31', 58474)
+
+[20/Jan/2018 19:05:43] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[20/Jan/2018 19:06:00] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[20/Jan/2018 19:07:50] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:07:53] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:07:54] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:07:54] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:07:54] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:07:59] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:12:02] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:12:17] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:12:23] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:12:23] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:12:23] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:12:23] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:12:28] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:17:29] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:20:22] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:20:27] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:20:27] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:20:27] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:20:27] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:20:31] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:21:35] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:21:39] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:21:39] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:21:39] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:21:39] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:21:43] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:23:25] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:23:50] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:23:50] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:23:50] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:23:50] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:23:53] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:23:56] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:27:12] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:27:17] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:27:17] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:27:17] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:27:17] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:27:21] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:30:42] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:30:45] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:30:45] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:30:45] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:30:45] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:30:50] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:31:25] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:31:30] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:31:31] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:31:31] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:31:31] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:31:35] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:33:19] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:33:38] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:33:38] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:33:38] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:33:39] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:33:43] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:33:56] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:33:59] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:33:59] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:33:59] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:33:59] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:34:04] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:35:29] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:35:32] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:35:32] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:35:32] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:35:32] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:35:37] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:35:56] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:35:59] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:35:59] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:35:59] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:35:59] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:36:04] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:36:21] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:36:24] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:36:24] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:36:24] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:36:24] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:36:28] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:40:29] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:40:34] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:40:34] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:40:34] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:40:34] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:40:38] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:41:38] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:41:44] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:41:44] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:41:44] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:41:44] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:41:48] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:45:42] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:45:48] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:45:48] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:45:48] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:45:48] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:45:52] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:50:04] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:50:08] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:50:08] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:50:08] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:50:08] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:50:12] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:51:30] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:51:33] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:51:33] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:51:33] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:51:33] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:51:38] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:51:44] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:51:46] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:51:46] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:51:46] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:51:46] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:51:51] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:51:58] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:52:01] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:52:01] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:52:01] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:52:01] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:52:06] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:52:50] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:53:05] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:53:05] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:53:05] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:53:05] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:53:10] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:53:26] "POST /InventoryApp/add_employee/ HTTP/1.1" 200 89
+[20/Jan/2018 20:12:08] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 20:22:48] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876

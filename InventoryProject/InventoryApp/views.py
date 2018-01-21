@@ -256,7 +256,7 @@ def add_employee(request):
 		
 		user_history_get = jts_employees.objects.filter(userName=username)
 		if(len(user_history_get) > 0): #just update the ChangeDate         
-			is_history_rec_needed = False
+			user_history = False
 			#print("matching")
 			output = '{"error_code":"4", "error_desc": "user already exists please login"}'
 			logging.debug("add_user:"+ output)
