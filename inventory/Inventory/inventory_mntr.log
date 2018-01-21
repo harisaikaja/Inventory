@@ -3854,3 +3854,8 @@ RuntimeError: You called this URL via POST, but the URL doesn't end in a slash a
 2018-01-04 17:42:44,645 DEBUG get_warehouse:
 2018-01-04 17:42:52,752 DEBUG add_product:request is from ip: None
 2018-01-04 17:42:52,753 DEBUG productname:{"error_code":"2", "error_desc": "Inserting data into products..,productname is mandatory"}
+2018-01-19 14:04:02,834 DEBUG registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+2018-01-19 14:04:23,655 DEBUG registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+2018-01-19 14:04:30,606 DEBUG registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+2018-01-19 14:15:43,694 DEBUG registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+2018-01-19 14:15:53,462 DEBUG registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
