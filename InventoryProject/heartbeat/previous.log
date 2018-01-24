@@ -1,0 +1,2518 @@
+2018-01-17 13:13:39,878 WARNING Not Found: /robots.txt
+2018-01-17 13:13:39,884 WARNING Not Found: /
+2018-01-17 13:13:40,516 WARNING Not Found: /favicon.ico
+2018-01-17 13:13:41,239 WARNING Not Found: /favicon.ico
+2018-01-17 13:13:48,004 WARNING Not Found: /
+2018-01-17 13:14:03,604 WARNING Not Found: /InventoryProject/
+2018-01-17 13:30:00,627 WARNING Not Found: /InventoryProject/
+2018-01-17 13:30:14,139 WARNING Not Found: /InventoryApp/
+2018-01-17 13:30:25,915 WARNING Not Found: /InventoryApp/
+2018-01-17 13:46:39,134 WARNING Not Found: /robots.txt
+2018-01-17 13:46:39,135 DEBUG hr_details:
+2018-01-17 16:01:47,970 DEBUG get_user:
+2018-01-17 16:02:41,090 DEBUG get_user:
+2018-01-17 16:03:54,032 DEBUG get_user:
+2018-01-17 16:05:30,588 DEBUG warehouse_add:request is from ip: None
+2018-01-17 16:05:30,591 DEBUG warehouse_add:{"error_code":"1", "error_desc": "record added"}
+2018-01-17 16:05:34,608 DEBUG warehouse_add:request is from ip: None
+2018-01-17 16:05:34,610 DEBUG warehouse_add:{"error_code":"4", "error_desc": "Your warehouse already exists."}
+2018-01-17 16:05:42,689 DEBUG warehouse_add:request is from ip: None
+2018-01-17 16:05:42,691 DEBUG warehouse_add:{"error_code":"1", "error_desc": "record added"}
+2018-01-17 16:05:44,549 DEBUG warehouse_add:request is from ip: None
+2018-01-17 16:05:44,550 DEBUG warehouse_add:{"error_code":"4", "error_desc": "Your warehouse already exists."}
+2018-01-17 16:05:52,300 DEBUG get_warehouse:
+2018-01-17 16:14:22,356 DEBUG get_warehouse:
+2018-01-17 16:14:24,472 DEBUG get_warehouse:
+2018-01-17 16:14:26,041 DEBUG get_warehouse:
+2018-01-17 16:14:26,726 DEBUG get_warehouse:
+2018-01-17 16:39:28,221 DEBUG get_warehouse:
+2018-01-17 16:39:29,682 WARNING Not Found: /favicon.ico
+2018-01-17 19:25:07,267 WARNING Not Found: /robots.txt
+2018-01-17 19:25:09,809 DEBUG get_user:
+2018-01-17 19:40:18,193 WARNING Not Found: /robots.txt
+2018-01-17 19:40:18,201 DEBUG get_user:
+2018-01-18 10:37:34,283 DEBUG get_user:
+2018-01-18 10:37:43,425 DEBUG get_empjobrole:
+2018-01-18 10:37:43,430 DEBUG get_departments:
+2018-01-18 10:37:43,433 DEBUG get_user:
+2018-01-18 10:37:43,436 DEBUG get_emplocation:
+2018-01-18 10:37:43,439 DEBUG hr_details:
+2018-01-18 10:43:17,108 DEBUG get_user:
+2018-01-18 10:43:21,054 DEBUG get_empjobrole:
+2018-01-18 10:43:21,130 DEBUG get_emplocation:
+2018-01-18 10:43:21,159 DEBUG get_user:
+2018-01-18 10:43:21,184 DEBUG get_departments:
+2018-01-18 10:43:21,262 DEBUG hr_details:
+2018-01-18 10:49:38,050 DEBUG get_user:
+2018-01-18 10:49:42,638 DEBUG get_emplocation:
+2018-01-18 10:49:42,643 DEBUG get_empjobrole:
+2018-01-18 10:49:42,650 DEBUG get_user:
+2018-01-18 10:49:42,653 DEBUG get_departments:
+2018-01-18 10:49:42,657 DEBUG hr_details:
+2018-01-18 10:51:43,585 DEBUG get_user:
+2018-01-18 10:51:46,802 DEBUG get_departments:
+2018-01-18 10:51:46,818 DEBUG get_empjobrole:
+2018-01-18 10:51:46,821 DEBUG hr_details:
+2018-01-18 10:51:46,825 DEBUG get_emplocation:
+2018-01-18 10:51:46,838 DEBUG get_user:
+2018-01-18 10:55:50,999 DEBUG get_user:
+2018-01-18 10:55:55,480 DEBUG get_empjobrole:
+2018-01-18 10:55:55,493 DEBUG hr_details:
+2018-01-18 10:55:55,493 DEBUG get_departments:
+2018-01-18 10:55:55,494 DEBUG get_user:
+2018-01-18 10:55:55,504 DEBUG get_emplocation:
+2018-01-18 11:15:28,738 DEBUG get_user:
+2018-01-18 11:15:34,384 DEBUG get_emplocation:
+2018-01-18 11:15:34,388 DEBUG get_user:
+2018-01-18 11:15:34,393 DEBUG get_empjobrole:
+2018-01-18 11:15:34,395 DEBUG hr_details:
+2018-01-18 11:15:34,401 DEBUG get_departments:
+2018-01-18 11:18:02,900 DEBUG get_user:
+2018-01-18 11:18:06,164 DEBUG get_emplocation:
+2018-01-18 11:18:06,165 DEBUG hr_details:
+2018-01-18 11:18:06,168 DEBUG get_departments:
+2018-01-18 11:18:06,356 DEBUG get_empjobrole:
+2018-01-18 11:18:06,361 DEBUG get_user:
+2018-01-18 11:19:58,429 DEBUG get_user:
+2018-01-18 11:20:02,718 DEBUG get_emplocation:
+2018-01-18 11:20:02,863 DEBUG get_departments:
+2018-01-18 11:20:02,873 DEBUG get_user:
+2018-01-18 11:20:02,907 DEBUG hr_details:
+2018-01-18 11:20:02,913 DEBUG get_empjobrole:
+2018-01-18 11:21:58,208 DEBUG get_user:
+2018-01-18 11:23:00,881 DEBUG get_user:
+2018-01-18 11:23:06,927 DEBUG get_emplocation:
+2018-01-18 11:23:06,930 DEBUG get_departments:
+2018-01-18 11:23:06,939 DEBUG get_empjobrole:
+2018-01-18 11:23:06,942 DEBUG get_user:
+2018-01-18 11:23:06,943 DEBUG hr_details:
+2018-01-18 11:24:26,691 DEBUG get_user:
+2018-01-18 11:24:32,921 DEBUG get_emplocation:
+2018-01-18 11:24:32,924 DEBUG get_departments:
+2018-01-18 11:24:32,952 DEBUG get_empjobrole:
+2018-01-18 11:24:32,967 DEBUG hr_details:
+2018-01-18 11:24:32,976 DEBUG get_user:
+2018-01-18 11:27:14,057 DEBUG get_user:
+2018-01-18 11:27:21,353 DEBUG get_emplocation:
+2018-01-18 11:27:21,376 DEBUG get_empjobrole:
+2018-01-18 11:27:21,438 DEBUG hr_details:
+2018-01-18 11:27:21,446 DEBUG get_departments:
+2018-01-18 11:27:21,474 DEBUG get_user:
+2018-01-18 11:33:44,119 DEBUG get_user:
+2018-01-18 11:33:49,130 DEBUG get_departments:
+2018-01-18 11:33:49,270 DEBUG hr_details:
+2018-01-18 11:33:49,297 DEBUG get_user:
+2018-01-18 11:33:49,298 DEBUG get_emplocation:
+2018-01-18 11:33:49,325 DEBUG get_empjobrole:
+2018-01-18 11:39:01,478 DEBUG get_user:
+2018-01-18 11:39:19,265 DEBUG get_emplocation:
+2018-01-18 11:39:19,275 DEBUG get_user:
+2018-01-18 11:39:19,277 DEBUG get_departments:
+2018-01-18 11:39:19,295 DEBUG hr_details:
+2018-01-18 11:39:19,313 DEBUG get_empjobrole:
+2018-01-18 11:43:05,630 DEBUG get_user:
+2018-01-18 11:43:10,234 DEBUG get_emplocation:
+2018-01-18 11:43:10,246 DEBUG get_departments:
+2018-01-18 11:43:10,249 DEBUG hr_details:
+2018-01-18 11:43:10,251 DEBUG get_empjobrole:
+2018-01-18 11:43:10,252 DEBUG get_user:
+2018-01-18 12:05:51,664 DEBUG get_user:
+2018-01-18 12:05:56,205 DEBUG get_empjobrole:
+2018-01-18 12:05:56,209 DEBUG get_user:
+2018-01-18 12:05:56,229 DEBUG hr_details:
+2018-01-18 12:05:56,232 DEBUG get_departments:
+2018-01-18 12:05:56,241 DEBUG get_emplocation:
+2018-01-18 12:08:05,015 DEBUG get_user:
+2018-01-18 12:08:09,594 DEBUG get_departments:
+2018-01-18 12:08:09,627 DEBUG get_emplocation:
+2018-01-18 12:08:09,630 DEBUG get_empjobrole:
+2018-01-18 12:08:09,632 DEBUG get_user:
+2018-01-18 12:08:09,646 DEBUG hr_details:
+2018-01-18 12:09:33,388 WARNING Not Found: /robots.txt
+2018-01-18 12:09:50,632 DEBUG hr_details:
+2018-01-18 12:09:51,776 WARNING Not Found: /favicon.ico
+2018-01-18 12:10:12,157 WARNING Not Found: /favicon.ico
+2018-01-18 12:10:12,159 WARNING Not Found: /favicon.ico
+2018-01-18 12:10:22,490 DEBUG hr_details:
+2018-01-18 12:11:26,809 DEBUG get_user:
+2018-01-18 12:11:31,026 DEBUG get_empjobrole:
+2018-01-18 12:11:31,039 DEBUG get_emplocation:
+2018-01-18 12:11:31,049 DEBUG get_departments:
+2018-01-18 12:11:31,069 DEBUG get_user:
+2018-01-18 12:11:31,075 DEBUG hr_details:
+2018-01-18 12:11:38,278 DEBUG get_user:
+2018-01-18 12:11:40,018 DEBUG get_empjobrole:
+2018-01-18 12:11:40,049 DEBUG get_emplocation:
+2018-01-18 12:11:40,050 DEBUG hr_details:
+2018-01-18 12:11:40,052 DEBUG get_departments:
+2018-01-18 12:17:09,990 DEBUG get_user:
+2018-01-18 12:17:13,396 DEBUG get_user:
+2018-01-18 12:17:13,423 DEBUG get_empjobrole:
+2018-01-18 12:17:13,428 DEBUG get_departments:
+2018-01-18 12:17:13,446 DEBUG hr_details:
+2018-01-18 12:17:13,456 DEBUG get_emplocation:
+2018-01-18 12:18:02,789 DEBUG get_user:
+2018-01-18 12:18:24,074 DEBUG get_empjobrole:
+2018-01-18 12:18:24,086 DEBUG get_emplocation:
+2018-01-18 12:18:24,087 DEBUG get_departments:
+2018-01-18 12:18:24,093 DEBUG hr_details:
+2018-01-18 12:18:24,094 DEBUG get_user:
+2018-01-18 12:23:34,050 DEBUG get_user:
+2018-01-18 12:23:38,796 DEBUG get_departments:
+2018-01-18 12:23:38,950 DEBUG get_empjobrole:
+2018-01-18 12:23:38,959 DEBUG get_user:
+2018-01-18 12:23:38,960 DEBUG hr_details:
+2018-01-18 12:23:38,979 DEBUG get_emplocation:
+2018-01-18 12:28:55,550 DEBUG get_user:
+2018-01-18 12:40:35,235 DEBUG get_user:
+2018-01-18 12:40:40,733 DEBUG get_emplocation:
+2018-01-18 12:40:40,781 DEBUG hr_details:
+2018-01-18 12:40:40,795 DEBUG get_departments:
+2018-01-18 12:40:40,801 DEBUG get_empjobrole:
+2018-01-18 12:40:40,823 DEBUG get_user:
+2018-01-18 12:49:32,837 DEBUG get_user:
+2018-01-18 12:49:37,036 DEBUG get_empjobrole:
+2018-01-18 12:49:37,056 DEBUG get_user:
+2018-01-18 12:49:37,071 DEBUG hr_details:
+2018-01-18 12:49:37,088 DEBUG get_departments:
+2018-01-18 12:49:37,094 DEBUG get_emplocation:
+2018-01-18 12:54:49,159 DEBUG get_user:
+2018-01-18 12:55:02,554 DEBUG hr_details:
+2018-01-18 12:55:02,565 DEBUG get_user:
+2018-01-18 12:55:02,574 DEBUG get_empjobrole:
+2018-01-18 12:55:02,576 DEBUG get_departments:
+2018-01-18 12:55:02,579 DEBUG get_emplocation:
+2018-01-18 14:19:07,754 DEBUG get_user:
+2018-01-18 14:37:14,602 DEBUG get_position:
+2018-01-18 14:37:15,370 WARNING Not Found: /favicon.ico
+2018-01-18 14:39:51,569 DEBUG get_warehouse:
+2018-01-18 14:40:50,150 DEBUG get_user:
+2018-01-18 14:40:58,673 DEBUG get_departments:
+2018-01-18 14:40:58,746 DEBUG get_user:
+2018-01-18 14:40:58,760 DEBUG get_empjobrole:
+2018-01-18 14:40:58,764 DEBUG get_emplocation:
+2018-01-18 14:40:58,766 DEBUG hr_details:
+2018-01-18 14:43:16,910 DEBUG get_user:
+2018-01-18 14:54:51,811 WARNING Not Found: /robots.txt
+2018-01-18 15:55:33,459 DEBUG get_user:
+2018-01-18 15:55:44,211 DEBUG get_emplocation:
+2018-01-18 15:55:44,212 DEBUG hr_details:
+2018-01-18 15:55:44,222 DEBUG get_departments:
+2018-01-18 15:55:44,223 DEBUG get_user:
+2018-01-18 15:55:44,224 DEBUG get_empjobrole:
+2018-01-18 15:56:52,351 DEBUG get_user:
+2018-01-18 15:56:58,825 DEBUG get_departments:
+2018-01-18 15:56:58,826 DEBUG get_empjobrole:
+2018-01-18 15:56:58,829 DEBUG get_emplocation:
+2018-01-18 15:56:58,831 DEBUG hr_details:
+2018-01-18 15:56:58,833 DEBUG get_user:
+2018-01-18 15:58:58,773 DEBUG get_user:
+2018-01-18 15:59:04,767 DEBUG get_empjobrole:
+2018-01-18 15:59:04,829 DEBUG hr_details:
+2018-01-18 15:59:04,834 DEBUG get_departments:
+2018-01-18 15:59:04,851 DEBUG get_user:
+2018-01-18 15:59:04,852 DEBUG get_emplocation:
+2018-01-18 16:04:07,946 DEBUG get_user:
+2018-01-18 16:10:00,826 DEBUG get_user:
+2018-01-18 16:10:04,388 DEBUG get_emplocation:
+2018-01-18 16:10:04,394 DEBUG get_empjobrole:
+2018-01-18 16:10:04,402 DEBUG get_user:
+2018-01-18 16:10:04,413 DEBUG get_departments:
+2018-01-18 16:10:04,413 DEBUG hr_details:
+2018-01-18 16:38:47,417 DEBUG get_user:
+2018-01-18 16:38:52,687 DEBUG hr_details:
+2018-01-18 16:38:52,703 DEBUG get_emplocation:
+2018-01-18 16:38:52,714 DEBUG get_empjobrole:
+2018-01-18 16:38:52,717 DEBUG get_user:
+2018-01-18 16:38:52,719 DEBUG get_departments:
+2018-01-18 16:39:49,291 DEBUG get_user:
+2018-01-18 16:47:36,398 DEBUG get_user:
+2018-01-18 16:47:45,377 DEBUG get_emplocation:
+2018-01-18 16:47:45,391 DEBUG get_departments:
+2018-01-18 16:47:45,412 DEBUG hr_details:
+2018-01-18 16:47:45,416 DEBUG get_empjobrole:
+2018-01-18 16:47:45,418 DEBUG get_user:
+2018-01-18 16:47:49,868 DEBUG get_user:
+2018-01-18 16:47:59,240 DEBUG get_departments:
+2018-01-18 16:47:59,248 DEBUG get_empjobrole:
+2018-01-18 16:47:59,255 DEBUG get_user:
+2018-01-18 16:47:59,534 DEBUG hr_details:
+2018-01-18 16:47:59,709 DEBUG get_emplocation:
+2018-01-18 16:50:24,816 DEBUG get_user:
+2018-01-18 16:50:31,271 DEBUG get_user:
+2018-01-18 16:50:31,303 DEBUG get_emplocation:
+2018-01-18 16:50:31,393 DEBUG get_departments:
+2018-01-18 16:50:31,401 DEBUG get_empjobrole:
+2018-01-18 16:50:31,454 DEBUG hr_details:
+2018-01-18 16:52:06,624 DEBUG get_user:
+2018-01-18 16:52:10,322 DEBUG get_empjobrole:
+2018-01-18 16:52:10,333 DEBUG hr_details:
+2018-01-18 16:52:10,341 DEBUG get_emplocation:
+2018-01-18 16:52:10,359 DEBUG get_user:
+2018-01-18 16:52:10,365 DEBUG get_departments:
+2018-01-18 16:52:26,490 DEBUG get_user:
+2018-01-18 16:52:30,122 DEBUG hr_details:
+2018-01-18 16:52:30,150 DEBUG get_user:
+2018-01-18 16:52:30,153 DEBUG get_emplocation:
+2018-01-18 16:52:30,178 DEBUG get_empjobrole:
+2018-01-18 16:52:30,212 DEBUG get_departments:
+2018-01-18 16:59:03,664 DEBUG get_user:
+2018-01-18 16:59:06,528 DEBUG get_user:
+2018-01-18 16:59:06,542 DEBUG get_emplocation:
+2018-01-18 16:59:06,543 DEBUG get_empjobrole:
+2018-01-18 16:59:06,544 DEBUG hr_details:
+2018-01-18 16:59:07,387 DEBUG get_departments:
+2018-01-18 17:01:17,801 DEBUG get_user:
+2018-01-18 17:11:54,611 DEBUG get_user:
+2018-01-18 17:11:54,633 DEBUG hr_details:
+2018-01-18 17:11:54,633 DEBUG get_emplocation:
+2018-01-18 17:11:54,633 DEBUG get_departments:
+2018-01-18 17:11:54,634 DEBUG get_empjobrole:
+2018-01-18 17:56:54,862 DEBUG get_user:
+2018-01-18 17:57:09,513 DEBUG get_emplocation:
+2018-01-18 17:57:09,522 DEBUG get_empjobrole:
+2018-01-18 17:57:09,539 DEBUG get_departments:
+2018-01-18 17:57:09,541 DEBUG get_user:
+2018-01-18 17:57:09,548 DEBUG hr_details:
+2018-01-18 18:02:12,486 DEBUG get_user:
+2018-01-18 18:02:40,885 DEBUG get_user:
+2018-01-18 18:02:46,762 DEBUG get_empjobrole:
+2018-01-18 18:02:46,763 DEBUG get_emplocation:
+2018-01-18 18:02:46,763 DEBUG get_departments:
+2018-01-18 18:02:46,766 DEBUG get_user:
+2018-01-18 18:02:46,767 DEBUG hr_details:
+2018-01-18 18:03:01,836 DEBUG get_user:
+2018-01-18 18:03:04,017 DEBUG hr_details:
+2018-01-18 18:03:04,025 DEBUG get_user:
+2018-01-18 18:03:04,098 DEBUG get_departments:
+2018-01-18 18:03:04,107 DEBUG get_emplocation:
+2018-01-18 18:03:04,107 DEBUG get_empjobrole:
+2018-01-18 18:08:37,701 DEBUG get_user:
+2018-01-18 18:08:50,138 DEBUG get_empjobrole:
+2018-01-18 18:08:50,147 DEBUG hr_details:
+2018-01-18 18:08:50,148 DEBUG get_departments:
+2018-01-18 18:08:50,158 DEBUG get_emplocation:
+2018-01-18 18:08:50,166 DEBUG get_user:
+2018-01-18 18:13:53,092 DEBUG get_user:
+2018-01-18 18:32:46,349 DEBUG hr_details:
+2018-01-18 18:32:46,502 DEBUG get_empjobrole:
+2018-01-18 18:32:46,508 DEBUG get_departments:
+2018-01-18 18:32:46,509 DEBUG get_emplocation:
+2018-01-18 18:32:46,512 DEBUG get_user:
+2018-01-18 18:37:48,842 DEBUG get_user:
+2018-01-18 19:01:39,628 DEBUG get_user:
+2018-01-18 19:01:47,811 DEBUG get_empjobrole:
+2018-01-18 19:01:47,887 DEBUG get_emplocation:
+2018-01-18 19:01:47,923 DEBUG get_departments:
+2018-01-18 19:01:47,931 DEBUG hr_details:
+2018-01-18 19:01:47,941 DEBUG get_user:
+2018-01-18 19:06:50,159 DEBUG get_user:
+2018-01-18 19:07:44,102 DEBUG get_emplocation:
+2018-01-18 19:07:44,103 DEBUG get_departments:
+2018-01-18 19:07:44,109 DEBUG get_empjobrole:
+2018-01-18 19:07:44,110 DEBUG get_user:
+2018-01-18 19:07:44,113 DEBUG hr_details:
+2018-01-18 19:10:33,091 DEBUG get_user:
+2018-01-18 19:10:42,654 DEBUG get_empjobrole:
+2018-01-18 19:10:42,676 DEBUG hr_details:
+2018-01-18 19:10:42,677 DEBUG get_user:
+2018-01-18 19:10:42,681 DEBUG get_departments:
+2018-01-18 19:10:42,684 DEBUG get_emplocation:
+2018-01-18 19:10:52,964 DEBUG get_user:
+2018-01-18 19:10:58,610 DEBUG get_emplocation:
+2018-01-18 19:10:58,611 DEBUG get_empjobrole:
+2018-01-18 19:10:58,611 DEBUG hr_details:
+2018-01-18 19:10:58,613 DEBUG get_user:
+2018-01-18 19:10:58,613 DEBUG get_departments:
+2018-01-18 19:11:01,850 DEBUG get_departments:
+2018-01-18 19:11:01,851 DEBUG hr_details:
+2018-01-18 19:11:01,851 DEBUG get_emplocation:
+2018-01-18 19:11:01,855 DEBUG get_empjobrole:
+2018-01-18 19:11:01,855 DEBUG get_user:
+2018-01-18 19:11:58,981 DEBUG get_user:
+2018-01-18 19:12:06,289 DEBUG get_emplocation:
+2018-01-18 19:12:06,292 DEBUG get_user:
+2018-01-18 19:12:06,305 DEBUG get_empjobrole:
+2018-01-18 19:12:06,307 DEBUG get_departments:
+2018-01-18 19:12:06,312 DEBUG hr_details:
+2018-01-18 19:12:17,328 DEBUG get_user:
+2018-01-18 19:12:20,397 DEBUG get_emplocation:
+2018-01-18 19:12:20,414 DEBUG get_user:
+2018-01-18 19:12:20,418 DEBUG get_empjobrole:
+2018-01-18 19:12:20,431 DEBUG get_departments:
+2018-01-18 19:12:20,442 DEBUG hr_details:
+2018-01-18 19:12:31,962 DEBUG get_user:
+2018-01-18 19:12:37,172 DEBUG get_empjobrole:
+2018-01-18 19:12:37,175 DEBUG get_emplocation:
+2018-01-18 19:12:37,176 DEBUG get_user:
+2018-01-18 19:12:37,177 DEBUG hr_details:
+2018-01-18 19:12:37,177 DEBUG get_departments:
+2018-01-18 19:12:44,778 DEBUG get_user:
+2018-01-18 19:12:51,065 DEBUG hr_details:
+2018-01-18 19:12:51,072 DEBUG get_departments:
+2018-01-18 19:12:51,081 DEBUG get_user:
+2018-01-18 19:12:51,087 DEBUG get_emplocation:
+2018-01-18 19:12:51,090 DEBUG get_empjobrole:
+2018-01-18 19:13:03,659 DEBUG get_user:
+2018-01-18 19:13:12,456 DEBUG get_departments:
+2018-01-18 19:13:12,475 DEBUG get_empjobrole:
+2018-01-18 19:13:12,477 DEBUG get_emplocation:
+2018-01-18 19:13:12,483 DEBUG hr_details:
+2018-01-18 19:13:12,484 DEBUG get_user:
+2018-01-18 19:13:21,279 DEBUG get_user:
+2018-01-18 19:13:24,711 DEBUG get_empjobrole:
+2018-01-18 19:13:24,739 DEBUG get_emplocation:
+2018-01-18 19:13:24,788 DEBUG get_departments:
+2018-01-18 19:13:24,789 DEBUG get_user:
+2018-01-18 19:13:24,791 DEBUG hr_details:
+2018-01-18 19:13:44,694 DEBUG get_user:
+2018-01-18 19:13:49,742 DEBUG get_emplocation:
+2018-01-18 19:13:49,753 DEBUG get_departments:
+2018-01-18 19:13:49,764 DEBUG get_empjobrole:
+2018-01-18 19:13:49,768 DEBUG get_user:
+2018-01-18 19:13:49,771 DEBUG hr_details:
+2018-01-18 19:14:18,756 DEBUG get_user:
+2018-01-18 19:15:05,855 DEBUG get_empjobrole:
+2018-01-18 19:15:05,870 DEBUG get_emplocation:
+2018-01-18 19:15:05,886 DEBUG get_departments:
+2018-01-18 19:15:05,897 DEBUG hr_details:
+2018-01-18 19:15:05,910 DEBUG get_user:
+2018-01-18 19:16:27,357 DEBUG get_user:
+2018-01-18 19:16:35,666 DEBUG get_departments:
+2018-01-18 19:16:35,790 DEBUG get_empjobrole:
+2018-01-18 19:16:35,795 DEBUG get_user:
+2018-01-18 19:16:35,798 DEBUG hr_details:
+2018-01-18 19:16:35,811 DEBUG get_emplocation:
+2018-01-18 19:18:16,912 DEBUG get_user:
+2018-01-18 19:18:23,934 DEBUG get_departments:
+2018-01-18 19:18:23,944 DEBUG get_user:
+2018-01-18 19:18:23,946 DEBUG get_emplocation:
+2018-01-18 19:18:23,948 DEBUG get_empjobrole:
+2018-01-18 19:18:23,953 DEBUG hr_details:
+2018-01-18 19:18:33,936 DEBUG get_user:
+2018-01-18 19:18:35,812 DEBUG get_emplocation:
+2018-01-18 19:18:35,883 DEBUG get_user:
+2018-01-18 19:18:35,933 DEBUG hr_details:
+2018-01-18 19:18:35,954 DEBUG get_departments:
+2018-01-18 19:18:35,957 DEBUG get_empjobrole:
+2018-01-18 19:18:52,031 DEBUG get_user:
+2018-01-18 19:18:53,954 DEBUG hr_details:
+2018-01-18 19:18:53,962 DEBUG get_emplocation:
+2018-01-18 19:18:53,969 DEBUG get_departments:
+2018-01-18 19:18:53,971 DEBUG get_user:
+2018-01-18 19:18:53,972 DEBUG get_empjobrole:
+2018-01-18 19:19:47,221 DEBUG get_user:
+2018-01-18 19:19:53,163 DEBUG get_empjobrole:
+2018-01-18 19:19:53,215 DEBUG get_user:
+2018-01-18 19:19:53,219 DEBUG get_emplocation:
+2018-01-18 19:19:53,226 DEBUG hr_details:
+2018-01-18 19:19:53,227 DEBUG get_departments:
+2018-01-18 19:20:08,671 DEBUG get_user:
+2018-01-18 19:20:11,097 DEBUG hr_details:
+2018-01-18 19:20:11,103 DEBUG get_empjobrole:
+2018-01-18 19:20:11,110 DEBUG get_user:
+2018-01-18 19:20:11,128 DEBUG get_emplocation:
+2018-01-18 19:20:11,138 DEBUG get_departments:
+2018-01-18 19:20:27,134 DEBUG get_user:
+2018-01-18 19:20:31,446 DEBUG get_empjobrole:
+2018-01-18 19:20:31,453 DEBUG get_departments:
+2018-01-18 19:20:31,454 DEBUG get_emplocation:
+2018-01-18 19:20:31,454 DEBUG hr_details:
+2018-01-18 19:20:31,455 DEBUG get_user:
+2018-01-18 19:24:57,204 DEBUG get_user:
+2018-01-18 19:25:17,940 DEBUG hr_details:
+2018-01-18 19:25:17,948 DEBUG get_empjobrole:
+2018-01-18 19:25:17,956 DEBUG get_user:
+2018-01-18 19:25:17,963 DEBUG get_departments:
+2018-01-18 19:25:17,972 DEBUG get_emplocation:
+2018-01-18 19:25:24,715 DEBUG get_user:
+2018-01-18 19:25:29,221 DEBUG get_user:
+2018-01-18 19:25:29,222 DEBUG get_empjobrole:
+2018-01-18 19:25:29,227 DEBUG get_emplocation:
+2018-01-18 19:25:29,227 DEBUG get_departments:
+2018-01-18 19:25:29,233 DEBUG hr_details:
+2018-01-18 19:25:56,191 DEBUG get_user:
+2018-01-18 19:26:02,644 DEBUG get_emplocation:
+2018-01-18 19:26:02,714 DEBUG get_empjobrole:
+2018-01-18 19:26:02,716 DEBUG get_departments:
+2018-01-18 19:26:02,726 DEBUG hr_details:
+2018-01-18 19:26:02,741 DEBUG get_user:
+2018-01-18 19:31:05,525 DEBUG get_user:
+2018-01-18 19:31:25,116 DEBUG get_user:
+2018-01-18 19:31:25,125 DEBUG get_departments:
+2018-01-18 19:31:25,131 DEBUG hr_details:
+2018-01-18 19:31:25,134 DEBUG get_empjobrole:
+2018-01-18 19:31:25,136 DEBUG get_emplocation:
+2018-01-18 19:31:27,411 DEBUG get_user:
+2018-01-18 19:31:29,706 DEBUG get_empjobrole:
+2018-01-18 19:31:29,798 DEBUG hr_details:
+2018-01-18 19:31:29,814 DEBUG get_user:
+2018-01-18 19:31:29,883 DEBUG get_emplocation:
+2018-01-18 19:31:29,898 DEBUG get_departments:
+2018-01-18 19:31:55,565 DEBUG get_user:
+2018-01-18 19:31:58,684 DEBUG get_emplocation:
+2018-01-18 19:31:58,717 DEBUG get_departments:
+2018-01-18 19:31:58,735 DEBUG get_user:
+2018-01-18 19:31:58,747 DEBUG get_empjobrole:
+2018-01-18 19:31:58,750 DEBUG hr_details:
+2018-01-18 19:32:13,686 DEBUG get_user:
+2018-01-18 19:32:17,847 DEBUG get_empjobrole:
+2018-01-18 19:32:17,864 DEBUG get_emplocation:
+2018-01-18 19:32:17,866 DEBUG hr_details:
+2018-01-18 19:32:17,892 DEBUG get_departments:
+2018-01-18 19:32:17,898 DEBUG get_user:
+2018-01-18 19:37:29,946 DEBUG get_user:
+2018-01-18 19:40:09,620 DEBUG get_user:
+2018-01-18 19:40:15,798 DEBUG get_user:
+2018-01-18 19:40:15,800 DEBUG hr_details:
+2018-01-18 19:40:15,800 DEBUG get_empjobrole:
+2018-01-18 19:40:15,803 DEBUG get_emplocation:
+2018-01-18 19:40:15,849 DEBUG get_departments:
+2018-01-18 19:40:19,012 DEBUG get_user:
+2018-01-18 19:40:21,842 DEBUG get_empjobrole:
+2018-01-18 19:40:21,881 DEBUG get_departments:
+2018-01-18 19:40:21,893 DEBUG get_user:
+2018-01-18 19:40:21,896 DEBUG hr_details:
+2018-01-18 19:40:21,898 DEBUG get_emplocation:
+2018-01-18 19:40:28,675 DEBUG get_user:
+2018-01-18 19:40:31,625 DEBUG get_departments:
+2018-01-18 19:40:31,666 DEBUG hr_details:
+2018-01-18 19:40:31,691 DEBUG get_emplocation:
+2018-01-18 19:40:31,731 DEBUG get_user:
+2018-01-18 19:40:31,738 DEBUG get_empjobrole:
+2018-01-18 19:40:39,817 DEBUG get_user:
+2018-01-18 19:40:42,305 DEBUG get_user:
+2018-01-18 19:40:44,636 DEBUG get_emplocation:
+2018-01-18 19:40:44,645 DEBUG get_user:
+2018-01-18 19:40:44,668 DEBUG get_empjobrole:
+2018-01-18 19:40:44,676 DEBUG hr_details:
+2018-01-18 19:40:44,707 DEBUG get_departments:
+2018-01-18 19:40:50,126 DEBUG get_user:
+2018-01-18 19:40:52,575 DEBUG get_user:
+2018-01-18 19:40:52,580 DEBUG get_empjobrole:
+2018-01-18 19:40:52,582 DEBUG get_emplocation:
+2018-01-18 19:40:52,583 DEBUG hr_details:
+2018-01-18 19:40:52,589 DEBUG get_departments:
+2018-01-18 19:41:47,936 DEBUG get_user:
+2018-01-18 19:41:50,378 DEBUG get_emplocation:
+2018-01-18 19:41:50,381 DEBUG get_empjobrole:
+2018-01-18 19:41:50,384 DEBUG get_user:
+2018-01-18 19:41:50,390 DEBUG hr_details:
+2018-01-18 19:41:50,393 DEBUG get_departments:
+2018-01-18 19:42:46,383 DEBUG get_user:
+2018-01-18 19:42:49,033 DEBUG get_emplocation:
+2018-01-18 19:42:49,040 DEBUG get_user:
+2018-01-18 19:42:49,041 DEBUG hr_details:
+2018-01-18 19:42:49,041 DEBUG get_empjobrole:
+2018-01-18 19:42:49,042 DEBUG get_departments:
+2018-01-18 19:42:56,436 DEBUG get_user:
+2018-01-18 19:42:59,839 DEBUG hr_details:
+2018-01-18 19:42:59,843 DEBUG get_empjobrole:
+2018-01-18 19:42:59,853 DEBUG get_departments:
+2018-01-18 19:42:59,854 DEBUG get_emplocation:
+2018-01-18 19:42:59,855 DEBUG get_user:
+2018-01-18 19:43:03,972 DEBUG get_user:
+2018-01-18 19:43:08,454 DEBUG get_departments:
+2018-01-18 19:43:08,454 DEBUG get_empjobrole:
+2018-01-18 19:43:08,455 DEBUG hr_details:
+2018-01-18 19:43:08,457 DEBUG get_emplocation:
+2018-01-18 19:43:08,460 DEBUG get_user:
+2018-01-18 19:43:13,218 DEBUG get_user:
+2018-01-18 19:43:16,049 DEBUG hr_details:
+2018-01-18 19:43:16,052 DEBUG get_empjobrole:
+2018-01-18 19:43:16,056 DEBUG get_emplocation:
+2018-01-18 19:43:16,058 DEBUG get_user:
+2018-01-18 19:43:16,059 DEBUG get_departments:
+2018-01-18 19:43:20,617 DEBUG get_user:
+2018-01-18 19:43:22,984 DEBUG get_departments:
+2018-01-18 19:43:22,989 DEBUG get_emplocation:
+2018-01-18 19:43:23,005 DEBUG get_user:
+2018-01-18 19:43:23,008 DEBUG hr_details:
+2018-01-18 19:43:23,010 DEBUG get_empjobrole:
+2018-01-18 19:43:27,481 DEBUG get_user:
+2018-01-18 19:43:29,461 DEBUG get_empjobrole:
+2018-01-18 19:43:29,498 DEBUG get_user:
+2018-01-18 19:43:29,501 DEBUG get_departments:
+2018-01-18 19:43:29,503 DEBUG hr_details:
+2018-01-18 19:43:29,508 DEBUG get_emplocation:
+2018-01-18 19:43:34,931 DEBUG get_user:
+2018-01-18 19:43:37,846 DEBUG get_emplocation:
+2018-01-18 19:43:37,991 DEBUG get_empjobrole:
+2018-01-18 19:43:37,994 DEBUG get_departments:
+2018-01-18 19:43:38,015 DEBUG hr_details:
+2018-01-18 19:43:38,023 DEBUG get_user:
+2018-01-18 19:43:45,873 DEBUG get_user:
+2018-01-18 19:43:48,372 DEBUG hr_details:
+2018-01-18 19:43:48,387 DEBUG get_departments:
+2018-01-18 19:43:48,399 DEBUG get_empjobrole:
+2018-01-18 19:43:48,403 DEBUG get_emplocation:
+2018-01-18 19:43:48,412 DEBUG get_user:
+2018-01-18 19:44:00,246 DEBUG get_user:
+2018-01-18 19:44:05,325 DEBUG get_user:
+2018-01-18 19:44:05,440 DEBUG hr_details:
+2018-01-18 19:44:05,441 DEBUG get_emplocation:
+2018-01-18 19:44:05,442 DEBUG get_empjobrole:
+2018-01-18 19:44:05,445 DEBUG get_departments:
+2018-01-19 11:48:20,096 WARNING Not Found: /robots.txt
+2018-01-19 11:48:29,014 WARNING Not Found: /favicon.ico
+2018-01-19 11:48:29,328 WARNING Not Found: /favicon.ico
+2018-01-19 13:24:54,795 DEBUG get_user:
+2018-01-19 13:25:01,015 DEBUG get_empjobrole:
+2018-01-19 13:25:01,018 DEBUG get_emplocation:
+2018-01-19 13:25:01,023 DEBUG hr_details:
+2018-01-19 13:25:01,025 DEBUG get_user:
+2018-01-19 13:25:01,025 DEBUG get_departments:
+2018-01-19 13:25:04,482 DEBUG get_user:
+2018-01-19 13:25:06,488 DEBUG get_departments:
+2018-01-19 13:25:06,497 DEBUG get_empjobrole:
+2018-01-19 13:25:06,519 DEBUG get_emplocation:
+2018-01-19 13:25:06,525 DEBUG hr_details:
+2018-01-19 13:25:06,531 DEBUG get_user:
+2018-01-19 13:25:18,032 DEBUG get_user:
+2018-01-19 13:25:21,192 DEBUG get_emplocation:
+2018-01-19 13:25:21,218 DEBUG get_empjobrole:
+2018-01-19 13:25:21,234 DEBUG get_departments:
+2018-01-19 13:25:21,237 DEBUG hr_details:
+2018-01-19 13:25:21,247 DEBUG get_user:
+2018-01-19 13:25:31,609 DEBUG get_user:
+2018-01-19 13:25:48,852 DEBUG hr_details:
+2018-01-19 13:25:48,856 DEBUG get_empjobrole:
+2018-01-19 13:25:48,857 DEBUG get_user:
+2018-01-19 13:25:48,860 DEBUG get_emplocation:
+2018-01-19 13:25:48,861 DEBUG get_departments:
+2018-01-19 13:25:53,195 DEBUG get_user:
+2018-01-19 13:25:55,325 DEBUG get_empjobrole:
+2018-01-19 13:25:55,342 DEBUG hr_details:
+2018-01-19 13:25:55,349 DEBUG get_departments:
+2018-01-19 13:25:55,355 DEBUG get_emplocation:
+2018-01-19 13:25:55,361 DEBUG get_user:
+2018-01-19 13:26:16,978 DEBUG get_user:
+2018-01-19 13:26:19,663 DEBUG get_empjobrole:
+2018-01-19 13:26:19,683 DEBUG hr_details:
+2018-01-19 13:26:19,688 DEBUG get_emplocation:
+2018-01-19 13:26:19,689 DEBUG get_departments:
+2018-01-19 13:26:19,696 DEBUG get_user:
+2018-01-19 13:26:40,732 DEBUG get_user:
+2018-01-19 13:26:49,356 DEBUG get_user:
+2018-01-19 13:26:49,361 DEBUG get_empjobrole:
+2018-01-19 13:26:49,365 DEBUG get_departments:
+2018-01-19 13:26:49,369 DEBUG get_emplocation:
+2018-01-19 13:26:49,375 DEBUG hr_details:
+2018-01-19 13:27:26,076 DEBUG get_user:
+2018-01-19 13:27:28,435 DEBUG get_empjobrole:
+2018-01-19 13:27:28,558 DEBUG get_departments:
+2018-01-19 13:27:28,561 DEBUG hr_details:
+2018-01-19 13:27:28,563 DEBUG get_user:
+2018-01-19 13:27:28,565 DEBUG get_emplocation:
+2018-01-19 13:29:48,131 DEBUG get_user:
+2018-01-19 13:29:50,433 DEBUG hr_details:
+2018-01-19 13:29:50,453 DEBUG get_emplocation:
+2018-01-19 13:29:50,465 DEBUG get_departments:
+2018-01-19 13:29:50,466 DEBUG get_user:
+2018-01-19 13:29:50,471 DEBUG get_empjobrole:
+2018-01-19 13:32:20,140 DEBUG get_user:
+2018-01-19 13:32:27,169 DEBUG get_empjobrole:
+2018-01-19 13:32:27,233 DEBUG get_departments:
+2018-01-19 13:32:27,337 DEBUG get_user:
+2018-01-19 13:32:27,343 DEBUG hr_details:
+2018-01-19 13:32:27,369 DEBUG get_emplocation:
+2018-01-19 13:32:46,421 DEBUG get_user:
+2018-01-19 13:32:53,425 DEBUG get_user:
+2018-01-19 13:32:53,433 DEBUG hr_details:
+2018-01-19 13:32:53,433 DEBUG get_emplocation:
+2018-01-19 13:32:53,437 DEBUG get_empjobrole:
+2018-01-19 13:32:53,452 DEBUG get_departments:
+2018-01-19 13:33:03,813 DEBUG get_user:
+2018-01-19 13:33:07,351 DEBUG get_departments:
+2018-01-19 13:33:07,367 DEBUG get_emplocation:
+2018-01-19 13:33:07,373 DEBUG get_empjobrole:
+2018-01-19 13:33:07,382 DEBUG hr_details:
+2018-01-19 13:33:07,383 DEBUG get_user:
+2018-01-19 13:35:17,943 DEBUG get_user:
+2018-01-19 13:35:56,382 DEBUG get_user:
+2018-01-19 13:35:56,395 DEBUG get_emplocation:
+2018-01-19 13:35:56,402 DEBUG get_empjobrole:
+2018-01-19 13:35:56,403 DEBUG hr_details:
+2018-01-19 13:35:56,404 DEBUG get_departments:
+2018-01-19 13:36:27,448 DEBUG get_user:
+2018-01-19 13:36:27,458 DEBUG get_empjobrole:
+2018-01-19 13:36:27,458 DEBUG get_departments:
+2018-01-19 13:36:27,461 DEBUG hr_details:
+2018-01-19 13:36:27,464 DEBUG get_emplocation:
+2018-01-19 13:36:35,501 DEBUG get_emplocation:
+2018-01-19 13:36:35,504 DEBUG hr_details:
+2018-01-19 13:36:35,745 DEBUG get_empjobrole:
+2018-01-19 13:36:35,827 DEBUG get_departments:
+2018-01-19 13:36:35,903 DEBUG get_user:
+2018-01-19 13:36:46,466 DEBUG get_user:
+2018-01-19 13:36:50,128 DEBUG get_user:
+2018-01-19 13:36:50,133 DEBUG get_emplocation:
+2018-01-19 13:36:50,153 DEBUG hr_details:
+2018-01-19 13:36:50,161 DEBUG get_empjobrole:
+2018-01-19 13:36:50,172 DEBUG get_departments:
+2018-01-19 13:37:06,343 DEBUG get_user:
+2018-01-19 13:37:08,785 DEBUG get_empjobrole:
+2018-01-19 13:37:08,827 DEBUG hr_details:
+2018-01-19 13:37:08,829 DEBUG get_departments:
+2018-01-19 13:37:08,847 DEBUG get_emplocation:
+2018-01-19 13:37:08,852 DEBUG get_user:
+2018-01-19 13:40:06,480 DEBUG get_user:
+2018-01-19 13:40:37,813 DEBUG get_empjobrole:
+2018-01-19 13:40:37,932 DEBUG get_departments:
+2018-01-19 13:40:37,945 DEBUG hr_details:
+2018-01-19 13:40:37,949 DEBUG get_user:
+2018-01-19 13:40:37,958 DEBUG get_emplocation:
+2018-01-19 13:40:45,958 DEBUG get_user:
+2018-01-19 13:40:48,828 DEBUG get_empjobrole:
+2018-01-19 13:40:48,846 DEBUG hr_details:
+2018-01-19 13:40:48,868 DEBUG get_emplocation:
+2018-01-19 13:40:48,871 DEBUG get_departments:
+2018-01-19 13:40:48,871 DEBUG get_user:
+2018-01-19 13:40:51,793 DEBUG get_user:
+2018-01-19 13:41:07,411 DEBUG get_departments:
+2018-01-19 13:41:07,418 DEBUG get_empjobrole:
+2018-01-19 13:41:07,425 DEBUG get_user:
+2018-01-19 13:41:07,433 DEBUG hr_details:
+2018-01-19 13:41:07,437 DEBUG get_emplocation:
+2018-01-19 13:45:23,056 DEBUG get_user:
+2018-01-19 13:45:34,501 DEBUG get_emplocation:
+2018-01-19 13:45:34,505 DEBUG get_user:
+2018-01-19 13:45:34,517 DEBUG get_departments:
+2018-01-19 13:45:34,523 DEBUG hr_details:
+2018-01-19 13:45:34,532 DEBUG get_empjobrole:
+2018-01-19 13:54:42,639 DEBUG get_departments:
+2018-01-19 13:54:42,648 DEBUG get_emplocation:
+2018-01-19 13:54:42,649 DEBUG hr_details:
+2018-01-19 13:54:42,650 DEBUG get_empjobrole:
+2018-01-19 13:54:42,686 DEBUG get_user:
+2018-01-19 14:00:05,435 DEBUG get_user:
+2018-01-19 14:08:34,633 DEBUG get_user:
+2018-01-19 14:08:34,645 DEBUG get_empjobrole:
+2018-01-19 14:08:34,646 DEBUG get_departments:
+2018-01-19 14:08:34,647 DEBUG hr_details:
+2018-01-19 14:08:34,650 DEBUG get_emplocation:
+2018-01-19 14:10:15,594 DEBUG get_user:
+2018-01-19 14:10:21,878 DEBUG get_emplocation:
+2018-01-19 14:10:21,916 DEBUG get_empjobrole:
+2018-01-19 14:10:21,924 DEBUG get_user:
+2018-01-19 14:10:21,948 DEBUG get_departments:
+2018-01-19 14:10:21,956 DEBUG hr_details:
+2018-01-19 14:10:26,105 DEBUG get_user:
+2018-01-19 14:10:27,076 DEBUG get_user:
+2018-01-19 14:10:30,373 DEBUG hr_details:
+2018-01-19 14:10:30,384 DEBUG get_emplocation:
+2018-01-19 14:10:30,423 DEBUG get_departments:
+2018-01-19 14:10:30,430 DEBUG get_user:
+2018-01-19 14:10:30,437 DEBUG get_empjobrole:
+2018-01-19 14:11:16,078 DEBUG get_user:
+2018-01-19 14:11:25,461 DEBUG hr_details:
+2018-01-19 14:11:25,568 DEBUG get_empjobrole:
+2018-01-19 14:11:25,568 DEBUG get_departments:
+2018-01-19 14:11:25,569 DEBUG get_emplocation:
+2018-01-19 14:11:25,579 DEBUG get_user:
+2018-01-19 14:12:19,472 DEBUG get_user:
+2018-01-19 14:12:24,604 DEBUG hr_details:
+2018-01-19 14:12:24,607 DEBUG get_user:
+2018-01-19 14:12:24,628 DEBUG get_emplocation:
+2018-01-19 14:12:24,638 DEBUG get_empjobrole:
+2018-01-19 14:12:24,642 DEBUG get_departments:
+2018-01-19 14:12:27,210 DEBUG get_user:
+2018-01-19 14:15:10,822 DEBUG get_user:
+2018-01-19 14:15:18,694 DEBUG hr_details:
+2018-01-19 14:15:18,744 DEBUG get_emplocation:
+2018-01-19 14:15:18,763 DEBUG get_departments:
+2018-01-19 14:15:18,770 DEBUG get_user:
+2018-01-19 14:15:18,773 DEBUG get_empjobrole:
+2018-01-19 14:15:23,314 DEBUG get_user:
+2018-01-19 14:15:32,887 DEBUG get_empjobrole:
+2018-01-19 14:15:32,889 DEBUG get_user:
+2018-01-19 14:15:32,918 DEBUG get_emplocation:
+2018-01-19 14:15:32,924 DEBUG get_departments:
+2018-01-19 14:15:32,931 DEBUG hr_details:
+2018-01-19 14:15:37,736 DEBUG get_user:
+2018-01-19 14:15:41,973 DEBUG get_emplocation:
+2018-01-19 14:15:41,986 DEBUG get_departments:
+2018-01-19 14:15:42,000 DEBUG get_user:
+2018-01-19 14:15:42,016 DEBUG hr_details:
+2018-01-19 14:15:42,053 DEBUG get_empjobrole:
+2018-01-19 14:15:50,601 DEBUG get_user:
+2018-01-19 14:17:06,885 DEBUG get_user:
+2018-01-19 14:17:10,366 DEBUG get_empjobrole:
+2018-01-19 14:17:10,376 DEBUG hr_details:
+2018-01-19 14:17:10,403 DEBUG get_emplocation:
+2018-01-19 14:17:10,407 DEBUG get_departments:
+2018-01-19 14:17:10,414 DEBUG get_user:
+2018-01-19 14:17:15,184 DEBUG get_user:
+2018-01-19 14:17:21,442 DEBUG get_user:
+2018-01-19 14:17:21,474 DEBUG get_departments:
+2018-01-19 14:17:21,481 DEBUG get_empjobrole:
+2018-01-19 14:17:21,489 DEBUG get_emplocation:
+2018-01-19 14:17:21,491 DEBUG hr_details:
+2018-01-19 14:17:26,258 DEBUG get_user:
+2018-01-19 14:17:29,982 DEBUG get_emplocation:
+2018-01-19 14:17:29,990 DEBUG hr_details:
+2018-01-19 14:17:29,990 DEBUG get_departments:
+2018-01-19 14:17:29,991 DEBUG get_user:
+2018-01-19 14:17:29,992 DEBUG get_empjobrole:
+2018-01-19 14:17:41,731 DEBUG get_user:
+2018-01-19 14:19:02,916 DEBUG get_user:
+2018-01-19 14:19:04,957 DEBUG get_empjobrole:
+2018-01-19 14:19:04,958 DEBUG get_user:
+2018-01-19 14:19:04,974 DEBUG get_emplocation:
+2018-01-19 14:19:05,019 DEBUG hr_details:
+2018-01-19 14:19:05,021 DEBUG get_departments:
+2018-01-19 14:19:09,089 DEBUG get_user:
+2018-01-19 14:19:11,720 DEBUG get_empjobrole:
+2018-01-19 14:19:11,732 DEBUG get_emplocation:
+2018-01-19 14:19:11,743 DEBUG get_departments:
+2018-01-19 14:19:11,751 DEBUG hr_details:
+2018-01-19 14:19:11,752 DEBUG get_user:
+2018-01-19 14:19:15,666 DEBUG get_user:
+2018-01-19 14:20:02,233 DEBUG get_user:
+2018-01-19 14:20:08,381 DEBUG get_user:
+2018-01-19 14:20:08,398 DEBUG get_empjobrole:
+2018-01-19 14:20:08,445 DEBUG get_emplocation:
+2018-01-19 14:20:08,467 DEBUG get_departments:
+2018-01-19 14:20:08,475 DEBUG hr_details:
+2018-01-19 14:20:27,761 DEBUG get_user:
+2018-01-19 14:20:48,265 DEBUG get_user:
+2018-01-19 14:20:53,140 DEBUG get_empjobrole:
+2018-01-19 14:20:53,142 DEBUG get_user:
+2018-01-19 14:20:53,143 DEBUG get_departments:
+2018-01-19 14:20:53,143 DEBUG hr_details:
+2018-01-19 14:20:53,156 DEBUG get_emplocation:
+2018-01-19 14:20:56,315 DEBUG get_user:
+2018-01-19 14:24:24,045 DEBUG get_user:
+2018-01-19 14:24:30,018 DEBUG hr_details:
+2018-01-19 14:24:30,024 DEBUG get_emplocation:
+2018-01-19 14:24:30,057 DEBUG get_user:
+2018-01-19 14:24:30,102 DEBUG get_empjobrole:
+2018-01-19 14:24:30,113 DEBUG get_departments:
+2018-01-19 14:24:37,135 DEBUG get_user:
+2018-01-19 14:24:39,798 DEBUG hr_details:
+2018-01-19 14:24:39,826 DEBUG get_user:
+2018-01-19 14:24:39,828 DEBUG get_departments:
+2018-01-19 14:24:39,836 DEBUG get_empjobrole:
+2018-01-19 14:24:39,847 DEBUG get_emplocation:
+2018-01-19 14:24:42,529 DEBUG get_user:
+2018-01-19 14:24:44,225 DEBUG hr_details:
+2018-01-19 14:24:44,379 DEBUG get_empjobrole:
+2018-01-19 14:24:44,402 DEBUG get_emplocation:
+2018-01-19 14:24:44,411 DEBUG get_user:
+2018-01-19 14:24:44,444 DEBUG get_departments:
+2018-01-19 14:24:49,571 DEBUG get_user:
+2018-01-19 14:24:59,900 DEBUG get_user:
+2018-01-19 14:25:03,504 DEBUG get_emplocation:
+2018-01-19 14:25:03,521 DEBUG get_empjobrole:
+2018-01-19 14:25:03,526 DEBUG hr_details:
+2018-01-19 14:25:03,536 DEBUG get_user:
+2018-01-19 14:25:03,542 DEBUG get_departments:
+2018-01-19 14:25:07,518 DEBUG get_user:
+2018-01-19 14:25:15,326 DEBUG hr_details:
+2018-01-19 14:25:15,327 DEBUG get_user:
+2018-01-19 14:25:15,423 DEBUG get_departments:
+2018-01-19 14:25:15,423 DEBUG get_empjobrole:
+2018-01-19 14:25:15,425 DEBUG get_emplocation:
+2018-01-19 14:29:24,588 DEBUG get_user:
+2018-01-19 14:29:33,834 DEBUG get_empjobrole:
+2018-01-19 14:29:33,837 DEBUG get_emplocation:
+2018-01-19 14:29:33,854 DEBUG hr_details:
+2018-01-19 14:29:33,854 DEBUG get_departments:
+2018-01-19 14:29:33,856 DEBUG get_user:
+2018-01-19 14:29:56,552 DEBUG get_user:
+2018-01-19 14:30:01,351 DEBUG get_departments:
+2018-01-19 14:30:01,356 DEBUG get_emplocation:
+2018-01-19 14:30:01,364 DEBUG get_empjobrole:
+2018-01-19 14:30:01,368 DEBUG get_user:
+2018-01-19 14:30:01,369 DEBUG hr_details:
+2018-01-19 14:30:08,598 DEBUG get_user:
+2018-01-19 14:30:13,902 DEBUG hr_details:
+2018-01-19 14:30:13,902 DEBUG get_emplocation:
+2018-01-19 14:30:13,905 DEBUG get_empjobrole:
+2018-01-19 14:30:13,906 DEBUG get_user:
+2018-01-19 14:30:13,907 DEBUG get_departments:
+2018-01-19 14:30:31,663 DEBUG get_user:
+2018-01-19 14:30:38,327 DEBUG get_departments:
+2018-01-19 14:30:38,333 DEBUG hr_details:
+2018-01-19 14:30:38,337 DEBUG get_empjobrole:
+2018-01-19 14:30:38,338 DEBUG get_emplocation:
+2018-01-19 14:30:38,341 DEBUG get_user:
+2018-01-19 14:30:49,561 DEBUG get_user:
+2018-01-19 14:31:23,687 DEBUG get_departments:
+2018-01-19 14:31:23,708 DEBUG get_empjobrole:
+2018-01-19 14:31:23,711 DEBUG get_user:
+2018-01-19 14:31:23,714 DEBUG hr_details:
+2018-01-19 14:31:23,714 DEBUG get_emplocation:
+2018-01-19 14:37:10,121 DEBUG get_user:
+2018-01-19 14:37:15,665 DEBUG get_user:
+2018-01-19 14:37:15,672 DEBUG get_emplocation:
+2018-01-19 14:37:15,674 DEBUG hr_details:
+2018-01-19 14:37:15,675 DEBUG get_departments:
+2018-01-19 14:37:15,676 DEBUG get_empjobrole:
+2018-01-19 14:38:41,384 DEBUG get_user:
+2018-01-19 14:38:45,999 DEBUG get_emplocation:
+2018-01-19 14:38:46,010 DEBUG get_empjobrole:
+2018-01-19 14:38:46,022 DEBUG get_departments:
+2018-01-19 14:38:46,025 DEBUG hr_details:
+2018-01-19 14:38:46,027 DEBUG get_user:
+2018-01-19 14:41:12,204 DEBUG get_user:
+2018-01-19 14:41:21,921 DEBUG hr_details:
+2018-01-19 14:41:21,929 DEBUG get_empjobrole:
+2018-01-19 14:41:21,929 DEBUG get_emplocation:
+2018-01-19 14:41:21,931 DEBUG get_user:
+2018-01-19 14:41:21,933 DEBUG get_departments:
+2018-01-19 14:41:26,118 DEBUG get_user:
+2018-01-19 14:41:34,147 DEBUG get_user:
+2018-01-19 14:41:34,159 DEBUG get_empjobrole:
+2018-01-19 14:41:34,821 DEBUG get_emplocation:
+2018-01-19 14:41:34,827 DEBUG get_departments:
+2018-01-19 14:41:34,830 DEBUG hr_details:
+2018-01-19 14:41:37,985 DEBUG get_empjobrole:
+2018-01-19 14:41:38,006 DEBUG get_user:
+2018-01-19 14:41:45,857 DEBUG get_user:
+2018-01-19 14:41:59,857 DEBUG get_departments:
+2018-01-19 14:41:59,862 DEBUG hr_details:
+2018-01-19 14:41:59,864 DEBUG get_emplocation:
+2018-01-19 14:41:59,868 DEBUG get_empjobrole:
+2018-01-19 14:41:59,869 DEBUG get_user:
+2018-01-19 14:45:17,479 DEBUG get_user:
+2018-01-19 14:45:24,707 DEBUG get_departments:
+2018-01-19 14:45:24,714 DEBUG get_user:
+2018-01-19 14:45:24,720 DEBUG get_empjobrole:
+2018-01-19 14:45:24,721 DEBUG hr_details:
+2018-01-19 14:45:24,723 DEBUG get_emplocation:
+2018-01-19 14:45:29,062 DEBUG get_user:
+2018-01-19 14:45:34,189 DEBUG hr_details:
+2018-01-19 14:45:34,229 DEBUG get_emplocation:
+2018-01-19 14:45:34,234 DEBUG get_user:
+2018-01-19 14:45:34,237 DEBUG get_departments:
+2018-01-19 14:45:34,237 DEBUG get_empjobrole:
+2018-01-19 14:45:36,232 DEBUG get_user:
+2018-01-19 14:48:27,483 DEBUG get_user:
+2018-01-19 14:54:10,651 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 14:54:51,042 DEBUG get_user:
+2018-01-19 14:54:55,451 DEBUG get_user:
+2018-01-19 14:54:55,458 DEBUG hr_details:
+2018-01-19 14:54:55,459 DEBUG get_departments:
+2018-01-19 14:54:55,460 DEBUG get_emplocation:
+2018-01-19 14:54:55,463 DEBUG get_empjobrole:
+2018-01-19 14:55:08,237 DEBUG get_emplocation:
+2018-01-19 14:55:08,247 DEBUG get_empjobrole:
+2018-01-19 14:55:08,253 DEBUG get_departments:
+2018-01-19 14:55:08,257 DEBUG hr_details:
+2018-01-19 14:55:08,258 DEBUG get_user:
+2018-01-19 14:55:14,394 DEBUG get_user:
+2018-01-19 14:55:16,582 DEBUG get_empjobrole:
+2018-01-19 14:55:16,591 DEBUG hr_details:
+2018-01-19 14:55:16,613 DEBUG get_emplocation:
+2018-01-19 14:55:16,626 DEBUG get_user:
+2018-01-19 14:55:16,633 DEBUG get_departments:
+2018-01-19 14:55:39,685 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 14:55:45,207 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 14:55:54,588 DEBUG get_user:
+2018-01-19 14:56:04,269 DEBUG get_user:
+2018-01-19 14:56:04,270 DEBUG hr_details:
+2018-01-19 14:56:04,289 DEBUG get_departments:
+2018-01-19 14:56:04,295 DEBUG get_empjobrole:
+2018-01-19 14:56:04,301 DEBUG get_emplocation:
+2018-01-19 14:56:14,602 DEBUG get_user:
+2018-01-19 14:56:16,859 DEBUG hr_details:
+2018-01-19 14:56:16,871 DEBUG get_departments:
+2018-01-19 14:56:16,875 DEBUG get_user:
+2018-01-19 14:56:16,884 DEBUG get_empjobrole:
+2018-01-19 14:56:16,893 DEBUG get_emplocation:
+2018-01-19 14:56:34,316 DEBUG get_empjobrole:
+2018-01-19 14:56:34,344 DEBUG get_user:
+2018-01-19 14:56:34,355 DEBUG hr_details:
+2018-01-19 14:56:34,358 DEBUG get_departments:
+2018-01-19 14:56:34,383 DEBUG get_emplocation:
+2018-01-19 14:57:54,766 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 15:01:25,607 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 15:01:38,096 DEBUG get_user:
+2018-01-19 15:01:46,248 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 15:02:05,759 DEBUG get_user:
+2018-01-19 15:02:21,238 DEBUG adduser:request is from ip: None
+2018-01-19 15:02:21,627 DEBUG add_user:{"error_code":"1", "error_desc": "record added"}
+2018-01-19 15:02:31,437 DEBUG get_user:
+2018-01-19 15:02:33,784 DEBUG get_user:
+2018-01-19 15:02:37,384 DEBUG get_empjobrole:
+2018-01-19 15:02:37,389 DEBUG get_departments:
+2018-01-19 15:02:37,390 DEBUG hr_details:
+2018-01-19 15:02:37,392 DEBUG get_emplocation:
+2018-01-19 15:02:37,395 DEBUG get_user:
+2018-01-19 15:02:43,764 DEBUG get_user:
+2018-01-19 15:02:46,183 DEBUG get_departments:
+2018-01-19 15:02:46,188 DEBUG get_emplocation:
+2018-01-19 15:02:46,190 DEBUG hr_details:
+2018-01-19 15:02:46,190 DEBUG get_empjobrole:
+2018-01-19 15:02:46,191 DEBUG get_user:
+2018-01-19 15:02:49,688 DEBUG get_user:
+2018-01-19 15:02:56,047 DEBUG get_user:
+2018-01-19 15:02:58,044 DEBUG get_emplocation:
+2018-01-19 15:02:58,044 DEBUG get_departments:
+2018-01-19 15:02:58,048 DEBUG hr_details:
+2018-01-19 15:02:58,123 DEBUG get_empjobrole:
+2018-01-19 15:02:58,128 DEBUG get_user:
+2018-01-19 15:03:01,384 DEBUG get_user:
+2018-01-19 15:03:05,130 DEBUG get_user:
+2018-01-19 15:03:06,400 DEBUG hr_details:
+2018-01-19 15:03:06,413 DEBUG get_user:
+2018-01-19 15:03:06,448 DEBUG get_empjobrole:
+2018-01-19 15:03:06,450 DEBUG get_emplocation:
+2018-01-19 15:03:06,451 DEBUG get_departments:
+2018-01-19 15:03:07,007 DEBUG get_departments:
+2018-01-19 15:03:07,019 DEBUG hr_details:
+2018-01-19 15:03:07,035 DEBUG get_user:
+2018-01-19 15:03:07,054 DEBUG get_empjobrole:
+2018-01-19 15:03:07,056 DEBUG get_emplocation:
+2018-01-19 15:03:08,405 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 15:03:10,309 DEBUG get_user:
+2018-01-19 15:03:13,806 DEBUG get_user:
+2018-01-19 15:03:13,810 DEBUG hr_details:
+2018-01-19 15:03:13,817 DEBUG get_departments:
+2018-01-19 15:03:13,843 DEBUG get_emplocation:
+2018-01-19 15:03:13,843 DEBUG get_empjobrole:
+2018-01-19 15:03:17,106 DEBUG get_user:
+2018-01-19 15:03:42,931 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 15:05:30,973 DEBUG get_user:
+2018-01-19 15:05:33,269 DEBUG hr_details:
+2018-01-19 15:05:33,271 DEBUG get_empjobrole:
+2018-01-19 15:05:33,272 DEBUG get_departments:
+2018-01-19 15:05:33,280 DEBUG get_user:
+2018-01-19 15:05:33,281 DEBUG get_emplocation:
+2018-01-19 15:05:39,186 DEBUG get_user:
+2018-01-19 15:05:41,686 DEBUG get_empjobrole:
+2018-01-19 15:05:41,688 DEBUG get_departments:
+2018-01-19 15:05:41,696 DEBUG get_user:
+2018-01-19 15:05:41,698 DEBUG get_emplocation:
+2018-01-19 15:05:41,698 DEBUG hr_details:
+2018-01-19 15:05:45,210 DEBUG get_user:
+2018-01-19 15:05:49,446 DEBUG get_user:
+2018-01-19 15:05:51,267 DEBUG get_empjobrole:
+2018-01-19 15:05:51,269 DEBUG get_departments:
+2018-01-19 15:05:51,269 DEBUG get_emplocation:
+2018-01-19 15:05:51,273 DEBUG get_user:
+2018-01-19 15:05:51,307 DEBUG hr_details:
+2018-01-19 15:05:54,725 DEBUG get_user:
+2018-01-19 15:06:33,135 DEBUG get_warehouse:
+2018-01-19 15:06:46,928 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 15:06:56,702 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 15:07:51,802 DEBUG get_user:
+2018-01-19 15:08:08,098 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 15:08:12,248 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 15:08:32,466 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 15:08:33,491 DEBUG hr_details:
+2018-01-19 15:08:33,508 DEBUG get_empjobrole:
+2018-01-19 15:08:33,516 DEBUG get_departments:
+2018-01-19 15:08:33,522 DEBUG get_emplocation:
+2018-01-19 15:08:33,524 DEBUG get_user:
+2018-01-19 15:08:38,332 DEBUG get_user:
+2018-01-19 15:08:40,804 DEBUG get_user:
+2018-01-19 15:08:40,855 DEBUG hr_details:
+2018-01-19 15:08:40,857 DEBUG get_empjobrole:
+2018-01-19 15:08:40,911 DEBUG get_emplocation:
+2018-01-19 15:08:40,913 DEBUG get_departments:
+2018-01-19 15:08:50,292 DEBUG get_user:
+2018-01-19 15:08:55,357 DEBUG get_user:
+2018-01-19 15:08:55,374 DEBUG get_departments:
+2018-01-19 15:08:55,408 DEBUG get_empjobrole:
+2018-01-19 15:08:55,411 DEBUG get_emplocation:
+2018-01-19 15:08:55,416 DEBUG hr_details:
+2018-01-19 15:08:59,883 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 15:09:00,781 DEBUG get_user:
+2018-01-19 15:09:01,578 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 15:09:04,263 DEBUG hr_details:
+2018-01-19 15:09:04,265 DEBUG get_user:
+2018-01-19 15:09:04,273 DEBUG get_empjobrole:
+2018-01-19 15:09:04,273 DEBUG get_departments:
+2018-01-19 15:09:04,276 DEBUG get_emplocation:
+2018-01-19 15:09:06,014 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 15:09:39,164 DEBUG adduser:request is from ip: None
+2018-01-19 15:09:39,530 DEBUG add_user:{"error_code":"1", "error_desc": "record added"}
+2018-01-19 15:09:47,706 DEBUG get_user:
+2018-01-19 15:10:09,855 DEBUG get_user:
+2018-01-19 15:10:18,488 DEBUG get_emplocation:
+2018-01-19 15:10:18,494 DEBUG get_departments:
+2018-01-19 15:10:18,496 DEBUG get_user:
+2018-01-19 15:10:18,498 DEBUG get_empjobrole:
+2018-01-19 15:10:18,500 DEBUG hr_details:
+2018-01-19 15:10:56,416 DEBUG get_user:
+2018-01-19 15:12:34,974 DEBUG get_user:
+2018-01-19 15:12:37,769 DEBUG get_user:
+2018-01-19 15:12:42,587 DEBUG get_user:
+2018-01-19 15:12:42,594 DEBUG get_emplocation:
+2018-01-19 15:12:42,595 DEBUG get_empjobrole:
+2018-01-19 15:12:42,598 DEBUG get_departments:
+2018-01-19 15:12:42,599 DEBUG hr_details:
+2018-01-19 15:14:51,542 DEBUG get_user:
+2018-01-19 15:14:54,914 DEBUG get_departments:
+2018-01-19 15:14:55,122 DEBUG get_user:
+2018-01-19 15:14:55,137 DEBUG get_empjobrole:
+2018-01-19 15:14:55,140 DEBUG get_emplocation:
+2018-01-19 15:14:55,143 DEBUG hr_details:
+2018-01-19 15:15:03,721 DEBUG get_user:
+2018-01-19 15:15:07,463 DEBUG get_emplocation:
+2018-01-19 15:15:07,470 DEBUG hr_details:
+2018-01-19 15:15:07,470 DEBUG get_user:
+2018-01-19 15:15:07,471 DEBUG get_empjobrole:
+2018-01-19 15:15:07,473 DEBUG get_departments:
+2018-01-19 15:15:12,722 DEBUG get_user:
+2018-01-19 15:15:15,294 DEBUG get_user:
+2018-01-19 15:15:15,297 DEBUG hr_details:
+2018-01-19 15:15:15,301 DEBUG get_departments:
+2018-01-19 15:15:15,307 DEBUG get_empjobrole:
+2018-01-19 15:15:15,312 DEBUG get_emplocation:
+2018-01-19 15:15:21,528 DEBUG get_user:
+2018-01-19 15:15:24,862 DEBUG get_emplocation:
+2018-01-19 15:15:24,899 DEBUG get_empjobrole:
+2018-01-19 15:15:24,912 DEBUG get_departments:
+2018-01-19 15:15:24,922 DEBUG get_user:
+2018-01-19 15:15:24,928 DEBUG hr_details:
+2018-01-19 15:15:30,291 DEBUG get_user:
+2018-01-19 15:15:32,831 DEBUG get_user:
+2018-01-19 15:15:32,840 DEBUG get_departments:
+2018-01-19 15:15:32,844 DEBUG get_empjobrole:
+2018-01-19 15:15:32,863 DEBUG get_emplocation:
+2018-01-19 15:15:32,869 DEBUG hr_details:
+2018-01-19 15:15:39,109 DEBUG get_user:
+2018-01-19 15:15:41,640 DEBUG get_emplocation:
+2018-01-19 15:15:41,645 DEBUG get_empjobrole:
+2018-01-19 15:15:41,654 DEBUG get_user:
+2018-01-19 15:15:41,662 DEBUG hr_details:
+2018-01-19 15:15:41,662 DEBUG get_departments:
+2018-01-19 15:15:49,643 DEBUG get_user:
+2018-01-19 16:07:04,073 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 16:07:09,866 WARNING Not Found: /robots.txt
+2018-01-19 16:11:11,070 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 16:12:00,094 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 16:12:37,988 DEBUG login:request is from ip: None
+2018-01-19 16:12:43,798 DEBUG login:request is from ip: None
+2018-01-19 16:12:50,664 DEBUG login:request is from ip: None
+2018-01-19 16:12:50,666 ERROR Internal Server Error: /InventoryApp/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view InventoryApp.views.login didn't return an HttpResponse object. It returned None instead.
+2018-01-19 16:12:57,897 DEBUG login:request is from ip: None
+2018-01-19 16:17:44,030 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 16:18:13,431 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 16:18:29,238 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 16:19:13,655 DEBUG get_user:
+2018-01-19 16:23:05,107 DEBUG get_user:
+2018-01-19 16:23:48,304 DEBUG adduser:request is from ip: None
+2018-01-19 16:23:48,655 DEBUG reportinghead:{"error_code":"2", "error_desc": "Inserting data into employees..,reportinghead is mandatory"}
+2018-01-19 16:23:59,339 DEBUG get_user:
+2018-01-19 16:24:16,315 DEBUG get_user:
+2018-01-19 16:24:55,708 DEBUG get_warehouse:
+2018-01-19 16:25:07,417 DEBUG get_user:
+2018-01-19 16:27:00,490 DEBUG get_user:
+2018-01-19 16:28:48,859 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 16:29:09,062 DEBUG adduser:request is from ip: None
+2018-01-19 16:29:09,430 DEBUG reportinghead:{"error_code":"2", "error_desc": "Inserting data into employees..,reportinghead is mandatory"}
+2018-01-19 16:30:00,201 DEBUG adduser:request is from ip: None
+2018-01-19 16:30:00,597 DEBUG add_user:{"error_code":"1", "error_desc": "record added"}
+2018-01-19 16:30:47,059 DEBUG get_user:
+2018-01-19 16:30:53,692 DEBUG get_user:
+2018-01-19 16:31:35,106 DEBUG get_user:
+2018-01-19 16:35:44,983 DEBUG get_user:
+2018-01-19 16:35:55,997 DEBUG adduser:request is from ip: None
+2018-01-19 16:35:56,353 DEBUG add_user:{"error_code":"1", "error_desc": "record added"}
+2018-01-19 16:36:24,480 DEBUG adduser:request is from ip: None
+2018-01-19 16:36:24,824 DEBUG add_user:{"error_code":"1", "error_desc": "record added"}
+2018-01-19 16:36:47,075 DEBUG adduser:request is from ip: None
+2018-01-19 16:36:47,465 DEBUG add_user:{"error_code":"1", "error_desc": "record added"}
+2018-01-19 16:37:10,778 DEBUG adduser:request is from ip: None
+2018-01-19 16:37:11,171 DEBUG add_user:{"error_code":"1", "error_desc": "record added"}
+2018-01-19 16:40:36,533 DEBUG get_user:
+2018-01-19 16:43:04,565 DEBUG get_user:
+2018-01-19 16:44:00,806 DEBUG login:request is from ip: None
+2018-01-19 16:44:10,062 DEBUG login:request is from ip: None
+2018-01-19 16:44:22,485 DEBUG login:request is from ip: None
+2018-01-19 16:44:32,691 DEBUG login:request is from ip: None
+2018-01-19 16:45:38,546 DEBUG hr_details:
+2018-01-19 16:50:41,760 DEBUG hr_details:
+2018-01-19 16:53:02,165 DEBUG login:request is from ip: None
+2018-01-19 17:10:34,580 DEBUG get_user:
+2018-01-19 17:10:46,512 DEBUG get_emplocation:
+2018-01-19 17:10:46,517 DEBUG hr_details:
+2018-01-19 17:10:46,517 DEBUG get_empjobrole:
+2018-01-19 17:10:46,519 DEBUG get_user:
+2018-01-19 17:10:46,521 DEBUG get_departments:
+2018-01-19 17:11:08,629 DEBUG get_user:
+2018-01-19 17:11:13,973 DEBUG get_emplocation:
+2018-01-19 17:11:14,045 DEBUG get_departments:
+2018-01-19 17:11:14,102 DEBUG hr_details:
+2018-01-19 17:11:14,147 DEBUG get_user:
+2018-01-19 17:11:14,158 DEBUG get_empjobrole:
+2018-01-19 17:15:31,721 DEBUG get_departments:
+2018-01-19 17:15:31,729 DEBUG get_emplocation:
+2018-01-19 17:15:31,731 DEBUG get_user:
+2018-01-19 17:15:31,735 DEBUG get_empjobrole:
+2018-01-19 17:15:31,736 DEBUG hr_details:
+2018-01-19 17:19:39,344 DEBUG get_location:
+2018-01-19 17:20:09,690 DEBUG get_user:
+2018-01-19 17:20:16,388 DEBUG get_user:
+2018-01-19 17:20:55,699 DEBUG get_user:
+2018-01-19 17:20:56,507 DEBUG get_user:
+2018-01-19 17:20:59,770 DEBUG get_departments:
+2018-01-19 17:20:59,780 DEBUG get_empjobrole:
+2018-01-19 17:20:59,783 DEBUG get_emplocation:
+2018-01-19 17:20:59,783 DEBUG hr_details:
+2018-01-19 17:20:59,787 DEBUG get_user:
+2018-01-19 17:21:39,974 DEBUG get_empjobrole:
+2018-01-19 17:21:39,975 DEBUG get_emplocation:
+2018-01-19 17:21:39,978 DEBUG hr_details:
+2018-01-19 17:21:39,979 DEBUG get_departments:
+2018-01-19 17:22:09,999 DEBUG get_user:
+2018-01-19 17:22:10,005 DEBUG get_emplocation:
+2018-01-19 17:22:10,018 DEBUG hr_details:
+2018-01-19 17:22:10,085 DEBUG get_departments:
+2018-01-19 17:22:10,099 DEBUG get_empjobrole:
+2018-01-19 17:22:53,273 DEBUG get_user:
+2018-01-19 17:23:18,388 DEBUG get_emplocation:
+2018-01-19 17:23:18,395 DEBUG get_user:
+2018-01-19 17:23:18,397 DEBUG hr_details:
+2018-01-19 17:23:18,400 DEBUG get_departments:
+2018-01-19 17:23:18,401 DEBUG get_empjobrole:
+2018-01-19 17:41:34,493 DEBUG hr_details:
+2018-01-19 17:41:34,504 WARNING Not Found: /robots.txt
+2018-01-19 17:41:38,859 DEBUG get_user:
+2018-01-19 17:43:01,658 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 17:44:32,794 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 17:46:08,587 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 17:46:24,060 ERROR Internal Server Error: /InventoryApp/get_employee/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 507, in get_employee
+    d['worklocation'] = row[18]
+IndexError: tuple index out of range
+2018-01-19 17:49:36,369 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 17:50:15,233 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 17:50:23,396 DEBUG get_user:
+2018-01-19 18:00:07,722 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 18:00:13,112 DEBUG adduser:request is from ip: None
+2018-01-19 18:00:13,483 DEBUG add_user:{"error_code":"1", "error_desc": "record added"}
+2018-01-19 18:00:25,231 DEBUG get_user:
+2018-01-19 18:01:00,861 DEBUG update_user:request is from ip: None
+2018-01-19 18:01:00,861 DEBUG dateofexit:{"error_code":"2", "error_desc": "updating user..,dateofexit is mandatory"}
+2018-01-19 18:01:24,550 DEBUG update_user:request is from ip: None
+2018-01-19 18:01:24,551 DEBUG update_user:update_user:exception details:[<class 'django.core.exceptions.FieldDoesNotExist'>],[jts_employees has no field named 'reportingHead']
+2018-01-19 18:01:24,551 DEBUG update_user:{"error_code":"2", "error_desc": "Failed to update the record/ID doesnot exists"}
+2018-01-19 18:03:45,132 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 18:03:57,970 DEBUG update_user:request is from ip: None
+2018-01-19 18:03:57,972 DEBUG update_user:update_user:exception details:[<class 'django.core.exceptions.ValidationError'>],[[u"'0000-00-00' value has the correct format (YYYY-MM-DD) but it is an invalid date."]]
+2018-01-19 18:03:57,972 DEBUG update_user:{"error_code":"2", "error_desc": "Failed to update the record/ID doesnot exists"}
+2018-01-19 18:04:18,169 DEBUG update_user:request is from ip: None
+2018-01-19 18:04:18,170 DEBUG dateofexit:{"error_code":"2", "error_desc": "updating user..,dateofexit is mandatory"}
+2018-01-19 18:05:31,900 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 18:05:36,082 DEBUG update_user:request is from ip: None
+2018-01-19 18:05:36,084 DEBUG update_user:update_user:exception details:[<class 'django.core.exceptions.ValidationError'>],[[u"'' value has an invalid date format. It must be in YYYY-MM-DD format."]]
+2018-01-19 18:05:36,084 DEBUG update_user:{"error_code":"2", "error_desc": "Failed to update the record/ID doesnot exists"}
+2018-01-19 18:06:24,226 DEBUG update_user:request is from ip: None
+2018-01-19 18:06:24,228 DEBUG update_user:update_user:exception details:[<class 'django.core.exceptions.ValidationError'>],[[u"'' value has an invalid date format. It must be in YYYY-MM-DD format."]]
+2018-01-19 18:06:24,228 DEBUG update_user:{"error_code":"2", "error_desc": "Failed to update the record/ID doesnot exists"}
+2018-01-19 18:06:39,161 DEBUG update_user:request is from ip: None
+2018-01-19 18:06:39,163 DEBUG update_user:update_user:exception details:[<class 'django.core.exceptions.ValidationError'>],[[u"'' value has an invalid date format. It must be in YYYY-MM-DD format."]]
+2018-01-19 18:06:39,163 DEBUG update_user:{"error_code":"2", "error_desc": "Failed to update the record/ID doesnot exists"}
+2018-01-19 18:07:38,317 DEBUG update_user:request is from ip: None
+2018-01-19 18:07:38,320 DEBUG update_user:update_user:exception details:[<class 'django.core.exceptions.ValidationError'>],[[u"'0000-00-00' value has the correct format (YYYY-MM-DD) but it is an invalid date."]]
+2018-01-19 18:07:38,320 DEBUG update_user:{"error_code":"2", "error_desc": "Failed to update the record/ID doesnot exists"}
+2018-01-19 18:09:04,858 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 18:09:16,569 DEBUG update_user:request is from ip: None
+2018-01-19 18:09:16,571 DEBUG update_user:update_user:exception details:[<class 'django.core.exceptions.ValidationError'>],[[u"'' value has an invalid date format. It must be in YYYY-MM-DD format."]]
+2018-01-19 18:09:16,571 DEBUG update_user:{"error_code":"2", "error_desc": "Failed to update the record/ID doesnot exists"}
+2018-01-19 18:10:45,162 DEBUG get_user:
+2018-01-19 18:11:59,689 DEBUG get_user:
+2018-01-19 18:20:53,574 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 18:20:55,914 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 18:21:13,196 DEBUG update_user:request is from ip: None
+2018-01-19 18:21:13,199 DEBUG update_user:{"error_code":"1", "error_desc": "record updated"}
+2018-01-19 18:21:17,007 DEBUG update_user:request is from ip: None
+2018-01-19 18:21:17,010 DEBUG update_user:{"error_code":"1", "error_desc": "record updated"}
+2018-01-19 18:21:19,634 DEBUG update_user:request is from ip: None
+2018-01-19 18:21:19,637 DEBUG update_user:{"error_code":"1", "error_desc": "record updated"}
+2018-01-19 18:21:26,223 DEBUG get_user:
+2018-01-19 18:21:38,749 DEBUG update_user:request is from ip: None
+2018-01-19 18:21:38,752 DEBUG update_user:{"error_code":"1", "error_desc": "record updated"}
+2018-01-19 18:21:42,518 DEBUG get_user:
+2018-01-19 18:22:03,471 DEBUG update_user:request is from ip: None
+2018-01-19 18:22:03,474 DEBUG update_user:{"error_code":"1", "error_desc": "record updated"}
+2018-01-19 18:22:06,109 DEBUG get_user:
+2018-01-19 18:22:14,186 DEBUG hr_details:
+2018-01-19 18:35:17,133 DEBUG hr_details:
+2018-01-19 18:35:22,158 DEBUG get_user:
+2018-01-19 18:46:16,941 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-19 19:55:16,174 DEBUG get_user:
+2018-01-19 19:55:16,204 WARNING Not Found: /robots.txt
+2018-01-19 21:56:45,154 DEBUG get_user:
+2018-01-19 22:02:35,430 DEBUG update_user:request is from ip: None
+2018-01-19 22:02:35,433 DEBUG update_user:{"error_code":"1", "error_desc": "record updated"}
+2018-01-19 22:03:35,911 DEBUG get_user:
+2018-01-20 11:19:24,332 DEBUG get_user:
+2018-01-20 11:19:27,527 DEBUG hr_details:
+2018-01-20 11:19:27,542 DEBUG get_empjobrole:
+2018-01-20 11:19:27,549 DEBUG get_user:
+2018-01-20 11:19:27,560 DEBUG get_departments:
+2018-01-20 11:19:27,568 DEBUG get_emplocation:
+2018-01-20 11:20:19,301 DEBUG get_user:
+2018-01-20 11:20:21,475 DEBUG get_user:
+2018-01-20 11:20:21,484 DEBUG get_emplocation:
+2018-01-20 11:20:21,497 DEBUG get_empjobrole:
+2018-01-20 11:20:21,504 DEBUG hr_details:
+2018-01-20 11:20:21,515 DEBUG get_departments:
+2018-01-20 11:20:25,027 DEBUG get_user:
+2018-01-20 11:20:28,050 DEBUG get_empjobrole:
+2018-01-20 11:20:28,061 DEBUG get_departments:
+2018-01-20 11:20:28,075 DEBUG get_emplocation:
+2018-01-20 11:20:28,082 DEBUG hr_details:
+2018-01-20 11:20:28,092 DEBUG get_user:
+2018-01-20 11:23:17,074 DEBUG get_user:
+2018-01-20 11:23:20,733 DEBUG get_emplocation:
+2018-01-20 11:23:20,742 DEBUG get_empjobrole:
+2018-01-20 11:23:20,796 DEBUG get_user:
+2018-01-20 11:23:20,810 DEBUG get_departments:
+2018-01-20 11:23:20,920 DEBUG hr_details:
+2018-01-20 11:28:43,886 DEBUG get_user:
+2018-01-20 11:28:54,958 DEBUG get_user:
+2018-01-20 11:28:54,987 DEBUG hr_details:
+2018-01-20 11:28:55,011 DEBUG get_departments:
+2018-01-20 11:28:55,110 DEBUG get_emplocation:
+2018-01-20 11:28:55,172 DEBUG get_empjobrole:
+2018-01-20 11:30:04,333 DEBUG get_user:
+2018-01-20 11:30:08,761 DEBUG get_empjobrole:
+2018-01-20 11:30:08,815 DEBUG get_departments:
+2018-01-20 11:30:08,832 DEBUG get_emplocation:
+2018-01-20 11:30:08,838 DEBUG hr_details:
+2018-01-20 11:30:08,852 DEBUG get_user:
+2018-01-20 11:30:17,771 DEBUG get_user:
+2018-01-20 11:30:20,156 DEBUG get_empjobrole:
+2018-01-20 11:30:20,163 DEBUG hr_details:
+2018-01-20 11:30:20,171 DEBUG get_user:
+2018-01-20 11:30:20,180 DEBUG get_emplocation:
+2018-01-20 11:30:20,222 DEBUG get_departments:
+2018-01-20 11:30:26,571 DEBUG get_user:
+2018-01-20 11:30:30,653 DEBUG get_emplocation:
+2018-01-20 11:30:30,823 DEBUG get_departments:
+2018-01-20 11:30:30,873 DEBUG hr_details:
+2018-01-20 11:30:30,882 DEBUG get_user:
+2018-01-20 11:30:30,890 DEBUG get_empjobrole:
+2018-01-20 11:30:34,289 DEBUG get_user:
+2018-01-20 11:30:39,689 DEBUG get_user:
+2018-01-20 11:30:39,697 DEBUG get_emplocation:
+2018-01-20 11:30:39,713 DEBUG get_departments:
+2018-01-20 11:30:39,722 DEBUG hr_details:
+2018-01-20 11:30:39,768 DEBUG get_empjobrole:
+2018-01-20 11:30:50,849 DEBUG get_user:
+2018-01-20 11:30:54,390 DEBUG get_emplocation:
+2018-01-20 11:30:54,440 DEBUG get_departments:
+2018-01-20 11:30:54,450 DEBUG get_empjobrole:
+2018-01-20 11:30:54,459 DEBUG get_user:
+2018-01-20 11:30:54,464 DEBUG hr_details:
+2018-01-20 11:30:59,468 DEBUG get_user:
+2018-01-20 11:31:02,679 DEBUG get_user:
+2018-01-20 11:31:07,590 DEBUG get_empjobrole:
+2018-01-20 11:31:07,623 DEBUG get_emplocation:
+2018-01-20 11:31:07,632 DEBUG hr_details:
+2018-01-20 11:31:07,642 DEBUG get_user:
+2018-01-20 11:31:07,646 DEBUG get_departments:
+2018-01-20 11:31:13,897 DEBUG get_user:
+2018-01-20 11:31:19,326 DEBUG get_user:
+2018-01-20 11:31:20,536 DEBUG get_departments:
+2018-01-20 11:31:20,545 DEBUG get_emplocation:
+2018-01-20 11:31:20,553 DEBUG get_empjobrole:
+2018-01-20 11:31:20,576 DEBUG hr_details:
+2018-01-20 11:32:27,277 DEBUG get_user:
+2018-01-20 11:32:31,286 DEBUG hr_details:
+2018-01-20 11:32:31,414 DEBUG get_emplocation:
+2018-01-20 11:32:31,485 DEBUG get_empjobrole:
+2018-01-20 11:32:31,490 DEBUG get_departments:
+2018-01-20 11:32:31,499 DEBUG get_user:
+2018-01-20 11:35:57,428 DEBUG get_user:
+2018-01-20 11:36:04,521 DEBUG hr_details:
+2018-01-20 11:36:04,530 DEBUG get_departments:
+2018-01-20 11:36:04,542 DEBUG get_emplocation:
+2018-01-20 11:36:04,547 DEBUG get_empjobrole:
+2018-01-20 11:36:04,556 DEBUG get_user:
+2018-01-20 11:36:46,753 DEBUG get_user:
+2018-01-20 11:36:48,865 DEBUG get_empjobrole:
+2018-01-20 11:36:48,879 DEBUG get_user:
+2018-01-20 11:36:48,918 DEBUG get_departments:
+2018-01-20 11:36:48,922 DEBUG get_emplocation:
+2018-01-20 11:36:48,937 DEBUG hr_details:
+2018-01-20 11:41:50,863 DEBUG get_user:
+2018-01-20 11:44:33,134 DEBUG get_departments:
+2018-01-20 11:44:33,142 DEBUG get_emplocation:
+2018-01-20 11:44:33,155 DEBUG get_empjobrole:
+2018-01-20 11:44:33,165 DEBUG hr_details:
+2018-01-20 11:44:33,175 DEBUG get_user:
+2018-01-20 11:44:59,672 DEBUG get_user:
+2018-01-20 11:45:04,477 DEBUG get_departments:
+2018-01-20 11:45:04,486 DEBUG get_user:
+2018-01-20 11:45:04,496 DEBUG hr_details:
+2018-01-20 11:45:04,505 DEBUG get_emplocation:
+2018-01-20 11:45:04,517 DEBUG get_empjobrole:
+2018-01-20 11:47:18,005 DEBUG get_user:
+2018-01-20 11:50:04,639 DEBUG get_user:
+2018-01-20 11:50:04,646 DEBUG hr_details:
+2018-01-20 11:50:04,655 DEBUG get_departments:
+2018-01-20 11:50:04,663 DEBUG get_empjobrole:
+2018-01-20 11:50:04,671 DEBUG get_emplocation:
+2018-01-20 11:51:31,310 DEBUG get_user:
+2018-01-20 11:51:38,001 DEBUG get_empjobrole:
+2018-01-20 11:51:38,014 DEBUG get_departments:
+2018-01-20 11:51:38,024 DEBUG get_emplocation:
+2018-01-20 11:51:38,131 DEBUG get_user:
+2018-01-20 11:51:38,138 DEBUG hr_details:
+2018-01-20 11:51:39,013 DEBUG get_empjobrole:
+2018-01-20 11:51:39,025 DEBUG get_emplocation:
+2018-01-20 11:51:39,039 DEBUG get_departments:
+2018-01-20 11:51:39,050 DEBUG get_user:
+2018-01-20 11:51:39,056 DEBUG hr_details:
+2018-01-20 11:51:44,380 DEBUG get_user:
+2018-01-20 11:51:46,979 DEBUG hr_details:
+2018-01-20 11:51:47,011 DEBUG get_user:
+2018-01-20 11:51:47,032 DEBUG get_empjobrole:
+2018-01-20 11:51:47,039 DEBUG get_emplocation:
+2018-01-20 11:51:47,049 DEBUG get_departments:
+2018-01-20 11:54:12,378 DEBUG get_empjobrole:
+2018-01-20 11:56:50,956 DEBUG get_user:
+2018-01-20 11:57:56,395 DEBUG get_departments:
+2018-01-20 11:57:56,524 DEBUG hr_details:
+2018-01-20 11:57:56,538 DEBUG get_user:
+2018-01-20 11:57:56,640 DEBUG get_empjobrole:
+2018-01-20 11:57:56,649 DEBUG get_emplocation:
+2018-01-20 11:58:55,196 DEBUG get_user:
+2018-01-20 11:59:12,961 DEBUG get_user:
+2018-01-20 11:59:17,798 DEBUG get_departments:
+2018-01-20 11:59:17,803 DEBUG get_user:
+2018-01-20 11:59:17,812 DEBUG hr_details:
+2018-01-20 11:59:18,154 DEBUG get_empjobrole:
+2018-01-20 11:59:18,371 DEBUG get_emplocation:
+2018-01-20 11:59:28,257 DEBUG get_user:
+2018-01-20 11:59:32,946 DEBUG get_empjobrole:
+2018-01-20 11:59:32,954 DEBUG get_departments:
+2018-01-20 11:59:32,973 DEBUG get_user:
+2018-01-20 11:59:33,104 DEBUG get_emplocation:
+2018-01-20 11:59:33,135 DEBUG hr_details:
+2018-01-20 11:59:39,115 DEBUG get_user:
+2018-01-20 11:59:39,123 DEBUG get_emplocation:
+2018-01-20 11:59:39,131 DEBUG get_departments:
+2018-01-20 11:59:39,147 DEBUG get_empjobrole:
+2018-01-20 11:59:39,152 DEBUG hr_details:
+2018-01-20 11:59:44,683 DEBUG get_user:
+2018-01-20 11:59:44,704 DEBUG hr_details:
+2018-01-20 11:59:44,779 DEBUG get_departments:
+2018-01-20 11:59:44,789 DEBUG get_empjobrole:
+2018-01-20 11:59:44,828 DEBUG get_emplocation:
+2018-01-20 12:01:42,724 DEBUG get_user:
+2018-01-20 12:01:55,239 DEBUG get_empjobrole:
+2018-01-20 12:01:55,274 DEBUG get_departments:
+2018-01-20 12:01:55,283 DEBUG hr_details:
+2018-01-20 12:01:55,453 DEBUG get_emplocation:
+2018-01-20 12:01:55,458 DEBUG get_user:
+2018-01-20 12:06:59,274 DEBUG get_user:
+2018-01-20 12:08:07,549 DEBUG get_emplocation:
+2018-01-20 12:08:07,666 DEBUG hr_details:
+2018-01-20 12:08:07,671 DEBUG get_empjobrole:
+2018-01-20 12:08:07,695 DEBUG get_user:
+2018-01-20 12:08:07,707 DEBUG get_departments:
+2018-01-20 12:14:04,932 DEBUG get_user:
+2018-01-20 12:14:08,289 DEBUG get_user:
+2018-01-20 12:14:08,344 DEBUG get_empjobrole:
+2018-01-20 12:14:08,354 DEBUG hr_details:
+2018-01-20 12:14:08,369 DEBUG get_emplocation:
+2018-01-20 12:14:08,394 DEBUG get_departments:
+2018-01-20 12:16:11,212 DEBUG get_user:
+2018-01-20 12:16:14,415 DEBUG get_user:
+2018-01-20 12:16:14,453 DEBUG get_departments:
+2018-01-20 12:16:14,477 DEBUG get_emplocation:
+2018-01-20 12:16:14,482 DEBUG get_empjobrole:
+2018-01-20 12:16:14,487 DEBUG hr_details:
+2018-01-20 12:19:18,697 DEBUG get_user:
+2018-01-20 12:19:27,333 DEBUG get_departments:
+2018-01-20 12:19:27,413 DEBUG get_emplocation:
+2018-01-20 12:19:27,478 DEBUG get_user:
+2018-01-20 12:19:27,487 DEBUG hr_details:
+2018-01-20 12:19:27,630 DEBUG get_empjobrole:
+2018-01-20 12:24:29,458 DEBUG get_user:
+2018-01-20 12:32:23,680 DEBUG get_user:
+2018-01-20 12:35:18,942 DEBUG get_user:
+2018-01-20 12:35:36,316 DEBUG get_location:
+2018-01-20 12:35:40,629 DEBUG get_warehouse:
+2018-01-20 12:35:55,493 DEBUG get_warehouse:
+2018-01-20 12:36:16,544 DEBUG get_position:
+2018-01-20 12:44:19,469 DEBUG get_user:
+2018-01-20 12:44:21,299 DEBUG get_user:
+2018-01-20 14:22:00,701 WARNING Not Found: /InventoryApp/forget_password/
+2018-01-20 15:13:21,606 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-20 15:13:53,351 WARNING Not Found: /robots.txt
+2018-01-20 15:29:58,261 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-20 16:37:22,539 DEBUG get_user:
+2018-01-20 16:37:34,938 DEBUG hr_details:
+2018-01-20 16:37:34,945 DEBUG get_empjobrole:
+2018-01-20 16:37:35,163 DEBUG get_departments:
+2018-01-20 16:37:37,139 DEBUG get_emplocation:
+2018-01-20 16:37:37,204 DEBUG get_user:
+2018-01-20 16:37:38,129 DEBUG get_emplocation:
+2018-01-20 16:37:38,364 DEBUG get_user:
+2018-01-20 16:37:38,551 DEBUG get_departments:
+2018-01-20 16:42:38,676 DEBUG get_user:
+2018-01-20 16:43:20,191 DEBUG get_user:
+2018-01-20 16:45:59,343 DEBUG get_user:
+2018-01-20 16:46:03,984 DEBUG get_departments:
+2018-01-20 16:46:03,991 DEBUG get_empjobrole:
+2018-01-20 16:46:04,003 DEBUG get_user:
+2018-01-20 16:46:04,010 DEBUG get_emplocation:
+2018-01-20 16:46:04,058 DEBUG hr_details:
+2018-01-20 16:46:09,898 DEBUG get_user:
+2018-01-20 16:46:13,233 DEBUG get_empjobrole:
+2018-01-20 16:46:13,247 DEBUG get_emplocation:
+2018-01-20 16:46:13,293 DEBUG get_user:
+2018-01-20 16:46:13,302 DEBUG hr_details:
+2018-01-20 16:46:14,485 DEBUG get_departments:
+2018-01-20 16:46:15,984 DEBUG get_departments:
+2018-01-20 16:51:17,592 DEBUG get_user:
+2018-01-20 16:51:20,768 DEBUG get_user:
+2018-01-20 16:54:02,959 DEBUG get_user:
+2018-01-20 16:54:05,695 DEBUG get_user:
+2018-01-20 16:54:13,182 DEBUG hr_details:
+2018-01-20 16:54:13,189 DEBUG get_emplocation:
+2018-01-20 16:54:13,244 DEBUG get_empjobrole:
+2018-01-20 16:54:13,251 DEBUG get_departments:
+2018-01-20 16:54:15,778 DEBUG get_user:
+2018-01-20 16:54:16,013 DEBUG get_departments:
+2018-01-20 16:54:16,016 DEBUG get_emplocation:
+2018-01-20 16:54:16,029 DEBUG get_empjobrole:
+2018-01-20 16:54:16,036 DEBUG hr_details:
+2018-01-20 16:54:18,658 DEBUG get_user:
+2018-01-20 16:54:29,013 DEBUG get_user:
+2018-01-20 16:54:31,870 DEBUG get_user:
+2018-01-20 16:54:37,141 DEBUG get_emplocation:
+2018-01-20 16:54:38,274 DEBUG get_empjobrole:
+2018-01-20 16:54:38,558 DEBUG get_departments:
+2018-01-20 16:54:38,576 DEBUG hr_details:
+2018-01-20 16:54:40,239 DEBUG get_user:
+2018-01-20 16:54:40,247 DEBUG get_emplocation:
+2018-01-20 16:54:40,526 DEBUG get_departments:
+2018-01-20 16:54:40,532 DEBUG hr_details:
+2018-01-20 16:54:40,795 DEBUG get_empjobrole:
+2018-01-20 16:54:42,957 DEBUG get_user:
+2018-01-20 16:54:49,140 DEBUG get_user:
+2018-01-20 16:54:52,212 DEBUG get_user:
+2018-01-20 16:54:57,650 DEBUG hr_details:
+2018-01-20 16:54:57,815 DEBUG get_emplocation:
+2018-01-20 16:54:57,821 DEBUG get_departments:
+2018-01-20 16:54:57,829 DEBUG get_empjobrole:
+2018-01-20 16:55:00,951 DEBUG get_user:
+2018-01-20 16:55:04,569 DEBUG get_user:
+2018-01-20 16:55:10,832 DEBUG get_user:
+2018-01-20 16:55:13,982 DEBUG hr_details:
+2018-01-20 16:55:16,092 DEBUG get_departments:
+2018-01-20 16:55:17,720 DEBUG get_emplocation:
+2018-01-20 16:55:17,729 DEBUG get_empjobrole:
+2018-01-20 16:55:19,018 DEBUG get_user:
+2018-01-20 16:55:19,279 DEBUG get_departments:
+2018-01-20 16:55:20,947 DEBUG get_empjobrole:
+2018-01-20 16:55:20,955 DEBUG get_emplocation:
+2018-01-20 16:55:26,427 DEBUG get_user:
+2018-01-20 16:55:37,456 DEBUG get_user:
+2018-01-20 16:55:39,994 DEBUG get_user:
+2018-01-20 16:55:47,270 DEBUG hr_details:
+2018-01-20 16:55:47,277 DEBUG get_emplocation:
+2018-01-20 16:55:47,287 DEBUG get_departments:
+2018-01-20 16:55:47,299 DEBUG get_empjobrole:
+2018-01-20 16:55:49,581 DEBUG get_user:
+2018-01-20 16:55:55,058 DEBUG get_user:
+2018-01-20 16:55:57,544 DEBUG get_user:
+2018-01-20 16:56:04,182 DEBUG get_empjobrole:
+2018-01-20 16:56:04,192 DEBUG get_departments:
+2018-01-20 16:56:04,198 DEBUG hr_details:
+2018-01-20 16:56:04,209 DEBUG get_emplocation:
+2018-01-20 16:56:08,376 DEBUG get_emplocation:
+2018-01-20 16:56:08,423 DEBUG get_user:
+2018-01-20 16:56:10,398 DEBUG get_user:
+2018-01-20 16:56:16,957 DEBUG get_user:
+2018-01-20 16:56:29,401 DEBUG get_user:
+2018-01-20 16:57:01,372 DEBUG get_user:
+2018-01-20 16:57:05,975 DEBUG get_emplocation:
+2018-01-20 16:57:05,987 DEBUG get_departments:
+2018-01-20 16:57:06,069 DEBUG get_empjobrole:
+2018-01-20 16:57:06,078 DEBUG hr_details:
+2018-01-20 16:57:09,331 DEBUG get_user:
+2018-01-20 16:57:09,561 DEBUG get_empjobrole:
+2018-01-20 16:57:09,568 DEBUG hr_details:
+2018-01-20 16:57:09,580 DEBUG get_emplocation:
+2018-01-20 16:57:12,036 DEBUG get_user:
+2018-01-20 16:57:23,839 DEBUG get_user:
+2018-01-20 16:57:28,597 DEBUG get_user:
+2018-01-20 16:57:50,926 DEBUG get_user:
+2018-01-20 16:58:08,022 DEBUG get_user:
+2018-01-20 16:58:11,110 DEBUG get_user:
+2018-01-20 16:58:19,487 DEBUG get_departments:
+2018-01-20 16:58:19,495 DEBUG get_emplocation:
+2018-01-20 16:58:19,506 DEBUG get_empjobrole:
+2018-01-20 16:58:19,513 DEBUG hr_details:
+2018-01-20 16:58:22,062 DEBUG get_user:
+2018-01-20 17:05:20,094 DEBUG get_user:
+2018-01-20 17:05:21,349 DEBUG get_user:
+2018-01-20 17:05:28,209 DEBUG hr_details:
+2018-01-20 17:05:28,216 DEBUG get_empjobrole:
+2018-01-20 17:05:28,264 DEBUG get_emplocation:
+2018-01-20 17:05:28,267 DEBUG get_departments:
+2018-01-20 17:05:30,965 DEBUG get_user:
+2018-01-20 17:05:31,254 DEBUG get_empjobrole:
+2018-01-20 17:05:31,265 DEBUG get_departments:
+2018-01-20 17:05:31,274 DEBUG get_emplocation:
+2018-01-20 17:05:31,841 DEBUG get_user:
+2018-01-20 17:06:40,994 DEBUG get_user:
+2018-01-20 17:06:50,602 DEBUG get_emplocation:
+2018-01-20 17:06:50,612 DEBUG hr_details:
+2018-01-20 17:06:50,617 DEBUG get_empjobrole:
+2018-01-20 17:06:50,667 DEBUG get_departments:
+2018-01-20 17:06:53,455 DEBUG get_emplocation:
+2018-01-20 17:06:53,466 DEBUG get_user:
+2018-01-20 17:06:53,474 DEBUG get_user:
+2018-01-20 17:06:56,510 DEBUG get_user:
+2018-01-20 17:07:12,321 DEBUG get_user:
+2018-01-20 17:07:24,663 DEBUG get_user:
+2018-01-20 17:07:25,519 DEBUG get_departments:
+2018-01-20 17:07:25,526 DEBUG get_emplocation:
+2018-01-20 17:07:25,535 DEBUG hr_details:
+2018-01-20 17:07:25,584 DEBUG get_empjobrole:
+2018-01-20 17:07:28,335 DEBUG get_user:
+2018-01-20 17:07:28,683 DEBUG get_empjobrole:
+2018-01-20 17:07:28,695 DEBUG get_departments:
+2018-01-20 17:07:28,702 DEBUG get_emplocation:
+2018-01-20 17:07:31,326 DEBUG get_user:
+2018-01-20 17:08:14,657 DEBUG get_user:
+2018-01-20 17:12:34,039 DEBUG get_user:
+2018-01-20 17:12:38,062 DEBUG get_departments:
+2018-01-20 17:12:38,071 DEBUG get_emplocation:
+2018-01-20 17:12:38,082 DEBUG get_empjobrole:
+2018-01-20 17:12:38,092 DEBUG hr_details:
+2018-01-20 17:12:40,030 DEBUG get_user:
+2018-01-20 17:15:53,961 DEBUG get_user:
+2018-01-20 17:15:56,921 DEBUG get_user:
+2018-01-20 17:16:05,336 DEBUG hr_details:
+2018-01-20 17:16:05,380 DEBUG get_departments:
+2018-01-20 17:16:07,184 DEBUG get_emplocation:
+2018-01-20 17:16:08,518 DEBUG get_emplocation:
+2018-01-20 17:16:10,356 DEBUG get_user:
+2018-01-20 17:16:10,359 DEBUG get_empjobrole:
+2018-01-20 17:16:12,946 DEBUG get_user:
+2018-01-20 17:16:12,954 DEBUG get_empjobrole:
+2018-01-20 17:20:59,049 DEBUG get_user:
+2018-01-20 17:21:01,777 DEBUG get_user:
+2018-01-20 17:22:59,028 DEBUG get_user:
+2018-01-20 17:22:59,034 DEBUG hr_details:
+2018-01-20 17:22:59,046 DEBUG get_emplocation:
+2018-01-20 17:22:59,052 DEBUG get_empjobrole:
+2018-01-20 17:22:59,062 DEBUG get_departments:
+2018-01-20 17:23:01,785 DEBUG get_departments:
+2018-01-20 17:23:01,868 DEBUG get_empjobrole:
+2018-01-20 17:23:01,881 DEBUG get_emplocation:
+2018-01-20 18:00:40,889 DEBUG get_user:
+2018-01-20 18:00:45,267 DEBUG get_emplocation:
+2018-01-20 18:00:45,428 DEBUG get_empjobrole:
+2018-01-20 18:00:45,438 DEBUG get_departments:
+2018-01-20 18:00:45,486 DEBUG get_user:
+2018-01-20 18:00:45,497 DEBUG hr_details:
+2018-01-20 18:00:59,926 DEBUG get_departments:
+2018-01-20 18:00:59,944 DEBUG hr_details:
+2018-01-20 18:00:59,955 DEBUG get_user:
+2018-01-20 18:00:59,960 DEBUG get_empjobrole:
+2018-01-20 18:00:59,962 DEBUG get_emplocation:
+2018-01-20 18:01:36,545 DEBUG get_user:
+2018-01-20 18:13:53,066 DEBUG get_user:
+2018-01-20 18:14:01,584 DEBUG get_emplocation:
+2018-01-20 18:14:01,596 DEBUG get_departments:
+2018-01-20 18:14:01,600 DEBUG hr_details:
+2018-01-20 18:14:01,684 DEBUG get_user:
+2018-01-20 18:14:01,881 DEBUG get_empjobrole:
+2018-01-20 18:17:48,670 DEBUG get_user:
+2018-01-20 18:17:55,812 DEBUG get_user:
+2018-01-20 18:19:11,812 DEBUG get_user:
+2018-01-20 18:19:16,765 DEBUG get_departments:
+2018-01-20 18:19:16,770 DEBUG get_emplocation:
+2018-01-20 18:19:16,771 DEBUG get_empjobrole:
+2018-01-20 18:19:16,771 DEBUG hr_details:
+2018-01-20 18:19:21,534 DEBUG get_user:
+2018-01-20 18:19:29,298 DEBUG get_user:
+2018-01-20 18:19:31,670 DEBUG get_empjobrole:
+2018-01-20 18:19:31,680 DEBUG get_departments:
+2018-01-20 18:19:31,682 DEBUG get_emplocation:
+2018-01-20 18:19:31,683 DEBUG hr_details:
+2018-01-20 18:19:36,411 DEBUG get_user:
+2018-01-20 18:20:14,517 DEBUG get_user:
+2018-01-20 18:20:16,902 DEBUG get_departments:
+2018-01-20 18:20:16,904 DEBUG get_emplocation:
+2018-01-20 18:20:16,942 DEBUG get_empjobrole:
+2018-01-20 18:20:16,943 DEBUG hr_details:
+2018-01-20 18:20:21,718 DEBUG get_user:
+2018-01-20 18:20:52,691 DEBUG get_user:
+2018-01-20 18:21:22,989 DEBUG get_departments:
+2018-01-20 18:21:22,996 DEBUG hr_details:
+2018-01-20 18:21:23,011 DEBUG get_empjobrole:
+2018-01-20 18:21:23,015 DEBUG get_emplocation:
+2018-01-20 18:21:27,733 DEBUG get_user:
+2018-01-20 18:21:33,305 DEBUG get_user:
+2018-01-20 18:26:27,363 DEBUG get_user:
+2018-01-20 18:38:20,385 DEBUG get_user:
+2018-01-20 18:38:34,950 DEBUG get_empjobrole:
+2018-01-20 18:38:34,973 DEBUG get_departments:
+2018-01-20 18:38:34,980 DEBUG get_emplocation:
+2018-01-20 18:38:35,008 DEBUG hr_details:
+2018-01-20 18:38:39,877 DEBUG get_user:
+2018-01-20 18:40:57,271 DEBUG get_user:
+2018-01-20 18:40:59,391 DEBUG get_empjobrole:
+2018-01-20 18:40:59,428 DEBUG hr_details:
+2018-01-20 18:40:59,432 DEBUG get_emplocation:
+2018-01-20 18:40:59,432 DEBUG get_departments:
+2018-01-20 18:41:04,296 DEBUG get_user:
+2018-01-20 18:41:08,766 DEBUG get_user:
+2018-01-20 18:43:22,540 DEBUG get_departments:
+2018-01-20 18:43:22,550 DEBUG get_empjobrole:
+2018-01-20 18:43:22,620 DEBUG get_emplocation:
+2018-01-20 18:43:22,649 DEBUG hr_details:
+2018-01-20 18:43:27,537 DEBUG get_user:
+2018-01-20 18:47:28,599 DEBUG get_user:
+2018-01-20 18:47:31,506 DEBUG hr_details:
+2018-01-20 18:47:31,516 DEBUG get_empjobrole:
+2018-01-20 18:47:31,520 DEBUG get_emplocation:
+2018-01-20 18:47:31,598 DEBUG get_departments:
+2018-01-20 18:47:36,299 DEBUG get_user:
+2018-01-20 18:49:02,075 DEBUG get_user:
+2018-01-20 18:49:05,197 DEBUG get_emplocation:
+2018-01-20 18:49:05,213 DEBUG get_empjobrole:
+2018-01-20 18:49:05,217 DEBUG hr_details:
+2018-01-20 18:49:05,217 DEBUG get_departments:
+2018-01-20 18:49:10,037 DEBUG get_user:
+2018-01-20 18:49:15,916 DEBUG get_user:
+2018-01-20 18:49:19,532 DEBUG get_empjobrole:
+2018-01-20 18:49:19,546 DEBUG get_emplocation:
+2018-01-20 18:49:19,547 DEBUG get_departments:
+2018-01-20 18:49:19,595 DEBUG hr_details:
+2018-01-20 18:49:24,356 DEBUG get_user:
+2018-01-20 18:49:32,279 DEBUG get_user:
+2018-01-20 18:49:35,219 DEBUG get_empjobrole:
+2018-01-20 18:49:35,219 DEBUG get_emplocation:
+2018-01-20 18:49:35,220 DEBUG hr_details:
+2018-01-20 18:49:35,221 DEBUG get_departments:
+2018-01-20 18:49:40,134 DEBUG get_user:
+2018-01-20 18:49:43,630 DEBUG get_user:
+2018-01-20 18:57:50,622 DEBUG get_user:
+2018-01-20 18:59:43,391 DEBUG get_user:
+2018-01-20 19:00:53,399 DEBUG get_empjobrole:
+2018-01-20 19:00:53,433 DEBUG hr_details:
+2018-01-20 19:00:53,436 DEBUG get_departments:
+2018-01-20 19:00:53,440 DEBUG get_emplocation:
+2018-01-20 19:00:56,801 DEBUG get_user:
+2018-01-20 19:00:58,273 DEBUG get_user:
+2018-01-20 19:01:57,525 DEBUG get_user:
+2018-01-20 19:02:01,382 DEBUG get_departments:
+2018-01-20 19:02:01,387 DEBUG get_empjobrole:
+2018-01-20 19:02:01,402 DEBUG get_emplocation:
+2018-01-20 19:02:01,402 DEBUG hr_details:
+2018-01-20 19:02:05,980 DEBUG get_user:
+2018-01-20 19:02:44,392 DEBUG get_user:
+2018-01-20 19:02:49,390 DEBUG get_departments:
+2018-01-20 19:02:49,453 DEBUG hr_details:
+2018-01-20 19:02:49,460 DEBUG get_empjobrole:
+2018-01-20 19:02:49,469 DEBUG get_emplocation:
+2018-01-20 19:02:53,144 DEBUG get_user:
+2018-01-20 19:04:51,344 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-20 19:05:23,625 DEBUG get_user:
+2018-01-20 19:05:24,673 DEBUG get_user:
+2018-01-20 19:05:26,267 DEBUG get_user:
+2018-01-20 19:07:50,956 DEBUG get_user:
+2018-01-20 19:07:53,984 DEBUG get_empjobrole:
+2018-01-20 19:07:54,047 DEBUG get_emplocation:
+2018-01-20 19:07:54,126 DEBUG hr_details:
+2018-01-20 19:07:54,132 DEBUG get_departments:
+2018-01-20 19:07:59,271 DEBUG get_user:
+2018-01-20 19:12:02,605 DEBUG get_user:
+2018-01-20 19:12:17,734 DEBUG get_user:
+2018-01-20 19:12:23,600 DEBUG get_emplocation:
+2018-01-20 19:12:23,602 DEBUG get_departments:
+2018-01-20 19:12:23,613 DEBUG get_empjobrole:
+2018-01-20 19:12:23,614 DEBUG hr_details:
+2018-01-20 19:12:28,450 DEBUG get_user:
+2018-01-20 19:17:29,898 DEBUG get_user:
+2018-01-20 19:20:22,274 DEBUG get_user:
+2018-01-20 19:20:27,008 DEBUG get_departments:
+2018-01-20 19:20:27,014 DEBUG hr_details:
+2018-01-20 19:20:27,025 DEBUG get_empjobrole:
+2018-01-20 19:20:27,030 DEBUG get_emplocation:
+2018-01-20 19:20:31,775 DEBUG get_user:
+2018-01-20 19:21:35,302 DEBUG get_user:
+2018-01-20 19:21:39,018 DEBUG get_empjobrole:
+2018-01-20 19:21:39,047 DEBUG get_departments:
+2018-01-20 19:21:39,050 DEBUG get_emplocation:
+2018-01-20 19:21:39,064 DEBUG hr_details:
+2018-01-20 19:21:43,540 DEBUG get_user:
+2018-01-20 19:23:25,237 DEBUG get_user:
+2018-01-20 19:23:50,952 DEBUG get_empjobrole:
+2018-01-20 19:23:50,953 DEBUG get_emplocation:
+2018-01-20 19:23:50,959 DEBUG get_departments:
+2018-01-20 19:23:50,980 DEBUG hr_details:
+2018-01-20 19:23:53,416 DEBUG get_user:
+2018-01-20 19:23:56,511 DEBUG get_user:
+2018-01-20 19:27:12,372 DEBUG get_user:
+2018-01-20 19:27:17,222 DEBUG get_empjobrole:
+2018-01-20 19:27:17,227 DEBUG get_emplocation:
+2018-01-20 19:27:17,228 DEBUG get_departments:
+2018-01-20 19:27:17,228 DEBUG hr_details:
+2018-01-20 19:27:21,914 DEBUG get_user:
+2018-01-20 19:30:42,342 DEBUG get_user:
+2018-01-20 19:30:45,802 DEBUG get_emplocation:
+2018-01-20 19:30:45,803 DEBUG hr_details:
+2018-01-20 19:30:45,804 DEBUG get_empjobrole:
+2018-01-20 19:30:45,817 DEBUG get_departments:
+2018-01-20 19:30:50,499 DEBUG get_user:
+2018-01-20 19:31:25,895 DEBUG get_user:
+2018-01-20 19:31:30,966 DEBUG get_emplocation:
+2018-01-20 19:31:31,009 DEBUG hr_details:
+2018-01-20 19:31:31,014 DEBUG get_departments:
+2018-01-20 19:31:31,030 DEBUG get_empjobrole:
+2018-01-20 19:31:35,814 DEBUG get_user:
+2018-01-20 19:33:19,123 DEBUG get_user:
+2018-01-20 19:33:38,975 DEBUG get_departments:
+2018-01-20 19:33:38,980 DEBUG hr_details:
+2018-01-20 19:33:38,982 DEBUG get_emplocation:
+2018-01-20 19:33:39,010 DEBUG get_empjobrole:
+2018-01-20 19:33:43,814 DEBUG get_user:
+2018-01-20 19:33:56,342 DEBUG get_user:
+2018-01-20 19:33:59,100 DEBUG get_emplocation:
+2018-01-20 19:33:59,100 DEBUG get_empjobrole:
+2018-01-20 19:33:59,117 DEBUG get_departments:
+2018-01-20 19:33:59,125 DEBUG hr_details:
+2018-01-20 19:34:04,019 DEBUG get_user:
+2018-01-20 19:35:29,208 DEBUG get_user:
+2018-01-20 19:35:32,252 DEBUG get_emplocation:
+2018-01-20 19:35:32,297 DEBUG hr_details:
+2018-01-20 19:35:32,309 DEBUG get_departments:
+2018-01-20 19:35:32,359 DEBUG get_empjobrole:
+2018-01-20 19:35:37,123 DEBUG get_user:
+2018-01-20 19:35:56,896 DEBUG get_user:
+2018-01-20 19:35:59,828 DEBUG get_empjobrole:
+2018-01-20 19:35:59,829 DEBUG get_departments:
+2018-01-20 19:35:59,830 DEBUG get_emplocation:
+2018-01-20 19:35:59,835 DEBUG hr_details:
+2018-01-20 19:36:04,622 DEBUG get_user:
+2018-01-20 19:36:21,548 DEBUG get_user:
+2018-01-20 19:36:24,040 DEBUG hr_details:
+2018-01-20 19:36:24,062 DEBUG get_emplocation:
+2018-01-20 19:36:24,065 DEBUG get_empjobrole:
+2018-01-20 19:36:24,097 DEBUG get_departments:
+2018-01-20 19:36:28,945 DEBUG get_user:
+2018-01-20 19:40:29,993 DEBUG get_user:
+2018-01-20 19:40:34,008 DEBUG hr_details:
+2018-01-20 19:40:34,119 DEBUG get_emplocation:
+2018-01-20 19:40:34,119 DEBUG get_departments:
+2018-01-20 19:40:34,170 DEBUG get_empjobrole:
+2018-01-20 19:40:38,630 DEBUG get_user:
+2018-01-20 19:41:38,566 DEBUG get_user:
+2018-01-20 19:41:44,088 DEBUG get_empjobrole:
+2018-01-20 19:41:44,204 DEBUG get_emplocation:
+2018-01-20 19:41:44,205 DEBUG get_departments:
+2018-01-20 19:41:44,296 DEBUG hr_details:
+2018-01-20 19:41:48,309 DEBUG get_user:
+2018-01-20 19:45:42,226 DEBUG get_user:
+2018-01-20 19:45:48,284 DEBUG get_empjobrole:
+2018-01-20 19:45:48,287 DEBUG get_departments:
+2018-01-20 19:45:48,294 DEBUG hr_details:
+2018-01-20 19:45:48,333 DEBUG get_emplocation:
+2018-01-20 19:45:52,990 DEBUG get_user:
+2018-01-20 19:50:04,446 DEBUG get_user:
+2018-01-20 19:50:08,304 DEBUG get_empjobrole:
+2018-01-20 19:50:08,358 DEBUG get_emplocation:
+2018-01-20 19:50:08,433 DEBUG get_departments:
+2018-01-20 19:50:08,434 DEBUG hr_details:
+2018-01-20 19:50:12,893 DEBUG get_user:
+2018-01-20 19:51:30,210 DEBUG get_user:
+2018-01-20 19:51:33,569 DEBUG hr_details:
+2018-01-20 19:51:33,618 DEBUG get_departments:
+2018-01-20 19:51:33,629 DEBUG get_empjobrole:
+2018-01-20 19:51:33,634 DEBUG get_emplocation:
+2018-01-20 19:51:38,444 DEBUG get_user:
+2018-01-20 19:51:44,641 DEBUG get_user:
+2018-01-20 19:51:46,831 DEBUG hr_details:
+2018-01-20 19:51:46,847 DEBUG get_emplocation:
+2018-01-20 19:51:46,863 DEBUG get_empjobrole:
+2018-01-20 19:51:46,877 DEBUG get_departments:
+2018-01-20 19:51:51,672 DEBUG get_user:
+2018-01-20 19:51:58,939 DEBUG get_user:
+2018-01-20 19:52:01,250 DEBUG get_empjobrole:
+2018-01-20 19:52:01,262 DEBUG get_emplocation:
+2018-01-20 19:52:01,271 DEBUG get_departments:
+2018-01-20 19:52:01,287 DEBUG hr_details:
+2018-01-20 19:52:06,182 DEBUG get_user:
+2018-01-20 19:52:50,828 DEBUG get_user:
+2018-01-20 19:53:05,779 DEBUG get_emplocation:
+2018-01-20 19:53:05,785 DEBUG hr_details:
+2018-01-20 19:53:05,792 DEBUG get_departments:
+2018-01-20 19:53:05,792 DEBUG get_empjobrole:
+2018-01-20 19:53:10,502 DEBUG get_user:
+2018-01-20 19:53:26,271 DEBUG adduser:request is from ip: None
+2018-01-20 19:53:26,272 DEBUG password:{"error_code":"2", "error_desc": "Inserting data into employees..,password is mandatory"}
+2018-01-20 20:12:08,760 DEBUG get_user:
+2018-01-20 20:22:48,218 DEBUG get_user:
+2018-01-22 10:54:44,210 DEBUG get_user:
+2018-01-22 10:57:18,686 DEBUG get_user:
+2018-01-22 11:07:04,387 DEBUG get_user:
+2018-01-22 11:07:41,452 DEBUG get_departments:
+2018-01-22 11:08:25,541 DEBUG get_user:
+2018-01-22 11:08:27,962 DEBUG get_departments:
+2018-01-22 11:08:27,965 DEBUG get_empjobrole:
+2018-01-22 11:08:27,969 DEBUG get_emplocation:
+2018-01-22 11:08:27,976 DEBUG hr_details:
+2018-01-22 11:08:33,010 DEBUG get_user:
+2018-01-22 11:08:59,156 DEBUG adduser:request is from ip: None
+2018-01-22 11:08:59,156 DEBUG password:{"error_code":"2", "error_desc": "Inserting data into employees..,password is mandatory"}
+2018-01-22 11:10:05,340 DEBUG adduser:request is from ip: None
+2018-01-22 11:10:05,340 DEBUG password:{"error_code":"2", "error_desc": "Inserting data into employees..,password is mandatory"}
+2018-01-22 11:10:08,752 DEBUG get_user:
+2018-01-22 11:10:27,535 DEBUG get_departments:
+2018-01-22 11:10:27,536 DEBUG hr_details:
+2018-01-22 11:10:27,536 DEBUG get_empjobrole:
+2018-01-22 11:10:27,537 DEBUG get_emplocation:
+2018-01-22 11:10:33,216 DEBUG get_departments:
+2018-01-22 11:10:33,250 DEBUG get_emplocation:
+2018-01-22 11:10:33,261 DEBUG get_user:
+2018-01-22 11:10:33,272 DEBUG get_empjobrole:
+2018-01-22 11:10:33,274 DEBUG hr_details:
+2018-01-22 11:10:33,308 DEBUG get_user:
+2018-01-22 11:10:37,282 DEBUG get_emplocation:
+2018-01-22 11:11:13,211 DEBUG get_user:
+2018-01-22 11:11:17,012 DEBUG get_empjobrole:
+2018-01-22 11:11:17,052 DEBUG get_emplocation:
+2018-01-22 11:11:17,057 DEBUG hr_details:
+2018-01-22 11:11:17,059 DEBUG get_departments:
+2018-01-22 11:11:21,359 DEBUG get_user:
+2018-01-22 11:24:43,235 DEBUG get_user:
+2018-01-22 11:37:43,729 DEBUG hr_details:
+2018-01-22 11:37:43,757 DEBUG get_departments:
+2018-01-22 11:37:43,761 DEBUG get_empjobrole:
+2018-01-22 11:37:43,762 DEBUG get_emplocation:
+2018-01-22 11:37:48,571 DEBUG get_user:
+2018-01-22 11:44:29,684 DEBUG get_user:
+2018-01-22 11:44:33,673 DEBUG get_user:
+2018-01-22 11:44:37,623 DEBUG get_departments:
+2018-01-22 11:44:37,632 DEBUG get_empjobrole:
+2018-01-22 11:44:37,698 DEBUG get_emplocation:
+2018-01-22 11:44:38,087 DEBUG hr_details:
+2018-01-22 11:44:42,519 DEBUG get_emplocation:
+2018-01-22 11:44:42,577 DEBUG get_empjobrole:
+2018-01-22 11:44:42,598 DEBUG get_departments:
+2018-01-22 11:44:42,628 DEBUG hr_details:
+2018-01-22 11:44:49,790 DEBUG get_user:
+2018-01-22 11:46:51,706 DEBUG get_user:
+2018-01-22 11:47:00,880 DEBUG get_departments:
+2018-01-22 11:47:00,917 DEBUG hr_details:
+2018-01-22 11:47:01,074 DEBUG get_empjobrole:
+2018-01-22 11:47:01,981 DEBUG get_emplocation:
+2018-01-22 11:47:09,062 DEBUG get_user:
+2018-01-22 11:48:58,343 DEBUG get_user:
+2018-01-22 11:49:35,213 DEBUG update_user:request is from ip: None
+2018-01-22 11:49:35,216 DEBUG update_user:{"error_code":"1", "error_desc": "record updated"}
+2018-01-22 11:49:41,634 DEBUG get_user:
+2018-01-22 11:50:13,736 DEBUG get_user:
+2018-01-22 11:50:16,900 DEBUG get_empjobrole:
+2018-01-22 11:50:17,071 DEBUG hr_details:
+2018-01-22 11:50:17,094 DEBUG get_emplocation:
+2018-01-22 11:50:17,115 DEBUG get_departments:
+2018-01-22 11:50:21,765 DEBUG get_user:
+2018-01-22 11:50:31,405 DEBUG adduser:request is from ip: None
+2018-01-22 11:50:31,405 DEBUG password:{"error_code":"2", "error_desc": "Inserting data into employees..,password is mandatory"}
+2018-01-22 11:51:15,430 DEBUG get_user:
+2018-01-22 11:51:18,189 DEBUG get_user:
+2018-01-22 11:51:21,530 DEBUG get_emplocation:
+2018-01-22 11:51:21,531 DEBUG hr_details:
+2018-01-22 11:51:21,535 DEBUG get_departments:
+2018-01-22 11:51:21,535 DEBUG get_empjobrole:
+2018-01-22 11:51:25,526 DEBUG get_user:
+2018-01-22 11:51:26,169 DEBUG get_user:
+2018-01-22 11:51:29,346 DEBUG get_emplocation:
+2018-01-22 11:51:29,348 DEBUG get_empjobrole:
+2018-01-22 11:51:29,489 DEBUG get_departments:
+2018-01-22 11:51:29,489 DEBUG hr_details:
+2018-01-22 11:51:37,056 DEBUG get_user:
+2018-01-22 11:51:54,088 DEBUG adduser:request is from ip: None
+2018-01-22 11:51:54,088 DEBUG password:{"error_code":"2", "error_desc": "Inserting data into employees..,password is mandatory"}
+2018-01-22 11:52:25,588 DEBUG get_user:
+2018-01-22 11:52:29,759 DEBUG get_user:
+2018-01-22 11:52:43,100 DEBUG get_emplocation:
+2018-01-22 11:52:43,110 DEBUG get_empjobrole:
+2018-01-22 11:52:43,266 DEBUG hr_details:
+2018-01-22 11:52:43,280 DEBUG get_departments:
+2018-01-22 11:52:47,311 DEBUG get_user:
+2018-01-22 11:53:41,692 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-22 11:55:11,487 DEBUG update_user:request is from ip: None
+2018-01-22 11:55:11,490 DEBUG update_user:{"error_code":"1", "error_desc": "record updated"}
+2018-01-22 11:55:15,746 DEBUG get_user:
+2018-01-22 11:55:59,661 DEBUG get_user:
+2018-01-22 11:56:03,618 DEBUG get_emplocation:
+2018-01-22 11:56:03,655 DEBUG hr_details:
+2018-01-22 11:56:04,212 DEBUG get_empjobrole:
+2018-01-22 11:56:04,639 DEBUG get_departments:
+2018-01-22 11:56:22,559 DEBUG get_user:
+2018-01-22 11:56:23,932 DEBUG get_user:
+2018-01-22 11:56:27,145 DEBUG get_emplocation:
+2018-01-22 11:56:27,151 DEBUG get_departments:
+2018-01-22 11:56:27,165 DEBUG get_empjobrole:
+2018-01-22 11:56:27,227 DEBUG hr_details:
+2018-01-22 11:56:32,901 DEBUG get_user:
+2018-01-22 11:56:42,797 DEBUG adduser:request is from ip: None
+2018-01-22 11:56:42,798 DEBUG password:{"error_code":"2", "error_desc": "Inserting data into employees..,password is mandatory"}
+2018-01-22 11:58:17,648 DEBUG get_user:
+2018-01-22 11:58:27,546 DEBUG hr_details:
+2018-01-22 11:58:28,738 DEBUG get_departments:
+2018-01-22 11:58:50,994 DEBUG get_user:
+2018-01-22 11:58:52,954 DEBUG get_user:
+2018-01-22 11:59:01,087 DEBUG get_empjobrole:
+2018-01-22 11:59:04,192 DEBUG get_user:
+2018-01-22 11:59:54,417 DEBUG get_user:
+2018-01-22 11:59:57,129 DEBUG hr_details:
+2018-01-22 11:59:57,421 DEBUG get_empjobrole:
+2018-01-22 11:59:57,975 DEBUG get_emplocation:
+2018-01-22 11:59:58,014 DEBUG get_departments:
+2018-01-22 12:00:05,097 DEBUG get_user:
+2018-01-22 12:00:12,942 DEBUG update_user:request is from ip: None
+2018-01-22 12:00:12,942 DEBUG userid:{"error_code":"2", "error_desc": "updating user..,userid is mandatory"}
+2018-01-22 12:08:41,260 DEBUG get_user:
+2018-01-22 12:08:49,607 DEBUG get_empjobrole:
+2018-01-22 12:08:49,617 DEBUG get_emplocation:
+2018-01-22 12:08:49,648 DEBUG hr_details:
+2018-01-22 12:08:49,653 DEBUG get_departments:
+2018-01-22 12:08:55,434 DEBUG get_user:
+2018-01-22 12:09:07,207 DEBUG update_user:request is from ip: None
+2018-01-22 12:09:07,208 DEBUG userid:{"error_code":"2", "error_desc": "updating user..,userid is mandatory"}
+2018-01-22 12:10:22,462 DEBUG get_user:
+2018-01-22 12:10:26,396 DEBUG get_emplocation:
+2018-01-22 12:10:26,412 DEBUG hr_details:
+2018-01-22 12:10:26,417 DEBUG get_empjobrole:
+2018-01-22 12:10:26,423 DEBUG get_departments:
+2018-01-22 12:10:30,634 DEBUG get_user:
+2018-01-22 12:10:37,370 DEBUG update_user:request is from ip: None
+2018-01-22 12:10:37,372 DEBUG update_user:update_user:exception details:[<type 'exceptions.ValueError'>],[invalid literal for int() with base 10: 'johneda']
+2018-01-22 12:10:37,372 DEBUG update_user:{"error_code":"2", "error_desc": "Failed to update the record/ID doesnot exists"}
+2018-01-22 12:10:41,858 DEBUG update_user:request is from ip: None
+2018-01-22 12:10:41,860 DEBUG update_user:update_user:exception details:[<type 'exceptions.ValueError'>],[invalid literal for int() with base 10: 'johneda']
+2018-01-22 12:10:41,860 DEBUG update_user:{"error_code":"2", "error_desc": "Failed to update the record/ID doesnot exists"}
+2018-01-22 12:10:55,798 DEBUG update_user:request is from ip: None
+2018-01-22 12:10:55,800 DEBUG update_user:update_user:exception details:[<type 'exceptions.ValueError'>],[invalid literal for int() with base 10: 'johneda']
+2018-01-22 12:10:55,800 DEBUG update_user:{"error_code":"2", "error_desc": "Failed to update the record/ID doesnot exists"}
+2018-01-22 12:14:05,238 WARNING Not Found: /robots.txt
+2018-01-22 12:14:05,240 DEBUG get_user:
+2018-01-22 12:19:16,337 DEBUG update_user:request is from ip: None
+2018-01-22 12:19:16,338 DEBUG update_user:update_user:exception details:[<type 'exceptions.ValueError'>],[invalid literal for int() with base 10: 'johneda']
+2018-01-22 12:19:16,339 DEBUG update_user:{"error_code":"2", "error_desc": "Failed to update the record/ID doesnot exists"}
+2018-01-22 13:05:04,462 DEBUG update_user:request is from ip: None
+2018-01-22 13:05:04,464 DEBUG update_user:update_user:exception details:[<type 'exceptions.ValueError'>],[invalid literal for int() with base 10: 'johneda']
+2018-01-22 13:05:04,464 DEBUG update_user:{"error_code":"2", "error_desc": "Failed to update the record/ID doesnot exists"}
+2018-01-22 13:06:38,027 DEBUG update_user:request is from ip: None
+2018-01-22 13:06:38,030 DEBUG update_user:update_user:exception details:[<type 'exceptions.ValueError'>],[invalid literal for int() with base 10: 'johneda']
+2018-01-22 13:06:38,030 DEBUG update_user:{"error_code":"2", "error_desc": "Failed to update the record/ID doesnot exists"}
+2018-01-22 13:06:43,374 DEBUG update_user:request is from ip: None
+2018-01-22 13:06:43,376 DEBUG update_user:update_user:exception details:[<type 'exceptions.ValueError'>],[invalid literal for int() with base 10: 'johneda']
+2018-01-22 13:06:43,376 DEBUG update_user:{"error_code":"2", "error_desc": "Failed to update the record/ID doesnot exists"}
+2018-01-22 13:06:52,757 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-22 13:07:30,402 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-22 13:09:30,359 WARNING Not Found: /InventoryApp/forget_passoword/
+2018-01-22 13:10:49,214 DEBUG update_user:request is from ip: None
+2018-01-22 13:10:49,216 DEBUG update_user:update_user:exception details:[<type 'exceptions.ValueError'>],[invalid literal for int() with base 10: 'johneda']
+2018-01-22 13:10:49,216 DEBUG update_user:{"error_code":"2", "error_desc": "Failed to update the record/ID doesnot exists"}
+2018-01-22 13:11:52,130 DEBUG get_user:
+2018-01-22 13:11:56,814 DEBUG hr_details:
+2018-01-22 13:11:56,825 DEBUG get_emplocation:
+2018-01-22 13:11:56,831 DEBUG get_empjobrole:
+2018-01-22 13:11:56,832 DEBUG get_departments:
+2018-01-22 13:12:01,939 DEBUG get_user:
+2018-01-22 13:12:12,241 DEBUG update_user:request is from ip: None
+2018-01-22 13:12:12,243 DEBUG update_user:update_user:exception details:[<type 'exceptions.ValueError'>],[invalid literal for int() with base 10: 'johneda']
+2018-01-22 13:12:12,243 DEBUG update_user:{"error_code":"2", "error_desc": "Failed to update the record/ID doesnot exists"}
+2018-01-22 13:13:35,953 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-22 13:14:02,500 WARNING Not Found: /InventoryApp/forget_passoword/
+2018-01-22 13:14:06,192 DEBUG get_empjobrole:
+2018-01-22 13:14:47,517 DEBUG get_empjobrole:
+2018-01-22 13:14:53,249 DEBUG get_empjobrole:
+2018-01-22 13:15:05,227 DEBUG get_empjobrole:
+2018-01-22 13:15:05,517 DEBUG get_empjobrole:
+2018-01-22 13:15:05,712 WARNING Not Found: /favicon.ico
+2018-01-22 13:16:22,798 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-22 13:16:45,123 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-22 13:16:49,751 WARNING Not Found: /InventoryApp/forget_passoword/
+2018-01-22 13:16:53,447 DEBUG get_user:
+2018-01-22 13:17:00,159 DEBUG get_user:
+2018-01-22 13:17:02,981 DEBUG get_emplocation:
+2018-01-22 13:17:03,005 DEBUG get_empjobrole:
+2018-01-22 13:17:03,034 DEBUG hr_details:
+2018-01-22 13:17:03,038 DEBUG get_departments:
+2018-01-22 13:17:07,877 DEBUG get_user:
+2018-01-22 13:17:13,987 DEBUG update_user:request is from ip: None
+2018-01-22 13:17:13,989 DEBUG update_user:update_user:exception details:[<type 'exceptions.ValueError'>],[invalid literal for int() with base 10: 'johneda']
+2018-01-22 13:17:13,989 DEBUG update_user:{"error_code":"2", "error_desc": "Failed to update the record/ID doesnot exists"}
+2018-01-22 13:18:07,384 WARNING Not Found: /InventoryApp/forget_passoword/
+2018-01-22 13:19:19,479 DEBUG search_employees:request is from ip: None
+2018-01-22 13:19:19,879 DEBUG update_user:{"error_code":"1", "error_desc": "password updated"}
+2018-01-22 13:19:35,245 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-22 13:19:45,687 DEBUG search_employees:request is from ip: None
+2018-01-22 13:19:46,067 DEBUG update_user:{"error_code":"1", "error_desc": "password updated"}
+2018-01-22 13:19:50,851 DEBUG search_employees:request is from ip: None
+2018-01-22 13:19:56,763 DEBUG search_employees:request is from ip: None
+2018-01-22 13:19:57,136 DEBUG update_user:{"error_code":"1", "error_desc": "password updated"}
+2018-01-22 13:26:54,632 DEBUG update_user: request is from the IP:50.16.249.180
+2018-01-22 13:26:54,632 DEBUG update_user:{"error_code":"2", "error_desc": "GET is not supported"}
+2018-01-22 13:27:08,287 DEBUG update_user:request is from ip: None
+2018-01-22 13:27:08,287 DEBUG update_user:{"error_code":"2", "error_desc": "updating user..,invalid input, no proper JSON request "}
+2018-01-22 13:28:52,462 DEBUG update_user:request is from ip: None
+2018-01-22 13:28:52,464 DEBUG update_user:update_user:exception details:[<type 'exceptions.ValueError'>],[invalid literal for int() with base 10: 'johneda']
+2018-01-22 13:28:52,464 DEBUG update_user:{"error_code":"2", "error_desc": "Failed to update the record/ID doesnot exists"}
+2018-01-22 13:28:53,083 DEBUG update_user:request is from ip: None
+2018-01-22 13:28:53,085 DEBUG update_user:update_user:exception details:[<type 'exceptions.ValueError'>],[invalid literal for int() with base 10: 'johneda']
+2018-01-22 13:28:53,085 DEBUG update_user:{"error_code":"2", "error_desc": "Failed to update the record/ID doesnot exists"}
+2018-01-22 13:31:40,426 DEBUG update_user:request is from ip: None
+2018-01-22 13:31:40,426 DEBUG update_user:{"error_code":"2", "error_desc": "updating user..,invalid input, no proper JSON request "}
+2018-01-22 13:32:14,459 DEBUG get_user:
+2018-01-22 13:32:21,766 DEBUG get_emplocation:
+2018-01-22 13:32:21,794 DEBUG hr_details:
+2018-01-22 13:32:21,811 DEBUG get_empjobrole:
+2018-01-22 13:32:21,830 DEBUG get_departments:
+2018-01-22 13:32:25,816 DEBUG get_user:
+2018-01-22 13:37:15,195 DEBUG get_user:
+2018-01-22 13:37:17,965 DEBUG get_departments:
+2018-01-22 13:37:17,986 DEBUG get_empjobrole:
+2018-01-22 13:37:17,991 DEBUG hr_details:
+2018-01-22 13:37:18,000 DEBUG get_emplocation:
+2018-01-22 13:37:22,982 DEBUG get_user:
+2018-01-22 13:42:22,669 DEBUG get_user:
+2018-01-22 13:42:26,133 DEBUG get_emplocation:
+2018-01-22 13:42:26,146 DEBUG get_departments:
+2018-01-22 13:42:26,183 DEBUG get_empjobrole:
+2018-01-22 13:42:26,228 DEBUG hr_details:
+2018-01-22 13:42:30,670 DEBUG get_user:
+2018-01-22 13:42:38,414 DEBUG update_user:request is from ip: None
+2018-01-22 13:42:38,416 DEBUG update_user:update_user:exception details:[<type 'exceptions.ValueError'>],[invalid literal for int() with base 10: 'johneda']
+2018-01-22 13:42:38,416 DEBUG update_user:{"error_code":"2", "error_desc": "Failed to update the record/ID doesnot exists"}
+2018-01-22 13:46:03,854 DEBUG get_user:
+2018-01-22 13:46:06,396 DEBUG get_empjobrole:
+2018-01-22 13:46:06,403 DEBUG hr_details:
+2018-01-22 13:46:06,412 DEBUG get_departments:
+2018-01-22 13:46:06,447 DEBUG get_emplocation:
+2018-01-22 13:46:10,996 DEBUG get_user:
+2018-01-22 13:53:11,547 DEBUG get_user:
+2018-01-22 13:53:14,396 DEBUG get_emplocation:
+2018-01-22 13:53:14,427 DEBUG get_empjobrole:
+2018-01-22 13:53:14,428 DEBUG hr_details:
+2018-01-22 13:53:14,438 DEBUG get_departments:
+2018-01-22 13:53:19,356 DEBUG get_user:
+2018-01-22 15:03:01,196 WARNING Not Found: /robots.txt
+2018-01-22 15:03:01,207 DEBUG get_user:
+2018-01-22 16:10:00,565 DEBUG get_warehouse:
+2018-01-22 16:10:23,347 DEBUG get_warehouse:
+2018-01-22 16:50:45,946 DEBUG search_product:request is from ip: None
+2018-01-22 17:07:02,638 DEBUG get_user:
+2018-01-22 17:07:06,126 DEBUG get_empjobrole:
+2018-01-22 17:07:06,130 DEBUG hr_details:
+2018-01-22 17:07:06,157 DEBUG get_departments:
+2018-01-22 17:07:06,164 DEBUG get_emplocation:
+2018-01-22 17:07:10,481 DEBUG get_user:
+2018-01-22 17:51:04,293 DEBUG get_warehouse:
+2018-01-22 18:01:04,556 DEBUG search_product:request is from ip: None
+2018-01-23 11:37:32,603 DEBUG get_user:
+2018-01-23 11:37:35,531 DEBUG get_user:
+2018-01-23 12:02:42,983 DEBUG search_product:request is from ip: None
+2018-01-23 12:13:46,235 DEBUG get_empjobrole:
+2018-01-23 12:13:46,366 WARNING Not Found: /favicon.ico
+2018-01-23 12:36:41,469 DEBUG search_product:request is from ip: None
+2018-01-23 13:28:07,921 DEBUG get_warehouse:
+2018-01-23 13:28:15,182 DEBUG get_position:
+2018-01-23 13:28:17,824 DEBUG get_warehouse:
+2018-01-23 13:28:21,694 DEBUG get_position:
+2018-01-23 13:37:55,938 DEBUG get_warehouse:
+2018-01-23 16:01:46,015 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 16:01:50,557 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 16:02:15,216 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 16:08:35,455 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 16:09:39,831 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 16:10:28,850 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 16:10:42,896 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 16:10:55,987 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 16:22:18,113 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 16:23:56,445 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 16:24:30,584 WARNING Not Found: /robots.txt
+2018-01-23 16:24:30,585 DEBUG requisition:
+2018-01-23 16:24:31,150 WARNING Not Found: /favicon.ico
+2018-01-23 16:24:31,899 WARNING Not Found: /favicon.ico
+2018-01-23 16:26:15,984 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 16:26:23,094 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 16:26:45,066 DEBUG search_employees:request is from ip: None
+2018-01-23 16:26:45,066 DEBUG userid:{"error_code":"2", "error_desc": "updating new password....,userid is mandatory"}
+2018-01-23 16:27:06,737 DEBUG add_requisition:request is from ip: None
+2018-01-23 16:27:06,739 DEBUG add_requisition:{"error_code":"1", "error_desc": "Requisiton added"}
+2018-01-23 16:27:14,289 DEBUG add_requisition:request is from ip: None
+2018-01-23 16:27:14,291 DEBUG add_requisition:{"error_code":"1", "error_desc": "Requisiton added"}
+2018-01-23 16:27:18,539 DEBUG add_requisition:request is from ip: None
+2018-01-23 16:27:18,542 DEBUG add_requisition:{"error_code":"1", "error_desc": "Requisiton added"}
+2018-01-23 16:27:27,996 DEBUG requisition:
+2018-01-23 16:28:40,820 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 16:32:38,015 DEBUG login:request is from ip: None
+2018-01-23 16:32:38,015 DEBUG login_status:{"error_code":"2", "error_desc": "login unable to Authenticate/login....,invalid input, no proper JSON request "}
+2018-01-23 16:32:46,524 DEBUG login:request is from ip: None
+2018-01-23 16:32:46,524 DEBUG login_status:{"error_code":"2", "error_desc": "login unable to Authenticate/login....,invalid input, no proper JSON request "}
+2018-01-23 16:34:17,975 DEBUG login:request is from ip: None
+2018-01-23 16:34:17,975 DEBUG login_status:{"error_code":"2", "error_desc": "login unable to Authenticate/login....,invalid input, no proper JSON request "}
+2018-01-23 16:36:14,562 DEBUG login:request is from ip: None
+2018-01-23 16:36:14,563 DEBUG login_status:{"error_code":"2", "error_desc": "login unable to Authenticate/login....,invalid input, no proper JSON request "}
+2018-01-23 16:36:31,400 DEBUG login:request is from ip: None
+2018-01-23 16:36:31,400 DEBUG login_status:{"error_code":"2", "error_desc": "login unable to Authenticate/login....,invalid input, no proper JSON request "}
+2018-01-23 16:38:26,125 DEBUG login:request is from ip: None
+2018-01-23 16:38:26,126 DEBUG login_status:{"error_code":"2", "error_desc": "login unable to Authenticate/login....,invalid input, no proper JSON request "}
+2018-01-23 16:39:39,924 DEBUG login:request is from ip: None
+2018-01-23 16:39:39,924 DEBUG login_status:{"error_code":"2", "error_desc": "login unable to Authenticate/login....,invalid input, no proper JSON request "}
+2018-01-23 16:39:56,706 DEBUG login:request is from ip: None
+2018-01-23 16:39:56,707 DEBUG login_status:{"error_code":"2", "error_desc": "login unable to Authenticate/login....,invalid input, no proper JSON request "}
+2018-01-23 16:39:57,832 DEBUG login:request is from ip: None
+2018-01-23 16:39:57,832 DEBUG login_status:{"error_code":"2", "error_desc": "login unable to Authenticate/login....,invalid input, no proper JSON request "}
+2018-01-23 16:39:58,814 DEBUG login:request is from ip: None
+2018-01-23 16:39:58,815 DEBUG login_status:{"error_code":"2", "error_desc": "login unable to Authenticate/login....,invalid input, no proper JSON request "}
+2018-01-23 16:40:10,421 DEBUG login:request is from ip: None
+2018-01-23 16:40:10,421 DEBUG login_status:{"error_code":"2", "error_desc": "login unable to Authenticate/login....,invalid input, no proper JSON request "}
+2018-01-23 16:41:50,455 DEBUG login:request is from ip: None
+2018-01-23 16:42:17,985 DEBUG requisition:
+2018-01-23 16:42:47,816 DEBUG login:request is from ip: None
+2018-01-23 16:42:47,817 DEBUG login_status:{"error_code":"2", "error_desc": "login unable to Authenticate/login....,invalid input, no proper JSON request "}
+2018-01-23 16:44:30,799 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 16:44:36,914 DEBUG login:request is from ip: None
+2018-01-23 16:44:36,915 DEBUG login_status:{"error_code":"2", "error_desc": "login unable to Authenticate/login....,invalid input, no proper JSON request "}
+2018-01-23 16:45:03,839 DEBUG login:request is from ip: None
+2018-01-23 16:47:05,721 DEBUG login:request is from ip: None
+2018-01-23 16:47:05,721 DEBUG login_status:{"error_code":"2", "error_desc": "login unable to Authenticate/login....,invalid input, no proper JSON request "}
+2018-01-23 16:47:26,532 DEBUG login:request is from ip: None
+2018-01-23 16:49:01,216 DEBUG login:request is from ip: None
+2018-01-23 16:49:01,216 DEBUG login_status:{"error_code":"2", "error_desc": "login unable to Authenticate/login....,invalid input, no proper JSON request "}
+2018-01-23 16:49:02,372 DEBUG login:request is from ip: None
+2018-01-23 16:49:02,372 DEBUG login_status:{"error_code":"2", "error_desc": "login unable to Authenticate/login....,invalid input, no proper JSON request "}
+2018-01-23 16:49:02,418 DEBUG login:request is from ip: None
+2018-01-23 16:49:02,418 DEBUG login_status:{"error_code":"2", "error_desc": "login unable to Authenticate/login....,invalid input, no proper JSON request "}
+2018-01-23 16:49:11,318 DEBUG login:request is from ip: None
+2018-01-23 16:49:11,319 DEBUG login_status:{"error_code":"2", "error_desc": "login unable to Authenticate/login....,invalid input, no proper JSON request "}
+2018-01-23 16:49:14,854 DEBUG login:request is from ip: None
+2018-01-23 16:49:14,854 DEBUG login_status:{"error_code":"2", "error_desc": "login unable to Authenticate/login....,invalid input, no proper JSON request "}
+2018-01-23 16:50:31,775 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 16:50:36,457 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 16:50:43,947 DEBUG login:request is from ip: None
+2018-01-23 16:50:43,947 DEBUG login_status:{"error_code":"2", "error_desc": "login unable to Authenticate/login....,invalid input, no proper JSON request "}
+2018-01-23 16:52:32,346 DEBUG login:request is from ip: None
+2018-01-23 16:52:32,346 DEBUG login_status:{"error_code":"2", "error_desc": "login unable to Authenticate/login....,invalid input, no proper JSON request "}
+2018-01-23 16:52:56,957 DEBUG login:request is from ip: None
+2018-01-23 16:52:56,957 DEBUG login_status:{"error_code":"2", "error_desc": "login unable to Authenticate/login....,invalid input, no proper JSON request "}
+2018-01-23 16:53:44,555 DEBUG login:request is from ip: None
+2018-01-23 16:53:44,556 DEBUG login_status:{"error_code":"2", "error_desc": "login unable to Authenticate/login....,invalid input, no proper JSON request "}
+2018-01-23 16:54:12,389 DEBUG login:request is from ip: None
+2018-01-23 16:54:12,389 DEBUG login_status:{"error_code":"2", "error_desc": "login unable to Authenticate/login....,invalid input, no proper JSON request "}
+2018-01-23 16:54:57,934 DEBUG login:request is from ip: None
+2018-01-23 16:54:57,934 DEBUG login_status:{"error_code":"2", "error_desc": "login unable to Authenticate/login....,invalid input, no proper JSON request "}
+2018-01-23 16:55:06,734 DEBUG login:request is from ip: None
+2018-01-23 16:55:06,734 DEBUG login_status:{"error_code":"2", "error_desc": "login unable to Authenticate/login....,invalid input, no proper JSON request "}
+2018-01-23 16:58:47,707 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 16:58:51,358 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 16:58:59,605 DEBUG login:request is from ip: None
+2018-01-23 16:59:35,144 DEBUG login:request is from ip: None
+2018-01-23 16:59:35,144 DEBUG login_status:{"error_code":"2", "error_desc": "login unable to Authenticate/login....,invalid input, no proper JSON request "}
+2018-01-23 17:13:50,008 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 17:14:43,524 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 17:15:09,634 DEBUG hr_details:
+2018-01-23 17:24:37,962 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 17:26:34,781 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 17:27:07,332 WARNING Not Found: /InventoryApp/add_requisitiondetails/
+2018-01-23 17:27:47,822 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 17:27:53,035 DEBUG add_requisition_details: request is from the IP:27.59.243.210
+2018-01-23 17:27:53,035 DEBUG add_requisition_details:{"error_code":"2", "error_desc": "GET is not supported"}
+2018-01-23 17:28:16,899 DEBUG add_requisition_details:request is from ip: None
+2018-01-23 17:28:16,902 DEBUG add_requisition_details:{"error_code":"1", "error_desc": "Requisiton details added"}
+2018-01-23 17:29:41,544 DEBUG add_requisition_details:request is from ip: None
+2018-01-23 17:29:41,547 DEBUG add_requisition_details:{"error_code":"1", "error_desc": "Requisiton details added"}
+2018-01-23 17:45:29,094 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 17:45:51,864 DEBUG login:request is from ip: None
+2018-01-23 17:46:27,004 DEBUG login:request is from ip: None
+2018-01-23 17:46:27,004 DEBUG login_status:{"error_code":"2", "error_desc": "login unable to Authenticate/login....,invalid input, no proper JSON request "}
+2018-01-23 17:52:39,138 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 17:54:36,339 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 17:54:43,560 DEBUG adduser:request is from ip: None
+2018-01-23 17:54:43,560 ERROR Internal Server Error: /InventoryApp/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 51, in login
+    username = adduserdata['username']
+NameError: global name 'adduserdata' is not defined
+2018-01-23 17:56:53,597 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 17:58:47,738 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 17:58:54,211 DEBUG adduser:request is from ip: None
+2018-01-23 17:59:15,799 DEBUG adduser:request is from ip: None
+2018-01-23 17:59:15,799 DEBUG login:{"error_code":"2", "error_desc": "login_inventory.....,invalid input, no proper JSON request "}
+2018-01-23 18:05:21,521 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 18:05:55,527 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 18:06:17,409 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 18:06:26,270 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 18:06:35,870 DEBUG adduser:request is from ip: None
+2018-01-23 18:06:35,870 DEBUG login:{"error_code":"2", "error_desc": "login_inventory.....,invalid input, no proper JSON request "}
+2018-01-23 18:35:08,825 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 18:35:12,657 WARNING Not Found: /robots.txt
+2018-01-23 18:35:12,773 DEBUG requisition:
+2018-01-23 18:35:14,442 DEBUG requisition:
+2018-01-23 18:35:37,102 DEBUG adduser:request is from ip: None
+2018-01-23 18:35:37,102 DEBUG login:{"error_code":"2", "error_desc": "login_inventory.....,invalid input, no proper JSON request "}
+2018-01-23 18:36:29,887 DEBUG adduser:request is from ip: None
+2018-01-23 18:36:29,887 DEBUG login:{"error_code":"2", "error_desc": "login_inventory.....,invalid input, no proper JSON request "}
+2018-01-23 18:36:52,511 DEBUG adduser:request is from ip: None
+2018-01-23 18:36:52,512 DEBUG login:{"error_code":"2", "error_desc": "login_inventory.....,invalid input, no proper JSON request "}
+2018-01-23 18:37:13,884 DEBUG get_user:
+2018-01-23 18:37:14,704 WARNING Not Found: /apple-touch-icon-precomposed.png
+2018-01-23 18:37:15,385 WARNING Not Found: /apple-touch-icon.png
+2018-01-23 18:37:46,017 DEBUG adduser:request is from ip: None
+2018-01-23 18:37:46,017 DEBUG login:{"error_code":"2", "error_desc": "login_inventory.....,invalid input, no proper JSON request "}
+2018-01-23 18:40:22,837 DEBUG adduser:request is from ip: None
+2018-01-23 18:40:22,837 DEBUG login:{"error_code":"2", "error_desc": "login_inventory.....,invalid input, no proper JSON request "}
+2018-01-23 18:41:33,282 DEBUG adduser:request is from ip: None
+2018-01-23 18:41:33,282 DEBUG login:{"error_code":"2", "error_desc": "login_inventory.....,invalid input, no proper JSON request "}
+2018-01-23 18:47:12,704 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 18:47:25,095 DEBUG adduser:request is from ip: None
+2018-01-23 18:47:39,418 DEBUG adduser:request is from ip: None
+2018-01-23 18:47:39,418 DEBUG login:{"error_code":"2", "error_desc": "login_inventory.....,invalid input, no proper JSON request "}
+2018-01-23 19:01:27,448 DEBUG adduser:request is from ip: None
+2018-01-23 19:01:27,448 DEBUG login:{"error_code":"2", "error_desc": "login_inventory.....,invalid input, no proper JSON request "}
+2018-01-23 19:07:49,573 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 19:07:51,888 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 19:08:04,462 DEBUG adduser:request is from ip: None
+2018-01-23 19:08:16,541 DEBUG adduser:request is from ip: None
+2018-01-23 19:08:28,020 DEBUG adduser:request is from ip: None
+2018-01-23 19:08:28,021 DEBUG login:{"error_code":"2", "error_desc": "login_inventory.....,invalid input, no proper JSON request "}
+2018-01-23 19:14:03,431 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 19:15:38,200 DEBUG adduser:request is from ip: None
+2018-01-23 19:15:38,200 ERROR Internal Server Error: /InventoryApp/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 45, in login
+    if((logindata.get('username') is None) or ((logindata.get('username') is not None) and (len(logindata['username']) <=0))):
+AttributeError: 'unicode' object has no attribute 'get'
+2018-01-23 19:17:52,551 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 19:17:58,685 DEBUG adduser:request is from ip: None
+2018-01-23 19:17:58,685 ERROR Internal Server Error: /InventoryApp/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 45, in login
+    if((logindata.get('username') is None) or ((logindata.get('username') is not None) and (len(logindata['username']) <=0))):
+AttributeError: 'unicode' object has no attribute 'get'
+2018-01-23 19:18:49,539 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 19:19:03,554 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 19:20:39,662 DEBUG adduser:request is from ip: None
+2018-01-23 19:20:56,003 DEBUG adduser:request is from ip: None
+2018-01-23 19:21:09,209 DEBUG adduser:request is from ip: None
+2018-01-23 19:21:09,210 ERROR Internal Server Error: /InventoryApp/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view InventoryApp.views.login didn't return an HttpResponse object. It returned None instead.
+2018-01-23 19:21:18,177 DEBUG adduser:request is from ip: None
+2018-01-23 19:21:32,427 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 19:21:42,129 DEBUG adduser:request is from ip: None
+2018-01-23 19:32:01,451 DEBUG adduser:request is from ip: None
+2018-01-23 19:32:01,451 DEBUG login:{"error_code":"2", "error_desc": "login_inventory.....,invalid input, no proper JSON request "}
+2018-01-23 19:32:10,046 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 19:32:17,437 DEBUG adduser:request is from ip: None
+2018-01-23 19:32:20,919 DEBUG adduser:request is from ip: None
+2018-01-23 19:32:41,545 DEBUG adduser:request is from ip: None
+2018-01-23 19:32:41,546 DEBUG login:{"error_code":"2", "error_desc": "login_inventory.....,invalid input, no proper JSON request "}
+2018-01-23 19:33:31,209 DEBUG search_product:request is from ip: None
+2018-01-23 19:35:42,527 DEBUG search_product:request is from ip: None
+2018-01-23 19:36:45,900 DEBUG search_product:request is from ip: None
+2018-01-23 19:38:13,943 DEBUG get_user:
+2018-01-23 19:41:40,886 DEBUG get_location:
+2018-01-23 19:41:57,534 DEBUG location_add:request is from ip: None
+2018-01-23 19:41:57,537 DEBUG location_add:{"error_code":"1", "error_desc": "record added"}
+2018-01-23 19:42:00,586 DEBUG get_location:
+2018-01-23 19:44:43,976 DEBUG search_product:request is from ip: None
+2018-01-23 19:44:43,977 DEBUG search_product:{"error_code":"2", "error_desc": "searching product..,invalid input, no proper JSON request "}
+2018-01-23 19:50:41,085 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 19:50:47,735 DEBUG search_product:request is from ip: None
+2018-01-23 19:52:12,322 DEBUG adduser:request is from ip: None
+2018-01-23 19:52:12,322 DEBUG login:{"error_code":"2", "error_desc": "login_inventory.....,invalid input, no proper JSON request "}
+2018-01-23 19:52:48,828 DEBUG adduser:request is from ip: None
+2018-01-23 19:52:48,829 DEBUG login:{"error_code":"2", "error_desc": "login_inventory.....,invalid input, no proper JSON request "}
+2018-01-23 19:54:34,589 DEBUG adduser:request is from ip: None
+2018-01-23 19:54:34,589 DEBUG login:{"error_code":"2", "error_desc": "login_inventory.....,invalid input, no proper JSON request "}
+2018-01-23 19:54:38,347 DEBUG adduser:request is from ip: None
+2018-01-23 19:54:38,347 DEBUG login:{"error_code":"2", "error_desc": "login_inventory.....,invalid input, no proper JSON request "}
+2018-01-23 19:55:11,048 DEBUG adduser:request is from ip: None
+2018-01-23 19:55:11,048 DEBUG login:{"error_code":"2", "error_desc": "login_inventory.....,invalid input, no proper JSON request "}
+2018-01-23 19:58:30,662 DEBUG adduser:request is from ip: None
+2018-01-23 19:58:30,662 DEBUG username:{"error_code":"2", "error_desc": "login_inventory.....,username is mandatory"}
+2018-01-23 19:59:38,633 DEBUG adduser:request is from ip: None
+2018-01-23 19:59:38,634 DEBUG username:{"error_code":"2", "error_desc": "login_inventory.....,username is mandatory"}
+2018-01-23 19:59:53,154 DEBUG adduser:request is from ip: None
+2018-01-23 20:00:45,667 DEBUG adduser:request is from ip: None
+2018-01-23 20:01:14,812 DEBUG search_product:request is from ip: None
+2018-01-23 20:02:06,853 DEBUG get_user:
+2018-01-23 20:02:26,010 DEBUG adduser:request is from ip: None
+2018-01-23 20:02:26,011 ERROR Internal Server Error: /InventoryApp/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view InventoryApp.views.login didn't return an HttpResponse object. It returned None instead.
+2018-01-23 20:02:47,388 DEBUG adduser:request is from ip: None
+2018-01-23 20:03:13,883 DEBUG adduser:request is from ip: None
+2018-01-23 20:03:13,884 ERROR Internal Server Error: /InventoryApp/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view InventoryApp.views.login didn't return an HttpResponse object. It returned None instead.
+2018-01-23 20:03:24,486 DEBUG adduser:request is from ip: None
+2018-01-23 20:03:42,664 DEBUG adduser:request is from ip: None
+2018-01-23 20:05:56,330 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-23 20:26:49,464 DEBUG adduser:request is from ip: None
+2018-01-23 20:26:50,657 DEBUG adduser:request is from ip: None
+2018-01-23 20:33:35,698 DEBUG adduser:request is from ip: None
+2018-01-23 20:33:35,698 DEBUG username:{"error_code":"2", "error_desc": "login_inventory.....,username is mandatory"}
+2018-01-23 20:33:45,045 DEBUG adduser:request is from ip: None
+2018-01-23 20:41:52,115 DEBUG get_user:
+2018-01-23 20:42:03,082 DEBUG login_status: request is from the IP:122.175.46.31
+2018-01-23 20:42:03,082 DEBUG login_status:{"error_code":"2", "error_desc": "GET is not supported"}
+2018-01-23 20:42:30,612 WARNING Not Found: /InventoryApp/get_locations/
+2018-01-23 20:42:36,196 WARNING Not Found: /InventoryApp/get_employees/
+2018-01-23 20:42:45,518 DEBUG get_user:
+2018-01-23 20:42:45,730 DEBUG get_user:
+2018-01-23 20:42:54,150 DEBUG adduser:request is from ip: None
+2018-01-23 20:46:21,857 DEBUG adduser:request is from ip: None
+2018-01-23 20:52:28,348 DEBUG adduser:request is from ip: None
+2018-01-24 12:10:44,918 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-24 12:12:28,678 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-24 12:13:08,592 DEBUG adduser:request is from ip: None
+2018-01-24 12:13:08,593 ERROR Internal Server Error: /InventoryApp/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view InventoryApp.views.login didn't return an HttpResponse object. It returned None instead.
+2018-01-24 12:13:25,954 DEBUG adduser:request is from ip: None
+2018-01-24 12:13:25,955 ERROR Internal Server Error: /InventoryApp/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view InventoryApp.views.login didn't return an HttpResponse object. It returned None instead.
+2018-01-24 12:17:10,465 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-24 12:17:15,230 DEBUG adduser:request is from ip: None
+2018-01-24 12:17:15,231 ERROR Internal Server Error: /InventoryApp/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 67, in login
+    if(len(user_history_get) > 0): #just update the ChangeDate
+NameError: global name 'user_history_get' is not defined
+2018-01-24 12:17:33,470 DEBUG adduser:request is from ip: None
+2018-01-24 12:17:33,470 ERROR Internal Server Error: /InventoryApp/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 67, in login
+    if(len(user_history_get) > 0): #just update the ChangeDate
+NameError: global name 'user_history_get' is not defined
+2018-01-24 12:18:13,424 DEBUG adduser:request is from ip: None
+2018-01-24 12:18:13,425 ERROR Internal Server Error: /InventoryApp/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 67, in login
+    if(len(user_history_get) > 0): #just update the ChangeDate
+NameError: global name 'user_history_get' is not defined
+2018-01-24 12:18:33,910 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-24 12:18:45,471 DEBUG adduser:request is from ip: None
+2018-01-24 12:19:00,085 DEBUG adduser:request is from ip: None
+2018-01-24 12:21:40,606 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-24 12:21:48,302 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-24 12:21:59,828 DEBUG adduser:request is from ip: None
+2018-01-24 12:22:06,845 DEBUG adduser:request is from ip: None
+2018-01-24 12:22:13,239 DEBUG adduser:request is from ip: None
+2018-01-24 12:22:13,242 DEBUG add_user:{"error_code":"2", "error_desc": "Invalid username"}
+2018-01-24 12:23:38,747 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-24 12:23:45,401 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-24 12:23:50,711 DEBUG adduser:request is from ip: None
+2018-01-24 12:23:50,714 DEBUG login_status:{"error_code":"2", "error_desc": "Invalid username"}
+2018-01-24 12:24:02,510 DEBUG adduser:request is from ip: None
+2018-01-24 12:24:02,907 DEBUG login_status:{"error_code":"2", "error_desc": "Invalid password"}
+2018-01-24 12:24:20,844 DEBUG adduser:request is from ip: None
+2018-01-24 12:24:21,220 DEBUG login_status:{"error_code":"2", "error_desc": "Invalid password"}
+2018-01-24 12:24:31,922 DEBUG adduser:request is from ip: None
+2018-01-24 12:24:32,298 DEBUG login_status:{"error_code":"2", "error_desc": "Invalid password"}
+2018-01-24 12:35:58,240 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-24 12:36:05,131 DEBUG adduser:request is from ip: None
+2018-01-24 12:36:05,527 DEBUG login_status:{"error_code":"2", "error_desc": "Invalid password"}
+2018-01-24 12:36:13,070 DEBUG adduser:request is from ip: None
+2018-01-24 12:36:13,469 DEBUG login_status:{"error_code":"2", "error_desc": "Invalid password"}
+2018-01-24 12:36:25,930 DEBUG adduser:request is from ip: None
+2018-01-24 12:36:26,321 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-01-24 12:36:31,750 DEBUG adduser:request is from ip: None
+2018-01-24 12:36:31,753 DEBUG login_status:{"error_code":"2", "error_desc": "Invalid username"}
+2018-01-24 12:36:39,654 DEBUG adduser:request is from ip: None
+2018-01-24 12:36:39,657 DEBUG login_status:{"error_code":"2", "error_desc": "Invalid username"}
+2018-01-24 12:36:44,855 DEBUG adduser:request is from ip: None
+2018-01-24 12:36:45,259 DEBUG login_status:{"error_code":"2", "error_desc": "Invalid password"}
+2018-01-24 12:36:57,370 DEBUG adduser:request is from ip: None
+2018-01-24 12:36:57,731 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}

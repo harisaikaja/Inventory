@@ -1,0 +1,168 @@
+2018-01-24 12:52:32,918 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-24 12:53:17,368 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-24 12:59:10,221 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-24 13:01:29,218 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-24 13:02:59,353 DEBUG requisition:
+2018-01-24 13:02:59,375 WARNING Not Found: /robots.txt
+2018-01-24 13:02:59,980 WARNING Not Found: /favicon.ico
+2018-01-24 13:03:00,821 WARNING Not Found: /favicon.ico
+2018-01-24 13:05:29,267 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-24 13:21:48,662 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-24 13:22:07,192 DEBUG requisition_details:
+2018-01-24 13:41:18,053 DEBUG adduser:request is from ip: None
+2018-01-24 13:41:18,053 DEBUG username:{"error_code":"2", "error_desc": "login_inventory.....,username is mandatory"}
+2018-01-24 13:41:41,933 DEBUG adduser:request is from ip: None
+2018-01-24 13:41:42,314 DEBUG login_status:{"error_code":"2", "error_desc": "Invalid password"}
+2018-01-24 13:42:04,925 DEBUG adduser:request is from ip: None
+2018-01-24 13:42:05,303 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-01-24 14:36:06,707 DEBUG adduser:request is from ip: None
+2018-01-24 14:36:06,707 DEBUG username:{"error_code":"2", "error_desc": "login_inventory.....,username is mandatory"}
+2018-01-24 14:36:07,438 DEBUG adduser:request is from ip: None
+2018-01-24 14:36:07,820 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-01-24 14:38:25,862 DEBUG adduser:request is from ip: None
+2018-01-24 14:38:26,227 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-01-24 14:42:51,456 DEBUG adduser:request is from ip: None
+2018-01-24 14:42:51,830 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-01-24 14:45:15,059 DEBUG adduser:request is from ip: None
+2018-01-24 14:45:15,415 DEBUG login_status:{"error_code":"2", "error_desc": "Invalid password"}
+2018-01-24 14:45:21,997 DEBUG adduser:request is from ip: None
+2018-01-24 14:45:22,373 DEBUG login_status:{"error_code":"2", "error_desc": "Invalid password"}
+2018-01-24 14:45:29,355 DEBUG adduser:request is from ip: None
+2018-01-24 14:45:29,732 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-01-24 15:03:09,908 DEBUG get_user:
+2018-01-24 15:03:12,551 DEBUG adduser:request is from ip: None
+2018-01-24 15:03:12,925 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-01-24 15:08:08,882 DEBUG get_user: request is from the IP:115.98.91.33
+2018-01-24 15:08:08,882 DEBUG get_user:{"error_code":"2", "error_desc": "GET is not supported"}
+2018-01-24 15:16:18,395 DEBUG search_employees:request is from ip: None
+2018-01-24 15:16:18,396 DEBUG user_details:
+2018-01-24 15:27:12,187 DEBUG get_user: request is from the IP:115.118.115.169
+2018-01-24 15:27:12,188 DEBUG get_user:{"error_code":"2", "error_desc": "GET is not supported"}
+2018-01-24 15:44:49,863 DEBUG adduser:request is from ip: None
+2018-01-24 15:44:50,219 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-01-24 15:44:50,220 DEBUG search_employees:request is from ip: None
+2018-01-24 15:44:50,222 DEBUG user_details:
+2018-01-24 15:50:06,769 DEBUG search_employees:request is from ip: None
+2018-01-24 15:50:06,771 DEBUG user_details:
+2018-01-24 15:50:06,777 DEBUG adduser:request is from ip: None
+2018-01-24 15:50:07,146 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-01-24 15:50:55,998 WARNING Not Found: /robots.txt
+2018-01-24 15:50:56,013 DEBUG requisition_details:
+2018-01-24 15:53:53,730 DEBUG adduser:request is from ip: None
+2018-01-24 15:53:54,090 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-01-24 15:53:54,091 DEBUG search_employees:request is from ip: None
+2018-01-24 15:53:54,093 DEBUG user_details:
+2018-01-24 15:55:52,574 WARNING Not Found: /robots.txt
+2018-01-24 15:55:52,577 DEBUG requisition_details:
+2018-01-24 16:07:30,500 DEBUG adduser:request is from ip: None
+2018-01-24 16:07:30,903 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-01-24 16:07:30,904 DEBUG search_employees:request is from ip: None
+2018-01-24 16:07:30,906 DEBUG user_details:
+2018-01-24 16:14:46,951 DEBUG adduser:request is from ip: None
+2018-01-24 16:14:46,955 DEBUG search_employees:request is from ip: None
+2018-01-24 16:14:47,312 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-01-24 16:14:47,313 DEBUG user_details:
+2018-01-24 16:14:58,268 DEBUG adduser:request is from ip: None
+2018-01-24 16:14:58,268 DEBUG username:{"error_code":"2", "error_desc": "login_inventory.....,username is mandatory"}
+2018-01-24 16:15:52,417 DEBUG login_status: request is from the IP:115.98.91.33
+2018-01-24 16:15:52,417 DEBUG login_status:{"error_code":"2", "error_desc": "GET is not supported"}
+2018-01-24 16:15:58,730 DEBUG login_status: request is from the IP:115.98.91.33
+2018-01-24 16:15:58,730 DEBUG login_status:{"error_code":"2", "error_desc": "GET is not supported"}
+2018-01-24 16:18:49,165 DEBUG search_employees:request is from ip: None
+2018-01-24 16:18:49,165 DEBUG username:{"error_code":"2", "error_desc": "getting user..,username is required"}
+2018-01-24 16:18:49,176 DEBUG adduser:request is from ip: None
+2018-01-24 16:18:49,538 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-01-24 16:19:24,993 DEBUG adduser:request is from ip: None
+2018-01-24 16:19:24,994 DEBUG username:{"error_code":"2", "error_desc": "login_inventory.....,username is mandatory"}
+2018-01-24 16:19:52,679 DEBUG login_status: request is from the IP:115.98.91.33
+2018-01-24 16:19:52,679 DEBUG login_status:{"error_code":"2", "error_desc": "GET is not supported"}
+2018-01-24 16:21:58,245 DEBUG search_employees:request is from ip: None
+2018-01-24 16:21:58,245 DEBUG username:{"error_code":"2", "error_desc": "getting user..,username is required"}
+2018-01-24 16:21:58,250 DEBUG adduser:request is from ip: None
+2018-01-24 16:21:58,645 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-01-24 16:23:45,410 DEBUG search_employees:request is from ip: None
+2018-01-24 16:23:45,411 DEBUG user_details:
+2018-01-24 16:23:45,436 DEBUG adduser:request is from ip: None
+2018-01-24 16:23:45,831 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-01-24 16:24:33,286 DEBUG search_employees:request is from ip: None
+2018-01-24 16:24:33,287 DEBUG user_details:
+2018-01-24 16:24:33,290 DEBUG adduser:request is from ip: None
+2018-01-24 16:24:33,699 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-01-24 16:24:49,845 DEBUG adduser:request is from ip: None
+2018-01-24 16:24:49,845 DEBUG username:{"error_code":"2", "error_desc": "login_inventory.....,username is mandatory"}
+2018-01-24 16:26:40,994 DEBUG search_employees:request is from ip: None
+2018-01-24 16:26:40,996 DEBUG user_details:
+2018-01-24 16:26:40,996 DEBUG adduser:request is from ip: None
+2018-01-24 16:26:41,376 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-01-24 16:26:58,943 DEBUG adduser:request is from ip: None
+2018-01-24 16:26:58,943 DEBUG username:{"error_code":"2", "error_desc": "login_inventory.....,username is mandatory"}
+2018-01-24 16:30:33,200 DEBUG search_employees:request is from ip: None
+2018-01-24 16:30:33,201 DEBUG user_details:
+2018-01-24 16:30:33,202 DEBUG adduser:request is from ip: None
+2018-01-24 16:30:33,580 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-01-24 16:30:44,877 DEBUG adduser:request is from ip: None
+2018-01-24 16:30:44,877 DEBUG username:{"error_code":"2", "error_desc": "login_inventory.....,username is mandatory"}
+2018-01-24 16:31:57,569 DEBUG search_employees:request is from ip: None
+2018-01-24 16:31:57,571 DEBUG user_details:
+2018-01-24 16:31:57,579 DEBUG adduser:request is from ip: None
+2018-01-24 16:31:57,939 DEBUG login_status:{"error_code":"2", "error_desc": "Invalid password"}
+2018-01-24 16:32:07,771 DEBUG search_employees:request is from ip: None
+2018-01-24 16:32:07,773 DEBUG user_details:
+2018-01-24 16:32:07,803 DEBUG adduser:request is from ip: None
+2018-01-24 16:32:08,190 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-01-24 16:32:22,322 DEBUG adduser:request is from ip: None
+2018-01-24 16:32:22,688 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-01-24 16:32:22,689 DEBUG search_employees:request is from ip: None
+2018-01-24 16:32:22,691 DEBUG user_details:
+2018-01-24 16:32:29,631 DEBUG adduser:request is from ip: None
+2018-01-24 16:32:29,631 DEBUG login_status:{"error_code":"2", "error_desc": "login_inventory.....,passsword is mandatory"}
+2018-01-24 16:38:44,520 DEBUG search_employees:request is from ip: None
+2018-01-24 16:38:44,521 DEBUG user_details:
+2018-01-24 16:38:44,535 DEBUG adduser:request is from ip: None
+2018-01-24 16:38:44,924 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-01-24 16:38:54,841 DEBUG add_requisition:request is from ip: None
+2018-01-24 16:38:54,842 DEBUG userid:{"error_code":"2", "error_desc": "adding requisition..,userid is mandatory"}
+2018-01-24 16:39:35,439 DEBUG adduser:request is from ip: None
+2018-01-24 16:39:35,821 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-01-24 16:39:35,822 DEBUG search_employees:request is from ip: None
+2018-01-24 16:39:35,824 DEBUG user_details:
+2018-01-24 16:39:52,213 DEBUG add_requisition:request is from ip: None
+2018-01-24 16:39:52,215 DEBUG add_requisition:{"error_code":"1", "error_desc": "Requisiton added"}
+2018-01-24 16:41:26,146 DEBUG requisition_details:
+2018-01-24 17:13:10,473 DEBUG get_empjobrole:
+2018-01-24 17:13:10,666 WARNING Not Found: /favicon.ico
+2018-01-24 17:13:34,431 DEBUG requisition:
+2018-01-24 17:14:53,278 DEBUG add_requisition:request is from ip: None
+2018-01-24 17:14:53,280 DEBUG add_requisition:{"error_code":"1", "error_desc": "Requisiton added"}
+2018-01-24 17:30:36,217 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-24 17:43:55,460 DEBUG adduser:request is from ip: None
+2018-01-24 17:43:55,833 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-01-24 17:43:55,898 DEBUG search_employees:request is from ip: None
+2018-01-24 17:43:55,899 DEBUG user_details:
+2018-01-24 17:44:02,327 DEBUG get_position:
+2018-01-24 17:44:09,388 DEBUG get_warehouse:
+2018-01-24 17:53:14,359 DEBUG add_requisition:request is from ip: None
+2018-01-24 17:53:14,362 DEBUG add_requisition:{"error_code":"1", "error_desc": "Requisiton added"}
+2018-01-24 17:56:01,781 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-24 17:58:24,109 DEBUG add_requisition:request is from ip: None
+2018-01-24 17:58:24,111 DEBUG add_requisition:{"error_code":"1", "error_desc": "Requisiton added"}
+2018-01-24 18:03:17,377 DEBUG get_position:
+2018-01-24 18:09:04,310 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-24 18:10:28,445 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-24 18:10:38,144 DEBUG requisition:
+2018-01-24 18:21:46,990 DEBUG search_employees:request is from ip: None
+2018-01-24 18:21:46,992 DEBUG user_details:
+2018-01-24 18:21:46,995 DEBUG adduser:request is from ip: None
+2018-01-24 18:21:47,381 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-01-24 18:21:50,550 DEBUG requisition:
+2018-01-24 18:21:56,827 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-24 18:21:59,128 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-01-24 18:22:07,755 DEBUG store_requisition_details:
+2018-01-24 18:22:34,592 DEBUG adduser:request is from ip: None
+2018-01-24 18:22:34,990 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-01-24 18:22:34,991 DEBUG search_employees:request is from ip: None
+2018-01-24 18:22:34,993 DEBUG user_details:
+2018-01-24 18:22:40,413 DEBUG requisition:
+2018-01-24 18:22:58,946 DEBUG store_requisition_details:
+2018-01-24 18:23:07,741 DEBUG add_requisition:request is from ip: None
+2018-01-24 18:23:07,741 DEBUG duedate:{"error_code":"2", "error_desc": "adding requisition..,duedate is mandatory"}

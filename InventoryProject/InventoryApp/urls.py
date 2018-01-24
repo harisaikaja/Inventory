@@ -46,6 +46,8 @@ urlpatterns = [
 	url(r'^add_requisition/',csrf_exempt(add_requisition),name = 'add_requisition'),
 	url(r'^get_requisition/',csrf_exempt(get_requisition),name = 'get_requisition'),
 	url(r'^add_requisitiondetails/',csrf_exempt(add_requisitiondetails),name = 'add_requisitiondetails'),
-	
+	url(r'^get_requisitiondetails/',csrf_exempt(get_requisitiondetails),name = 'get_requisitiondetails'),
+	url(r'^get_storerequisition/',csrf_exempt(get_storerequisition),name = 'get_storerequisition'),
+	url(r'^get_storerequisitiondetails/',csrf_exempt(get_storerequisitiondetails),name = 'get_storerequisitiondetails'),
 	
 ]

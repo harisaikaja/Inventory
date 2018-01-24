@@ -2700,7 +2700,7 @@ def add_requisitiondetails(request):
 			requisitionid = data1['requisitionid']
 			
 		try:
-			requisition_details_rec = requisition_details(Quantity = quantity,productId_id = productid,requisitionId_id = requisitionid)
+			requisition_details_rec = requisition_details(quantityRequested = quantity,productId_id = productid,requisitionId_id = requisitionid)
 			requisition_details_rec.save()
 			output = '{"error_code":"1", "error_desc": "Requisiton details added"}' 
 			logging.debug("add_requisition_details:"+ output)
@@ -2718,3 +2718,63 @@ def add_requisitiondetails(request):
 		logging.debug("add_requisition_details:"+ output)
 		return HttpResponse(output)
 		
+###############################################################################################################################
+def get_requisitiondetails(request):
+	cursor = connection.cursor()
+	cursor.execute("select rd.id,rd.Quantity,rd.productId_id,pr.productName,rd.requisitionId_id from requisition_details rd JOIN inv_products pr ON rd.productId_id = pr.id")
+	rows = cursor.fetchall()
+	objects_list = []
+	for row in rows:
+		d = collections.OrderedDict()
+		d['requisitionid'] = row[4]
+		d['id']=row[0]
+		d['productname'] = row[3]
+		d['quantiy']=row[1]
+		objects_list.append(d)
+	json_output='{"requisition_details":'	
+	json_output+= json.dumps(objects_list,indent = 3,sort_keys = True, default = str)
+	json_output+='}'
+	logging.debug("requisition_details:")
+	return HttpResponse(json_output)
+	
+################################################################################################################################
+def get_storerequisition(request):
+	cursor = connection.cursor()
+	cursor.execute("select r.id,r.requisitionDate,r.duedate,r.userId_id,e.userName,r.statusId_id,s.statusName from requisition r JOIN jts_employees e ON r.userId_id = e.id JOIN inv_status s where r.statusId_id = s.id")
+	rows = cursor.fetchall()
+	objects_list = []
+	for row in rows:
+		d = collections.OrderedDict()
+		d['id']=row[0]
+		d['username']=row[4]
+		d['requisitiondate'] = row[1]
+		d['duedate'] = row[2]
+		d['status'] = row[6]
+		objects_list.append(d)
+	json_output='{"store_requisition":'	
+	json_output+= json.dumps(objects_list,indent = 3,sort_keys = True, default = str)
+	json_output+='}'
+	logging.debug("requisition:")
+	return HttpResponse(json_output)
+
+################################################################################################################################
+def get_storerequisitiondetails(request):
+	cursor = connection.cursor()
+	cursor.execute("select rd.id,rd.requisitionId_id,rd.productId_id,pr.productName,rd.quantityRequested,rd.quantityIssued,(rd.quantityRequested-rd.quantityIssued) as balance,rd.statusId_id,s.statusName from requisition_details rd JOIN inv_products pr ON rd.productId_id = pr.id JOIN inv_status s ON rd.statusId_id = s.id")
+	rows = cursor.fetchall()
+	objects_list = []
+	for row in rows:
+		d = collections.OrderedDict()
+		d['id']=row[0]
+		d['requisitionid'] = row[1]
+		d['productname'] = row[3]
+		d['quantiyrequested'] = row[4]
+		d['quantityissued'] = row[5]
+		d['balance'] = row[6]
+		d['status'] = row[8]
+		objects_list.append(d)
+	json_output='{"store_requisition_details":'	
+	json_output+= json.dumps(objects_list,indent = 3,sort_keys = True, default = str)
+	json_output+='}'
+	logging.debug("store_requisition_details:")
+	return HttpResponse(json_output)

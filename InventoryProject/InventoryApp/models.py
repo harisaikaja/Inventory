@@ -161,6 +161,7 @@ class requisition(models.Model):
 	userID = models.ForeignKey(jts_employees,on_delete = models.CASCADE)
 	requisitionDate = models.DateField(auto_now_add = True,blank=True,null=True)
 	duedate = models.DateField(max_length = 8)
+	statusId = models.ForeignKey(inv_status,on_delete=models.CASCADE,default=2)
 	
 	class Meta:
 		db_table = "requisition"
@@ -168,7 +169,9 @@ class requisition(models.Model):
 class requisition_details(models.Model):
 	requisitionId = models.ForeignKey(requisition,on_delete = models.CASCADE)
 	productId = models.ForeignKey(inv_products,on_delete = models.CASCADE)
-	Quantity = models.IntegerField(default = 10)
+	quantityRequested = models.IntegerField(default=10)
+	quantityIssued = models.IntegerField(default=1)
+	statusId = models.ForeignKey(inv_status,on_delete=models.CASCADE,default=2)
 	
 	class Meta:
 		db_table = "requisition_details"
