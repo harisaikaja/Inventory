@@ -3859,6 +3859,7 @@ RuntimeError: You called this URL via POST, but the URL doesn't end in a slash a
 2018-01-19 14:04:30,606 DEBUG registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
 2018-01-19 14:15:43,694 DEBUG registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
 2018-01-19 14:15:53,462 DEBUG registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+<<<<<<< HEAD
 2018-01-22 16:34:22,490 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
 2018-01-22 16:42:21,563 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
 2018-01-22 16:42:42,240 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
@@ -3891,3 +3892,5 @@ RuntimeError: You called this URL via POST, but the URL doesn't end in a slash a
 2018-01-23 14:45:53,885 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
 2018-01-23 15:02:33,006 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
 2018-01-23 15:02:44,811 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+=======
+>>>>>>> b5aa7b8e7de37a8539d6acdd2825c2bde472ffec

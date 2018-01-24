@@ -535,14 +535,22 @@ def forget_password(request):
 			logging.debug("forget_password:"+ output)
 			return HttpResponse(output)
 			
+<<<<<<< HEAD
 		if((data1.get('id') is None) or ((data1.get('id') is not None) and (len(data1['id']) <=0))):
+=======
+		if((updateuserdata.get('id') is None) or ((updateuserdata.get('id') is not None) and (len(updateuserdata['id']) <=0))):
+>>>>>>> b5aa7b8e7de37a8539d6acdd2825c2bde472ffec
 			output_str += ",userid is mandatory"
 			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
 			logging.debug("userid:"+ output)
 			return HttpResponse(output)
 		
 		else:
+<<<<<<< HEAD
 			userid = data1['id']
+=======
+			userid = updateuserdata['id']
+>>>>>>> b5aa7b8e7de37a8539d6acdd2825c2bde472ffec
 
 		if((data1.get('username') is None) or ((data1.get('username') is not None) and (len(data1['username']) <=0))):
 			output_str += ",username is required"
@@ -571,11 +579,18 @@ def forget_password(request):
 		else:
 			confirmpassword = data1['confirmpassword']
 			
+<<<<<<< HEAD
 			
 		if(newpassword == confirmpassword):
 			passcode = sha256_crypt.hash(newpassword)
 			try:
 				user_input = jts_employees.objects.filter(id = userid).update(userName = username,Password = passcode)
+=======
+		if(newpassword == confirmpassword):
+			passcode = sha256_crypt.hash(password)
+			try:
+				user_input = jts_employees.objects.filter(id = userid).update(userName = username,password = passcode)
+>>>>>>> b5aa7b8e7de37a8539d6acdd2825c2bde472ffec
 				output = '{"error_code":"1", "error_desc": "password updated"}' 
 				logging.debug("update_user:"+ output)
 				return HttpResponse(output)
