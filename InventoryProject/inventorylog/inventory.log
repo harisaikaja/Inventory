@@ -2139,3 +2139,2278 @@ Traceback (most recent call last):
     cursor.execute("select p.* ,m.materialType,u.measurementName,s.statusName from inv_produc
                                                                                             ^
 SyntaxError: EOL while scanning string literal
+[19/Jan/2018 19:55:16] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[19/Jan/2018 19:55:16] "GET /robots.txt HTTP/1.1" 404 84
+[19/Jan/2018 21:56:45] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[19/Jan/2018 22:02:35] "POST /InventoryApp/update_employee/ HTTP/1.1" 200 50
+[19/Jan/2018 22:03:35] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:19:24] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:19:27] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:19:27] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:19:27] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:19:27] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:19:27] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:20:19] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:20:21] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:20:21] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:20:21] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:20:21] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:20:21] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:20:25] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:20:28] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:20:28] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:20:28] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:20:28] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:20:28] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:23:17] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:23:20] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:23:20] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:23:20] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:23:20] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:23:20] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:28:43] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:28:54] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:28:54] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:28:55] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:28:55] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:28:55] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:30:04] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:30:08] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:30:08] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:30:08] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:30:08] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:30:08] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:30:17] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:30:20] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:30:20] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:30:20] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:30:20] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:30:20] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:30:26] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:30:30] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:30:30] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:30:30] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:30:30] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:30:30] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:30:34] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:30:39] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:30:39] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:30:39] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:30:39] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:30:39] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:30:50] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:30:54] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:30:54] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:30:54] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:30:54] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:30:54] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:30:59] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:31:02] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:31:07] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:31:07] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:31:07] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:31:07] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:31:07] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:31:13] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:31:19] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:31:20] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:31:20] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:31:20] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:31:20] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:32:27] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:32:31] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:32:31] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:32:31] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:32:31] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:32:31] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:35:57] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:36:04] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:36:04] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:36:04] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:36:04] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:36:04] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:36:46] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:36:48] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:36:48] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:36:48] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:36:48] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:36:48] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:41:50] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:44:33] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:44:33] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:44:33] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:44:33] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:44:33] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:44:59] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:45:04] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:45:04] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:45:04] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:45:04] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:45:04] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:47:18] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:50:04] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:50:04] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:50:04] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:50:04] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:50:04] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:51:31] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:51:38] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:51:38] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:51:38] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:51:38] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:51:38] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:51:39] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:51:39] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:51:39] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:51:39] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:51:39] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:51:44] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:51:46] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:51:47] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:51:47] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:51:47] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:51:47] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:54:12] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:56:50] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:57:56] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:57:56] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:57:56] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:57:56] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:57:56] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:58:55] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:59:12] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:59:17] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:59:17] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:59:17] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:59:18] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:59:18] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:59:28] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:59:32] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:59:32] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:59:32] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:59:33] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:59:33] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:59:39] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:59:39] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 11:59:39] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:59:39] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:59:39] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:59:44] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 11:59:44] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 11:59:44] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 11:59:44] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 11:59:44] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 12:01:42] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 12:01:55] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 12:01:55] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 12:01:55] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 12:01:55] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 12:01:55] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 12:06:59] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 12:08:07] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 12:08:07] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 12:08:07] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 12:08:07] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 12:08:07] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 12:14:04] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 12:14:08] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 12:14:08] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 12:14:08] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 12:14:08] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 12:14:08] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 12:16:11] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 12:16:14] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 12:16:14] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 12:16:14] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 12:16:14] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 12:16:14] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 12:19:18] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 12:19:27] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 12:19:27] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 12:19:27] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 12:19:27] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 12:19:27] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 12:24:29] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 12:32:23] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 12:35:18] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 12:35:36] "GET /InventoryApp/get_location/ HTTP/1.1" 200 511
+[20/Jan/2018 12:35:40] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 269
+[20/Jan/2018 12:35:51] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[20/Jan/2018 12:35:55] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 269
+[20/Jan/2018 12:36:05] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[2018-01-20 12:36:05,430] - Broken pipe from ('122.175.46.31', 34075)
+
+[20/Jan/2018 12:36:09] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[20/Jan/2018 12:36:15] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[20/Jan/2018 12:36:16] "GET /InventoryApp/get_position/ HTTP/1.1" 200 23
+[20/Jan/2018 12:44:19] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 12:44:21] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 14:22:00] "POST /InventoryApp/forget_password/ HTTP/1.1" 404 103
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 19, 2018 - 18:46:16
+Django version 1.11.7, using settings 'InventoryProject.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+{"id":"8","fullname":"test","username":"test","emailid":"test@jochebedtech.com","password":"test","gender":"male","bloodgroup":"o+","dateofbirth":"1980-01-01","dateofjoining":"2015-01-01","department":"1","reportinghead":"4","reportinghr":"5","jobrole":"3","address":"hyderabad","worklocation":"1","statusid":"1"}
+Unhandled exception in thread started by <function wrapper at 0x7f527efe27d0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 3, in <module>
+    from InventoryApp.views import *
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 409
+    
+                                    ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0x7f72d072d7d0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 3, in <module>
+    from InventoryApp.views import *
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 1181
+    output = '{"error
+                    ^
+SyntaxError: EOL while scanning string literal
+Unhandled exception in thread started by <function wrapper at 0x7fa2f3fa07d0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 3, in <module>
+    from InventoryApp.views import *
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 2372
+    output = '{"error_code":"2", "error_desc": "position doesnot exists ple
+                                                                          ^
+SyntaxError: EOL while scanning string literal
+nohup: ignoring input
+python: can't open file 'inventorystart.py': [Errno 2] No such file or directory
+nohup: ignoring input
+[20/Jan/2018 15:13:53] "GET /robots.txt HTTP/1.1" 404 84
+[20/Jan/2018 15:13:56] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 20, 2018 - 15:13:21
+Django version 1.11.7, using settings 'InventoryProject.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f72fb49e7d0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 6, in <module>
+    url(r'^login/',csrf_exempt(login),name = 'login'),
+NameError: name 'login' is not defined
+Unhandled exception in thread started by <function wrapper at 0x7fbbf34dd7d0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 3, in <module>
+    from InventoryApp.views import *
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 1596
+    output = '{"
+               ^
+SyntaxError: EOL while scanning string literal
+[20/Jan/2018 16:37:22] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:37:34] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 16:37:34] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 16:37:35] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:37:37] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:37:37] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:37:38] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:37:38] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:37:38] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:42:38] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:43:20] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:45:59] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:46:03] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:46:03] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 16:46:04] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:46:04] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:46:04] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 16:46:09] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:46:13] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 16:46:13] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:46:13] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:46:13] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 16:46:14] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:46:15] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:51:17] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:51:20] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:54:02] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:54:05] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:54:13] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 16:54:13] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:54:13] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 16:54:13] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:54:15] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:54:16] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:54:16] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:54:16] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 16:54:16] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 16:54:18] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:54:29] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:54:31] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:54:37] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:54:38] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 16:54:38] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:54:38] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 16:54:40] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:54:40] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:54:40] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:54:40] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 16:54:40] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 16:54:42] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:54:49] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:54:52] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:54:57] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 16:54:57] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:54:57] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:54:57] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 16:55:00] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:55:04] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:55:10] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:55:13] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 16:55:16] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:55:17] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:55:17] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 16:55:19] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:55:19] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:55:20] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 16:55:20] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:55:26] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:55:37] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:55:39] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:55:47] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 16:55:47] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:55:47] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:55:47] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 16:55:49] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:55:55] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:55:57] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:56:04] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 16:56:04] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:56:04] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 16:56:04] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:56:08] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:56:08] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:56:10] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:56:16] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:56:29] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:57:01] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:57:05] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:57:05] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:57:06] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 16:57:06] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 16:57:09] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:57:09] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 16:57:09] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 16:57:09] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:57:12] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:57:23] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:57:28] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:57:50] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:58:08] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:58:11] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 16:58:19] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 16:58:19] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 16:58:19] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 16:58:19] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 16:58:22] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:05:20] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:05:21] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:05:28] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 17:05:28] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 17:05:28] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 17:05:28] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 17:05:30] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:05:31] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 17:05:31] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 17:05:31] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 17:05:31] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:06:40] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:06:50] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 17:06:50] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 17:06:50] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 17:06:50] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 17:06:53] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 17:06:53] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:06:53] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:06:56] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:07:12] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:07:24] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:07:25] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 17:07:25] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 17:07:25] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 17:07:25] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 17:07:28] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:07:28] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 17:07:28] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 17:07:28] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 17:07:31] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:08:14] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:12:34] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:12:38] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 17:12:38] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 17:12:38] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 17:12:38] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 17:12:40] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:15:53] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:15:56] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:16:05] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 17:16:05] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 17:16:07] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 17:16:08] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 17:16:10] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:16:10] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 17:16:12] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:16:12] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 17:20:59] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:21:01] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:22:59] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 17:22:59] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 17:22:59] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 17:22:59] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 17:22:59] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 17:23:01] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 17:23:01] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 17:23:01] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 18:00:40] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:00:45] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 18:00:45] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 18:00:45] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 18:00:45] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:00:45] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 18:00:59] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 18:00:59] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 18:00:59] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:00:59] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 18:00:59] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 18:01:36] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:13:53] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:14:01] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 18:14:01] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 18:14:01] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 18:14:01] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:14:01] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 18:17:48] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:17:55] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:19:11] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:19:16] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 18:19:16] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 18:19:16] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 18:19:16] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 18:19:21] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:19:29] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:19:31] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 18:19:31] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 18:19:31] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 18:19:31] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 18:19:36] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:20:14] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:20:16] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 18:20:16] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 18:20:16] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 18:20:16] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 18:20:21] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:20:52] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:21:22] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 18:21:22] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 18:21:23] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 18:21:23] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 18:21:27] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:21:33] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:26:27] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:38:20] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:38:34] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 18:38:34] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 18:38:34] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 18:38:35] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 18:38:39] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:40:57] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:40:59] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 18:40:59] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 18:40:59] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 18:40:59] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 18:41:04] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:41:08] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:43:22] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 18:43:22] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 18:43:22] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 18:43:22] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 18:43:27] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:47:28] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:47:31] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 18:47:31] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 18:47:31] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 18:47:31] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 18:47:36] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:49:02] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:49:05] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 18:49:05] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 18:49:05] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 18:49:05] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 18:49:10] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:49:15] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:49:19] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 18:49:19] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 18:49:19] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 18:49:19] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 18:49:24] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:49:32] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:49:35] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 18:49:35] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 18:49:35] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 18:49:35] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 18:49:40] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:49:43] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:57:08] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[20/Jan/2018 18:57:50] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 18:59:43] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:00:53] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:00:53] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:00:53] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:00:53] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:00:56] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:00:58] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:01:57] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:02:01] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:02:01] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:02:01] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:02:01] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:02:05] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:02:44] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:02:49] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:02:49] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:02:49] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:02:49] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:02:53] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+nohup: ignoring input
+[20/Jan/2018 19:05:23] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:05:24] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:05:26] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:05:29] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[2018-01-20 19:05:29,845] - Broken pipe from ('122.175.46.31', 58474)
+
+[20/Jan/2018 19:05:43] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[20/Jan/2018 19:06:00] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[20/Jan/2018 19:07:50] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:07:53] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:07:54] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:07:54] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:07:54] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:07:59] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:12:02] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:12:17] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:12:23] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:12:23] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:12:23] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:12:23] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:12:28] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:17:29] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:20:22] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:20:27] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:20:27] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:20:27] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:20:27] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:20:31] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:21:35] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:21:39] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:21:39] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:21:39] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:21:39] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:21:43] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:23:25] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:23:50] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:23:50] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:23:50] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:23:50] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:23:53] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:23:56] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:27:12] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:27:17] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:27:17] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:27:17] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:27:17] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:27:21] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:30:42] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:30:45] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:30:45] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:30:45] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:30:45] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:30:50] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:31:25] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:31:30] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:31:31] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:31:31] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:31:31] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:31:35] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:33:19] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:33:38] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:33:38] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:33:38] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:33:39] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:33:43] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:33:56] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:33:59] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:33:59] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:33:59] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:33:59] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:34:04] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:35:29] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:35:32] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:35:32] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:35:32] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:35:32] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:35:37] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:35:56] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:35:59] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:35:59] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:35:59] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:35:59] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:36:04] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:36:21] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:36:24] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:36:24] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:36:24] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:36:24] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:36:28] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:40:29] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:40:34] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:40:34] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:40:34] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:40:34] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:40:38] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:41:38] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:41:44] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:41:44] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:41:44] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:41:44] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:41:48] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:45:42] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:45:48] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:45:48] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:45:48] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:45:48] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:45:52] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:50:04] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:50:08] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:50:08] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:50:08] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:50:08] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:50:12] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:51:30] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:51:33] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:51:33] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:51:33] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:51:33] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:51:38] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:51:44] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:51:46] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:51:46] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:51:46] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:51:46] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:51:51] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:51:58] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:52:01] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:52:01] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:52:01] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:52:01] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:52:06] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:52:50] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:53:05] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[20/Jan/2018 19:53:05] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[20/Jan/2018 19:53:05] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[20/Jan/2018 19:53:05] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[20/Jan/2018 19:53:10] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 19:53:26] "POST /InventoryApp/add_employee/ HTTP/1.1" 200 89
+[20/Jan/2018 20:12:08] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[20/Jan/2018 20:22:48] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[22/Jan/2018 10:54:44] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[22/Jan/2018 10:57:18] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[22/Jan/2018 11:07:04] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[22/Jan/2018 11:07:41] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[22/Jan/2018 11:08:25] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[22/Jan/2018 11:08:27] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[22/Jan/2018 11:08:27] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[22/Jan/2018 11:08:27] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[22/Jan/2018 11:08:27] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[22/Jan/2018 11:08:33] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[22/Jan/2018 11:08:59] "POST /InventoryApp/add_employee/ HTTP/1.1" 200 89
+[22/Jan/2018 11:10:05] "POST /InventoryApp/add_employee/ HTTP/1.1" 200 89
+[22/Jan/2018 11:10:08] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[22/Jan/2018 11:10:27] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[22/Jan/2018 11:10:27] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[22/Jan/2018 11:10:27] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[22/Jan/2018 11:10:27] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[22/Jan/2018 11:10:33] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[22/Jan/2018 11:10:33] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[22/Jan/2018 11:10:33] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[22/Jan/2018 11:10:33] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[22/Jan/2018 11:10:33] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[22/Jan/2018 11:10:33] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[22/Jan/2018 11:10:37] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[22/Jan/2018 11:11:13] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[22/Jan/2018 11:11:17] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[22/Jan/2018 11:11:17] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[22/Jan/2018 11:11:17] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[22/Jan/2018 11:11:17] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[22/Jan/2018 11:11:21] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[22/Jan/2018 11:24:43] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[22/Jan/2018 11:37:43] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[22/Jan/2018 11:37:43] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[22/Jan/2018 11:37:43] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[22/Jan/2018 11:37:43] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[22/Jan/2018 11:37:48] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[22/Jan/2018 11:44:29] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[22/Jan/2018 11:44:33] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[22/Jan/2018 11:44:37] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[22/Jan/2018 11:44:37] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[22/Jan/2018 11:44:37] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[22/Jan/2018 11:44:38] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[22/Jan/2018 11:44:42] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[22/Jan/2018 11:44:42] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[22/Jan/2018 11:44:42] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[22/Jan/2018 11:44:42] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[22/Jan/2018 11:44:49] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[22/Jan/2018 11:46:51] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[22/Jan/2018 11:47:00] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[22/Jan/2018 11:47:00] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[22/Jan/2018 11:47:01] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[22/Jan/2018 11:47:01] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[22/Jan/2018 11:47:09] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[22/Jan/2018 11:48:58] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2876
+[22/Jan/2018 11:49:35] "POST /InventoryApp/update_employee/ HTTP/1.1" 200 50
+[22/Jan/2018 11:49:41] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2875
+[22/Jan/2018 11:50:13] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2875
+[22/Jan/2018 11:50:16] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[22/Jan/2018 11:50:17] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[22/Jan/2018 11:50:17] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[22/Jan/2018 11:50:17] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[22/Jan/2018 11:50:21] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2875
+[22/Jan/2018 11:50:31] "POST /InventoryApp/add_employee/ HTTP/1.1" 200 89
+[22/Jan/2018 11:51:15] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2875
+[22/Jan/2018 11:51:18] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2875
+[22/Jan/2018 11:51:21] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[22/Jan/2018 11:51:21] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[22/Jan/2018 11:51:21] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[22/Jan/2018 11:51:21] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[22/Jan/2018 11:51:25] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2875
+[22/Jan/2018 11:51:26] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2875
+[22/Jan/2018 11:51:29] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[22/Jan/2018 11:51:29] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[22/Jan/2018 11:51:29] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[22/Jan/2018 11:51:29] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[22/Jan/2018 11:51:37] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2875
+[22/Jan/2018 11:51:54] "POST /InventoryApp/add_employee/ HTTP/1.1" 200 89
+[22/Jan/2018 11:52:25] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2875
+[22/Jan/2018 11:52:29] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2875
+[22/Jan/2018 11:52:43] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[22/Jan/2018 11:52:43] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[22/Jan/2018 11:52:43] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 161
+[22/Jan/2018 11:52:43] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[22/Jan/2018 11:52:47] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2875
+nohup: ignoring input
+[22/Jan/2018 11:55:11] "POST /InventoryApp/update_employee/ HTTP/1.1" 200 50
+[22/Jan/2018 11:55:15] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 11:55:59] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 11:56:03] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[22/Jan/2018 11:56:03] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 89
+[22/Jan/2018 11:56:04] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[22/Jan/2018 11:56:04] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[22/Jan/2018 11:56:22] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 11:56:23] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 11:56:27] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[22/Jan/2018 11:56:27] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[22/Jan/2018 11:56:27] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[22/Jan/2018 11:56:27] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 89
+[22/Jan/2018 11:56:32] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 11:56:42] "POST /InventoryApp/add_employee/ HTTP/1.1" 200 89
+[22/Jan/2018 11:58:17] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 11:58:27] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 89
+[22/Jan/2018 11:58:28] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[22/Jan/2018 11:58:50] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 11:58:52] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 11:59:01] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[22/Jan/2018 11:59:04] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 11:59:54] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 11:59:57] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 89
+[22/Jan/2018 11:59:57] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[22/Jan/2018 11:59:57] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[22/Jan/2018 11:59:58] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[22/Jan/2018 12:00:05] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 12:00:12] "POST /InventoryApp/update_employee/ HTTP/1.1" 200 71
+[22/Jan/2018 12:08:41] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 12:08:49] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[22/Jan/2018 12:08:49] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[22/Jan/2018 12:08:49] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 89
+[22/Jan/2018 12:08:49] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[22/Jan/2018 12:08:55] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 12:09:07] "POST /InventoryApp/update_employee/ HTTP/1.1" 200 71
+[22/Jan/2018 12:10:22] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 12:10:26] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[22/Jan/2018 12:10:26] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 89
+[22/Jan/2018 12:10:26] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[22/Jan/2018 12:10:26] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[22/Jan/2018 12:10:30] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 12:10:37] "POST /InventoryApp/update_employee/ HTTP/1.1" 200 114
+[22/Jan/2018 12:10:41] "POST /InventoryApp/update_employee/ HTTP/1.1" 200 114
+[22/Jan/2018 12:10:55] "POST /InventoryApp/update_employee/ HTTP/1.1" 200 114
+[22/Jan/2018 12:14:05] "GET /robots.txt HTTP/1.1" 404 84
+[22/Jan/2018 12:14:05] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 12:19:16] "POST /InventoryApp/update_employee/ HTTP/1.1" 200 114
+[22/Jan/2018 13:05:04] "POST /InventoryApp/update_employee/ HTTP/1.1" 200 114
+[22/Jan/2018 13:06:38] "POST /InventoryApp/update_employee/ HTTP/1.1" 200 114
+[22/Jan/2018 13:06:43] "POST /InventoryApp/update_employee/ HTTP/1.1" 200 114
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 22, 2018 - 11:53:41
+Django version 1.11.7, using settings 'InventoryProject.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+{"id":"8","fullname":"test","username":"test","emailid":"test@jochebedtech.com","gender":"male","bloodgroup":"o+","dateofbirth":"1980-01-01","dateofjoining":"2015-01-01","department":"1","reportinghead":"4","reportinghr":"5","jobrole":"2","address":"hyderabad","worklocation":"2","statusid":"1"}
+{"username":"tabitha","address":"hyderabad1","jobrole":"2","department":"1","worklocation":"1","bloodgroup":"O+","reportinghead":"johneda","gender":"female","dateofjoining":"2015-01-01","dateofbirth":"1980-01-01","reportinghr":"4","fullname":"tabitha","emailid":"tabitha@jochebedtech.com"}
+{"username":"tabitha","address":"hyderabad1","jobrole":"2","department":"1","worklocation":"1","bloodgroup":"O+","reportinghead":"johneda","gender":"female","dateofjoining":"2015-01-01","dateofbirth":"1980-01-01","reportinghr":"4","fullname":"tabitha","emailid":"tabitha@jochebedtech.com"}
+{"jobrole":"2","department":"1","userid":"5","dateofbirth":"1980-01-01","emailid":"tabitha@jochebedtech.com","username":"tabitha","address":"hyderabad2","worklocation":"1","bloodgroup":"O+","reportinghead":"johneda","gender":"female","dateofjoining":"2015-01-01","reportinghr":"4","fullname":"tabitha"}
+{"jobrole":"2","department":"1","dateofbirth":"1980-01-01","emailid":"tabitha@jochebedtech.com","id":"5","username":"tabitha","address":"hyderabad1","worklocation":"1","bloodgroup":"O+","reportinghead":"johneda","gender":"female","dateofjoining":"2015-01-01","reportinghr":"4","fullname":"tabitha"}
+{"jobrole":"2","department":"1","dateofbirth":"1980-01-01","emailid":"tabitha@jochebedtech.com","id":"5","username":"tabitha","address":"hyderabad1","worklocation":"1","bloodgroup":"O+","reportinghead":"johneda","gender":"female","dateofjoining":"2015-01-01","reportinghr":"4","fullname":"tabitha"}
+{"jobrole":"2","department":"1","dateofbirth":"1980-01-01","emailid":"tabitha@jochebedtech.com","id":"5","username":"tabitha","address":"hyderabad1","worklocation":"1","bloodgroup":"O+","reportinghead":"johneda","gender":"female","dateofjoining":"2015-01-01","reportinghr":"4","fullname":"tabitha"}
+{"jobrole":"2","department":"1","dateofbirth":"1980-01-01","emailid":"tabitha@jochebedtech.com","id":"5","username":"tabitha","address":"hyderabad1","worklocation":"1","bloodgroup":"O+","reportinghead":"johneda","gender":"female","dateofjoining":"2015-01-01","reportinghr":"4","fullname":"tabitha"}
+{"jobrole":"2","department":"1","dateofbirth":"1980-01-01","emailid":"tabitha@jochebedtech.com","id":"5","username":"tabitha","address":"hyderabad1","worklocation":"1","bloodgroup":"O+","reportinghead":"johneda","gender":"female","dateofjoining":"2015-01-01","reportinghr":"4","fullname":"tabitha"}
+{"jobrole":"2","department":"1","dateofbirth":"1980-01-01","emailid":"tabitha@jochebedtech.com","id":"5","username":"tabitha","address":"hyderabad1","worklocation":"1","bloodgroup":"O+","reportinghead":"johneda","gender":"female","dateofjoining":"2015-01-01","reportinghr":"4","fullname":"tabitha"}
+{"jobrole":"2","department":"1","dateofbirth":"1980-01-01","emailid":"tabitha@jochebedtech.com","id":"5","username":"tabitha","address":"hyderabad1","worklocation":"1","bloodgroup":"O+","reportinghead":"johneda","gender":"female","dateofjoining":"2015-01-01","reportinghr":"4","fullname":"tabitha"}
+Unhandled exception in thread started by <function wrapper at 0x7fd1f14e97d0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 15, in <module>
+    url(r'^forget_password/',csrf_exempt(forget_password),name = 'forget_password'),
+NameError: name 'forget_password' is not defined
+Unhandled exception in thread started by <function wrapper at 0x7f90f64337d0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 6, in <module>
+    url(r'^login/',csrf_exempt(login),name = 'login'),
+NameError: name 'login' is not defined
+Unhandled exception in thread started by <function wrapper at 0x7f65016217d0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 3, in <module>
+    from InventoryApp.views import *
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 409
+    
+                                    ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0x7fa66375b7d0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 3, in <module>
+    from InventoryApp.views import *
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 1188
+    
+                                                                                                    ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0x7f05374737d0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 3, in <module>
+    from InventoryApp.views import *
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 1605
+    
+                                                      ^
+SyntaxError: invalid syntax
+[22/Jan/2018 13:09:30] "POST /InventoryApp/forget_passoword/ HTTP/1.1" 404 104
+[22/Jan/2018 13:10:49] "POST /InventoryApp/update_employee/ HTTP/1.1" 200 114
+[22/Jan/2018 13:11:52] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 13:11:56] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 89
+[22/Jan/2018 13:11:56] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[22/Jan/2018 13:11:56] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[22/Jan/2018 13:11:56] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[22/Jan/2018 13:12:01] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 13:12:12] "POST /InventoryApp/update_employee/ HTTP/1.1" 200 114
+nohup: ignoring input
+[22/Jan/2018 13:14:02] "POST /InventoryApp/forget_passoword/ HTTP/1.1" 404 104
+[22/Jan/2018 13:14:06] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[22/Jan/2018 13:14:47] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[22/Jan/2018 13:14:53] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[22/Jan/2018 13:15:05] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[22/Jan/2018 13:15:05] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[22/Jan/2018 13:15:05] "GET /favicon.ico HTTP/1.1" 404 85
+nohup: ignoring input
+[22/Jan/2018 13:19:46] "POST /InventoryApp/forget_password/ HTTP/1.1" 200 52
+[22/Jan/2018 13:19:50] "POST /InventoryApp/forget_password/ HTTP/1.1" 200 58
+[22/Jan/2018 13:19:57] "POST /InventoryApp/forget_password/ HTTP/1.1" 200 52
+[22/Jan/2018 13:26:54] "GET /InventoryApp/update_employee/ HTTP/1.1" 200 56
+[22/Jan/2018 13:27:08] "POST /InventoryApp/update_employee/ HTTP/1.1" 200 90
+[22/Jan/2018 13:28:52] "POST /InventoryApp/update_employee/ HTTP/1.1" 200 114
+[22/Jan/2018 13:28:53] "POST /InventoryApp/update_employee/ HTTP/1.1" 200 114
+[22/Jan/2018 13:31:40] "POST /InventoryApp/update_employee/ HTTP/1.1" 200 90
+[22/Jan/2018 13:32:14] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 13:32:21] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[22/Jan/2018 13:32:21] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 89
+[22/Jan/2018 13:32:21] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[22/Jan/2018 13:32:21] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[22/Jan/2018 13:32:25] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 13:37:15] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 13:37:17] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[22/Jan/2018 13:37:17] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[22/Jan/2018 13:37:17] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 89
+[22/Jan/2018 13:37:18] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[22/Jan/2018 13:37:22] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 13:42:22] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 13:42:26] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[22/Jan/2018 13:42:26] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[22/Jan/2018 13:42:26] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[22/Jan/2018 13:42:26] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 89
+[22/Jan/2018 13:42:30] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 13:42:38] "POST /InventoryApp/update_employee/ HTTP/1.1" 200 114
+[22/Jan/2018 13:46:03] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 13:46:06] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[22/Jan/2018 13:46:06] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 89
+[22/Jan/2018 13:46:06] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[22/Jan/2018 13:46:06] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[22/Jan/2018 13:46:10] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 13:53:11] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 13:53:14] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[22/Jan/2018 13:53:14] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[22/Jan/2018 13:53:14] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 89
+[22/Jan/2018 13:53:14] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[22/Jan/2018 13:53:19] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 15:03:01] "GET /robots.txt HTTP/1.1" 404 84
+[22/Jan/2018 15:03:01] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 16:10:00] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 269
+[22/Jan/2018 16:10:23] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 269
+[22/Jan/2018 16:34:17] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[22/Jan/2018 16:42:40] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 76
+[22/Jan/2018 16:42:40] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[22/Jan/2018 16:42:40] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Jan/2018 16:42:42] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[22/Jan/2018 16:48:29] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[22/Jan/2018 16:50:45] "POST /InventoryApp/search_product/ HTTP/1.1" 200 2475
+[22/Jan/2018 16:59:06] "GET /InventoryApp/get_materialtype/ HTTP/1.1" 200 223
+[22/Jan/2018 16:59:06] "GET /InventoryApp/get_uom/ HTTP/1.1" 200 76
+[22/Jan/2018 16:59:06] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[22/Jan/2018 16:59:27] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[22/Jan/2018 17:06:54] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[22/Jan/2018 17:07:02] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 17:07:06] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[22/Jan/2018 17:07:06] "GET /InventoryApp/get_hr/ HTTP/1.1" 200 89
+[22/Jan/2018 17:07:06] "GET /InventoryApp/get_departments/ HTTP/1.1" 200 311
+[22/Jan/2018 17:07:06] "GET /InventoryApp/get_emplocation/ HTTP/1.1" 200 141
+[22/Jan/2018 17:07:10] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[22/Jan/2018 17:16:18] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 328, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 110] Connection timed out
+[22/Jan/2018 17:16:18] "GET /InventoryApp/get_product/ HTTP/1.1" 500 59
+[2018-01-22 17:16:18,717] - Broken pipe from ('115.98.91.33', 34607)
+
+[22/Jan/2018 17:46:43] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[22/Jan/2018 17:49:49] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[22/Jan/2018 17:51:04] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 269
+[22/Jan/2018 17:58:37] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[22/Jan/2018 18:00:53] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[22/Jan/2018 18:01:04] "POST /InventoryApp/search_product/ HTTP/1.1" 200 2475
+[22/Jan/2018 18:01:14] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Jan/2018 11:37:32] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[23/Jan/2018 11:37:35] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[23/Jan/2018 11:37:46] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[23/Jan/2018 11:37:54] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Jan/2018 11:44:16] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[2018-01-23 11:44:16,216] - Broken pipe from ('122.175.53.53', 38915)
+
+[23/Jan/2018 11:44:19] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[23/Jan/2018 11:44:25] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[2018-01-23 11:44:25,459] - Broken pipe from ('122.175.53.53', 50941)
+
+[23/Jan/2018 11:44:55] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[23/Jan/2018 12:00:13] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[23/Jan/2018 12:02:19] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[23/Jan/2018 12:02:42] "POST /InventoryApp/search_product/ HTTP/1.1" 200 8603
+[23/Jan/2018 12:13:46] "GET /InventoryApp/get_empjobrole/ HTTP/1.1" 200 187
+[23/Jan/2018 12:13:46] "GET /favicon.ico HTTP/1.1" 404 85
+[23/Jan/2018 12:36:41] "POST /InventoryApp/search_product/ HTTP/1.1" 200 22
+[23/Jan/2018 13:16:45] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[23/Jan/2018 13:16:47] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[23/Jan/2018 13:26:21] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[23/Jan/2018 13:28:07] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 269
+[23/Jan/2018 13:28:15] "GET /InventoryApp/get_position/ HTTP/1.1" 200 23
+[23/Jan/2018 13:28:17] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 269
+[23/Jan/2018 13:28:18] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Jan/2018 13:28:21] "GET /InventoryApp/get_position/ HTTP/1.1" 200 23
+[23/Jan/2018 13:29:03] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[23/Jan/2018 13:35:28] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[2018-01-23 13:35:28,548] - Broken pipe from ('122.175.53.53', 45175)
+
+[23/Jan/2018 13:36:42] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[23/Jan/2018 13:37:55] "GET /InventoryApp/get_warehouse/ HTTP/1.1" 200 269
+[23/Jan/2018 13:40:51] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[2018-01-23 13:40:51,092] - Broken pipe from ('122.175.53.53', 59267)
+
+[23/Jan/2018 13:41:00] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[2018-01-23 13:41:00,126] - Broken pipe from ('122.175.53.53', 42424)
+
+[23/Jan/2018 13:47:36] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[23/Jan/2018 14:13:07] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[23/Jan/2018 14:20:25] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 22, 2018 - 13:19:35
+Django version 1.11.7, using settings 'InventoryProject.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+{"id":"3","username":"johneda","newpassword":"johneda@123","confirmpassword":"johneda@123"}
+{"id":"3","username":"johneda","newpassword":"johneda@123","confirmpassword":"johneda@12"}
+{"id":"3","username":"johneda","newpassword":"johneda@123","confirmpassword":"johneda@123"}
+{"jobrole":"2","department":"1","dateofbirth":"1980-01-01","emailid":"tabitha@jochebedtech.com","id":"5","username":"tabitha","address":"hyderabad1","worklocation":"1","bloodgroup":"O+","reportinghead":"johneda","gender":"female","dateofjoining":"2015-01-01","reportinghr":"4","fullname":"tabitha"}
+{"jobrole":"2","department":"1","dateofbirth":"1980-01-01","emailid":"tabitha@jochebedtech.com","id":"5","username":"tabitha","address":"hyderabad1","worklocation":"1","bloodgroup":"O+","reportinghead":"johneda","gender":"female","dateofjoining":"2015-01-01","reportinghr":"4","fullname":"tabitha"}
+{"jobrole":"2","department":"1","dateofbirth":"1980-01-01","emailid":"tabitha@jochebedtech.com","id":"5","username":"tabitha","address":"hyderabad1","worklocation":"1","bloodgroup":"O+","reportinghead":"johneda","gender":"female","dateofjoining":"2015-01-01","reportinghr":"4","fullname":"tabitha"}
+{"search":"com"}
+{"search":"com"}
+{"search":"mot"}
+{"search":"moniton"}
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 23, 2018 - 16:01:46
+Django version 1.11.7, using settings 'InventoryProject.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 23, 2018 - 16:08:35
+Django version 1.11.7, using settings 'InventoryProject.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 23, 2018 - 16:10:28
+Django version 1.11.7, using settings 'InventoryProject.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f21242fcb90>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 255, in check
+    warnings.extend(check_resolver(pattern))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 414, in url_patterns
+    raise ImproperlyConfigured(msg.format(name=self.urlconf_name))
+django.core.exceptions.ImproperlyConfigured: The included URLconf '<module 'InventoryApp.urls' from '/home/esp/Desktop/InventoryProject/InventoryApp/urls.py'>' does not appear to have any patterns in it. If you see valid patterns in the file then the issue is probably caused by a circular import.
+nohup: ignoring input
+[23/Jan/2018 16:32:37] "POST /InventoryApp/login HTTP/1.1" 301 0
+[23/Jan/2018 16:32:38] "POST /InventoryApp/login/ HTTP/1.1" 200 113
+[23/Jan/2018 16:32:45] "POST /InventoryApp/login HTTP/1.1" 301 0
+[23/Jan/2018 16:32:46] "POST /InventoryApp/login/ HTTP/1.1" 200 113
+[23/Jan/2018 16:34:17] "POST /InventoryApp/login HTTP/1.1" 301 0
+[23/Jan/2018 16:34:17] "POST /InventoryApp/login/ HTTP/1.1" 200 113
+[23/Jan/2018 16:36:14] "POST /InventoryApp/login HTTP/1.1" 301 0
+[23/Jan/2018 16:36:14] "POST /InventoryApp/login/ HTTP/1.1" 200 113
+[23/Jan/2018 16:36:30] "POST /InventoryApp/login HTTP/1.1" 301 0
+[23/Jan/2018 16:36:31] "POST /InventoryApp/login/ HTTP/1.1" 200 113
+[23/Jan/2018 16:38:26] "POST /InventoryApp/login/ HTTP/1.1" 200 113
+[23/Jan/2018 16:39:39] "POST /InventoryApp/login HTTP/1.1" 301 0
+[23/Jan/2018 16:39:39] "POST /InventoryApp/login/ HTTP/1.1" 200 113
+[23/Jan/2018 16:39:56] "POST /InventoryApp/login HTTP/1.1" 301 0
+[23/Jan/2018 16:39:56] "POST /InventoryApp/login/ HTTP/1.1" 200 113
+[23/Jan/2018 16:39:57] "POST /InventoryApp/login HTTP/1.1" 301 0
+[23/Jan/2018 16:39:57] "POST /InventoryApp/login HTTP/1.1" 301 0
+[23/Jan/2018 16:39:57] "POST /InventoryApp/login/ HTTP/1.1" 200 113
+[23/Jan/2018 16:39:58] "POST /InventoryApp/login/ HTTP/1.1" 200 113
+[23/Jan/2018 16:40:09] "POST /InventoryApp/login HTTP/1.1" 301 0
+[23/Jan/2018 16:40:10] "POST /InventoryApp/login/ HTTP/1.1" 200 113
+[23/Jan/2018 16:41:50] "POST /InventoryApp/login/ HTTP/1.1" 200 53
+[23/Jan/2018 16:42:17] "GET /InventoryApp/get_requisition/ HTTP/1.1" 200 399
+[23/Jan/2018 16:42:47] "POST /InventoryApp/login/ HTTP/1.1" 200 113
+nohup: ignoring input
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 23, 2018 - 17:13:50
+Django version 1.11.7, using settings 'InventoryProject.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f1d37e97b90>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 6, in <module>
+    url(r'^login/',csrf_exempt(login),name = 'login'),
+NameError: name 'login' is not defined
+Unhandled exception in thread started by <function wrapper at 0x7f11641f3b90>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 3, in <module>
+    from InventoryApp.views import *
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 2375
+    output_str += "all fields ar
+                               ^
+SyntaxError: EOL while scanning string literal
+[23/Jan/2018 17:15:09] "POST /InventoryApp/get_hr/ HTTP/1.1" 200 89
+[23/Jan/2018 17:15:23] "POST /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[23/Jan/2018 17:23:17] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 23, 2018 - 17:14:43
+Django version 1.11.7, using settings 'InventoryProject.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f8097d09b90>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 3, in <module>
+    from InventoryApp.views import *
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 798
+    
+                                ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0x7f91b66a9b90>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 3, in <module>
+    from InventoryApp.views import *
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 1989
+    
+                  ^
+SyntaxError: invalid syntax
+[23/Jan/2018 17:25:23] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 23, 2018 - 17:24:37
+Django version 1.11.7, using settings 'InventoryProject.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f9eb7e7eb90>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 6, in <module>
+    url(r'^login/',csrf_exempt(login),name = 'login'),
+NameError: name 'login' is not defined
+[23/Jan/2018 17:27:07] "POST /InventoryApp/add_requisitiondetails/ HTTP/1.1" 404 110
+[23/Jan/2018 17:27:37] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 23, 2018 - 17:26:34
+Django version 1.11.7, using settings 'InventoryProject.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+[23/Jan/2018 17:27:53] "GET /InventoryApp/add_requisitiondetails/ HTTP/1.1" 200 56
+[23/Jan/2018 17:28:16] "POST /InventoryApp/add_requisitiondetails/ HTTP/1.1" 200 60
+[23/Jan/2018 17:29:15] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[23/Jan/2018 17:29:41] "POST /InventoryApp/add_requisitiondetails/ HTTP/1.1" 200 60
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 23, 2018 - 17:27:47
+Django version 1.11.7, using settings 'InventoryProject.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+{"quantity":"10","productid":"6","requisitionid":"2"}
+{"quantity":"10","productid":"10","requisitionid":"2"}
+Unhandled exception in thread started by <function wrapper at 0x7f3c2479bb90>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 3, in <module>
+    from InventoryApp.views import *
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 408
+    logging.debug("reportingh
+                            ^
+SyntaxError: EOL while scanning string literal
+Unhandled exception in thread started by <function wrapper at 0x7f2cdfa9db90>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 3, in <module>
+    from InventoryApp.views import *
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 1989
+    
+              ^
+SyntaxError: invalid syntax
+[23/Jan/2018 17:45:52] "POST /InventoryApp/login/ HTTP/1.1" 200 53
+[23/Jan/2018 17:46:27] "POST /InventoryApp/login/ HTTP/1.1" 200 113
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 23, 2018 - 17:45:29
+Django version 1.11.7, using settings 'InventoryProject.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+{"username":"harisai","password":"harisai"}
+Unhandled exception in thread started by <function wrapper at 0x7f7c2369bb90>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 18, in <module>
+    url(r'^update_familydetails/',csrf_exempt(update_familydetails),name = 'update_familydetails'),
+NameError: name 'update_familydetails' is not defined
+nohup: ignoring input
+[23/Jan/2018 18:35:12] "GET /robots.txt HTTP/1.1" 404 84
+[23/Jan/2018 18:35:12] "GET /InventoryApp/get_requisition/ HTTP/1.1" 200 399
+[23/Jan/2018 18:35:14] "GET /InventoryApp/get_requisition/ HTTP/1.1" 200 399
+[23/Jan/2018 18:35:34] "POST /InventoryApp/login HTTP/1.1" 301 0
+[23/Jan/2018 18:35:37] "POST /InventoryApp/login/ HTTP/1.1" 200 90
+[23/Jan/2018 18:36:29] "POST /InventoryApp/login HTTP/1.1" 301 0
+[23/Jan/2018 18:36:29] "POST /InventoryApp/login/ HTTP/1.1" 200 90
+[23/Jan/2018 18:36:51] "POST /InventoryApp/login HTTP/1.1" 301 0
+[23/Jan/2018 18:36:52] "POST /InventoryApp/login/ HTTP/1.1" 200 90
+[23/Jan/2018 18:37:13] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[23/Jan/2018 18:37:14] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 106
+[23/Jan/2018 18:37:15] "GET /apple-touch-icon.png HTTP/1.1" 404 94
+[23/Jan/2018 18:37:45] "POST /InventoryApp/login HTTP/1.1" 301 0
+[23/Jan/2018 18:37:46] "POST /InventoryApp/login/ HTTP/1.1" 200 90
+[23/Jan/2018 18:40:22] "POST /InventoryApp/login HTTP/1.1" 301 0
+[23/Jan/2018 18:40:22] "POST /InventoryApp/login/ HTTP/1.1" 200 90
+[23/Jan/2018 18:41:32] "POST /InventoryApp/login HTTP/1.1" 301 0
+[23/Jan/2018 18:41:33] "POST /InventoryApp/login/ HTTP/1.1" 200 90
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 23, 2018 - 18:35:08
+Django version 1.11.7, using settings 'InventoryProject.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7feb36865b90>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 6, in <module>
+    url(r'^login/',csrf_exempt(login),name = 'login'),
+NameError: name 'login' is not defined
+Unhandled exception in thread started by <function wrapper at 0x7f1201220b90>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 3, in <module>
+    from InventoryApp.views import *
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 797
+    output_str += "all fields are necessa
+                                        ^
+SyntaxError: EOL while scanning string literal
+Unhandled exception in thread started by <function wrapper at 0x7f527d08ab90>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 3, in <module>
+    from InventoryApp.views import *
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 1187
+    output = '{"error_code":"2", "error_
+                                       ^
+SyntaxError: EOL while scanning string literal
+Unhandled exception in thread started by <function wrapper at 0x7f4f1d752b90>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 3, in <module>
+    from InventoryApp.views import *
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 1985
+    
+                                                                                                                 ^
+SyntaxError: invalid syntax
+[23/Jan/2018 18:47:25] "POST /InventoryApp/login/ HTTP/1.1" 200 53
+[23/Jan/2018 18:47:39] "POST /InventoryApp/login/ HTTP/1.1" 200 90
+[23/Jan/2018 19:01:26] "POST /InventoryApp/login HTTP/1.1" 301 0
+[23/Jan/2018 19:01:27] "POST /InventoryApp/login/ HTTP/1.1" 200 90
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 23, 2018 - 18:47:12
+Django version 1.11.7, using settings 'InventoryProject.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+{"username":"harisai","password":"harisai"}
+Unhandled exception in thread started by <function wrapper at 0x7f46ce042b90>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 9, in <module>
+    url(r'^get_employee/',csrf_exempt(get_employee),name = 'get_employee'),
+NameError: name 'get_employee' is not defined
+[23/Jan/2018 19:08:04] "POST /InventoryApp/login/ HTTP/1.1" 200 53
+[23/Jan/2018 19:08:16] "POST /InventoryApp/login/ HTTP/1.1" 200 53
+[23/Jan/2018 19:08:28] "POST /InventoryApp/login/ HTTP/1.1" 200 90
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 23, 2018 - 19:07:51
+Django version 1.11.7, using settings 'InventoryProject.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+{"username":"harisai","password":"harisai"}
+{"username":"harisai","password":"harisai"}
+Unhandled exception in thread started by <function wrapper at 0x7f30ab019b90>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 6, in <module>
+    url(r'^login/',csrf_exempt(login),name = 'login'),
+NameError: name 'login' is not defined
+Unhandled exception in thread started by <function wrapper at 0x7fc9be034b90>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 3, in <module>
+    from InventoryApp.views import *
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 1985
+    
+                                                                                                           ^
+SyntaxError: invalid syntax
+[23/Jan/2018 19:15:38] "POST /InventoryApp/login/ HTTP/1.1" 500 27
+nohup: ignoring input
+[23/Jan/2018 19:21:42] "POST /InventoryApp/login/ HTTP/1.1" 200 53
+[23/Jan/2018 19:32:00] "POST /InventoryApp/login HTTP/1.1" 301 0
+[23/Jan/2018 19:32:01] "POST /InventoryApp/login/ HTTP/1.1" 200 90
+[23/Jan/2018 19:32:02] "POST /InventoryApp/login HTTP/1.1" 301 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 23, 2018 - 19:21:32
+Django version 1.11.7, using settings 'InventoryProject.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+{"username":"harisai","password":"harisai"}
+Unhandled exception in thread started by <function wrapper at 0x7fa3c404bb90>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 6, in <module>
+    url(r'^login/',csrf_exempt(login),name = 'login'),
+NameError: name 'login' is not defined
+Unhandled exception in thread started by <function wrapper at 0x7f4a6a702b90>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 3, in <module>
+    from InventoryApp.views import *
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 798
+    
+                    ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0x7fc3e7812b90>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 3, in <module>
+    from InventoryApp.views import *
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/views.py", line 1601
+    o
+    ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[23/Jan/2018 19:32:17] "POST /InventoryApp/login/ HTTP/1.1" 200 53
+[23/Jan/2018 19:32:21] "POST /InventoryApp/login/ HTTP/1.1" 200 53
+[23/Jan/2018 19:32:41] "POST /InventoryApp/login/ HTTP/1.1" 200 90
+[23/Jan/2018 19:33:20] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[23/Jan/2018 19:33:31] "POST /InventoryApp/search_product/ HTTP/1.1" 200 8584
+[23/Jan/2018 19:35:42] "POST /InventoryApp/search_product/ HTTP/1.1" 200 2475
+[23/Jan/2018 19:36:45] "POST /InventoryApp/search_product/ HTTP/1.1" 200 8584
+[23/Jan/2018 19:37:01] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[2018-01-23 19:37:01,516] - Broken pipe from ('122.175.46.31', 51748)
+
+[23/Jan/2018 19:38:09] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[23/Jan/2018 19:38:13] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[23/Jan/2018 19:41:40] "GET /InventoryApp/get_location/ HTTP/1.1" 200 511
+[23/Jan/2018 19:41:45] "GET /InventoryApp/get_status/ HTTP/1.1" 200 309
+[23/Jan/2018 19:41:57] "POST /InventoryApp/add_location/ HTTP/1.1" 200 48
+[23/Jan/2018 19:42:00] "GET /InventoryApp/get_location/ HTTP/1.1" 200 626
+[23/Jan/2018 19:44:43] "POST /InventoryApp/search_product/ HTTP/1.1" 200 94
+[23/Jan/2018 19:49:44] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+nohup: ignoring input
+[23/Jan/2018 20:26:49] "POST /InventoryApp/login/ HTTP/1.1" 200 53
+[23/Jan/2018 20:26:51] "POST /InventoryApp/login/ HTTP/1.1" 200 53
+[23/Jan/2018 20:27:13] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[23/Jan/2018 20:28:07] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[23/Jan/2018 20:33:35] "POST /InventoryApp/login/ HTTP/1.1" 200 78
+[23/Jan/2018 20:33:45] "POST /InventoryApp/login/ HTTP/1.1" 200 53
+[23/Jan/2018 20:33:53] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[23/Jan/2018 20:41:52] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[23/Jan/2018 20:42:01] "GET /InventoryApp/login HTTP/1.1" 301 0
+[23/Jan/2018 20:42:03] "GET /InventoryApp/login/ HTTP/1.1" 200 56
+[23/Jan/2018 20:42:30] "GET /InventoryApp/get_locations/ HTTP/1.1" 404 101
+[23/Jan/2018 20:42:36] "GET /InventoryApp/get_employees/ HTTP/1.1" 404 101
+[23/Jan/2018 20:42:45] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[23/Jan/2018 20:42:45] "GET /InventoryApp/get_employee/ HTTP/1.1" 200 2882
+[23/Jan/2018 20:42:54] "POST /InventoryApp/login/ HTTP/1.1" 200 53
+[23/Jan/2018 20:43:05] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[23/Jan/2018 20:46:22] "POST /InventoryApp/login/ HTTP/1.1" 200 53
+[23/Jan/2018 20:46:28] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+[23/Jan/2018 20:52:28] "POST /InventoryApp/login/ HTTP/1.1" 200 53
+[23/Jan/2018 20:52:35] "GET /InventoryApp/get_product/ HTTP/1.1" 200 334497
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 23, 2018 - 20:05:56
+Django version 1.11.7, using settings 'InventoryProject.settings'
+Starting development server at http://0.0.0.0:20105/
+Quit the server with CONTROL-C.
+{"password":"harisai","username":"harisai"}
+{"password":"harisai","username":"harisai"}
+{"password":"","username":""}
+{"password":"harisai","username":"harisai"}
+{"password":"harisai","username":"harisai"}
+{"password":"harisai","username":"harisai"}
+{"password":"harisai","username":"harisai"}
+Unhandled exception in thread started by <function wrapper at 0x7f87a0f2fb90>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/esp/Desktop/InventoryProject/InventoryProject/urls.py", line 18, in <module>
+    from InventoryApp import urls
+  File "/home/esp/Desktop/InventoryProject/InventoryApp/urls.py", line 18, in <module>
+    url(r'^update_familydetails/',csrf_exempt(update_familydetails),name = 'update_familydetails'),
+NameError: name 'update_familydetails' is not defined

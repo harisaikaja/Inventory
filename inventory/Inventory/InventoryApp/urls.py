@@ -11,7 +11,9 @@ urlpatterns = [
     url(r'^get_departments/',csrf_exempt(get_departments),name = 'get_departments'),
     url(r'^get_emplocation/',csrf_exempt(get_emplocation),name = 'get_emplocation'),
     url(r'^get_empjobrole/',csrf_exempt(get_empjobrole),name = 'get_empjobrole'),
+    url(r'^forget_password/',csrf_exempt(forget_password),name = 'forget_password'),
     url(r'^get_hr/',csrf_exempt(get_hr),name = 'get_hr'),
+    url(r'^get_user/',csrf_exempt(get_user),name = 'get_user'),
     url(r'^add_familydetails/',csrf_exempt(add_familydetails),name = 'add_familydetails'),
     url(r'^update_familydetails/',csrf_exempt(update_familydetails),name = 'update_familydetails'),
     url(r'^get_familydetails/',csrf_exempt(get_familydetails),name = 'get_familydetails'),
@@ -41,6 +43,8 @@ urlpatterns = [
     url(r'^del_position/',csrf_exempt(del_position),name = 'del_position'),
     url(r'^get_materialtype/',csrf_exempt(get_materialtype),name = 'get_materialtype'),
     url(r'^get_uom/',csrf_exempt(get_uom),name = 'get_uom'),
+    url(r'^add_requisition/',csrf_exempt(add_requisition),name = 'add_requisition'),
+    url(r'^get_requisition/',csrf_exempt(get_requisition),name = 'get_requisition'),
     
     
     

@@ -9,6 +9,7 @@ from django.http import HttpResponse
 from django.http import JsonResponse
 from django.core import serializers
 from django.db import connection
+from passlib.hash import sha256_crypt
 import collections
 import json
 import logging
@@ -58,15 +59,18 @@ def login(request):
 			passcode = logindata['password']
 			
 		cursor = connection.cursor()
-		cursor.execute ("select userName,password from jts_employees where userName = '%s' and password = '%s'" %(username,passcode))
-		row = cursor.fetchall()
-		if(len(row)>0):
-			output = '{"error_code":"1", "error_desc": "login Successfull"}'
-			return HttpResponse(output)
-			
-		else:
-			output = '{"error_code":"2", "error_desc": "Invalid username or password"}'
-			return HttpResponse(output)
+		cursor.execute ("select password from jts_employees where fullName = '%s'" %(username))
+		rows = cursor.fetchall()
+		if(len(rows)>0):
+			for row in rows:
+				password = row[0]
+				verification = sha256_crypt.verify(passcode,password)
+				if (verification == True):
+					output = '{"error_code":"1", "error_desc": "login Successfull"}'
+					return HttpResponse(output)
+				else:
+					output = '{"error_code":"2", "error_desc": "Invalid username or password"}'
+					return HttpResponse(output)
 				
 		'''login_status = True
 		
@@ -146,7 +150,7 @@ def add_employee(request):
 			return HttpResponse(output)
 			
 		else:
-			password = adduserdata['password']
+			password = sha256_crypt.hash(adduserdata['password'])
 		
 		if((adduserdata.get('gender') is None) or ((adduserdata.get('gender') is not None) and (len(adduserdata['gender']) <=0))):
 			output_str += ",gender is mandatory"
@@ -175,7 +179,7 @@ def add_employee(request):
 		else:
 			dateofbirth = adduserdata['dateofbirth']
 			
-		if((adduserdata.get('dateofjoining') is None) or ((adduserdata.get('dateofjoining') is not None) and (len(adduserdata['dateofjoining']) <=0))):
+		if(adduserdata.get('dateofjoining') is None):
 			output_str += ",dateofjoining is mandatory"
 			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
 			logging.debug("dateofjoining:"+ output)
@@ -252,14 +256,14 @@ def add_employee(request):
 		
 		user_history_get = jts_employees.objects.filter(userName=username)
 		if(len(user_history_get) > 0): #just update the ChangeDate         
-			is_history_rec_needed = False
+			user_history = False
 			#print("matching")
-			output = '{"error_code":"4", "error_desc": "user already exists please login"}'
+			output = '{"error_code":"4", "error_desc": "userName already exists"}'
 			logging.debug("add_user:"+ output)
 			return HttpResponse(output)
 
 		try:
-			user_input = jts_employees(fullName = fullname,userName = username,emailId = emailid,password = password,gender = gender,bloodGroup = bloodgroup,dateOfBirth = dateofbirth,dateOfJoining = dateofjoining,departmentId = department,Address = address,jobRole_id = jobrole,managerId_id = reportinghead,reportingHr_id = reportinghr,workLocation_id = worklocation)
+			user_input = jts_employees(fullName = fullname,userName = username,emailId = emailid,Password = password,gender = gender,bloodGroup = bloodgroup,dateOfBirth = dateofbirth,dateOfJoining = dateofjoining,departmentId = department,Address = address,jobRole_id = jobrole,managerId_id = reportinghead,reportingHr_id = reportinghr,workLocation_id = worklocation)
 			user_input.save()
 			output = '{"error_code":"1", "error_desc": "record added"}' 
 			logging.debug("add_user:"+ output)
@@ -509,6 +513,91 @@ def get_employee(request):
 	logging.debug("get_user:")
 	return HttpResponse(json_output)
 	
+###############################################################################################################################
+def forget_password(request):
+	if(request.method == "POST"):
+		logging.debug("search_employees:request is from ip: %s" %request.META.get('REMOTE_ADDE'))
+		output_str = "updating new password...."
+		try:
+			data1 = json.loads((request.body).decode('utf-8'))
+			print request.body
+			#return data1
+		except ValueError:
+			output_str += ",invalid input, no proper JSON request "
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("forget_password:"+ output)
+			return HttpResponse(output)
+			#return "value error"
+			
+		if(not data1):
+			output_str += "all fields are necessary"
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("forget_password:"+ output)
+			return HttpResponse(output)
+			
+		if((data1.get('id') is None) or ((data1.get('id') is not None) and (len(data1['id']) <=0))):
+			output_str += ",userid is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("userid:"+ output)
+			return HttpResponse(output)
+		
+		else:
+			userid = data1['id']
+
+		if((data1.get('username') is None) or ((data1.get('username') is not None) and (len(data1['username']) <=0))):
+			output_str += ",username is required"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("username:"+ output)
+			return HttpResponse(output)
+		
+		else:
+			username = data1['username']
+		
+		if((data1.get('newpassword') is None) or ((data1.get('newpassword') is not None) and (len(data1['newpassword']) <=0))):
+			output_str += ",newpassword is required"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("forget_password:"+ output)
+			return HttpResponse(output)
+		
+		else:
+			newpassword = data1['newpassword']
+			
+		if((data1.get('confirmpassword') is None) or ((data1.get('confirmpassword') is not None) and (len(data1['confirmpassword']) <=0))):
+			output_str += ",confirmpassword is required"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("forget_password:"+ output)
+			return HttpResponse(output)
+		
+		else:
+			confirmpassword = data1['confirmpassword']
+			
+			
+		if(newpassword == confirmpassword):
+			passcode = sha256_crypt.hash(newpassword)
+			try:
+				user_input = jts_employees.objects.filter(id = userid).update(userName = username,Password = passcode)
+				output = '{"error_code":"1", "error_desc": "password updated"}' 
+				logging.debug("update_user:"+ output)
+				return HttpResponse(output)
+			
+			except Exception, e:
+				err_desc = 'forget_password:exception details:[%s],[%s]' %((sys.exc_info()[0]), (sys.exc_info()[1]))
+				logging.debug("forget_password:"+ err_desc)
+				output = '{"error_code":"2", "error_desc": "Failed to update the password"}' 
+				logging.debug("forget_password:"+ output)
+				return HttpResponse(err_desc)
+			
+		else:
+			output = '{"error_code":"3", "error_desc": "passwords dosent match"}'
+			return HttpResponse(output)
+			
+		
+	else:
+		logging.debug("forget_employees: request is from the IP:%s" %request.META.get('REMOTE_ADDR'))
+		output = '{"error_code":"2", "error_desc": "GET is not supported"}' 
+		logging.debug("forget_employees:"+ output)
+		return HttpResponse(output)
+	
 ################################################################################################################################
 def search_employee(request):
 	if(request.method == "POST"):
@@ -587,19 +676,79 @@ def search_employee(request):
 #################################################################################################################################
 def get_hr(request):
 	cursor = connection.cursor()
-	cursor.execute("select e.fullname,j.jobRole from jts_employees e JOIN emp_jobrole j ON e.jobRole_id = j.id where j.jobRole = 'Hr'")
+	cursor.execute("select e.id,e.fullname,j.jobRole from jts_employees e JOIN emp_jobrole j ON e.jobRole_id = j.id where j.jobRole = 'Hr'")
 	rows = cursor.fetchall()
 	objects_list = []
 	for row in rows:
 		d = collections.OrderedDict()
-		d['hrname']=row[0]
-		d['role'] = row[1]
+		d['id']=row[0]
+		d['hrname']=row[1]
+		d['role'] = row[2]
 		objects_list.append(d)
 	json_output='{"hr_details":'	
 	json_output+= json.dumps(objects_list,indent = 3,sort_keys = True, default = str)
 	json_output+='}'
 	logging.debug("hr_details:")
 	return HttpResponse(json_output)
+	
+###############################################################################################################################
+def get_user(request):
+	if(request.method == "POST"):
+		logging.debug("search_employees:request is from ip: %s" %request.META.get('REMOTE_ADDE'))
+		output_str = "getting user.."
+		try:
+			data1 = json.loads((request.body).decode('utf-8'))
+			print request.body
+			#return data1
+		except ValueError:
+			output_str += ",invalid input, no proper JSON request "
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("get_user:"+ output)
+			return HttpResponse(output)
+			#return "value error"
+			
+		if(not data1):
+			output_str += "all fields are necessary"
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("get_user:"+ output)
+			return HttpResponse(output)
+			
+		if((data1.get('username') is None) or ((data1.get('username') is not None) and (len(data1['username']) <=0))):
+			output_str += ",username is required"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("username:"+ output)
+			return HttpResponse(output)
+		
+		else:
+			username = data1['username']
+		
+		try:
+			cursor = connection.cursor()
+			cursor.execute("select id,userName from jts_employees where userName = '%s'" %(username))
+			rows = cursor.fetchall()
+			objects_list = []
+			for row in rows:
+				d = collections.OrderedDict()
+				d['id']=row[0]
+				d['username'] = row[1]
+				objects_list.append(d)
+			json_output='{"user_details":'	
+			json_output+= json.dumps(objects_list,indent = 3,sort_keys = True, default = str)
+			json_output+='}'
+			logging.debug("user_details:")
+			return HttpResponse(json_output)
+		
+		except Exception, e:
+			err_desc = 'get_user:exception details:[%s],[%s]' %((sys.exc_info()[0]), (sys.exc_info()[1]))
+			logging.debug("get_user:"+ err_desc)
+			output = '{"error_code":"2", "error_desc": "Invalid username"}' 
+			logging.debug("get_user:"+ output)
+			return HttpResponse(output)
+	else:
+		logging.debug("get_user: request is from the IP:%s" %request.META.get('REMOTE_ADDR'))
+		output = '{"error_code":"2", "error_desc": "GET is not supported"}' 
+		logging.debug("get_user:"+ output)
+		return HttpResponse(output)
 	
 ################################################################################################################################
 def get_departments(request):
@@ -2425,3 +2574,110 @@ def get_uom(request):
 	json_output+= json.dumps(objects_list,indent = 3)
 	json_output+='}'
 	return HttpResponse(json_output)
+	
+#############################################################################################################################
+def add_requisition(request):
+	if(request.method == "POST"):
+		logging.debug("add_requisition:request is from ip: %s" %request.META.get('REMOTE_ADDE'))
+		output_str = "adding requisition.."
+		try:
+			data1 = json.loads((request.body).decode('utf-8'))
+			print request.body
+			#return data1
+		except ValueError:
+			output_str += ",invalid input, no proper JSON request "
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("add_requisition:"+ output)
+			return HttpResponse(output)
+			#return "value error"
+			
+		if(not data1):
+			output_str += "all fields are necessary"
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("add_requisition:"+ output)
+			return HttpResponse(output)
+			
+		if((data1.get('userid') is None) or ((data1.get('userid') is not None) and (len(data1['userid']) <=0))):
+			output_str += ",userid is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("userid:"+ output)
+			return HttpResponse(output)
+		
+		else:
+			userid = data1['userid']
+			
+		if(data1.get('requisitiondate') is None):
+			output_str += ",requisitiondate is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("requisitiondate:"+ output)
+			return HttpResponse(output)
+		
+		else:
+			requisitiondate = data1['requisitiondate']
+			
+		if((data1.get('duedate') is None) or ((data1.get('duedate') is not None) and (len(data1['duedate']) <=0))):
+			output_str += ",duedate is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("duedate:"+ output)
+			return HttpResponse(output)
+		
+		else:
+			dueDate = data1['duedate']
+			
+		if((data1.get('productid') is None) or ((data1.get('productid') is not None) and (len(data1['productid']) <=0))):
+			output_str += ",productid is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("productid:"+ output)
+			return HttpResponse(output)
+		
+		else:
+			productid = data1['productid']
+			
+		if((data1.get('quantity') is None) or ((data1.get('quantity') is not None) and (len(data1['quantity']) <=0))):
+			output_str += ",quantity is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("quantity:"+ output)
+			return HttpResponse(output)
+		
+		else:
+			quantity = data1['quantity']
+			
+		try:
+			requisition_rec = requisition(requisitionDate = requisitiondate,duedate = dueDate,quantity = quantity,productId_id = productid,userID_id = userid)
+			requisition_rec.save()
+			output = '{"error_code":"1", "error_desc": "Requisiton added"}' 
+			logging.debug("add_requisition:"+ output)
+			return HttpResponse(output)
+			
+		except Exception, e:
+			err_desc = 'add_requisition:exception details:[%s],[%s]' %((sys.exc_info()[0]), (sys.exc_info()[1]))
+			logging.debug("add_requisition:"+ err_desc)
+			output = '{"error_code":"2", "error_desc": "Failed to add Requisition"}' 
+			logging.debug("add_requisition:"+ output)
+			return HttpResponse(err_desc)
+	else:
+		logging.debug("add_requisition: request is from the IP:%s" %request.META.get('REMOTE_ADDR'))
+		output = '{"error_code":"2", "error_desc": "GET is not supported"}' 
+		logging.debug("add_requisition:"+ output)
+		return HttpResponse(output)
+		
+################################################################################################################################
+def get_requisition(request):
+	cursor = connection.cursor()
+	cursor.execute("select r.id,r.requisitionDate,r.duedate,r.userId_id,e.userName from requisition r JOIN jts_employees e ON r.userId_id = e.id")
+	rows = cursor.fetchall()
+	objects_list = []
+	for row in rows:
+		d = collections.OrderedDict()
+		d['id']=row[0]
+		d['username']=row[4]
+		d['requisitiondate'] = row[1]
+		d['duedate'] = row[2]
+		objects_list.append(d)
+	json_output='{"requisition":'	
+	json_output+= json.dumps(objects_list,indent = 3,sort_keys = True, default = str)
+	json_output+='}'
+	logging.debug("requisition:")
+	return HttpResponse(json_output)
+
+		

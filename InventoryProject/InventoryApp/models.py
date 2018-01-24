@@ -4,7 +4,8 @@ from __future__ import unicode_literals
 from django.db import models
 import django
 from django import utils
-from datetime import date
+#from datetime import date
+from django.utils import timezone
 # Create your models here.
 class inv_status(models.Model):
 
@@ -115,7 +116,7 @@ class jts_employees(models.Model):
 	gender = models.CharField(max_length=7,choices = emp_Choices)
 	bloodGroup = models.CharField(max_length=3)
 	dateOfBirth = models.DateField(max_length=8)
-	dateOfJoining = models.DateField(max_length=8,default=date.today)
+	dateOfJoining = models.DateField(auto_now_add = True,blank=True,null=True)
 	dateOfExit = models.DateField(max_length=8,default=None,null=True,blank=True)
 	departmentId = models.CharField(max_length=10)
 	managerId = models.ForeignKey('self',related_name = 'manager',default=None,null=True,blank=True,on_delete = models.CASCADE)
@@ -155,5 +156,20 @@ class family_details(models.Model):
 	
 	class Meta:
 		db_table = "family_details"
+		
+class requisition(models.Model):
+	userID = models.ForeignKey(jts_employees,on_delete = models.CASCADE)
+	requisitionDate = models.DateField(auto_now_add = True,blank=True,null=True)
+	duedate = models.DateField(max_length = 8)
+	
+	class Meta:
+		db_table = "requisition"
+		
+class requisition_details(models.Model):
+	requisitionId = models.ForeignKey(requisition,on_delete = models.CASCADE)
+	productId = models.ForeignKey(inv_products,on_delete = models.CASCADE)
+	Quantity = models.IntegerField(default = 10)
+	
+	class Meta:
+		db_table = "requisition_details"
 
-# Create your models here.

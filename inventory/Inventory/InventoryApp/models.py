@@ -4,7 +4,8 @@ from __future__ import unicode_literals
 from django.db import models
 import django
 from django import utils
-from datetime import date
+#from datetime import datetime,date
+from django.utils import timezone
 # Create your models here.
 class inv_status(models.Model):
 
@@ -111,11 +112,11 @@ class jts_employees(models.Model):
 	fullName = models.CharField(max_length=25)
 	userName = models.CharField(max_length=25)
 	emailId = models.CharField(max_length=30)
-	password = models.CharField(max_length=30)
+	Password = models.CharField(max_length=250)
 	gender = models.CharField(max_length=7,choices = emp_Choices)
 	bloodGroup = models.CharField(max_length=3)
 	dateOfBirth = models.DateField(max_length=8)
-	dateOfJoining = models.DateField(max_length=8,default=date.today)
+	dateOfJoining = models.DateTimeField(auto_now_add = True,blank=True,null=True)
 	dateOfExit = models.DateField(max_length=8,default=None,null=True,blank=True)
 	departmentId = models.CharField(max_length=10)
 	managerId = models.ForeignKey('self',related_name = 'manager',default=None,null=True,blank=True,on_delete = models.CASCADE)
@@ -155,3 +156,14 @@ class family_details(models.Model):
 	
 	class Meta:
 		db_table = "family_details"
+		
+class requisition(models.Model):
+	userID = models.ForeignKey(jts_employees,on_delete = models.CASCADE)
+	requisitionDate = models.DateField(auto_now_add = True,blank=True,null=True)
+	duedate = models.DateField(max_length = 8)
+	
+	class Meta:
+		db_table = "requisition"
+	
+	
+
