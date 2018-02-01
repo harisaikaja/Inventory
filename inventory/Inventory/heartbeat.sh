@@ -1,19 +1,20 @@
 #!/bin/bash
 
-SERVICE='20105'
+#SERVICE='20105'
 while true
 do
-	if ps ax | grep -v grep | grep $SERVICE > /dev/null
+        #Change the following If condition , its finding the process based on the port number present in the command, it may not work always
+	if ps ax | grep -v grep | grep "/usr/bin/python /home/c00007/Desktop/inventory/Inventory/start_inventory.py runserver" > /dev/null
 	then
 		echo "$SERVICE service running, everything is fine"
 		echo "$(date)"
-		sleep 5m
+		sleep 60 #5m
 	else
 		#cd /home/c00007/Desktop/inventory/Inventory/
-		exec nohup python manage.py runserver 0.0.0.0:20105 >> /var/log/inventory/inventory.log 2>&1 &
+		sudo nohup python -u /home/c00007/Desktop/inventory/Inventory/start_inventory.py runserver 0.0.0.0:20105 >> /var/log/inventory/inventory.log 2>&1 &
 		echo "Service restarted"
 		echo "$(date)"
-		sleep 5m
+		sleep 60 #5m
 	fi
 done
 

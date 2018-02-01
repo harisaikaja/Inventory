@@ -9,7 +9,6 @@ from django.utils import timezone
 # Create your models here.
 class inv_status(models.Model):
 
-	#statusId = models.CharField(max_length=10,primary_key = True)
 	statusName = models.CharField(max_length=15)
 
 	class Meta:
@@ -17,7 +16,6 @@ class inv_status(models.Model):
 
 class inv_location(models.Model):
 
-	#locationId = models.CharField(max_length=10,primary_key = True,default=0)
 	locationName = models.CharField(max_length=15)
 	locationAddress = models.CharField(max_length=50)
 	statusId = models.ForeignKey(inv_status, on_delete=models.CASCADE)
@@ -27,7 +25,6 @@ class inv_location(models.Model):
 
 class inv_warehouse(models.Model):
 
-	#warehouseId = models.CharField(max_length=10,primary_key = True,default=0)
 	warehouseName = models.CharField(max_length=15)
 	locationId = models.ForeignKey(inv_location, on_delete=models.CASCADE)
 	statusId = models.ForeignKey(inv_status, on_delete=models.CASCADE)
@@ -51,12 +48,26 @@ class inv_materialType(models.Model):
 	class Meta:
 		db_table = "inv_materialType"
 		
+class inv_materialCategory(models.Model):
+	
+	materialCategory = models.CharField(max_length = 20)
+	
+	class Meta:
+		db_table = "inv_materialCategory"
+		
 class inv_UnitOfMeasure(models.Model):
 	
 	measurementName = models.CharField(max_length=15)
 	
 	class Meta:
 		db_table = "inv_UnitOfMeasure"
+		
+class jts_products(models.Model):
+	
+	productName = models.CharField(max_length = 30)
+	
+	class Meta:
+		db_table = "jts_products"
 		
 class inv_products(models.Model):
 	YES = 'YES'
@@ -81,10 +92,20 @@ class inv_products(models.Model):
 	standardCost = models.CharField(max_length = 10)
 	reorderLevel = models.CharField(max_length = 10)
 	reorderQty = models.CharField(max_length = 15)
+	productCategory = models.ForeignKey(inv_materialCategory,default = 1,on_delete = models.CASCADE)
 	statusId = models.ForeignKey(inv_status, on_delete=models.CASCADE)
 	
 	class Meta:
 		db_table = "inv_products"
+		
+class production(models.Model):
+	
+	productId = models.ForeignKey(inv_products,on_delete = models.CASCADE)
+	baseQuantity = models.IntegerField()
+	jts_products = models.ForeignKey(jts_products,on_delete = models.CASCADE)
+	
+	class Meta:
+		db_table = "production"
 		
 class emp_jobrole(models.Model):
 	jobRole = models.CharField(max_length = 20)
@@ -124,8 +145,7 @@ class jts_employees(models.Model):
 	jobRole = models.ForeignKey(emp_jobrole,on_delete = models.CASCADE)
 	Address = models.CharField(max_length=100)
 	workLocation = models.ForeignKey(emp_location,on_delete = models.CASCADE)
-	#statusId = models.ForeignKey(inv_status,on_delete=models.CASCADE)
-	
+		
 	class Meta:
 		db_table = "jts_employees"
 		
@@ -137,6 +157,22 @@ class jts_departments(models.Model):
 	class Meta:
 		db_table = "jts_departments"
 		
+class user_roles(models.Model):
+	
+	userId = models.ForeignKey(jts_employees,on_delete = models.CASCADE)
+	jobRole = models.ForeignKey(emp_jobrole,on_delete = models.CASCADE)
+	
+	class Meta:
+		db_table = "user_roles"
+		
+class user_menus(models.Model):
+	
+	jobRole = models.ForeignKey(emp_jobrole,on_delete = models.CASCADE)
+	menuName = models.CharField(max_length = 30)
+	
+	class Meta:
+		db_table = "user_menus"
+		
 class family_details(models.Model):
 	
 	MALE = 'MALE'
@@ -147,7 +183,6 @@ class family_details(models.Model):
 		('FEMALE','female'),
 		('OTHERS','others'),
 	)
-	
 	employeeId = models.ForeignKey(jts_employees,on_delete=models.CASCADE)
 	Name = models.CharField(max_length=30)
 	gender = models.CharField(max_length=8,choices=gender_Choices)
@@ -161,6 +196,7 @@ class requisition(models.Model):
 	userID = models.ForeignKey(jts_employees,on_delete = models.CASCADE)
 	requisitionDate = models.DateField(auto_now_add = True,blank=True,null=True)
 	duedate = models.DateField(max_length = 8)
+	productCategory = models.ForeignKey(inv_materialCategory,default=1,on_delete=models.CASCADE)
 	statusId = models.ForeignKey(inv_status,on_delete=models.CASCADE,default=2)
 	
 	class Meta:
@@ -170,7 +206,7 @@ class requisition_details(models.Model):
 	requisitionId = models.ForeignKey(requisition,on_delete = models.CASCADE)
 	productId = models.ForeignKey(inv_products,on_delete = models.CASCADE)
 	quantityRequested = models.IntegerField(default=10)
-	quantityIssued = models.IntegerField(default=1)
+	quantityIssued = models.IntegerField(default=0)
 	statusId = models.ForeignKey(inv_status,on_delete=models.CASCADE,default=2)
 	
 	class Meta:

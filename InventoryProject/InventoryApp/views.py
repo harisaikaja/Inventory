@@ -628,13 +628,14 @@ def get_user(request):
 		
 		try:
 			cursor = connection.cursor()
-			cursor.execute("select id,userName from jts_employees where userName = '%s'" %(username))
+			cursor.execute("select jts_employees.id,jts_employees.userName,user_menus.menuName from jts_employees,user_roles,emp_jobrole,user_menus WHERE jts_employees.userName = '%s' and user_roles.userId_id = jts_employees.id and user_roles.jobRole_id = emp_jobrole.id and user_menus.jobRole_id = emp_jobrole.id group by user_menus.menuName" %(username))
 			rows = cursor.fetchall()
 			objects_list = []
 			for row in rows:
 				d = collections.OrderedDict()
-				d['id']=row[0]
+				d['employeeid']=row[0]
 				d['username'] = row[1]
+				d['usermenus'] = row[2]
 				objects_list.append(d)
 			json_output='{"user_details":'	
 			json_output+= json.dumps(objects_list,indent = 3,sort_keys = True, default = str)
@@ -738,7 +739,136 @@ def forget_password(request):
 		output = '{"error_code":"2", "error_desc": "GET is not supported"}' 
 		logging.debug("forget_employees:"+ output)
 		return HttpResponse(output)
+		
+###############################################################################################################################
+def add_userrole(request):
+	if(request.method == "POST"):
+		logging.debug("add_userrole:request is from ip: %s" %request.META.get('REMOTE_ADDE'))
+		output_str = "Inserting data into userroles.."
+		try:
+			adduserdata = json.loads((request.body).decode('utf-8'))
+			print request.body
+			#return data1
+		except ValueError:
+			output_str += ",invalid input, no proper JSON request "
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("add_userrole:"+ output)
+			return HttpResponse(output)
+			#return "value error"
+			
+		if(not adduserdata):
+			output_str += "all fields are necessary"
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("add_userrole:"+ output)
+			return HttpResponse(output)
+			
+		if((adduserdata.get('userid') is None) or ((adduserdata.get('userid') is not None) and (len(adduserdata['userid']) <=0))):
+			output_str += ",userid is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("userid:"+ output)
+			return HttpResponse(output)
+			
+		else:
+			userid = adduserdata['userid']
+			
+		if((adduserdata.get('jobrole') is None) or ((adduserdata.get('jobrole') is not None) and (len(adduserdata['jobrole']) <=0))):
+			output_str += ",jobrole is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("jobrole:"+ output)
+			return HttpResponse(output)
+			
+		else:
+			jobrole = adduserdata['jobrole']
+			
+		'''history_userrole = True
+		
+		user_history_get = user_roles.objects.filter(jobRole_id = jobrole,userId_id = userid)
+		if(len(user_history_get) > 0): #just update the ChangeDate         
+			user_history = False
+			#print("matching")
+			output = '{"error_code":"4", "error_desc": "user already exists please login"}'
+			logging.debug("add_user:"+ output)
+			return HttpResponse(output)'''
+		
+		
+		try:
+			user_input = user_roles(jobRole_id = jobrole,userId_id = userid)
+			user_input.save()
+			output = '{"error_code":"1", "error_desc": "record added"}' 
+			logging.debug("add_userrole:"+ output)
+			return HttpResponse(output)
+			
+		except Exception, e:
+			err_desc = 'add_userrole:exception details:[%s],[%s]' %((sys.exc_info()[0]), (sys.exc_info()[1]))
+			logging.debug("add_userrole:"+ err_desc)
+			output = '{"error_code":"2", "error_desc": "Failed to add userroles"}' 
+			logging.debug("add_userrole:"+ output)
+			return HttpResponse(err_desc)
+	else:
+		logging.debug("add_userrole: request is from the IP:%s" %request.META.get('REMOTE_ADDR'))
+		output = '{"error_code":"2", "error_desc": "GET is not supported"}' 
+		logging.debug("add_userrole:"+ output)
+		return HttpResponse(output)	
+		
+###############################################################################################################################
+def update_userrole(request):
+	if(request.method == "POST"):
+		logging.debug("search_employees:request is from ip: %s" %request.META.get('REMOTE_ADDE'))
+		output_str = "getting userrole.."
+		try:
+			data1 = json.loads((request.body).decode('utf-8'))
+			print request.body
+			#return data1
+		except ValueError:
+			output_str += ",invalid input, no proper JSON request "
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("get_user:"+ output)
+			return HttpResponse(output)
+			#return "value error"
+			
+		if(not data1):
+			output_str += "all fields are necessary"
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("get_user:"+ output)
+			return HttpResponse(output)
+			
+		if((data1.get('userid') is None) or ((data1.get('userid') is not None) and (len(data1['userid']) <=0))):
+			output_str += ",userid is required"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("userid:"+ output)
+			return HttpResponse(output)
+		
+		else:
+			userid = data1['userid']
+		
+		try:
+			cursor = connection.cursor()
+			cursor.execute("select u.id,j.jobRole,e.userName from user_roles u JOIN emp_jobrole j  ON u.jobRole_id = j.id JOIN jts_employees e ON u.userId_id = e.id where u.userId_id = '%s'" %(userid))
+			rows = cursor.fetchall()
+			objects_list = []
+			for row in rows:
+				d = collections.OrderedDict()
+				d['jobrole'] = row[1]
+				objects_list.append(d)
+			json_output='{"user_details":'	
+			json_output+= json.dumps(objects_list,indent = 3,sort_keys = True, default = str)
+			json_output+='}'
+			logging.debug("user_details:")
+			return HttpResponse(json_output)
+		
+		except Exception, e:
+			err_desc = 'get_user:exception details:[%s],[%s]' %((sys.exc_info()[0]), (sys.exc_info()[1]))
+			logging.debug("get_user:"+ err_desc)
+			output = '{"error_code":"2", "error_desc": "Invalid username"}' 
+			logging.debug("get_user:"+ output)
+			return HttpResponse(output)
+	else:
+		logging.debug("get_user: request is from the IP:%s" %request.META.get('REMOTE_ADDR'))
+		output = '{"error_code":"2", "error_desc": "GET is not supported"}' 
+		logging.debug("get_user:"+ output)
+		return HttpResponse(output)
 	
+
 ################################################################################################################################
 def get_departments(request):
 	cursor = connection.cursor()
@@ -1586,59 +1716,6 @@ def get_status(request):
 	return HttpResponse(json_output)
 
 #######################################################################################################################################
-'''def del_status(request):
-	if(request.method == "POST"):
-		logging.debug("del_status:request is from ip: %s" %request.META.get('REMOTE_ADDE'))
-		output_str = "deleting status.."
-		try:
-			data1 = json.loads((request.body).decode('utf-8'))
-			print request.body
-			#return data1
-		except ValueError:
-			output_str += ",invalid input, no proper JSON request "
-			output = '{"error_code":"2", "error_desc": "Response=%s"}' %(output_str )
-			logging.debug("del_status:"+ output)
-			return HttpResponse(output)
-			#return "value error"
-			
-		if(not data1):
-			output_str += "all fields are necessary"
-			output = '{"error_code":"2", "error_desc": "Response=%s"}' %(output_str )
-			logging.debug("del_status:"+ output)
-			return HttpResponse(output)
-			
-		if((data1.get('id') is None) or ((data1.get('id') is not None) and (len(data1['id']) <=0))):
-			output_str += ",locationid is mandatory"
-			output = '{"error_code":"2", "error_desc": "Response=%s"}' %output_str
-			logging.debug("statusid:"+ output)
-			return HttpResponse(output)
-		
-		else:
-			statusid = data1['id']
-			
-			
-		status_data_delete = True
-		
-		del_data_get = inv_status.objects.filter(id=statusid)
-		if(len(del_data_get) > 0):
-			del_data_get.delete()
-			status_data_delete = False
-			#printing response
-			output = '{"error_code":"0", "error_desc": "Response= Your status is deleted"}'
-			logging.debug("del_status:"+ output)
-			return HttpResponse(output)
-			
-		else:
-			output = '{"error_code":"2", "error_desc": "Response= status doesnot exists please insert the status"}'
-			logging.debug("del_status:"+ output)
-			return HttpResponse(output)
-		
-	else:
-		logging.debug("location_delete: request is from the IP:%s" %request.META.get('REMOTE_ADDR'))
-		output = '{"error_code":"2", "error_desc": "Response=GET is not supported"}' 
-		logging.debug("del_status:"+ output)
-		return HttpResponse(output)'''
-#######################################################################################################################################
 def update_status(request):
 	if(request.method == "POST"):
 		logging.debug("update_status:request is from ip: %s" %request.META.get('REMOTE_ADDE'))
@@ -1898,7 +1975,75 @@ def add_product(request):
 		output = '{"error_code":"2", "error_desc": "GET is not supported"}' 
 		logging.debug("add_product:"+ output)
 		return HttpResponse(output)
-		
+
+###########################################################################################################################################
+def add_production(request):
+	if(request.method == "POST"):
+		logging.debug("add_jtsproduct:request is from ip: %s" %request.META.get('REMOTE_ADDE'))
+		output_str = "Inserting data into production table.."
+		try:
+			data1 = json.loads((request.body).decode('utf-8'))
+			print request.body
+			#return data1
+		except ValueError:
+			output_str += ",invalid input, no proper JSON request "
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("add_jtsproduct:"+ output)
+			return HttpResponse(output)
+			#return "value error"
+			
+		if(not data1):
+			output_str += "all fields are necessary"
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("add_jtsproduct:"+ output)
+			return HttpResponse(output)
+				
+		if((data1.get('productname') is None) or ((data1.get('productname') is not None) and (len(data1['productname']) <=0))):
+			output_str += ",productname is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("productname:"+ output)
+			return HttpResponse(output)
+			
+		else:
+			productname = data1['productname']
+			
+		if((data1.get('jtsproductid') is None) or ((data1.get('jtsproductid') is not None) and (len(data1['jtsproductid']) <=0))):
+			output_str += ",jtsproductid is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("jtsproductid:"+ output)
+			return HttpResponse(output)
+			
+		else:
+			jtsproductid = data1['jtsproductid']
+			
+		if((data1.get('basequantity') is None) or ((data1.get('basequantity') is not None) and (len(data1['basequantity']) <=0))):
+			output_str += ",basequantity is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("basequantity:"+ output)
+			return HttpResponse(output)
+			
+		else:
+			basequantity = data1['basequantity']
+
+
+		try:
+			products_rec = inv_products(baseQuantity = basequantity,jts_products_id = jtsproductid,productId_id = productname)
+			products_rec.save()
+			output = '{"error_code":"1", "error_desc": "Record added"}' 
+			logging.debug("add_jtsproduct:"+ output)
+			return HttpResponse(output)
+			
+		except Exception, e:
+			err_desc = 'add_jtsproduct:exception details:[%s],[%s]' %((sys.exc_info()[0]), (sys.exc_info()[1]))
+			logging.debug("warehouse_add:"+ err_desc)
+			output = '{"error_code":"2", "error_desc": "Failed to add record"}' 
+			logging.debug("add_jtsproduct:"+ output)
+			return HttpResponse(output)
+	else:
+		logging.debug("add_jtsproduct: request is from the IP:%s" %request.META.get('REMOTE_ADDR'))
+		output = '{"error_code":"2", "error_desc": "GET is not supported"}' 
+		logging.debug("add_jtsproduct	:"+ output)
+		return HttpResponse(output)
 		
 ################################################################################################################################
 def update_product(request):
@@ -2106,7 +2251,7 @@ def update_product(request):
 ###############################################################################################################################
 def get_product(request):
 	cursor = connection.cursor()
-	cursor.execute("select p.* ,m.materialType,u.measurementName,s.statusName from inv_products as p JOIN inv_materialType as m,inv_UnitOfMeasure as u,inv_status as s where p.productType_id = m.id and p.productUOM_id = u.id and p.statusId_id = s.id")
+	cursor.execute("select p.id,p.productName,p.productDescription,p.productModel,p.productCompany,p.productPackage,p.productPurchasable,p.productPurchaseListPrice,p.productPriceTolerancePercent,p.productSellable,p.productSerialControlled,p.productBatchTracked,p.standardCost,p.reorderLevel,p.reorderQty,t.materialType,u.measurementName,s.statusName,c.materialCategory from inv_products p JOIN inv_materialType t ON p.productType_id = t.id JOIN inv_UnitOfMeasure u ON p.productUOM_id = u.id JOIN inv_status s ON p.statusId_id = s.id JOIN inv_materialCategory c ON p.productCategory_id = c.id")
 	rows = cursor.fetchall()
 	objects_list = []
 	for row in rows:
@@ -2126,19 +2271,86 @@ def get_product(request):
 		d['standardcost'] = row[12]
 		d['reorderlevel'] = row[13]
 		d['reorderqty'] = row[14]
-		d['producttype'] = row[18]
-		d['productuom'] = row[19]
-		d['status'] = row[20]
+		d['producttype'] = row[15]
+		d['productuom'] = row[16]
+		d['productcategory'] = row[18]
+		d['status'] = row[17]
 		objects_list.append(d)
 	json_output='{"product_details":'	
 	json_output+= json.dumps(objects_list,indent = 3)
 	json_output+='}'
 	return HttpResponse(json_output)
 
-##############################################################################################################################
+#############################################################################################################################################
+def get_productcategory(request):
+	if(request.method == "POST"):
+		logging.debug("search_product_on_category:request is from ip: %s" %request.META.get('REMOTE_ADDE'))
+		output_str = "Listing products.."
+		try:
+			data1 = json.loads((request.body).decode('utf-8'))
+			print request.body
+			#return data1
+		except ValueError:
+			output_str += ",invalid input, no proper JSON request "
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("search_product_on_category:"+ output)
+			return HttpResponse(output)
+			#return "value error"
+			
+		if(not data1):
+			output_str += "all fields are necessary"
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("search_product_on_category:"+ output)
+			return HttpResponse(output)
+			
+		if((data1.get('productcategory') is None) or ((data1.get('productcategory') is not None) and (len(data1['productcategory']) <=0))):
+			output_str += ",category is required"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("category_value:"+ output)
+			return HttpResponse(output)
+		
+		else:
+			productcategory = data1['productcategory']
+
+		try:
+			cursor = connection.cursor()
+			cursor.execute("select p.id,p.productName,p.productDescription,p.productModel,p.productCompany,p.productPackage,t.materialType,u.measurementName,s.statusName,c.materialCategory from inv_products p JOIN inv_materialType t ON p.productType_id = t.id JOIN inv_UnitOfMeasure u ON p.productUOM_id = u.id JOIN inv_status s ON p.statusId_id = s.id JOIN inv_materialCategory c ON p.productCategory_id = c.id where p.productCategory_id = '%s'"%(productcategory))
+			rows = cursor.fetchall()
+			objects_list = []
+			for row in rows:
+				d = collections.OrderedDict()
+				d['id']=row[0]
+				d['productname'] = row[1]
+				d['productdescription'] = row[2]
+				d['productmodel'] = row[3]
+				d['productcompany'] = row[4]
+				d['productpackage'] = row[5]
+				d['producttype'] = row[6]
+				d['productuom'] = row[7]
+				d['productcategory'] = row[9]
+				d['status'] = row[8]
+				objects_list.append(d)
+			json_output='{"product_category_details":'	
+			json_output+= json.dumps(objects_list,indent = 3)
+			json_output+='}'
+			return HttpResponse(json_output)
+		except Exception, e:
+			err_desc = 'search_product_on_category:exception details:[%s],[%s]' %((sys.exc_info()[0]), (sys.exc_info()[1]))
+			logging.debug("search_product_on_category:"+ err_desc)
+			output = '{"error_code":"2", "error_desc": "Invalid keyword/product"}' 
+			logging.debug("search_product_on_category:"+ output)
+			return HttpResponse(output)
+	else:
+		logging.debug("search_product_on_category: request is from the IP:%s" %request.META.get('REMOTE_ADDR'))
+		output = '{"error_code":"2", "error_desc": "GET is not supported"}' 
+		logging.debug("search_product_on_category:"+ output)
+		return HttpResponse(output)
+
+
+#############################################################################################################################################
 def active_product(request):
 	cursor = connection.cursor()
-	cursor.execute("select p.* ,m.materialType,u.measurementName,s.statusName from inv_products as p JOIN inv_materialType as m,inv_UnitOfMeasure as u,inv_status as s where p.productType_id = m.id and p.productUOM_id = u.id and p.statusId_id = s.id")
+	cursor.execute("select p.id,p.productName,p.productDescription,p.productModel,p.productCompany,p.productPackage,p.productPurchasable,p.productPurchaseListPrice,p.productPriceTolerancePercent,p.productSellable,p.productSerialControlled,p.productBatchTracked,p.standardCost,p.reorderLevel,p.reorderQty,t.materialType,u.measurementName,s.statusName,c.materialCategory from inv_products p JOIN inv_materialType t ON p.productType_id = t.id JOIN inv_UnitOfMeasure u ON p.productUOM_id = u.id JOIN inv_status s ON p.statusId_id = s.id JOIN inv_materialCategory c ON p.productCategory_id = c.id")
 	rows = cursor.fetchall()
 	objects_list = []
 	for row in rows:
@@ -2149,8 +2361,8 @@ def active_product(request):
 		d['productmodel'] = row[3]
 		d['productcompany'] = row[4]
 		d['productpackage'] = row[5]
-		d['producttype'] = row[18]
-		d['status'] = row[20]
+		d['producttype'] = row[15]
+		d['status'] = row[17]
 		objects_list.append(d)
 	json_output='{"active_product_details":'	
 	json_output+= json.dumps(objects_list,indent = 3)
@@ -2180,7 +2392,7 @@ def search_product(request):
 			return HttpResponse(output)
 			
 		if((data1.get('search') is None) or ((data1.get('search') is not None) and (len(data1['search']) <=0))):
-			output_str += ",search valiue is required"
+			output_str += ",search value is required"
 			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
 			logging.debug("search_value:"+ output)
 			return HttpResponse(output)
@@ -2192,7 +2404,7 @@ def search_product(request):
 			cursor = connection.cursor()
 			cursor.execute("set @search = '%s'" %(search))
 			cursor.execute("set @search = CONCAT('%',@search,'%')")
-			cursor.execute("select p.* ,m.materialType,u.measurementName,s.statusName from inv_products as p JOIN inv_materialType as m,inv_UnitOfMeasure as u,inv_status as s where p.productType_id = m.id and p.productUOM_id = u.id and p.statusId_id = s.id and productName LIKE @search")
+			cursor.execute("select p.id,p.productName,p.productDescription,p.productModel,p.productCompany,p.productPackage,p.productPurchasable,p.productPurchaseListPrice,p.productPriceTolerancePercent,p.productSellable,p.productSerialControlled,p.productBatchTracked,p.standardCost,p.reorderLevel,p.reorderQty,t.materialType,u.measurementName,s.statusName,c.materialCategory from inv_products p JOIN inv_materialType t ON p.productType_id = t.id JOIN inv_UnitOfMeasure u ON p.productUOM_id = u.id JOIN inv_status s ON p.statusId_id = s.id JOIN inv_materialCategory c ON p.productCategory_id = c.id and productName LIKE @search")
 			rows = cursor.fetchall()
 			objects_list = []
 			for row in rows:
@@ -2212,9 +2424,10 @@ def search_product(request):
 				d['standardcost'] = row[12]
 				d['reorderlevel'] = row[13]
 				d['reorderqty'] = row[14]
-				d['producttype'] = row[18]
-				d['productuom'] = row[19]
-				d['status'] = row[20]
+				d['producttype'] = row[15]
+				d['productuom'] = row[16]
+				d['productcategory'] = row[18]
+				d['status'] = row[17]
 				objects_list.append(d)
 			json_output='{"product_details":'	
 			json_output+= json.dumps(objects_list,indent = 3)
@@ -2286,6 +2499,22 @@ def del_product(request):
 		output = '{"error_code":"2", "error_desc": "GET is not supported"}' 
 		logging.debug("del_product:"+ output)
 		return HttpResponse(output)
+		
+###############################################################################################################################
+def get_category(request):
+	cursor = connection.cursor()
+	cursor.execute("select * from inv_materialCategory")
+	rows = cursor.fetchall()
+	objects_list = []
+	for row in rows:
+		d = collections.OrderedDict()
+		d['id']=row[0]
+		d['category'] = row[1]
+		objects_list.append(d)
+	json_output='{"get_category":'	
+	json_output+= json.dumps(objects_list,indent = 3)
+	json_output+='}'
+	return HttpResponse(json_output)
 ###############################################################################################################################
 def add_position(request):
 	if(request.method == "POST"):
@@ -2611,9 +2840,18 @@ def add_requisition(request):
 		
 		else:
 			dueDate = data1['duedate']
+		
+		if((data1.get('productcategory') is None) or ((data1.get('productcategory') is not None) and (len(data1['productcategory']) <=0))):
+			output_str += ",productcategory is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("productcategory:"+ output)
+			return HttpResponse(output)
+		
+		else:
+			productcategory = data1['productcategory']	
 			
 		try:
-			requisition_rec = requisition(requisitionDate = requisitiondate,duedate = dueDate,userID_id = userid)
+			requisition_rec = requisition(requisitionDate = requisitiondate,duedate = dueDate,userID_id = userid,productCategory_id = productcategory)
 			requisition_rec.save()
 			output = '{"error_code":"1", "error_desc": "Requisiton added"}' 
 			logging.debug("add_requisition:"+ output)
@@ -2633,22 +2871,65 @@ def add_requisition(request):
 		
 ################################################################################################################################
 def get_requisition(request):
-	cursor = connection.cursor()
-	cursor.execute("select r.id,r.requisitionDate,r.duedate,r.userId_id,e.userName from requisition r JOIN jts_employees e ON r.userId_id = e.id")
-	rows = cursor.fetchall()
-	objects_list = []
-	for row in rows:
-		d = collections.OrderedDict()
-		d['id']=row[0]
-		d['username']=row[4]
-		d['requisitiondate'] = row[1]
-		d['duedate'] = row[2]
-		objects_list.append(d)
-	json_output='{"requisition":'	
-	json_output+= json.dumps(objects_list,indent = 3,sort_keys = True, default = str)
-	json_output+='}'
-	logging.debug("requisition:")
-	return HttpResponse(json_output)
+	if(request.method == "POST"):
+		logging.debug("requsition_details:request is from ip: %s" %request.META.get('REMOTE_ADDE'))
+		output_str = "getting requisitions.."
+		try:
+			data1 = json.loads((request.body).decode('utf-8'))
+			print request.body
+			#return data1
+		except ValueError:
+			output_str += ",invalid input, no proper JSON request "
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("requsition_details:"+ output)
+			return HttpResponse(output)
+			#return "value error"
+			
+		if(not data1):
+			output_str += "all fields are necessary"
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("requsition_details:"+ output)
+			return HttpResponse(output)
+			
+		if((data1.get('id') is None) or ((data1.get('id') is not None) and (len(data1['id']) <=0))):
+			output_str += ",requisitionid is required"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("requsition_details:"+ output)
+			return HttpResponse(output)
+		
+		else:
+			requisitionid = data1['id']
+			
+		try:
+			cursor = connection.cursor()
+			cursor.execute("select r.*,e.userName,c.materialCategory,s.statusName from requisition r JOIN jts_employees e ON r.userId_id = e.id JOIN inv_materialCategory c ON r.productCategory_id = c.id JOIN inv_status s ON r.statusId_id = s.id where userId_id = '%s' order by r.requisitionDate desc" %(requisitionid))
+			rows = cursor.fetchall()
+			objects_list = []
+			for row in rows:
+				d = collections.OrderedDict()
+				d['id']=row[0]
+				d['username']=row[6]
+				d['requisitiondate'] = row[1]
+				d['duedate'] = row[2]
+				d['materialcategory'] = row[7]
+				d['status'] = row[8]
+				objects_list.append(d)
+			json_output='{"requisition":'	
+			json_output+= json.dumps(objects_list,indent = 3,sort_keys = True, default = str)
+			json_output+='}'
+			logging.debug("requisition:")
+			return HttpResponse(json_output)
+		except Exception, e:
+			err_desc = 'requsition_details:exception details:[%s],[%s]' %((sys.exc_info()[0]), (sys.exc_info()[1]))
+			logging.debug("requsition_details:"+ err_desc)
+			output = '{"error_code":"2", "error_desc": "Invalid id"}' 
+			logging.debug("requsition_details:"+ output)
+			return HttpResponse(output)
+	else:
+		logging.debug("requsition_details: request is from the IP:%s" %request.META.get('REMOTE_ADDR'))
+		output = '{"error_code":"2", "error_desc": "GET is not supported"}' 
+		logging.debug("requsition_details:"+ output)
+		return HttpResponse(output)
 	
 ################################################################################################################################
 def add_requisitiondetails(request):
@@ -2720,27 +3001,70 @@ def add_requisitiondetails(request):
 		
 ###############################################################################################################################
 def get_requisitiondetails(request):
-	cursor = connection.cursor()
-	cursor.execute("select rd.id,rd.Quantity,rd.productId_id,pr.productName,rd.requisitionId_id from requisition_details rd JOIN inv_products pr ON rd.productId_id = pr.id")
-	rows = cursor.fetchall()
-	objects_list = []
-	for row in rows:
-		d = collections.OrderedDict()
-		d['requisitionid'] = row[4]
-		d['id']=row[0]
-		d['productname'] = row[3]
-		d['quantiy']=row[1]
-		objects_list.append(d)
-	json_output='{"requisition_details":'	
-	json_output+= json.dumps(objects_list,indent = 3,sort_keys = True, default = str)
-	json_output+='}'
-	logging.debug("requisition_details:")
-	return HttpResponse(json_output)
-	
-################################################################################################################################
+	if(request.method == "POST"):
+		logging.debug("requsition_details:request is from ip: %s" %request.META.get('REMOTE_ADDE'))
+		output_str = "getting requisitiondetials.."
+		try:
+			data1 = json.loads((request.body).decode('utf-8'))
+			print request.body
+			#return data1
+		except ValueError:
+			output_str += ",invalid input, no proper JSON request "
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("requsition_details:"+ output)
+			return HttpResponse(output)
+			#return "value error"
+			
+		if(not data1):
+			output_str += "all fields are necessary"
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("requsition_details:"+ output)
+			return HttpResponse(output)
+			
+		if((data1.get('id') is None) or ((data1.get('id') is not None) and (len(data1['id']) <=0))):
+			output_str += ",requisitionid is required"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("requsition_details:"+ output)
+			return HttpResponse(output)
+		
+		else:
+			requisitionid = data1['id']
+			
+		try:
+			cursor = connection.cursor()
+			cursor.execute("select rd.* ,pr.productName,s.statusName from requisition_details rd JOIN inv_products pr ON rd.productId_id = pr.id JOIN inv_status s ON rd.statusId_id = s.id WHERE rd.requisitionId_id = '%s'" %(requisitionid))
+			rows = cursor.fetchall()
+			objects_list = []
+			for row in rows:
+				d = collections.OrderedDict()
+				d['requisitionid'] = row[3]
+				d['id']=row[0]
+				d['productname'] = row[6]
+				d['quantityrequested']=row[1]
+				d['quantityissued'] = row[4]
+				d['status'] = row[7]
+				objects_list.append(d)
+			json_output='{"requisition_details":'	
+			json_output+= json.dumps(objects_list,indent = 3,sort_keys = True, default = str)
+			json_output+='}'
+			logging.debug("requisition_details:")
+			return HttpResponse(json_output)
+		except Exception, e:
+			err_desc = 'requsition_details:exception details:[%s],[%s]' %((sys.exc_info()[0]), (sys.exc_info()[1]))
+			logging.debug("requsition_details:"+ err_desc)
+			output = '{"error_code":"2", "error_desc": "Invalid id"}' 
+			logging.debug("requsition_details:"+ output)
+			return HttpResponse(output)
+	else:
+		logging.debug("requsition_details: request is from the IP:%s" %request.META.get('REMOTE_ADDR'))
+		output = '{"error_code":"2", "error_desc": "GET is not supported"}' 
+		logging.debug("requsition_details:"+ output)
+		return HttpResponse(output)	
+		
+#############################################################################################################################################################
 def get_storerequisition(request):
 	cursor = connection.cursor()
-	cursor.execute("select r.id,r.requisitionDate,r.duedate,r.userId_id,e.userName,r.statusId_id,s.statusName from requisition r JOIN jts_employees e ON r.userId_id = e.id JOIN inv_status s where r.statusId_id = s.id")
+	cursor.execute("select r.id,r.requisitionDate,r.duedate,r.userId_id,e.userName,r.statusId_id,s.statusName from requisition r JOIN jts_employees e ON r.userId_id = e.id JOIN inv_status s where r.statusId_id = s.id order BY r.requisitionDate desc")
 	rows = cursor.fetchall()
 	objects_list = []
 	for row in rows:
@@ -2757,24 +3081,265 @@ def get_storerequisition(request):
 	logging.debug("requisition:")
 	return HttpResponse(json_output)
 
-################################################################################################################################
+#############################################################################################################################################################
 def get_storerequisitiondetails(request):
-	cursor = connection.cursor()
-	cursor.execute("select rd.id,rd.requisitionId_id,rd.productId_id,pr.productName,rd.quantityRequested,rd.quantityIssued,(rd.quantityRequested-rd.quantityIssued) as balance,rd.statusId_id,s.statusName from requisition_details rd JOIN inv_products pr ON rd.productId_id = pr.id JOIN inv_status s ON rd.statusId_id = s.id")
-	rows = cursor.fetchall()
-	objects_list = []
-	for row in rows:
-		d = collections.OrderedDict()
-		d['id']=row[0]
-		d['requisitionid'] = row[1]
-		d['productname'] = row[3]
-		d['quantiyrequested'] = row[4]
-		d['quantityissued'] = row[5]
-		d['balance'] = row[6]
-		d['status'] = row[8]
-		objects_list.append(d)
-	json_output='{"store_requisition_details":'	
-	json_output+= json.dumps(objects_list,indent = 3,sort_keys = True, default = str)
-	json_output+='}'
-	logging.debug("store_requisition_details:")
-	return HttpResponse(json_output)
+	if(request.method == "POST"):
+		logging.debug("store_requisition_details:request is from ip: %s" %request.META.get('REMOTE_ADDE'))
+		output_str = "getting requisition details.."
+		try:
+			data1 = json.loads((request.body).decode('utf-8'))
+			print request.body
+			#return data1
+		except ValueError:
+			output_str += ",invalid input, no proper JSON request "
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("store_requisition_details:"+ output)
+			return HttpResponse(output)
+			#return "value error"
+			
+		if(not data1):
+			output_str += "all fields are necessary"
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("store_requisition_details:"+ output)
+			return HttpResponse(output)
+			
+		if((data1.get('id') is None) or ((data1.get('id') is not None) and (len(data1['id']) <=0))):
+			output_str += ",requisitionid is required"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("store_requisition_details:"+ output)
+			return HttpResponse(output)
+		
+		else:
+			requisitionid = data1['id']
+			
+		try:
+			cursor = connection.cursor()
+			cursor.execute("select rd.id,rd.requisitionId_id,rd.productId_id,pr.productName,rd.quantityRequested,rd.quantityIssued,(rd.quantityRequested-rd.quantityIssued) as balance,rd.statusId_id,s.statusName from requisition_details rd JOIN inv_products pr ON rd.productId_id = pr.id JOIN inv_status s ON rd.statusId_id = s.id WHERE rd.requisitionId_id = %s" %(requisitionid))
+			rows = cursor.fetchall()
+			objects_list = []
+			for row in rows:
+				d = collections.OrderedDict()
+				d['id']=row[0]
+				d['requisitionid'] = row[1]
+				d['productname'] = row[3]
+				d['quantiyrequested'] = row[4]
+				d['quantityissued'] = row[5]
+				d['balance'] = row[6]
+				d['status'] = row[8]
+				objects_list.append(d)
+			json_output='{"store_requisition_details":'	
+			json_output+= json.dumps(objects_list,indent = 3,sort_keys = True, default = str)
+			json_output+='}'
+			logging.debug("store_requisition_details:")
+			return HttpResponse(json_output)
+		except Exception, e:
+			err_desc = 'store_requisition_details:exception details:[%s],[%s]' %((sys.exc_info()[0]), (sys.exc_info()[1]))
+			logging.debug("store_requisition_details:"+ err_desc)
+			output = '{"error_code":"2", "error_desc": "Invalid id"}' 
+			logging.debug("store_requisition_details:"+ output)
+			return HttpResponse(output)
+	else:
+		logging.debug("store_requisition_details: request is from the IP:%s" %request.META.get('REMOTE_ADDR'))
+		output = '{"error_code":"2", "error_desc": "GET is not supported"}' 
+		logging.debug("store_requisition_details:"+ output)
+		return HttpResponse(output)
+#############################################################################################################################################
+def get_zerorequisitiondetails(request):
+	if(request.method == "POST"):
+		logging.debug("store_requisition_details_on_zero:request is from ip: %s" %request.META.get('REMOTE_ADDE'))
+		output_str = "getting requisition details.."
+		try:
+			data1 = json.loads((request.body).decode('utf-8'))
+			print request.body
+			#return data1
+		except ValueError:
+			output_str += ",invalid input, no proper JSON request "
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("store_requisition_details:"+ output)
+			return HttpResponse(output)
+			#return "value error"
+			
+		if(not data1):
+			output_str += "all fields are necessary"
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("store_requisition_details_on_zero:"+ output)
+			return HttpResponse(output)
+			
+		if((data1.get('id') is None) or ((data1.get('id') is not None) and (len(data1['id']) <=0))):
+			output_str += ",requisitionid is required"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("store_requisition_details_on_zero:"+ output)
+			return HttpResponse(output)
+		
+		else:
+			requisitionid = data1['id']
+			
+		try:
+			cursor = connection.cursor()
+			cursor.execute("select rd.id,rd.requisitionId_id,rd.productId_id,pr.productName,rd.quantityRequested,rd.quantityIssued,(rd.quantityRequested-rd.quantityIssued) as balance,rd.statusId_id,s.statusName from requisition_details rd JOIN inv_products pr ON rd.productId_id = pr.id JOIN inv_status s ON rd.statusId_id = s.id WHERE rd.requisitionId_id = %s and (rd.quantityRequested-rd.quantityIssued) > 0" %(requisitionid))
+			rows = cursor.fetchall()
+			objects_list = []
+			for row in rows:
+				d = collections.OrderedDict()
+				d['id']=row[0]
+				d['requisitionid'] = row[1]
+				d['productname'] = row[3]
+				d['quantiyrequested'] = row[4]
+				d['quantityissued'] = row[5]
+				d['balance'] = row[6]
+				d['status'] = row[8]
+				objects_list.append(d)
+			json_output='{"store_requisition_details_on_zero":'	
+			json_output+= json.dumps(objects_list,indent = 3,sort_keys = True, default = str)
+			json_output+='}'
+			logging.debug("store_requisition_details_on_zero:")
+			return HttpResponse(json_output)
+		except Exception, e:
+			err_desc = 'store_requisition_details_on_zero:exception details:[%s],[%s]' %((sys.exc_info()[0]), (sys.exc_info()[1]))
+			logging.debug("store_requisition_details_on_zero:"+ err_desc)
+			output = '{"error_code":"2", "error_desc": "Invalid id"}' 
+			logging.debug("store_requisition_details_on_zero:"+ output)
+			return HttpResponse(output)
+	else:
+		logging.debug("store_requisition_details_on_zero: request is from the IP:%s" %request.META.get('REMOTE_ADDR'))
+		output = '{"error_code":"2", "error_desc": "GET is not supported"}' 
+		logging.debug("store_requisition_details_on_zero:"+ output)
+		return HttpResponse(output)
+################################################################################################################################
+def update_requisition(request):
+	if(request.method == "POST"):
+		logging.debug("add_requisition:request is from ip: %s" %request.META.get('REMOTE_ADDE'))
+		output_str = "updating requisition.."
+		try:
+			data1 = json.loads((request.body).decode('utf-8'))
+			print request.body
+			#return data1
+		except ValueError:
+			output_str += ",invalid input, no proper JSON request "
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("update_requisition:"+ output)
+			return HttpResponse(output)
+			#return "value error"
+			
+		if(not data1):
+			output_str += "all fields are necessary"
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("update_requisition:"+ output)
+			return HttpResponse(output)
+			
+		if((data1.get('id') is None) or ((data1.get('id') is not None) and (len(data1['id']) <=0))):
+			output_str += ",requisitionid is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("userid:"+ output)
+			return HttpResponse(output)
+		
+		else:
+			requisitionid = data1['id']
+			
+		if((data1.get('statusid') is None) or ((data1.get('statusid') is not None) and (len(data1['statusid']) <=0))):
+			output_str += ",statusid is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("statusid:"+ output)
+			return HttpResponse(output)
+		
+		else:
+			statusid = data1['statusid']
+
+			
+		try:
+			requisition_rec = requisition.objects.filter(id = requisitionid).update(statusId_id = statusid)
+			output = '{"error_code":"1", "error_desc": "Requisiton updated"}' 
+			logging.debug("update_requisition:"+ output)
+			return HttpResponse(output)
+			
+		except Exception, e:
+			err_desc = 'update_requisition:exception details:[%s],[%s]' %((sys.exc_info()[0]), (sys.exc_info()[1]))
+			logging.debug("update_requisition:"+ err_desc)
+			output = '{"error_code":"2", "error_desc": "Failed to update Requisition"}' 
+			logging.debug("update_requisition:"+ output)
+			return HttpResponse(err_desc)
+	else:
+		logging.debug("update_requisition: request is from the IP:%s" %request.META.get('REMOTE_ADDR'))
+		output = '{"error_code":"2", "error_desc": "GET is not supported"}' 
+		logging.debug("update_requisition:"+ output)
+		return HttpResponse(output)
+		
+###############################################################################################################################
+def update_requisitiondetails(request):
+	if(request.method == "POST"):
+		logging.debug("update_requisition_details:request is from ip: %s" %request.META.get('REMOTE_ADDE'))
+		output_str = "updating requisition details.."
+		try:
+			data1 = json.loads((request.body).decode('utf-8'))
+			print request.body
+			#return data1
+		except ValueError:
+			output_str += ",invalid input, no proper JSON request "
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("add_requisition_details:"+ output)
+			return HttpResponse(output)
+			#return "value error"
+			
+		if(not data1):
+			output_str += "all fields are necessary"
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("add_requisition_details:"+ output)
+			return HttpResponse(output)
+			
+		if((data1.get('id') is None) or ((data1.get('id') is not None) and (len(data1['id']) <=0))):
+			output_str += ",requisition_details_id is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("requisition_details_id:"+ output)
+			return HttpResponse(output)
+		
+		else:
+			requisitiondetailsid = data1['id']
+			
+		if((data1.get('quantityissued') is None) or ((data1.get('quantityissued') is not None) and (len(data1['quantityissued']) <=0))):
+			output_str += ",quantityissued is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("quantityissued:"+ output)
+			return HttpResponse(output)
+		
+		else:
+			quantityissued = data1['quantityissued']
+			
+		if((data1.get('statusid') is None) or ((data1.get('statusid') is not None) and (len(data1['statusid']) <=0))):
+			output_str += ",statusid is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("statusid:"+ output)
+			return HttpResponse(output)
+		
+		else:
+			statusid = data1['statusid']
+		
+		getdata= requisition_details.objects.filter(id=requisitiondetailsid)
+		if(len(getdata) > 0):
+			for row1 in getdata:
+				if((int(quantityissued) <= int(row1.quantityIssued)) or (int(quantityissued) >= int(row1.quantityRequested))):
+					output = '{"error_code":"2", "error_desc": "Issuing quantity should not be grater than previous value and requested quantity"}' 
+					logging.debug("statusid:"+ output)
+					return HttpResponse(output)
+					
+				else:
+					try:
+						requisition_details_rec = requisition_details.objects.filter(id = requisitiondetailsid).update(quantityIssued = quantityissued,statusId_id = statusid)
+						output = '{"error_code":"1", "error_desc": "Requisiton details updated"}' 
+						logging.debug("update_requisition_details:"+ output)
+						return HttpResponse(output)
+					except Exception, e:
+						err_desc = 'update_requisition_details:exception details:[%s],[%s]' %((sys.exc_info()[0]), (sys.exc_info()[1]))
+						logging.debug("update_requisition_details:"+ err_desc)
+						output = '{"error_code":"2", "error_desc": "Failed to update requisition"}' 
+						logging.debug("update_requisition_details:"+ output)
+						return HttpResponse(err_desc)
+		else:
+			output = '{"error_code":"2", "error_desc": "Invalid id"}' 
+			logging.debug("statusid:"+ output)
+			return HttpResponse(output)				   	   
+		
+	else:
+		logging.debug("update_requisition_details: request is from the IP:%s" %request.META.get('REMOTE_ADDR'))
+		output = '{"error_code":"2", "error_desc": "GET is not supported"}' 
+		logging.debug("update_requisition_details:"+ output)
+		return HttpResponse(output)

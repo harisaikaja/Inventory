@@ -166,3 +166,14 @@
 2018-01-24 18:22:58,946 DEBUG store_requisition_details:
 2018-01-24 18:23:07,741 DEBUG add_requisition:request is from ip: None
 2018-01-24 18:23:07,741 DEBUG duedate:{"error_code":"2", "error_desc": "adding requisition..,duedate is mandatory"}
+2018-01-24 18:24:41,100 DEBUG requisition:
+2018-01-24 18:25:03,273 DEBUG requisition:
+2018-01-24 18:25:37,756 DEBUG store_requisition_details:
+2018-01-24 18:26:43,552 DEBUG add_requisition:request is from ip: None
+2018-01-24 18:26:43,552 DEBUG duedate:{"error_code":"2", "error_desc": "adding requisition..,duedate is mandatory"}
+2018-01-24 18:27:04,279 DEBUG requisition:
+2018-01-24 18:27:13,189 DEBUG requisition:
+2018-01-24 18:27:18,010 DEBUG requisition:
+2018-01-24 18:57:51,621 DEBUG get_warehouse:
+2018-01-24 18:57:53,434 DEBUG get_location:
+2018-01-24 18:59:25,147 DEBUG get_warehouse:
