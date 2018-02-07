@@ -9,7 +9,7 @@ from django.utils import timezone
 # Create your models here.
 class inv_status(models.Model):
 
-	statusName = models.CharField(max_length=15)
+	statusName = models.CharField(max_length=50)
 
 	class Meta:
 		db_table = "inv_status"
@@ -197,7 +197,7 @@ class requisition(models.Model):
 	requisitionDate = models.DateField(auto_now_add = True,blank=True,null=True)
 	duedate = models.DateField(max_length = 8)
 	productCategory = models.ForeignKey(inv_materialCategory,default=1,on_delete=models.CASCADE)
-	statusId = models.ForeignKey(inv_status,on_delete=models.CASCADE,default=2)
+	statusId = models.ForeignKey(inv_status,on_delete=models.CASCADE,default=6)
 	
 	class Meta:
 		db_table = "requisition"
@@ -207,7 +207,7 @@ class requisition_details(models.Model):
 	productId = models.ForeignKey(inv_products,on_delete = models.CASCADE)
 	quantityRequested = models.IntegerField(default=10)
 	quantityIssued = models.IntegerField(default=0)
-	statusId = models.ForeignKey(inv_status,on_delete=models.CASCADE,default=2)
+	statusId = models.ForeignKey(inv_status,on_delete=models.CASCADE,default=6)
 	
 	class Meta:
 		db_table = "requisition_details"
