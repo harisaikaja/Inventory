@@ -1745,6 +1745,15 @@ def add_product(request):
 			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
 			logging.debug("add_product:"+ output)
 			return HttpResponse(output)
+			
+		if((data1.get('productno') is None) or ((data1.get('productno') is not None) and (len(data1['productno']) <=0))):
+			output_str += ",productno is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("productno:"+ output)
+			return HttpResponse(output)
+			
+		else:
+			productno = data1['productno']
 				
 		if((data1.get('productname') is None) or ((data1.get('productname') is not None) and (len(data1['productname']) <=0))):
 			output_str += ",productname is mandatory"
@@ -1782,7 +1791,7 @@ def add_product(request):
 		else:
 			productcompany = data1['productcompany']
 			
-		if((data1.get('productpackage') is None) or ((data1.get('productpackage') is not None) and (len(data1['productpackage']) <=0))):
+		if(data1.get('productpackage') is None):
 			output_str += ",productpackage is mandatory"
 			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
 			logging.debug("productpackage:"+ output)
@@ -1911,7 +1920,7 @@ def add_product(request):
 			return HttpResponse(output)'''
 
 		try:
-			products_rec = inv_products(productName = productname,productDescription = productdescription,productModel = productmodel,productCompany = productcompany,productPackage = productpackage,productPurchasable = productpurchasable,productPurchaseListPrice = productpurchaselistprice,productPriceTolerancePercent = productpricetolerancepercent,productSellable = productsellable,productSerialControlled = productserialcontrolled,productBatchTracked = productbatchtracked,standardCost = standardcost,reorderLevel = reorderlevel,reorderQty = reorderquantity,productType_id = producttype,productUOM_id = productuom,statusId_id = statusid)
+			products_rec = inv_products(productNo = productno,productName = productname,productDescription = productdescription,productModel = productmodel,productCompany = productcompany,productPackage = productpackage,productPurchasable = productpurchasable,productPurchaseListPrice = productpurchaselistprice,productPriceTolerancePercent = productpricetolerancepercent,productSellable = productsellable,productSerialControlled = productserialcontrolled,productBatchTracked = productbatchtracked,standardCost = standardcost,reorderLevel = reorderlevel,reorderQty = reorderquantity,productType_id = producttype,productUOM_id = productuom,statusId_id = statusid)
 			products_rec.save()
 			output = '{"error_code":"1", "error_desc": "Record added"}' 
 			logging.debug("add_product:"+ output)
@@ -2028,6 +2037,15 @@ def update_product(request):
 		
 		else:
 			productid = data1['id']
+			
+		if((data1.get('productno') is None) or ((data1.get('productno') is not None) and (len(data1['productno']) <=0))):
+			output_str += ",productno is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("productno:"+ output)
+			return HttpResponse(output)
+			
+		else:
+			productno = data1['productno']
 			
 		if((data1.get('productname') is None) or ((data1.get('productname') is not None) and (len(data1['productname']) <=0))):
 			output_str += ",productname is mandatory"
@@ -2185,7 +2203,7 @@ def update_product(request):
 				
 		
 		try:
-			products_rec = inv_products.objects.filter(id=productid).update(productName = productname,productDescription = productdescription,productModel = productmodel,productCompany = productcompany,productPackage = productpackage,productPurchasable = productpurchasable,productPurchaseListPrice = productpurchaselistprice,productPriceTolerancePercent = productpricetolerancepercent,productSellable = productsellable,productSerialControlled = productserialcontrolled,productBatchTracked = productbatchtracked,standardCost = standardcost,reorderLevel = reorderlevel,reorderQty = reorderquantity,productType_id = producttype,productUOM_id = productuom,statusId_id = statusid)
+			products_rec = inv_products.objects.filter(id=productid).update(productNo = productno,productName = productname,productDescription = productdescription,productModel = productmodel,productCompany = productcompany,productPackage = productpackage,productPurchasable = productpurchasable,productPurchaseListPrice = productpurchaselistprice,productPriceTolerancePercent = productpricetolerancepercent,productSellable = productsellable,productSerialControlled = productserialcontrolled,productBatchTracked = productbatchtracked,standardCost = standardcost,reorderLevel = reorderlevel,reorderQty = reorderquantity,productType_id = producttype,productUOM_id = productuom,statusId_id = statusid)
 			output = '{"error_code":"1", "error_desc": "record updated"}' 
 			logging.debug("update_product:"+ output)
 			return HttpResponse(output)
@@ -2204,36 +2222,236 @@ def update_product(request):
 ###############################################################################################################################
 def get_product(request):
 	cursor = connection.cursor()
-	cursor.execute("select p.id,p.productName,p.productDescription,p.productModel,p.productCompany,p.productPackage,p.productPurchasable,p.productPurchaseListPrice,p.productPriceTolerancePercent,p.productSellable,p.productSerialControlled,p.productBatchTracked,p.standardCost,p.reorderLevel,p.reorderQty,t.materialType,u.measurementName,s.statusName,c.materialCategory from inv_products p JOIN inv_materialType t ON p.productType_id = t.id JOIN inv_UnitOfMeasure u ON p.productUOM_id = u.id JOIN inv_status s ON p.statusId_id = s.id JOIN inv_materialCategory c ON p.productCategory_id = c.id")
+	cursor.execute("select p.id,p.productNo,p.productName,p.productDescription,p.productModel,p.productCompany,p.productPackage,p.productPurchasable,p.productPurchaseListPrice,p.productPriceTolerancePercent,p.productSellable,p.productSerialControlled,p.productBatchTracked,p.standardCost,p.reorderLevel,p.reorderQty,t.materialType,u.measurementName,s.statusName,c.materialCategory from inv_products p JOIN inv_materialType t ON p.productType_id = t.id JOIN inv_UnitOfMeasure u ON p.productUOM_id = u.id JOIN inv_status s ON p.statusId_id = s.id JOIN inv_materialCategory c ON p.productCategory_id = c.id")
 	rows = cursor.fetchall()
 	objects_list = []
 	for row in rows:
 		d = collections.OrderedDict()
 		d['id']=row[0]
-		d['productname'] = row[1]
-		d['productdescription'] = row[2]
-		d['productmodel'] = row[3]
-		d['productcompany'] = row[4]
-		d['productpackage'] = row[5]
-		d['productpurchasable'] = row[6]
-		d['productpurchaselistprice'] = row[7]
-		d['productPriceTolerancePercent'] = row[8]
-		d['productsellable'] = row[9]
-		d['productserialcontrolled'] = row[10]
-		d['productbatchtracked'] = row[11]
-		d['standardcost'] = row[12]
-		d['reorderlevel'] = row[13]
-		d['reorderqty'] = row[14]
-		d['producttype'] = row[15]
-		d['productuom'] = row[16]
-		d['productcategory'] = row[18]
-		d['status'] = row[17]
+		d['productno'] = row[1]
+		d['productname'] = row[2]
+		d['productdescription'] = row[3]
+		d['productmodel'] = row[4]
+		d['productcompany'] = row[5]
+		d['productpackage'] = row[6]
+		d['productpurchasable'] = row[7]
+		d['productpurchaselistprice'] = row[8]
+		d['productPriceTolerancePercent'] = row[9]
+		d['productsellable'] = row[10]
+		d['productserialcontrolled'] = row[11]
+		d['productbatchtracked'] = row[12]
+		d['standardcost'] = row[13]
+		d['reorderlevel'] = row[14]
+		d['reorderqty'] = row[15]
+		d['producttype'] = row[16]
+		d['productuom'] = row[17]
+		d['productcategory'] = row[19]
+		d['status'] = row[18]
 		objects_list.append(d)
 	json_output='{"product_details":'	
 	json_output+= json.dumps(objects_list,indent = 3)
 	json_output+='}'
 	return HttpResponse(json_output)
 
+################################################################################################################################
+def add_productquantity(request):
+	if(request.method == "POST"):
+		logging.debug("add_product_quantity:request is from ip: %s" %request.META.get('REMOTE_ADDE'))
+		output_str = "Inserting quantity.."
+		try:
+			data1 = json.loads((request.body).decode('utf-8'))
+			print request.body
+			#return data1
+		except ValueError:
+			output_str += ",invalid input, no proper JSON request "
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("add_product_quantity:"+ output)
+			return HttpResponse(output)
+			#return "value error"
+			
+		if(not data1):
+			output_str += "all fields are necessary"
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("add_product_quantity:"+ output)
+			return HttpResponse(output)
+				
+		if((data1.get('quantity') is None) or ((data1.get('quantity') is not None) and (len(data1['quantity']) <=0))):
+			output_str += ",quantity is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("quantity:"+ output)
+			return HttpResponse(output)
+			
+		else:
+			quantity = data1['quantity']
+			
+		if((data1.get('productid') is None) or ((data1.get('productid') is not None) and (len(data1['productid']) <=0))):
+			output_str += ",product is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("productid:"+ output)
+			return HttpResponse(output)
+			
+		else:
+			productid = data1['productid']
+			
+		if((data1.get('positionid') is None) or ((data1.get('positionid') is not None) and (len(data1['positionid']) <=0))):
+			output_str += ",position is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("productid:"+ output)
+			return HttpResponse(output)
+			
+		else:
+			positionid = data1['positionid']
+			
+		if((data1.get('warehouseid') is None)):
+			output_str += ",warehouse is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("warehouseid:"+ output)
+			return HttpResponse(output)
+			
+		else:
+			warehouseid = data1['warehouseid']
+			
+		if((data1.get('locationid') is None)):
+			output_str += ",location is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("locationid:"+ output)
+			return HttpResponse(output)
+			
+		else:
+			locationid = data1['locationid']
+			
+			
+		try:
+			quantity_rec = inv_quantity(quantity = quantity,locationId_id = locationid,positionId_id = positionid,productId_id = productid,warehouseId_id = warehouseid)
+			quantity_rec.save()
+			output = '{"error_code":"1", "error_desc": "quantity updated"}' 
+			logging.debug("add_status:"+ output)
+			return HttpResponse(output)
+			
+		except Exception, e:
+			err_desc = 'add_product_quantity:exception details:[%s],[%s]' %((sys.exc_info()[0]), (sys.exc_info()[1]))
+			logging.debug("add_product_quantity:"+ err_desc)
+			output = '{"error_code":"2", "error_desc": "Failed to add record"}' 
+			logging.debug("add_product_quantity:"+ output)
+			return HttpResponse(err_desc)
+	else:
+		logging.debug("add_product_quantity: request is from the IP:%s" %request.META.get('REMOTE_ADDR'))
+		output = '{"error_code":"2", "error_desc": "GET is not supported"}' 
+		logging.debug("add_product_quantity:"+ output)
+		return HttpResponse(output)
+		
+##################################################################################################################################
+def update_productquantity(request):
+	if(request.method == "POST"):
+		logging.debug("update_product_quantity:request is from ip: %s" %request.META.get('REMOTE_ADDE'))
+		output_str = "updating quantity.."
+		try:
+			data1 = json.loads((request.body).decode('utf-8'))
+			print request.body
+			#return data1
+		except ValueError:
+			output_str += ",invalid input, no proper JSON request "
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("update_product_quantity:"+ output)
+			return HttpResponse(output)
+			#return "value error"
+			
+		if(not data1):
+			output_str += "all fields are necessary"
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("add_product:"+ output)
+			return HttpResponse(output)
+			
+		if((data1.get('quantityid') is None) or ((data1.get('quantityid') is not None) and (len(data1['quantityid']) <=0))):
+			output_str += ",quantityid is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("quantityid:"+ output)
+			return HttpResponse(output)
+		
+		else:
+			quantityid = data1['quantityid']
+			
+		if((data1.get('quantity') is None) or ((data1.get('quantity') is not None) and (len(data1['quantity']) <=0))):
+			output_str += ",quantity is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("quantity:"+ output)
+			return HttpResponse(output)
+			
+		else:
+			quantity = data1['quantity']
+			
+		if((data1.get('positionid') is None) or ((data1.get('positionid') is not None) and (len(data1['positionid']) <=0))):
+			output_str += ",positionid is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("positionid:"+ output)
+			return HttpResponse(output)
+			
+		else:
+			positionid = data1['positionid']
+			
+		if((data1.get('productid') is None) or ((data1.get('productid') is not None) and (len(data1['productid']) <=0))):
+			output_str += ",productid is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("productid:"+ output)
+			return HttpResponse(output)
+			
+		else:
+			productid = data1['productid']
+			
+		if((data1.get('locationid') is None) or ((data1.get('locationid') is not None) and (len(data1['locationid']) <=0))):
+			output_str += ",locationid is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("locationid:"+ output)
+			return HttpResponse(output)
+			
+		else:
+			locationid = data1['locationid']
+			
+		if((data1.get('warehouseid') is None) or ((data1.get('warehouseid') is not None) and (len(data1['warehouseid']) <=0))):
+			output_str += ",warehouseid is mandatory"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("warehouseid:"+ output)
+			return HttpResponse(output)
+			
+		else:
+			warehouseid = data1['warehouseid']
+
+		try:
+			products_rec = inv_quantity.objects.filter(quantityId=quantityid).update(quantity = quantity,locationId_id = locationid,positionId_id = positionid,productId_id = productid,warehouseId_id = warehouseid)
+			output = '{"error_code":"1", "error_desc": "record updated"}' 
+			logging.debug("update_product_quantity:"+ output)
+			return HttpResponse(output)
+			
+		except Exception, e:
+			err_desc = 'update_product_quantity:exception details:[%s],[%s]' %((sys.exc_info()[0]), (sys.exc_info()[1]))
+			logging.debug("update_product_quantity:"+ err_desc)
+			output = '{"error_code":"2", "error_desc": "Failed to update the record/ID doesnot exists"}' 
+			logging.debug("update_product_quantity:"+ output)
+			return HttpResponse(err_desc)
+	else:
+		logging.debug("update_product_quantity: request is from the IP:%s" %request.META.get('REMOTE_ADDR'))
+		output = '{"error_code":"2", "error_desc": "GET is not supported"}' 
+		logging.debug("update_product_quantity:"+ output)
+		return HttpResponse(output)
+#################################################################################################################################
+def get_productquantity(request):
+	cursor = connection.cursor()
+	cursor.execute("select q.*,p.productName,po.position from inv_quantity q JOIN inv_products p ON q.productId_id = p.id JOIN inv_position po ON q.positionId_id = po.id")
+	rows = cursor.fetchall()
+	objects_list = []
+	for row in rows:
+		d = collections.OrderedDict()
+		d['quantityid']=row[0]
+		d['productname'] = row[6]
+		d['quantity'] = row[1]
+		d['position'] = row[7]
+		d['locationid'] = row[2]
+		d['warehouseid'] = row[5]
+		objects_list.append(d)
+	json_output='{"product_quantity_details":'	
+	json_output+= json.dumps(objects_list,indent = 3)
+	json_output+='}'
+	return HttpResponse(json_output)
 #############################################################################################################################################
 def get_productcategory(request):
 	if(request.method == "POST"):
@@ -2605,7 +2823,7 @@ def update_position(request):
 			statusid = data1['statusid']
 
 		try:
-			position_rec = inv_position.objects.filter(id = position).update(Position = position,warehouseId_id = warehouseid,statusId_id = statusid)
+			position_rec = inv_position.objects.filter(id = positionid).update(Position = position,warehouseId_id = warehouseid,statusId_id = statusid)
 			output = '{"error_code":"1", "error_desc": "record updated"}' 
 			logging.debug("update_position:"+ output)
 			return HttpResponse(output)

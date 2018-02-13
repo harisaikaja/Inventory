@@ -25,7 +25,7 @@ SECRET_KEY = '#yuz(uu$8+ak^ypbfy*6jr@lc(s0gvxasozxuyp!5zvt678y*7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['0.0.0.0','localhost','127.0.0.1','cld003.jts-prod.in',]
+ALLOWED_HOSTS = ['0.0.0.0','localhost','127.0.0.1','115.98.91.33','internal.jtsha.in',]
 
 
 # Application definition

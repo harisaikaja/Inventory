@@ -76,22 +76,23 @@ class inv_products(models.Model):
 		('YES','yes'),
 		('NO','no'),
 	)
-	productName = models.CharField(max_length=50)
-	productDescription = models.CharField(max_length = 250)
-	productModel = models.CharField(max_length = 50)
-	productCompany = models.CharField(max_length = 20)
-	productPackage = models.CharField(max_length = 15)
-	productType = models.ForeignKey(inv_materialType, on_delete=models.CASCADE)
-	productUOM = models.ForeignKey(inv_UnitOfMeasure, on_delete=models.CASCADE)
+	productNo = models.CharField(max_length = 50,null =True)
+	productName = models.CharField(max_length=100)
+	productDescription = models.CharField(max_length = 250,null = True,blank = True)
+	productModel = models.CharField(max_length = 100,null = True,blank = True)
+	productCompany = models.CharField(max_length = 100,null = True,blank = True)
+	productPackage = models.CharField(max_length = 100,null = True,blank = True)
+	productType = models.ForeignKey(inv_materialType, on_delete=models.CASCADE,default = 1)
+	productUOM = models.ForeignKey(inv_UnitOfMeasure, on_delete=models.CASCADE,default = 1)
 	productPurchasable = models.CharField(max_length = 5,choices = inv_Choices,default = YES)
-	productPurchaseListPrice = models.CharField(max_length = 10)
-	productPriceTolerancePercent = models.CharField(max_length = 10)
+	productPurchaseListPrice = models.IntegerField(default = 0)
+	productPriceTolerancePercent = models.IntegerField(default = 0)
 	productSellable = models.CharField(max_length = 5,choices = inv_Choices,default = YES)
 	productSerialControlled = models.CharField(max_length = 5,choices = inv_Choices,default = YES)
 	productBatchTracked = models.CharField(max_length = 5,choices = inv_Choices,default = YES)
-	standardCost = models.CharField(max_length = 10)
-	reorderLevel = models.CharField(max_length = 10)
-	reorderQty = models.CharField(max_length = 15)
+	standardCost = models.IntegerField(default = 0)
+	reorderLevel = models.IntegerField(default = 0)
+	reorderQty = models.IntegerField(default = 0)
 	productCategory = models.ForeignKey(inv_materialCategory,default = 1,on_delete = models.CASCADE)
 	statusId = models.ForeignKey(inv_status, on_delete=models.CASCADE)
 	
@@ -106,6 +107,18 @@ class production(models.Model):
 	
 	class Meta:
 		db_table = "production"
+		
+class inv_quantity(models.Model):
+	
+	quantityId = models.AutoField(primary_key = True)
+	productId = models.ForeignKey(inv_products,on_delete = models.CASCADE)
+	quantity = models.IntegerField(default = 0)
+	positionId = models.ForeignKey(inv_position,on_delete = models.CASCADE)
+	locationId = models.ForeignKey(inv_location,on_delete = models.CASCADE,default = 1,null = True)
+	warehouseId = models.ForeignKey(inv_warehouse,on_delete = models.CASCADE,default = 1,null = True)
+	
+	class Meta:
+		db_table = "inv_quantity"
 		
 class emp_jobrole(models.Model):
 	jobRole = models.CharField(max_length = 20)
@@ -205,7 +218,7 @@ class requisition(models.Model):
 class requisition_details(models.Model):
 	requisitionId = models.ForeignKey(requisition,on_delete = models.CASCADE)
 	productId = models.ForeignKey(inv_products,on_delete = models.CASCADE)
-	quantityRequested = models.IntegerField(default=10)
+	quantityRequested = models.IntegerField(default=0)
 	quantityIssued = models.IntegerField(default=0)
 	statusId = models.ForeignKey(inv_status,on_delete=models.CASCADE,default=6)
 	
