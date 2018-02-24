@@ -155,7 +155,6 @@ class jts_employees(models.Model):
 	departmentId = models.CharField(max_length=10)
 	managerId = models.ForeignKey('self',related_name = 'manager',default=None,null=True,blank=True,on_delete = models.CASCADE)
 	reportingHr = models.ForeignKey('self',related_name = 'reporting_hr',default=None,null=True,blank=True,on_delete = models.CASCADE)
-	jobRole = models.ForeignKey(emp_jobrole,on_delete = models.CASCADE)
 	Address = models.CharField(max_length=100)
 	workLocation = models.ForeignKey(emp_location,on_delete = models.CASCADE)
 		
@@ -210,7 +209,7 @@ class requisition(models.Model):
 	requisitionDate = models.DateField(auto_now_add = True,blank=True,null=True)
 	duedate = models.DateField(max_length = 8)
 	productCategory = models.ForeignKey(inv_materialCategory,default=1,on_delete=models.CASCADE)
-	statusId = models.ForeignKey(inv_status,on_delete=models.CASCADE,default=6)
+	statusId = models.ForeignKey(inv_status,on_delete=models.CASCADE)
 	
 	class Meta:
 		db_table = "requisition"
@@ -218,9 +217,9 @@ class requisition(models.Model):
 class requisition_details(models.Model):
 	requisitionId = models.ForeignKey(requisition,on_delete = models.CASCADE)
 	productId = models.ForeignKey(inv_products,on_delete = models.CASCADE)
-	quantityRequested = models.IntegerField(default=0)
-	quantityIssued = models.IntegerField(default=0)
-	statusId = models.ForeignKey(inv_status,on_delete=models.CASCADE,default=6)
+	quantityRequested = models.IntegerField(default = 0)
+	quantityIssued = models.IntegerField(default = 0)
+	statusId = models.ForeignKey(inv_status,default = 6,on_delete=models.CASCADE)
 	
 	class Meta:
 		db_table = "requisition_details"

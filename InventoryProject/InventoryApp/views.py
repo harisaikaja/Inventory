@@ -215,15 +215,6 @@ def add_employee(request):
 		else:
 			address = adduserdata['address']
 			
-		if((adduserdata.get('jobrole') is None) or ((adduserdata.get('jobrole') is not None) and (len(adduserdata['jobrole']) <=0))):
-			output_str += ",jobrole is mandatory"
-			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
-			logging.debug("jobrole:"+ output)
-			return HttpResponse(output)
-			
-		else:
-			jobrole = adduserdata['jobrole']
-			
 		if(adduserdata.get('reportinghead') is None):
 			output_str += ",reportinghead is mandatory"
 			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
@@ -272,7 +263,7 @@ def add_employee(request):
 			return HttpResponse(output)
 
 		try:
-			user_input = jts_employees(fullName = fullname,userName = username,emailId = emailid,Password = password,gender = gender,bloodGroup = bloodgroup,dateOfBirth = dateofbirth,dateOfJoining = dateofjoining,departmentId = department,Address = address,jobRole_id = jobrole,managerId_id = reportinghead,reportingHr_id = reportinghr,workLocation_id = worklocation)
+			user_input = jts_employees(fullName = fullname,userName = username,emailId = emailid,Password = password,gender = gender,bloodGroup = bloodgroup,dateOfBirth = dateofbirth,dateOfJoining = dateofjoining,departmentId = department,Address = address,managerId_id = reportinghead,reportingHr_id = reportinghr,workLocation_id = worklocation)
 			user_input.save()
 			output = '{"error_code":"1", "error_desc": "record added"}' 
 			logging.debug("add_user:"+ output)
@@ -283,7 +274,7 @@ def add_employee(request):
 			logging.debug("adduser:"+ err_desc)
 			output = '{"error_code":"2", "error_desc": "Failed to add user"}' 
 			logging.debug("add_user:"+ output)
-			return HttpResponse(output)
+			return HttpResponse(err_desc)
 	else:
 		logging.debug("adduser: request is from the IP:%s" %request.META.get('REMOTE_ADDR'))
 		output = '{"error_code":"2", "error_desc": "GET is not supported"}' 
@@ -420,15 +411,6 @@ def update_employee(request):
 		else:
 			reportinghr = updateuserdata['reportinghr']
 			
-		if((updateuserdata.get('jobrole') is None) or ((updateuserdata.get('jobrole') is not None) and (len(updateuserdata['jobrole']) <=0))):
-			output_str += ",jobrole is mandatory"
-			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
-			logging.debug("jobrole:"+ output)
-			return HttpResponse(output)
-			
-		else:
-			jobrole = updateuserdata['jobrole']
-			
 		if((updateuserdata.get('address') is None) or ((updateuserdata.get('address') is not None) and (len(updateuserdata['address']) <=0))):
 			output_str += ",address is mandatory"
 			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
@@ -446,17 +428,9 @@ def update_employee(request):
 			
 		else:
 			worklocation = updateuserdata['worklocation']
-			
-		'''if((updateuserdata.get('statusid') is None) or ((updateuserdata.get('statusid') is not None) and (len(updateuserdata['statusid']) <=0))):
-			output_str += ",statusid is mandatory"
-			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
-			logging.debug("statusid:"+ output)
-			return HttpResponse(output)
-			
-		else:
-			statusid = updateuserdata['statusid']'''
+
 		try:
-			user_input = jts_employees.objects.filter(id = userid).update(fullName = fullname,userName = username,emailId = emailid,gender = gender,bloodGroup = bloodgroup,dateOfBirth = dateofbirth,dateOfJoining = dateofjoining,departmentId = department,Address = address,jobRole_id = jobrole,managerId_id = reportinghead,reportingHr_id = reportinghr,workLocation_id = worklocation)
+			user_input = jts_employees.objects.filter(id = userid).update(fullName = fullname,userName = username,emailId = emailid,gender = gender,bloodGroup = bloodgroup,dateOfBirth = dateofbirth,dateOfJoining = dateofjoining,departmentId = department,Address = address,managerId_id = reportinghead,reportingHr_id = reportinghr,workLocation_id = worklocation)
 			output = '{"error_code":"1", "error_desc": "record updated"}' 
 			logging.debug("update_user:"+ output)
 			return HttpResponse(output)
@@ -476,7 +450,7 @@ def update_employee(request):
 ################################################################################################################################
 def get_employee(request):
 	cursor = connection.cursor()
-	cursor.execute("select e.id,e.fullName as fullname,e.userName,e.emailId,e.gender,e.bloodGroup,e.dateOfBirth,e.dateOfJoining,e.dateOfExit,e.Address,m.fullName as manager,h.fullName as hrname,e.departmentId,d.departmentName,e.jobRole_id,j.jobRole,e.workLocation_id,w.location from jts_employees e LEFT JOIN jts_employees m ON e.managerId_id = m.id LEFT JOIN jts_employees h ON e.reportingHr_id = h.id JOIN jts_departments d ON e.departmentId = d.id JOIN emp_jobrole j ON e.jobRole_id = j.id JOIN emp_location w ON e.worklocation_id = w.id ORDER BY e.id")
+	cursor.execute("select e.id,e.fullName as fullname,e.userName,e.emailId,e.gender,e.bloodGroup,e.dateOfBirth,e.dateOfJoining,e.dateOfExit,e.Address,m.fullName as manager,h.fullName as hrname,e.departmentId,d.departmentName,e.workLocation_id,w.location from jts_employees e LEFT JOIN jts_employees m ON e.managerId_id = m.id LEFT JOIN jts_employees h ON e.reportingHr_id = h.id JOIN jts_departments d ON e.departmentId = d.id JOIN emp_location w ON e.worklocation_id = w.id ORDER BY e.id")
 	rows = cursor.fetchall()
 	objects_list = []
 	for row in rows:
@@ -494,8 +468,7 @@ def get_employee(request):
 		d['reportinghead'] = row[10]
 		d['reportinghr'] = row[11]
 		d['department'] = row[13]
-		d['jobrole'] = row[15]
-		d['worklocation'] = row[17]
+		d['worklocation'] = row[15]
 		objects_list.append(d)
 	json_output='{"user_details":'	
 	json_output+= json.dumps(objects_list,indent = 3,sort_keys = True, default = str)
@@ -581,14 +554,14 @@ def search_employee(request):
 #################################################################################################################################
 def get_hr(request):
 	cursor = connection.cursor()
-	cursor.execute("select e.id,e.fullname,j.jobRole from jts_employees e JOIN emp_jobrole j ON e.jobRole_id = j.id where j.jobRole = 'Hr'")
+	cursor.execute("select r.jobRole_id,j.jobRole,r.userId_id,e.userName from user_roles r JOIN emp_jobrole j ON r.jobRole_id = j.id JOIN jts_employees e ON r.userId_id = e.id where j.jobRole = 'hr'")
 	rows = cursor.fetchall()
 	objects_list = []
 	for row in rows:
 		d = collections.OrderedDict()
-		d['id']=row[0]
-		d['hrname']=row[1]
-		d['role'] = row[2]
+		d['employeeid']=row[2]
+		d['hrname']=row[3]
+		d['role'] = row[1]
 		objects_list.append(d)
 	json_output='{"hr_details":'	
 	json_output+= json.dumps(objects_list,indent = 3,sort_keys = True, default = str)
@@ -2083,7 +2056,7 @@ def update_product(request):
 		else:
 			productcompany = data1['productcompany']
 			
-		if((data1.get('productpackage') is None) or ((data1.get('productpackage') is not None) and (len(data1['productpackage']) <=0))):
+		if(data1.get('productpackage') is None):
 			output_str += ",productpackage is mandatory"
 			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
 			logging.debug("productpackage:"+ output)
@@ -3137,6 +3110,66 @@ def get_requisition(request):
 		output = '{"error_code":"2", "error_desc": "GET is not supported"}' 
 		logging.debug("requsition_details:"+ output)
 		return HttpResponse(output)
+		
+#################################################################################################################################
+def get_newrequisition(request):
+	if(request.method == "POST"):
+		logging.debug("new_requsition:request is from ip: %s" %request.META.get('REMOTE_ADDE'))
+		output_str = "getting requisition.."
+		try:
+			data1 = json.loads((request.body).decode('utf-8'))
+			print request.body
+			#return data1
+		except ValueError:
+			output_str += ",invalid input, no proper JSON request "
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("new_requsition:"+ output)
+			return HttpResponse(output)
+			#return "value error"
+			
+		if(not data1):
+			output_str += "all fields are necessary"
+			output = '{"error_code":"2", "error_desc": "%s"}' %(output_str )
+			logging.debug("new_requsition:"+ output)
+			return HttpResponse(output)
+			
+		if((data1.get('userid') is None) or ((data1.get('userid') is not None) and (len(data1['userid']) <=0))):
+			output_str += ",userid is required"
+			output = '{"error_code":"2", "error_desc": "%s"}' %output_str
+			logging.debug("requsition_details:"+ output)
+			return HttpResponse(output)
+		
+		else:
+			userid = data1['userid']
+			
+		try:
+			cursor = connection.cursor()
+			cursor.execute("select id,requisitionDate,duedate,userID_id from requisition where userID_id = '%s' order by id desc limit 1" %(userid))
+			rows = cursor.fetchall()
+			objects_list = []
+			for row in rows:
+				d = collections.OrderedDict()
+				d['requisitionid']=row[0]
+				d['userid']=row[3]
+				d['requisitiondate'] = row[1]
+				d['duedate'] = row[2]
+				objects_list.append(d)
+			json_output='{"new_requisition":'	
+			json_output+= json.dumps(objects_list,indent = 3,sort_keys = True, default = str)
+			json_output+='}'
+			logging.debug("new_requsition:")
+			return HttpResponse(json_output)
+		except Exception, e:
+			err_desc = 'new_requsition:exception details:[%s],[%s]' %((sys.exc_info()[0]), (sys.exc_info()[1]))
+			logging.debug("new_requsition:"+ err_desc)
+			output = '{"error_code":"2", "error_desc": "Invalid userid"}' 
+			logging.debug("new_requsition:"+ output)
+			return HttpResponse(output)
+	else:
+		logging.debug("new_requsition: request is from the IP:%s" %request.META.get('REMOTE_ADDR'))
+		output = '{"error_code":"2", "error_desc": "GET is not supported"}' 
+		logging.debug("new_requsition:"+ output)
+		return HttpResponse(output)
 	
 ################################################################################################################################
 def add_requisitiondetails(request):
@@ -3187,7 +3220,38 @@ def add_requisitiondetails(request):
 		else:
 			requisitionid = data1['requisitionid']
 			
-		try:
+		qty = []
+		product = []
+		requisition = []
+		sqty = str(quantity)[1:-1]
+		sproduct = str(productid)[1:-1]
+		srequisitionid = str(requisitionid)[1:-1]
+		
+		for quant in sqty.split(","):
+			qty.append(quant)
+		print qty
+			
+		for prod in sproduct.split(","):
+			product.append(prod)
+		print product
+		
+		for req in srequisitionid.split(","):
+			requisition.append(req)
+		print requisition
+		
+		for rec in qty:
+			index1=qty.index(rec)
+			quantity1 = rec
+			product1 = product[index1]
+			requisition1 = requisition[index1]
+			cursor = connection.cursor()
+			print quantity1
+			print product1
+			print requisition1
+			cursor.execute("insert into requisition_details(quantityrequested,productId_id,requisitionId_id) values('%s','%s','%s')" %(quantity1,product1,requisition1))
+			cursor.commit()
+		return HttpResponse("values inserted")
+		'''try:
 			requisition_details_rec = requisition_details(quantityRequested = quantity,productId_id = productid,requisitionId_id = requisitionid)
 			requisition_details_rec.save()
 			output = '{"error_code":"1", "error_desc": "Requisiton details added"}' 
@@ -3199,7 +3263,7 @@ def add_requisitiondetails(request):
 			logging.debug("add_requisition_details:"+ err_desc)
 			output = '{"error_code":"2", "error_desc": "Failed to add Requisition"}' 
 			logging.debug("add_requisition_details:"+ output)
-			return HttpResponse(err_desc)
+			return HttpResponse(err_desc)'''
 	else:
 		logging.debug("add_requisition_details: request is from the IP:%s" %request.META.get('REMOTE_ADDR'))
 		output = '{"error_code":"2", "error_desc": "GET is not supported"}' 

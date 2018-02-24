@@ -516,3 +516,597 @@
 2018-02-13 16:50:53,153 DEBUG user_details:
 2018-02-13 16:50:53,269 DEBUG search_employees:request is from ip: None
 2018-02-13 16:50:53,270 DEBUG user_details:
+2018-02-13 17:30:13,884 DEBUG adduser:request is from ip: None
+2018-02-13 17:30:14,275 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-02-13 17:30:15,171 DEBUG search_employees:request is from ip: None
+2018-02-13 17:30:15,172 DEBUG user_details:
+2018-02-13 17:30:15,277 DEBUG search_employees:request is from ip: None
+2018-02-13 17:30:15,278 DEBUG user_details:
+2018-02-13 17:35:28,115 DEBUG adduser:request is from ip: None
+2018-02-13 17:35:28,476 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-02-13 17:35:29,401 DEBUG search_employees:request is from ip: None
+2018-02-13 17:35:29,402 DEBUG user_details:
+2018-02-13 17:35:29,538 DEBUG search_employees:request is from ip: None
+2018-02-13 17:35:29,539 DEBUG user_details:
+2018-02-13 17:51:59,876 DEBUG adduser:request is from ip: None
+2018-02-13 17:52:00,295 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-02-13 17:52:01,167 DEBUG search_employees:request is from ip: None
+2018-02-13 17:52:01,171 DEBUG user_details:
+2018-02-13 17:52:01,278 DEBUG search_employees:request is from ip: None
+2018-02-13 17:52:01,282 DEBUG user_details:
+2018-02-13 18:13:51,118 DEBUG add_product:request is from ip: None
+2018-02-13 18:13:51,174 DEBUG add_product:{"error_code":"1", "error_desc": "Record added"}
+2018-02-13 18:15:41,251 DEBUG add_product:request is from ip: None
+2018-02-13 18:15:41,251 DEBUG productpackage:{"error_code":"2", "error_desc": "updating data of products..,productpackage is mandatory"}
+2018-02-13 18:17:56,807 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-13 18:18:55,357 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-13 18:19:05,644 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-13 18:19:34,426 DEBUG add_product:request is from ip: None
+2018-02-13 18:19:34,476 DEBUG update_product:{"error_code":"1", "error_desc": "record updated"}
+2018-02-13 18:19:59,470 DEBUG add_product:request is from ip: None
+2018-02-13 18:19:59,470 DEBUG productno:{"error_code":"2", "error_desc": "updating data of products..,productno is mandatory"}
+2018-02-13 18:20:13,500 DEBUG add_product:request is from ip: None
+2018-02-13 18:20:13,558 DEBUG update_product:{"error_code":"1", "error_desc": "record updated"}
+2018-02-13 18:21:03,161 DEBUG add_product:request is from ip: None
+2018-02-13 18:21:03,215 DEBUG update_product:{"error_code":"1", "error_desc": "record updated"}
+2018-02-13 18:25:21,702 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-13 18:25:28,372 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-13 18:26:06,228 DEBUG add_product:request is from ip: None
+2018-02-13 18:26:06,292 DEBUG update_product:{"error_code":"1", "error_desc": "record updated"}
+2018-02-13 18:27:20,539 DEBUG adduser:request is from ip: None
+2018-02-13 18:27:20,898 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-02-13 18:27:21,387 DEBUG search_employees:request is from ip: None
+2018-02-13 18:27:21,389 DEBUG user_details:
+2018-02-13 18:27:21,644 DEBUG search_employees:request is from ip: None
+2018-02-13 18:27:21,646 DEBUG user_details:
+2018-02-13 18:27:35,045 DEBUG add_product:request is from ip: None
+2018-02-13 18:27:35,101 DEBUG update_product:{"error_code":"1", "error_desc": "record updated"}
+2018-02-13 18:28:14,681 DEBUG add_product:request is from ip: None
+2018-02-13 18:28:14,681 DEBUG productno:{"error_code":"2", "error_desc": "updating data of products..,productno is mandatory"}
+2018-02-13 18:28:22,502 DEBUG add_product:request is from ip: None
+2018-02-13 18:28:22,549 DEBUG update_product:{"error_code":"1", "error_desc": "record updated"}
+2018-02-13 18:30:56,111 DEBUG search_employees:request is from ip: None
+2018-02-13 18:30:56,114 DEBUG user_details:
+2018-02-13 18:32:34,326 DEBUG adduser:request is from ip: None
+2018-02-13 18:32:34,713 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-02-13 18:32:34,909 DEBUG search_employees:request is from ip: None
+2018-02-13 18:32:34,910 DEBUG user_details:
+2018-02-13 18:32:35,496 DEBUG search_employees:request is from ip: None
+2018-02-13 18:32:35,501 DEBUG user_details:
+2018-02-13 18:33:27,998 DEBUG add_product:request is from ip: None
+2018-02-13 18:33:28,045 DEBUG update_product:{"error_code":"1", "error_desc": "record updated"}
+2018-02-13 18:36:45,718 DEBUG adduser:request is from ip: None
+2018-02-13 18:36:46,134 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-02-13 18:36:46,892 DEBUG search_employees:request is from ip: None
+2018-02-13 18:36:46,894 DEBUG user_details:
+2018-02-13 18:36:48,448 DEBUG search_employees:request is from ip: None
+2018-02-13 18:36:48,452 DEBUG user_details:
+2018-02-13 18:38:51,548 DEBUG add_product:request is from ip: None
+2018-02-13 18:38:51,599 DEBUG update_product:{"error_code":"1", "error_desc": "record updated"}
+2018-02-13 18:40:20,559 DEBUG adduser:request is from ip: None
+2018-02-13 18:40:20,948 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-02-13 18:40:21,337 DEBUG search_employees:request is from ip: None
+2018-02-13 18:40:21,339 DEBUG user_details:
+2018-02-13 18:40:22,604 DEBUG search_employees:request is from ip: None
+2018-02-13 18:40:22,605 DEBUG user_details:
+2018-02-13 18:40:36,305 DEBUG add_product:request is from ip: None
+2018-02-13 18:40:36,358 DEBUG update_product:{"error_code":"1", "error_desc": "record updated"}
+2018-02-13 19:51:43,701 DEBUG adduser:request is from ip: None
+2018-02-13 19:51:44,020 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-02-13 19:51:44,684 DEBUG search_employees:request is from ip: None
+2018-02-13 19:51:44,686 DEBUG user_details:
+2018-02-13 19:51:44,693 DEBUG adduser:request is from ip: None
+2018-02-13 19:51:45,014 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-02-13 19:51:45,015 DEBUG search_employees:request is from ip: None
+2018-02-13 19:51:45,016 DEBUG user_details:
+2018-02-13 19:51:45,649 DEBUG search_employees:request is from ip: None
+2018-02-13 19:51:45,651 DEBUG user_details:
+2018-02-13 19:51:45,933 DEBUG search_employees:request is from ip: None
+2018-02-13 19:51:45,937 DEBUG user_details:
+2018-02-14 12:20:49,820 DEBUG adduser:request is from ip: None
+2018-02-14 12:20:50,256 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-02-14 12:20:51,105 DEBUG search_employees:request is from ip: None
+2018-02-14 12:20:51,109 DEBUG user_details:
+2018-02-14 12:20:51,236 DEBUG search_employees:request is from ip: None
+2018-02-14 12:20:51,240 DEBUG user_details:
+2018-02-14 12:33:07,170 DEBUG add_product:request is from ip: None
+2018-02-14 12:33:07,228 DEBUG update_product:{"error_code":"1", "error_desc": "record updated"}
+2018-02-14 12:33:11,660 DEBUG add_product:request is from ip: None
+2018-02-14 12:33:11,709 DEBUG update_product:{"error_code":"1", "error_desc": "record updated"}
+2018-02-14 12:49:20,708 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-14 12:52:44,840 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-14 13:52:06,176 DEBUG adduser:request is from ip: None
+2018-02-14 13:52:06,514 DEBUG login_status:{"error_code":"2", "error_desc": "Invalid password"}
+2018-02-14 13:52:07,899 DEBUG adduser:request is from ip: None
+2018-02-14 13:52:08,202 DEBUG login_status:{"error_code":"2", "error_desc": "Invalid password"}
+2018-02-14 13:52:08,204 DEBUG adduser:request is from ip: None
+2018-02-14 13:52:08,204 DEBUG adduser:request is from ip: None
+2018-02-14 13:52:08,506 DEBUG login_status:{"error_code":"2", "error_desc": "Invalid password"}
+2018-02-14 13:52:08,815 DEBUG login_status:{"error_code":"2", "error_desc": "Invalid password"}
+2018-02-14 13:52:20,502 DEBUG adduser:request is from ip: None
+2018-02-14 13:52:20,914 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-02-14 13:52:20,996 DEBUG search_employees:request is from ip: None
+2018-02-14 13:52:20,998 DEBUG user_details:
+2018-02-14 13:52:21,734 DEBUG search_employees:request is from ip: None
+2018-02-14 13:52:21,736 DEBUG user_details:
+2018-02-14 13:52:54,742 DEBUG adduser:request is from ip: None
+2018-02-14 13:52:55,079 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-02-14 13:52:57,848 DEBUG adduser:request is from ip: None
+2018-02-14 13:52:58,251 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-02-14 13:52:58,836 DEBUG search_employees:request is from ip: None
+2018-02-14 13:52:58,837 DEBUG user_details:
+2018-02-14 13:52:59,024 DEBUG search_employees:request is from ip: None
+2018-02-14 13:52:59,025 DEBUG user_details:
+2018-02-14 13:53:01,254 DEBUG requsition_details:request is from ip: None
+2018-02-14 13:53:01,258 DEBUG requisition:
+2018-02-14 15:39:09,806 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-14 15:39:16,822 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-14 15:47:54,535 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-14 15:48:03,928 ERROR Internal Server Error: /InventoryApp/get_hr/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/jts-prod/InventoryProject/InventoryApp/views.py", line 558, in get_hr
+    cursor.execute("select e.id,e.fullname,j.jobRole from jts_employees e JOIN emp_jobrole j ON e.jobRole_id = j.id where j.jobRole = 'Hr'")
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 62, in execute
+    return self.cursor.execute(sql)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 226, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorvalue
+OperationalError: (1054, "Unknown column 'e.jobRole_id' in 'on clause'")
+2018-02-14 15:48:04,612 WARNING Not Found: /favicon.ico
+2018-02-14 15:48:35,521 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-14 15:48:39,606 ERROR Internal Server Error: /InventoryApp/get_hr/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/jts-prod/InventoryProject/InventoryApp/views.py", line 558, in get_hr
+    cursor.execute("select e.id,e.fullname,j.jobRole from jts_employees e JOIN emp_jobrole j ON e.jobRole_id = j.id where j.jobRole = 'Hr'")
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 62, in execute
+    return self.cursor.execute(sql)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 226, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorvalue
+OperationalError: (1054, "Unknown column 'e.jobRole_id' in 'on clause'")
+2018-02-14 15:50:31,581 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-14 15:50:35,422 DEBUG hr_details:
+2018-02-14 15:51:10,508 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-14 15:51:14,606 DEBUG hr_details:
+2018-02-14 15:54:12,313 DEBUG hr_details:
+2018-02-14 15:54:13,850 DEBUG hr_details:
+2018-02-14 15:54:28,446 ERROR Internal Server Error: /InventoryApp/get_employee/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/jts-prod/InventoryProject/InventoryApp/views.py", line 453, in get_employee
+    cursor.execute("select e.id,e.fullName as fullname,e.userName,e.emailId,e.gender,e.bloodGroup,e.dateOfBirth,e.dateOfJoining,e.dateOfExit,e.Address,m.fullName as manager,h.fullName as hrname,e.departmentId,d.departmentName,e.jobRole_id,j.jobRole,e.workLocation_id,w.location from jts_employees e LEFT JOIN jts_employees m ON e.managerId_id = m.id LEFT JOIN jts_employees h ON e.reportingHr_id = h.id JOIN jts_departments d ON e.departmentId = d.id JOIN emp_jobrole j ON e.jobRole_id = j.id JOIN emp_location w ON e.worklocation_id = w.id ORDER BY e.id")
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 62, in execute
+    return self.cursor.execute(sql)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 226, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorvalue
+OperationalError: (1054, "Unknown column 'e.jobRole_id' in 'field list'")
+2018-02-14 15:57:37,436 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-14 15:58:23,447 DEBUG get_user:
+2018-02-14 16:30:46,159 DEBUG get_user:
+2018-02-15 13:06:22,519 DEBUG adduser:request is from ip: None
+2018-02-15 13:06:22,942 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-02-15 13:06:23,824 DEBUG search_employees:request is from ip: None
+2018-02-15 13:06:23,826 DEBUG user_details:
+2018-02-15 13:06:24,046 DEBUG search_employees:request is from ip: None
+2018-02-15 13:06:24,047 DEBUG user_details:
+2018-02-15 13:07:49,755 DEBUG add_product:request is from ip: None
+2018-02-15 13:07:49,849 DEBUG update_product:{"error_code":"1", "error_desc": "record updated"}
+2018-02-15 13:12:08,935 DEBUG adduser:request is from ip: None
+2018-02-15 13:12:09,350 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-02-15 13:12:10,284 DEBUG search_employees:request is from ip: None
+2018-02-15 13:12:10,287 DEBUG user_details:
+2018-02-15 13:12:10,335 DEBUG search_employees:request is from ip: None
+2018-02-15 13:12:10,339 DEBUG user_details:
+2018-02-15 13:32:11,172 DEBUG adduser:request is from ip: None
+2018-02-15 13:32:11,179 DEBUG login_status:{"error_code":"2", "error_desc": "Invalid username"}
+2018-02-15 13:59:09,225 DEBUG adduser:request is from ip: None
+2018-02-15 13:59:09,622 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-02-15 13:59:10,551 DEBUG search_employees:request is from ip: None
+2018-02-15 13:59:10,554 DEBUG user_details:
+2018-02-15 13:59:10,620 DEBUG search_employees:request is from ip: None
+2018-02-15 13:59:10,624 DEBUG user_details:
+2018-02-15 14:02:01,154 DEBUG get_position:
+2018-02-15 14:02:08,531 DEBUG get_position:
+2018-02-15 14:02:10,774 DEBUG get_warehouse:
+2018-02-15 14:03:53,743 DEBUG add_product:request is from ip: None
+2018-02-15 14:03:53,797 DEBUG update_product:{"error_code":"1", "error_desc": "record updated"}
+2018-02-15 14:04:04,612 DEBUG get_position:
+2018-02-15 14:04:07,490 DEBUG search_employees:request is from ip: None
+2018-02-15 14:04:07,493 DEBUG user_details:
+2018-02-15 14:04:14,542 DEBUG get_position:
+2018-02-15 14:04:17,540 DEBUG get_warehouse:
+2018-02-15 14:06:04,597 DEBUG get_position:
+2018-02-15 14:06:05,218 DEBUG get_warehouse:
+2018-02-15 14:06:29,549 DEBUG position_add:request is from ip: None
+2018-02-15 14:06:29,608 DEBUG position_add:{"error_code":"1", "error_desc": "Record added"}
+2018-02-15 14:06:31,794 DEBUG get_position:
+2018-02-15 14:06:33,703 DEBUG get_warehouse:
+2018-02-15 14:06:56,743 DEBUG get_warehouse:
+2018-02-15 14:50:50,528 DEBUG adduser:request is from ip: None
+2018-02-15 14:50:50,962 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-02-15 14:50:52,128 DEBUG search_employees:request is from ip: None
+2018-02-15 14:50:52,132 DEBUG user_details:
+2018-02-15 14:50:52,135 DEBUG search_employees:request is from ip: None
+2018-02-15 14:50:52,139 DEBUG user_details:
+2018-02-15 14:54:34,188 DEBUG adduser:request is from ip: None
+2018-02-15 14:54:34,608 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-02-15 14:54:34,857 DEBUG search_employees:request is from ip: None
+2018-02-15 14:54:34,859 DEBUG user_details:
+2018-02-15 14:54:35,006 DEBUG search_employees:request is from ip: None
+2018-02-15 14:54:35,008 DEBUG user_details:
+2018-02-15 16:42:29,319 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 16:43:42,160 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 16:49:54,103 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 16:49:57,377 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 16:50:18,767 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 16:57:21,010 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 16:58:08,939 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 16:58:19,783 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 16:58:36,954 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 17:00:18,451 DEBUG add_requisition_details:request is from ip: None
+2018-02-15 17:00:18,451 ERROR Internal Server Error: /InventoryApp/add_requisitiondetails/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view InventoryApp.views.add_requisitiondetails didn't return an HttpResponse object. It returned None instead.
+2018-02-15 17:01:10,542 DEBUG add_requisition_details:request is from ip: None
+2018-02-15 17:01:10,542 ERROR Internal Server Error: /InventoryApp/add_requisitiondetails/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view InventoryApp.views.add_requisitiondetails didn't return an HttpResponse object. It returned None instead.
+2018-02-15 17:02:26,544 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 17:02:31,095 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 17:02:47,613 DEBUG add_requisition_details:request is from ip: None
+2018-02-15 17:02:47,614 ERROR Internal Server Error: /InventoryApp/add_requisitiondetails/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view InventoryApp.views.add_requisitiondetails didn't return an HttpResponse object. It returned None instead.
+2018-02-15 17:08:36,892 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 17:08:42,616 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 17:09:15,381 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 17:10:25,129 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 17:10:54,698 DEBUG add_requisition_details:request is from ip: None
+2018-02-15 17:10:54,699 ERROR Internal Server Error: /InventoryApp/add_requisitiondetails/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view InventoryApp.views.add_requisitiondetails didn't return an HttpResponse object. It returned None instead.
+2018-02-15 17:14:49,332 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 17:14:52,809 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 17:16:02,476 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 17:16:29,780 DEBUG add_requisition_details:request is from ip: None
+2018-02-15 17:16:29,782 ERROR Internal Server Error: /InventoryApp/add_requisitiondetails/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view InventoryApp.views.add_requisitiondetails didn't return an HttpResponse object. It returned None instead.
+2018-02-15 17:19:38,747 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 17:19:53,968 DEBUG add_requisition_details:request is from ip: None
+2018-02-15 17:19:53,969 ERROR Internal Server Error: /InventoryApp/add_requisitiondetails/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view InventoryApp.views.add_requisitiondetails didn't return an HttpResponse object. It returned None instead.
+2018-02-15 17:20:55,445 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 17:21:00,318 DEBUG add_requisition_details:request is from ip: None
+2018-02-15 17:21:01,220 ERROR Internal Server Error: /InventoryApp/add_requisitiondetails/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view InventoryApp.views.add_requisitiondetails didn't return an HttpResponse object. It returned None instead.
+2018-02-15 17:21:41,882 DEBUG add_requisition_details:request is from ip: None
+2018-02-15 17:21:42,784 ERROR Internal Server Error: /InventoryApp/add_requisitiondetails/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view InventoryApp.views.add_requisitiondetails didn't return an HttpResponse object. It returned None instead.
+2018-02-15 17:24:31,604 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 17:26:18,147 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 17:26:21,445 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 17:26:34,731 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 17:27:27,158 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 17:27:30,146 DEBUG add_requisition_details:request is from ip: None
+2018-02-15 17:27:30,147 ERROR Internal Server Error: /InventoryApp/add_requisitiondetails/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/jts-prod/InventoryProject/InventoryApp/views.py", line 3231, in add_requisitiondetails
+    qty.append(quant)
+AttributeError: 'tuple' object has no attribute 'append'
+2018-02-15 17:28:04,431 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 17:28:07,713 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 17:28:14,511 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 17:28:20,482 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 17:28:25,178 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 17:29:05,680 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 17:29:10,427 DEBUG add_requisition_details:request is from ip: None
+2018-02-15 17:29:11,329 ERROR Internal Server Error: /InventoryApp/add_requisitiondetails/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view InventoryApp.views.add_requisitiondetails didn't return an HttpResponse object. It returned None instead.
+2018-02-15 17:29:14,542 DEBUG add_requisition_details:request is from ip: None
+2018-02-15 17:29:15,444 ERROR Internal Server Error: /InventoryApp/add_requisitiondetails/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view InventoryApp.views.add_requisitiondetails didn't return an HttpResponse object. It returned None instead.
+2018-02-15 18:40:37,051 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 18:40:42,938 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 18:40:43,607 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 18:40:51,202 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 18:42:27,971 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 18:43:12,909 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 18:44:48,348 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 18:45:12,337 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 18:45:26,227 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 19:33:52,161 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-15 19:37:07,082 WARNING Not Found: /robots.txt
+2018-02-15 19:37:07,775 WARNING Not Found: /favicon.ico
+2018-02-16 12:27:19,651 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-16 12:27:33,738 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-16 12:30:10,764 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-16 12:30:29,627 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-16 12:30:37,763 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-16 12:53:38,102 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-16 12:53:53,046 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-16 12:53:59,774 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-16 12:55:15,460 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-16 12:56:15,651 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-16 13:00:49,113 DEBUG adduser:request is from ip: None
+2018-02-16 13:00:49,534 DEBUG adduser:adduser:exception details:[<type 'exceptions.ValueError'>],[invalid literal for int() with base 10: 'hyderabad']
+2018-02-16 13:00:49,534 DEBUG add_user:{"error_code":"2", "error_desc": "Failed to add user"}
+2018-02-16 13:01:17,219 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-16 13:01:31,924 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-16 13:01:38,745 DEBUG adduser:request is from ip: None
+2018-02-16 13:01:39,186 DEBUG adduser:adduser:exception details:[<type 'exceptions.ValueError'>],[invalid literal for int() with base 10: 'hyderabad']
+2018-02-16 13:01:39,186 DEBUG add_user:{"error_code":"2", "error_desc": "Failed to add user"}
+2018-02-16 13:02:15,895 DEBUG adduser:request is from ip: None
+2018-02-16 13:02:16,335 DEBUG add_user:{"error_code":"1", "error_desc": "record added"}
+2018-02-16 13:04:49,975 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-16 13:04:53,593 DEBUG adduser:request is from ip: None
+2018-02-16 13:04:54,074 DEBUG add_user:{"error_code":"1", "error_desc": "record added"}
+2018-02-16 13:05:35,607 DEBUG adduser:request is from ip: None
+2018-02-16 13:05:35,958 DEBUG add_user:{"error_code":"1", "error_desc": "record added"}
+2018-02-16 13:05:58,020 DEBUG adduser:request is from ip: None
+2018-02-16 13:05:58,487 DEBUG add_user:{"error_code":"1", "error_desc": "record added"}
+2018-02-16 13:06:14,695 DEBUG adduser:request is from ip: None
+2018-02-16 13:06:15,050 DEBUG add_user:{"error_code":"1", "error_desc": "record added"}
+2018-02-17 11:32:39,736 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-17 11:32:42,808 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-17 11:33:13,081 WARNING Not Found: /favicon.ico
+2018-02-17 11:33:13,339 WARNING Not Found: /favicon.ico
+2018-02-17 11:33:27,285 WARNING Not Found: /robots.txt
+2018-02-17 11:33:27,534 WARNING Not Found: /robots.txt
+2018-02-17 11:48:39,174 DEBUG adduser:request is from ip: None
+2018-02-17 11:48:39,610 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-02-17 11:48:40,425 DEBUG search_employees:request is from ip: None
+2018-02-17 11:48:40,428 DEBUG user_details:
+2018-02-17 11:48:40,775 DEBUG search_employees:request is from ip: None
+2018-02-17 11:48:40,779 DEBUG user_details:
+2018-02-17 11:51:13,403 DEBUG search_employees:request is from ip: None
+2018-02-17 11:51:13,407 DEBUG user_details:
+2018-02-17 11:51:15,935 DEBUG get_position:
+2018-02-17 11:51:18,173 DEBUG get_warehouse:
+2018-02-17 11:51:50,341 DEBUG get_position:
+2018-02-17 11:52:03,326 DEBUG get_position:
+2018-02-17 11:52:06,182 DEBUG search_employees:request is from ip: None
+2018-02-17 11:52:06,187 DEBUG user_details:
+2018-02-17 11:52:08,465 DEBUG adduser:request is from ip: None
+2018-02-17 11:52:08,901 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-02-17 11:52:09,698 DEBUG search_employees:request is from ip: None
+2018-02-17 11:52:09,700 DEBUG user_details:
+2018-02-17 11:52:09,769 DEBUG search_employees:request is from ip: None
+2018-02-17 11:52:09,771 DEBUG user_details:
+2018-02-17 11:53:21,665 DEBUG get_position:
+2018-02-17 11:53:29,706 DEBUG get_warehouse:
+2018-02-17 11:53:51,977 DEBUG position_add:request is from ip: None
+2018-02-17 11:53:52,030 DEBUG position_add:{"error_code":"1", "error_desc": "Record added"}
+2018-02-17 11:53:57,063 DEBUG get_position:
+2018-02-17 11:53:58,985 DEBUG get_warehouse:
+2018-02-17 11:54:07,295 DEBUG update_position:request is from ip: None
+2018-02-17 11:54:07,347 DEBUG update_position:{"error_code":"1", "error_desc": "record updated"}
+2018-02-17 11:54:11,779 DEBUG get_position:
+2018-02-17 11:54:16,588 DEBUG get_warehouse:
+2018-02-17 12:01:43,248 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-17 12:01:45,531 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-17 12:02:24,502 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-17 12:04:02,476 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-17 12:04:05,258 DEBUG adduser:request is from ip: None
+2018-02-17 12:04:05,677 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-02-17 12:04:06,619 DEBUG search_employees:request is from ip: None
+2018-02-17 12:04:06,623 DEBUG user_details:
+2018-02-17 12:04:06,756 DEBUG search_employees:request is from ip: None
+2018-02-17 12:04:06,760 DEBUG user_details:
+2018-02-17 12:04:19,957 DEBUG add_product:request is from ip: None
+2018-02-17 12:04:19,961 DEBUG warehouse_add:add_product:exception details:[<type 'exceptions.ValueError'>],[invalid literal for int() with base 10: '']
+2018-02-17 12:04:19,961 DEBUG add_product:{"error_code":"2", "error_desc": "Failed to add record"}
+2018-02-17 12:04:52,845 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-17 12:04:56,146 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-17 12:04:58,418 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-17 12:05:05,081 DEBUG add_product:request is from ip: None
+2018-02-17 12:05:05,085 DEBUG warehouse_add:add_product:exception details:[<type 'exceptions.ValueError'>],[invalid literal for int() with base 10: '']
+2018-02-17 12:05:05,086 DEBUG add_product:{"error_code":"2", "error_desc": "Failed to add record"}
+2018-02-17 12:05:18,520 DEBUG add_product:request is from ip: None
+2018-02-17 12:05:18,524 DEBUG warehouse_add:add_product:exception details:[<type 'exceptions.ValueError'>],[invalid literal for int() with base 10: '']
+2018-02-17 12:05:18,525 DEBUG add_product:{"error_code":"2", "error_desc": "Failed to add record"}
+2018-02-17 12:05:27,473 DEBUG search_employees:request is from ip: None
+2018-02-17 12:05:27,478 DEBUG user_details:
+2018-02-17 12:06:05,664 DEBUG add_product:request is from ip: None
+2018-02-17 12:06:05,664 DEBUG productname:{"error_code":"2", "error_desc": "Inserting data into products..,productname is mandatory"}
+2018-02-17 12:06:15,649 DEBUG add_product:request is from ip: None
+2018-02-17 12:06:15,653 DEBUG warehouse_add:add_product:exception details:[<type 'exceptions.ValueError'>],[invalid literal for int() with base 10: '']
+2018-02-17 12:06:15,653 DEBUG add_product:{"error_code":"2", "error_desc": "Failed to add record"}
+2018-02-17 12:26:22,242 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-17 12:26:25,755 DEBUG add_product:request is from ip: None
+2018-02-17 12:26:25,762 DEBUG warehouse_add:add_product:exception details:[<type 'exceptions.ValueError'>],[invalid literal for int() with base 10: '']
+2018-02-17 12:26:25,763 DEBUG add_product:{"error_code":"2", "error_desc": "Failed to add record"}
+2018-02-17 12:29:16,937 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-17 12:29:23,473 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-17 12:29:34,228 DEBUG add_product:request is from ip: None
+2018-02-17 12:29:34,236 DEBUG add_product:add_product:exception details:[<type 'exceptions.ValueError'>],[invalid literal for int() with base 10: '']
+2018-02-17 12:29:34,236 DEBUG add_product:{"error_code":"2", "error_desc": "Failed to add record"}
+2018-02-17 12:29:41,903 DEBUG search_employees:request is from ip: None
+2018-02-17 12:29:41,907 DEBUG user_details:
+2018-02-17 12:31:18,908 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-17 12:31:26,233 DEBUG add_product:request is from ip: None
+2018-02-17 12:31:26,238 DEBUG add_product:add_product:exception details:[<type 'exceptions.ValueError'>],[invalid literal for int() with base 10: '']
+2018-02-17 12:31:26,238 DEBUG add_product:{"error_code":"2", "error_desc": "Failed to add record"}
+2018-02-17 12:33:21,104 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-17 12:33:26,862 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-17 12:33:34,360 DEBUG add_product:request is from ip: None
+2018-02-17 12:33:34,360 DEBUG productno:{"error_code":"2", "error_desc": "Inserting data into products..,productno is mandatory"}
+2018-02-17 12:34:41,263 DEBUG add_product:request is from ip: None
+2018-02-17 12:34:41,307 DEBUG add_product:{"error_code":"1", "error_desc": "Record added"}
+2018-02-17 12:34:45,735 DEBUG get_position:
+2018-02-17 12:43:49,954 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-17 17:30:19,755 DEBUG adduser:request is from ip: None
+2018-02-17 17:30:19,765 DEBUG login_status:{"error_code":"2", "error_desc": "Invalid username"}
+2018-02-17 17:30:23,596 DEBUG adduser:request is from ip: None
+2018-02-17 17:30:23,603 DEBUG login_status:{"error_code":"2", "error_desc": "Invalid username"}
+2018-02-17 17:31:16,864 DEBUG adduser:request is from ip: None
+2018-02-17 17:31:16,870 DEBUG login_status:{"error_code":"2", "error_desc": "Invalid username"}
+2018-02-17 17:31:29,562 DEBUG adduser:request is from ip: None
+2018-02-17 17:31:29,569 DEBUG login_status:{"error_code":"2", "error_desc": "Invalid username"}
+2018-02-17 17:31:45,160 DEBUG adduser:request is from ip: None
+2018-02-17 17:31:45,163 DEBUG login_status:{"error_code":"2", "error_desc": "Invalid username"}
+2018-02-17 17:31:57,637 DEBUG adduser:request is from ip: None
+2018-02-17 17:31:58,050 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-02-17 17:31:58,208 DEBUG search_employees:request is from ip: None
+2018-02-17 17:31:58,210 DEBUG user_details:
+2018-02-17 17:31:58,857 DEBUG search_employees:request is from ip: None
+2018-02-17 17:31:58,858 DEBUG user_details:
+2018-02-17 17:32:00,735 DEBUG requsition_details:request is from ip: None
+2018-02-17 17:32:00,738 DEBUG requisition:
+2018-02-17 17:32:06,052 DEBUG requsition_details:request is from ip: None
+2018-02-17 17:32:06,055 DEBUG requisition:
+2018-02-17 18:11:18,361 DEBUG adduser:request is from ip: None
+2018-02-17 18:11:18,362 DEBUG username:{"error_code":"2", "error_desc": "login_inventory.....,username is mandatory"}
+2018-02-17 18:11:25,063 DEBUG adduser:request is from ip: None
+2018-02-17 18:11:25,071 DEBUG login_status:{"error_code":"2", "error_desc": "Invalid username"}
+2018-02-17 18:11:40,165 DEBUG adduser:request is from ip: None
+2018-02-17 18:11:40,166 DEBUG login_status:{"error_code":"2", "error_desc": "login_inventory.....,passsword is mandatory"}
+2018-02-17 18:11:52,862 DEBUG adduser:request is from ip: None
+2018-02-17 18:11:53,208 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-02-17 18:11:54,831 DEBUG search_employees:request is from ip: None
+2018-02-17 18:11:54,832 DEBUG user_details:
+2018-02-17 18:11:54,835 DEBUG search_employees:request is from ip: None
+2018-02-17 18:11:54,837 DEBUG user_details:
+2018-02-17 18:11:57,465 DEBUG adduser:request is from ip: None
+2018-02-17 18:11:57,853 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-02-17 18:11:57,946 DEBUG search_employees:request is from ip: None
+2018-02-17 18:11:57,947 DEBUG user_details:
+2018-02-17 18:11:58,411 DEBUG search_employees:request is from ip: None
+2018-02-17 18:11:58,413 DEBUG user_details:
+2018-02-19 12:10:39,549 DEBUG adduser:request is from ip: None
+2018-02-19 12:10:39,555 DEBUG login_status:{"error_code":"2", "error_desc": "Invalid username"}
+2018-02-21 20:03:45,512 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-21 20:04:26,201 DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2018-02-21 20:08:34,650 DEBUG adduser:request is from ip: None
+2018-02-21 20:08:35,015 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-02-21 20:08:35,657 DEBUG search_employees:request is from ip: None
+2018-02-21 20:08:35,659 DEBUG get_user:get_user:exception details:[<class 'django.db.utils.OperationalError'>],[(1055, "Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'inventoryapp.jts_employees.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by")]
+2018-02-21 20:08:35,659 DEBUG get_user:{"error_code":"2", "error_desc": "Invalid username"}
+2018-02-21 20:08:35,828 DEBUG search_employees:request is from ip: None
+2018-02-21 20:08:35,829 DEBUG get_user:get_user:exception details:[<class 'django.db.utils.OperationalError'>],[(1055, "Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'inventoryapp.jts_employees.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by")]
+2018-02-21 20:08:35,829 DEBUG get_user:{"error_code":"2", "error_desc": "Invalid username"}
+2018-02-21 20:09:24,346 DEBUG adduser:request is from ip: None
+2018-02-21 20:09:24,661 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-02-21 20:09:25,296 DEBUG search_employees:request is from ip: None
+2018-02-21 20:09:25,298 DEBUG get_user:get_user:exception details:[<class 'django.db.utils.OperationalError'>],[(1055, "Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'inventoryapp.jts_employees.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by")]
+2018-02-21 20:09:25,299 DEBUG get_user:{"error_code":"2", "error_desc": "Invalid username"}
+2018-02-21 20:09:25,386 DEBUG search_employees:request is from ip: None
+2018-02-21 20:09:25,388 DEBUG get_user:get_user:exception details:[<class 'django.db.utils.OperationalError'>],[(1055, "Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'inventoryapp.jts_employees.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by")]
+2018-02-21 20:09:25,388 DEBUG get_user:{"error_code":"2", "error_desc": "Invalid username"}
+2018-02-21 20:11:14,586 DEBUG search_employees:request is from ip: None
+2018-02-21 20:11:14,589 DEBUG get_user:get_user:exception details:[<class 'django.db.utils.OperationalError'>],[(1055, "Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'inventoryapp.jts_employees.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by")]
+2018-02-21 20:11:14,589 DEBUG get_user:{"error_code":"2", "error_desc": "Invalid username"}
+2018-02-21 20:11:33,935 DEBUG adduser:request is from ip: None
+2018-02-21 20:11:34,302 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-02-21 20:11:34,912 DEBUG search_employees:request is from ip: None
+2018-02-21 20:11:34,915 DEBUG get_user:get_user:exception details:[<class 'django.db.utils.OperationalError'>],[(1055, "Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'inventoryapp.jts_employees.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by")]
+2018-02-21 20:11:34,915 DEBUG get_user:{"error_code":"2", "error_desc": "Invalid username"}
+2018-02-21 20:11:34,991 DEBUG search_employees:request is from ip: None
+2018-02-21 20:11:34,994 DEBUG get_user:get_user:exception details:[<class 'django.db.utils.OperationalError'>],[(1055, "Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'inventoryapp.jts_employees.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by")]
+2018-02-21 20:11:34,994 DEBUG get_user:{"error_code":"2", "error_desc": "Invalid username"}
+2018-02-21 20:14:08,470 DEBUG adduser:request is from ip: None
+2018-02-21 20:14:08,889 DEBUG login_status:{"error_code":"1", "error_desc": "login Successfull"}
+2018-02-21 20:14:09,698 DEBUG search_employees:request is from ip: None
+2018-02-21 20:14:09,702 DEBUG get_user:get_user:exception details:[<class 'django.db.utils.OperationalError'>],[(1055, "Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'inventoryapp.jts_employees.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by")]
+2018-02-21 20:14:09,702 DEBUG get_user:{"error_code":"2", "error_desc": "Invalid username"}
+2018-02-21 20:14:10,430 DEBUG search_employees:request is from ip: None
+2018-02-21 20:14:10,433 DEBUG get_user:get_user:exception details:[<class 'django.db.utils.OperationalError'>],[(1055, "Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'inventoryapp.jts_employees.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by")]
+2018-02-21 20:14:10,433 DEBUG get_user:{"error_code":"2", "error_desc": "Invalid username"}
